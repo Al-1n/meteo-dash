@@ -1,0 +1,29 @@
+,Type,group,count,max_mass_grams,percentage[%],max_mass_Kilograms,max_mass_Pounds
+0,Achondrite,Eucrite-mmict,15,330000.0,14.42,330.0,727.53
+1,Achondrite,Howardite,14,40000.0,13.46,40.0,88.18
+2,Achondrite,"Iron, IIIAB",10,600000.0,9.62,600.0,1322.77
+3,Achondrite,Aubrite,9,1100000.0,8.65,1100.0,2425.08
+4,Achondrite,Diogenite,8,40300.0,7.69,40.3,88.85
+5,Achondrite,"Iron, IIAB",6,23000000.0,5.77,23000.0,50706.32
+6,Achondrite,Eucrite-cm,6,1880.0,5.77,1.88,4.14
+7,Achondrite,Eucrite-pmict,5,5100.0,4.81,5.1,11.24
+8,Achondrite,"Iron, IVA",4,50000.0,3.85,50.0,110.23
+9,Achondrite,Martian (shergottite),3,18000.0,2.88,18.0,39.68
+10,Achondrite,Mesosiderite-A1,3,37350.0,2.88,37.35,82.34
+11,Achondrite,Diogenite-pm,3,1000.0,2.88,1.0,2.2
+12,Achondrite,"Pallasite, PMG",2,250000.0,1.92,250.0,551.16
+13,Achondrite,Eucrite,2,324.0,1.92,0.32,0.71
+14,Achondrite,Mesosiderite-B2,1,54000.0,0.96,54.0,119.05
+15,Achondrite,Mesosiderite-A3/4,1,320000.0,0.96,320.0,705.48
+16,Achondrite,Mesosiderite-A3,1,59000.0,0.96,59.0,130.07
+17,Achondrite,Mesosiderite,1,128800.0,0.96,128.8,283.96
+18,Achondrite,Achondrite-ung,1,0.15,0.96,0.0,0.0
+19,Achondrite,"Iron, IIE-an",1,6800.0,0.96,6.8,14.99
+20,Achondrite,Martian (nakhlite),1,10000.0,0.96,10.0,22.05
+21,Achondrite,"Iron, IIIAB-an",1,63000.0,0.96,63.0,138.89
+22,Achondrite,"Iron, IIF",1,7000.0,0.96,7.0,15.43
+23,Achondrite,Angrite,1,1500.0,0.96,1.5,3.31
+24,Achondrite,"Iron, IIE",1,380.0,0.96,0.38,0.84
+25,Achondrite,"Iron, IID",1,17200.0,0.96,17.2,37.92
+26,Achondrite,Eucrite-br,1,500.0,0.96,0.5,1.1
+27,Achondrite,"Pallasite, PMG-an",1,330.0,0.96,0.33,0.73

@@ -1,0 +1,1108 @@
+,name,id,nametype,recclass,mass (g),fall,year,reclat,reclong,GeoLocation,country,continent
+0,Aachen,1,Valid,L5,21.0,Fell,1880.0,50.775,6.08333,"(50.775, 6.08333)",Germany,Europe
+1,Aarhus,2,Valid,H6,720.0,Fell,1951.0,56.18333,10.23333,"(56.18333, 10.23333)",Denmark,Europe
+2,Abee,6,Valid,EH4,107000.0,Fell,1952.0,54.21667,-113.0,"(54.21667, -113.0)",Canada,North America
+3,Acapulco,10,Valid,Acapulcoite,1914.0,Fell,1976.0,16.88333,-99.9,"(16.88333, -99.9)",Mexico,North America
+4,Achiras,370,Valid,L6,780.0,Fell,1902.0,-33.16667,-64.95,"(-33.16667, -64.95)",Argentina,South America
+5,Adhi Kot,379,Valid,EH4,4239.0,Fell,1919.0,32.1,71.8,"(32.1, 71.8)",Pakistan,Asia
+6,Adzhi-Bogdo (stone),390,Valid,LL3-6,910.0,Fell,1949.0,44.83333,95.16667,"(44.83333, 95.16667)",Mongolia,Asia
+7,Agen,392,Valid,H5,30000.0,Fell,1814.0,44.21667,0.61667,"(44.21667, 0.61667)",France,Europe
+8,Aguada,398,Valid,L6,1620.0,Fell,1930.0,-31.6,-65.23333,"(-31.6, -65.23333)",Argentina,South America
+9,Aguila Blanca,417,Valid,L,1440.0,Fell,1920.0,-30.86667,-64.55,"(-30.86667, -64.55)",Argentina,South America
+10,Aioun el Atrouss,423,Valid,Diogenite-pm,1000.0,Fell,1974.0,16.39806,-9.57028,"(16.39806, -9.57028)",Mauritania,Africa
+11,Aïr,424,Valid,L6,24000.0,Fell,1925.0,19.08333,8.38333,"(19.08333, 8.38333)",Niger,Africa
+12,Aire-sur-la-Lys,425,Valid,Unknown,,Fell,1769.0,50.66667,2.33333,"(50.66667, 2.33333)",France,Europe
+13,Akaba,426,Valid,L6,779.0,Fell,1949.0,29.51667,35.05,"(29.51667, 35.05)",Jordan,Asia
+14,Akbarpur,427,Valid,H4,1800.0,Fell,1838.0,29.71667,77.95,"(29.71667, 77.95)",India,Asia
+15,Akwanga,432,Valid,H,3000.0,Fell,1959.0,8.91667,8.43333,"(8.91667, 8.43333)",Nigeria,Africa
+16,Akyumak,433,Valid,"Iron, IVA",50000.0,Fell,1981.0,39.91667,42.81667,"(39.91667, 42.81667)",Turkey,Asia
+17,Al Rais,446,Valid,CR2-an,160.0,Fell,1957.0,24.41667,39.51667,"(24.41667, 39.51667)",Saudi Arabia,Asia
+18,Al Zarnkh,447,Valid,LL5,700.0,Fell,2001.0,13.66033,28.96,"(13.66033, 28.96)",Sudan,Africa
+19,Alais,448,Valid,CI1,6000.0,Fell,1806.0,44.11667,4.08333,"(44.11667, 4.08333)",France,Europe
+20,Albareto,453,Valid,L/LL4,2000.0,Fell,1766.0,44.65,11.01667,"(44.65, 11.01667)",Italy,Europe
+21,Alberta,454,Valid,L,625.0,Fell,1949.0,2.0,22.66667,"(2.0, 22.66667)","Congo, The Democratic Republic of the",Africa
+22,Alby sur Chéran,458,Valid,Eucrite-mmict,252.0,Fell,2002.0,45.82133,6.01533,"(45.82133, 6.01533)",France,Europe
+23,Aldsworth,461,Valid,LL5,700.0,Fell,1835.0,51.78333,-1.78333,"(51.78333, -1.78333)",United Kingdom,Europe
+24,Aleppo,462,Valid,L6,3200.0,Fell,1873.0,36.23333,37.13333,"(36.23333, 37.13333)",Syrian Arab Republic,Asia
+25,Alessandria,463,Valid,H5,908.0,Fell,1860.0,44.88333,8.75,"(44.88333, 8.75)",Italy,Europe
+26,Alexandrovsky,465,Valid,H4,9251.0,Fell,1900.0,50.95,31.81667,"(50.95, 31.81667)",Ukraine,Europe
+27,Alfianello,466,Valid,L6,228000.0,Fell,1883.0,45.26667,10.15,"(45.26667, 10.15)",Italy,Europe
+28,Allegan,2276,Valid,H5,32000.0,Fell,1899.0,42.53333,-85.88333,"(42.53333, -85.88333)",United States,North America
+29,Allende,2278,Valid,CV3,2000000.0,Fell,1969.0,26.96667,-105.31667,"(26.96667, -105.31667)",Mexico,North America
+30,Almahata Sitta,48915,Valid,Ureilite-an,3950.0,Fell,2008.0,20.74575,32.41275,"(20.74575, 32.41275)",Sudan,Africa
+31,Alta'ameem,2284,Valid,LL5,6000.0,Fell,1977.0,35.27333,44.21556,"(35.27333, 44.21556)",Iraq,Asia
+32,Ambapur Nagla,2290,Valid,H5,6400.0,Fell,1895.0,27.66667,78.25,"(27.66667, 78.25)",India,Asia
+33,Andhara,2294,Valid,Stone-uncl,2700.0,Fell,1880.0,26.58333,85.56667,"(26.58333, 85.56667)",India,Asia
+34,Andover,2295,Valid,L6,3200.0,Fell,1898.0,44.61667,-70.75,"(44.61667, -70.75)",United States,North America
+35,Andreevka,2296,Valid,L3,600.0,Fell,1969.0,48.7,37.5,"(48.7, 37.5)",Ukraine,Europe
+36,Andura,2298,Valid,H6,17900.0,Fell,1939.0,20.88333,76.86667,"(20.88333, 76.86667)",India,Asia
+37,Angers,2301,Valid,L6,,Fell,1822.0,47.46667,-0.55,"(47.46667, -0.55)",France,Europe
+38,Angra dos Reis (stone),2302,Valid,Angrite,1500.0,Fell,1869.0,-22.96667,-44.31667,"(-22.96667, -44.31667)",Brazil,South America
+39,Ankober,2304,Valid,H4,6500.0,Fell,1942.0,9.53333,39.71667,"(9.53333, 39.71667)",Ethiopia,Africa
+40,Anlong,2305,Valid,H5,2500.0,Fell,1971.0,25.15,105.18333,"(25.15, 105.18333)",China,Asia
+41,Aomori,2313,Valid,L6,320.0,Fell,1984.0,40.81056,140.78556,"(40.81056, 140.78556)",Japan,Asia
+42,Appley Bridge,2318,Valid,LL6,15000.0,Fell,1914.0,53.58333,-2.71667,"(53.58333, -2.71667)",United Kingdom,Europe
+43,Apt,2320,Valid,L6,3200.0,Fell,1803.0,43.86667,5.38333,"(43.86667, 5.38333)",France,Europe
+44,Arbol Solo,2325,Valid,H5,810.0,Fell,1954.0,-33.0,-66.0,"(-33.0, -66.0)",Argentina,South America
+45,Archie,2329,Valid,H6,5070.0,Fell,1932.0,38.5,-94.3,"(38.5, -94.3)",United States,North America
+46,Arroyo Aguiar,2340,Valid,H5,7450.0,Fell,1950.0,-31.41667,-60.66667,"(-31.41667, -60.66667)",Argentina,South America
+47,Asco,2345,Valid,H6,41.0,Fell,1805.0,42.45,9.03333,"(42.45, 9.03333)",France,Europe
+48,Ash Creek,48954,Valid,L6,9500.0,Fell,2009.0,31.805,-97.01,"(31.805, -97.01)",United States,North America
+49,Ashdon,2346,Valid,L6,1300.0,Fell,1923.0,52.05,0.3,"(52.05, 0.3)",United Kingdom,Europe
+50,Assisi,2353,Valid,H5,2000.0,Fell,1886.0,43.03333,12.55,"(43.03333, 12.55)",Italy,Europe
+51,Atarra,4883,Valid,L4,1280.0,Fell,1920.0,25.25417,80.625,"(25.25417, 80.625)",India,Asia
+52,Atemajac,4884,Valid,L6,94.2,Fell,1896.0,20.06667,-103.66667,"(20.06667, -103.66667)",Mexico,North America
+53,Athens,4885,Valid,LL6,265.0,Fell,1933.0,34.75,-87.0,"(34.75, -87.0)",United States,North America
+54,Atoka,4888,Valid,L6,1384.2,Fell,1945.0,34.31667,-96.15,"(34.31667, -96.15)",United States,North America
+55,Aubres,4893,Valid,Aubrite,800.0,Fell,1836.0,44.38333,5.16667,"(44.38333, 5.16667)",France,Europe
+56,Aumale,4899,Valid,L6,50000.0,Fell,1865.0,36.16667,3.66667,"(36.16667, 3.66667)",Algeria,Africa
+57,Aumieres,4900,Valid,L6,2000.0,Fell,1842.0,44.33333,3.23333,"(44.33333, 3.23333)",France,Europe
+58,Ausson,4903,Valid,L5,50000.0,Fell,1858.0,43.08333,0.58333,"(43.08333, 0.58333)",France,Europe
+59,Avanhandava,4905,Valid,H4,9330.0,Fell,1952.0,-21.46028,-49.95083,"(-21.46028, -49.95083)",Brazil,South America
+60,Avce,4906,Valid,"Iron, IIAB",1230.0,Fell,1908.0,46.0,13.5,"(46.0, 13.5)",Slovenia,Europe
+61,Avilez,4907,Valid,H,146.0,Fell,1855.0,25.0,-103.5,"(25.0, -103.5)",Mexico,North America
+62,Awere,4910,Valid,L4,134.0,Fell,1968.0,2.71667,32.83333,"(2.71667, 32.83333)",Uganda,Africa
+63,Aztec,4913,Valid,L6,2830.0,Fell,1938.0,36.8,-108.0,"(36.8, -108.0)",United States,North America
+64,Bachmut,4917,Valid,L6,18000.0,Fell,1814.0,48.6,38.0,"(48.6, 38.0)",Ukraine,Europe
+65,Bahjoi,4922,Valid,"Iron, IAB-sLL",10322.0,Fell,1934.0,28.48333,78.5,"(28.48333, 78.5)",India,Asia
+66,Bald Mountain,4925,Valid,L4,3700.0,Fell,1929.0,35.96667,-82.48333,"(35.96667, -82.48333)",United States,North America
+67,Baldwyn,4926,Valid,L6,345.0,Fell,1922.0,34.5,-88.66667,"(34.5, -88.66667)",United States,North America
+68,Bali,4928,Valid,CV3,1000.0,Fell,1907.0,5.38333,16.38333,"(5.38333, 16.38333)",Central African Republic,Africa
+69,Ban Rong Du,4934,Valid,"Iron, ungrouped",16700.0,Fell,1993.0,16.66667,101.18333,"(16.66667, 101.18333)",Thailand,Asia
+70,Bandong,4935,Valid,LL6,11500.0,Fell,1871.0,-6.91667,107.6,"(-6.91667, 107.6)",Indonesia,Asia
+71,Bansur,4936,Valid,L6,15000.0,Fell,1892.0,27.7,76.33333,"(27.7, 76.33333)",India,Asia
+72,Banswal,4937,Valid,L5,14.0,Fell,1913.0,30.4,78.2,"(30.4, 78.2)",India,Asia
+73,Banten,4938,Valid,CM2,629.0,Fell,1933.0,-6.33333,106.0,"(-6.33333, 106.0)",Indonesia,Asia
+74,Barbotan,4942,Valid,H5,6400.0,Fell,1790.0,43.95,-0.05,"(43.95, -0.05)",France,Europe
+75,Barcelona (stone),4944,Valid,OC,,Fell,1704.0,41.36667,2.16667,"(41.36667, 2.16667)",Spain,Europe
+76,Barea,4946,Valid,Mesosiderite-A1,3200.0,Fell,1842.0,42.38333,-2.5,"(42.38333, -2.5)",Spain,Europe
+77,Barnaul,4947,Valid,H5,23.2,Fell,1904.0,52.73333,84.08333,"(52.73333, 84.08333)",Russian Federation,Europe
+78,Barntrup,4948,Valid,LL4,17.0,Fell,1886.0,52.0,9.1,"(52.0, 9.1)",Germany,Europe
+79,Baroti,4949,Valid,L6,4500.0,Fell,1910.0,31.61667,76.8,"(31.61667, 76.8)",India,Asia
+80,Barwell,4954,Valid,L5,44000.0,Fell,1965.0,52.56528,-1.33972,"(52.56528, -1.33972)",United Kingdom,Europe
+81,Bassikounou,44876,Valid,H5,29560.0,Fell,2006.0,15.78333,-5.9,"(15.78333, -5.9)",Mauritania,Africa
+82,Baszkówka,4957,Valid,L5,15500.0,Fell,1994.0,52.03333,20.93583,"(52.03333, 20.93583)",Poland,Europe
+83,Bath,4974,Valid,H4,21000.0,Fell,1892.0,45.41667,-98.31667,"(45.41667, -98.31667)",United States,North America
+84,Bath Furnace,4975,Valid,L6,86000.0,Fell,1902.0,38.25,-83.75,"(38.25, -83.75)",United States,North America
+85,Battle Mountain,56133,Valid,L6,2900.0,Fell,2012.0,40.66813,-117.18913,"(40.66813, -117.18913)",United States,North America
+86,Bawku,4976,Valid,LL5,1557.0,Fell,1989.0,11.08333,-0.18333,"(11.08333, -0.18333)",Ghana,Africa
+87,Baxter,4977,Valid,L6,611.0,Fell,1916.0,36.75,-93.5,"(36.75, -93.5)",United States,North America
+88,Beardsley,4984,Valid,H5,16000.0,Fell,1929.0,39.8,-101.2,"(39.8, -101.2)",United States,North America
+89,Beaver Creek,4986,Valid,H5,14000.0,Fell,1893.0,51.16667,-117.33333,"(51.16667, -117.33333)",Canada,North America
+90,Beddgelert,4993,Valid,H5,794.0,Fell,1949.0,53.01667,-4.1,"(53.01667, -4.1)",United Kingdom,Europe
+91,Bells,5005,Valid,C2-ung,375.0,Fell,1961.0,33.6,-96.46667,"(33.6, -96.46667)",United States,North America
+92,Belville,5009,Valid,OC,,Fell,1937.0,-32.33333,-64.86667,"(-32.33333, -64.86667)",Argentina,South America
+93,Benares (a),5011,Valid,LL4,3700.0,Fell,1798.0,25.36667,82.91667,"(25.36667, 82.91667)",India,Asia
+94,Benguerir,30443,Valid,LL6,25000.0,Fell,2004.0,32.25,-8.15,"(32.25, -8.15)",Morocco,Africa
+95,Beni M'hira,5018,Valid,L6,19000.0,Fell,2001.0,32.86667,10.8,"(32.86667, 10.8)",Tunisia,Africa
+96,Benld,5021,Valid,H6,1770.5,Fell,1938.0,39.08333,-89.15,"(39.08333, -89.15)",United States,North America
+97,Benoni,5023,Valid,H6,3880.0,Fell,1943.0,-26.16667,28.41667,"(-26.16667, 28.41667)",South Africa,Africa
+98,Bensour,5024,Valid,LL6,45000.0,Fell,2002.0,30.0,-7.0,"(30.0, -7.0)",Morocco,Africa
+99,Benton,5026,Valid,LL6,2840.0,Fell,1949.0,45.95,-67.55,"(45.95, -67.55)",Canada,North America
+100,Berduc,48975,Valid,L6,270.0,Fell,2008.0,-31.91,-58.32833,"(-31.91, -58.32833)",Argentina,South America
+101,Béréba,5028,Valid,Eucrite-mmict,18000.0,Fell,1924.0,11.65,-3.65,"(11.65, -3.65)",Burkina Faso,Africa
+102,Berlanguillas,5029,Valid,L6,1440.0,Fell,1811.0,41.68333,-3.8,"(41.68333, -3.8)",Spain,Europe
+103,Berthoud,47355,Valid,Eucrite-mmict,960.0,Fell,2004.0,40.30583,-105.02325,"(40.30583, -105.02325)",United States,North America
+104,Bethlehem,5032,Valid,H,13.9,Fell,1859.0,42.53333,-73.83333,"(42.53333, -73.83333)",United States,North America
+105,Beuste,5034,Valid,L5,2000.0,Fell,1859.0,43.21667,-0.23333,"(43.21667, -0.23333)",France,Europe
+106,Beyrout,5035,Valid,LL3.8,1100.0,Fell,1921.0,33.88333,35.5,"(33.88333, 35.5)",Lebanon,Asia
+107,Bhagur,5037,Valid,L6,18.0,Fell,1877.0,20.88333,74.83333,"(20.88333, 74.83333)",India,Asia
+108,Bhawad,36591,Valid,LL6,678.0,Fell,2002.0,26.50833,73.11528,"(26.50833, 73.11528)",India,Asia
+109,Bherai,5039,Valid,L6,100.0,Fell,1893.0,20.83333,71.46667,"(20.83333, 71.46667)",India,Asia
+110,Bhola,5040,Valid,LL3-6,1047.0,Fell,1940.0,22.68333,90.65,"(22.68333, 90.65)",Bangladesh,Asia
+111,Bholghati,5041,Valid,Howardite,2500.0,Fell,1905.0,22.08333,86.9,"(22.08333, 86.9)",India,Asia
+112,Bialystok,5042,Valid,Eucrite-pmict,4000.0,Fell,1827.0,53.1,23.2,"(53.1, 23.2)",Poland,Europe
+113,Bielokrynitschie,5043,Valid,H4,1900.0,Fell,1887.0,50.13333,27.16667,"(50.13333, 27.16667)",Ukraine,Europe
+114,Bilanga,5045,Valid,Diogenite,25000.0,Fell,1999.0,12.45,-0.08333,"(12.45, -0.08333)",Burkina Faso,Africa
+115,Binningup,5051,Valid,H5,488.1,Fell,1984.0,-33.15639,115.67639,"(-33.15639, 115.67639)",Australia,Oceania
+116,Birni N'konni,5056,Valid,H4,560.0,Fell,1923.0,13.76667,5.3,"(13.76667, 5.3)",Nigeria,Africa
+117,Bishopville,5059,Valid,Aubrite,6000.0,Fell,1843.0,34.16667,-80.28333,"(34.16667, -80.28333)",United States,North America
+118,Bishunpur,5060,Valid,LL3.15,1039.0,Fell,1895.0,25.38333,82.6,"(25.38333, 82.6)",India,Asia
+119,Bjelaja Zerkov,5063,Valid,H6,1850.0,Fell,1796.0,49.78333,30.16667,"(49.78333, 30.16667)",Ukraine,Europe
+120,Bjurböle,5064,Valid,L/LL4,330000.0,Fell,1899.0,60.4,25.8,"(60.4, 25.8)",Finland,Europe
+121,Black Moshannan Park,5065,Valid,L5,705.0,Fell,1941.0,40.91667,-78.08333,"(40.91667, -78.08333)",United States,North America
+122,Blackwell,5068,Valid,L5,2381.0,Fell,1906.0,36.83333,-97.33333,"(36.83333, -97.33333)",United States,North America
+123,Blanket,5071,Valid,L6,5100.0,Fell,1909.0,31.83333,-98.83333,"(31.83333, -98.83333)",United States,North America
+124,Blansko,5072,Valid,H6,470.0,Fell,1833.0,49.36667,16.63333,"(49.36667, 16.63333)",Czechia,Europe
+125,Bloomington,5076,Valid,LL6,67.8,Fell,1938.0,40.48,-89.00417,"(40.48, -89.00417)",United States,North America
+126,Bo Xian,5090,Valid,LL3.9,7500.0,Fell,1977.0,33.83333,115.83333,"(33.83333, 115.83333)",China,Asia
+127,Bocas,5093,Valid,L6,56.0,Fell,1804.0,23.0,-102.0,"(23.0, -102.0)",Mexico,North America
+128,Bogou,5097,Valid,"Iron, IAB-MG",8800.0,Fell,1962.0,12.5,0.7,"(12.5, 0.7)",Burkina Faso,Africa
+129,Boguslavka,5098,Valid,"Iron, IIAB",256000.0,Fell,1916.0,44.55,131.63333,"(44.55, 131.63333)",Russian Federation,Europe
+130,Borgo San Donino,5110,Valid,LL6,1676.0,Fell,1808.0,44.86667,10.05,"(44.86667, 10.05)",Italy,Europe
+131,Bori,5111,Valid,L6,8600.0,Fell,1894.0,21.95,78.03333,"(21.95, 78.03333)",India,Asia
+132,Boriskino,5112,Valid,CM2,1342.0,Fell,1930.0,54.23333,52.48333,"(54.23333, 52.48333)",Russian Federation,Europe
+133,Borkut,5113,Valid,L5,7000.0,Fell,1852.0,48.15,24.28333,"(48.15, 24.28333)",Ukraine,Europe
+134,Borodino,5114,Valid,H5,500.0,Fell,1812.0,55.46667,35.86667,"(55.46667, 35.86667)",Russian Federation,Europe
+135,Botschetschki,5117,Valid,L4,614.0,Fell,1823.0,51.33333,33.88333,"(51.33333, 33.88333)",Ukraine,Europe
+136,Boumdeid (2003),57168,Valid,L6,190.0,Fell,2003.0,17.71067,-11.3715,"(17.71067, -11.3715)",Mauritania,Africa
+137,Boumdeid (2011),57167,Valid,L6,3599.0,Fell,2011.0,17.17493,-11.34133,"(17.17493, -11.34133)",Mauritania,Africa
+138,Bovedy,5121,Valid,L3,5460.0,Fell,1969.0,54.56667,-6.33333,"(54.56667, -6.33333)",United Kingdom,Europe
+139,Bradford Woods,5128,Valid,L,762.0,Fell,1886.0,40.5,-80.08333,"(40.5, -80.08333)",United States,North America
+140,Braunau,5133,Valid,"Iron, IIAB",39000.0,Fell,1847.0,50.6,16.3,"(50.6, 16.3)",Czechia,Europe
+141,Breitscheid,5134,Valid,H5,1500.0,Fell,1956.0,50.66694,8.18361,"(50.66694, 8.18361)",Germany,Europe
+142,Bremervörde,5135,Valid,H/L3.9,7250.0,Fell,1855.0,53.4,9.1,"(53.4, 9.1)",Germany,Europe
+143,Brient,5140,Valid,Eucrite-pmict,219.0,Fell,1933.0,52.13333,59.31667,"(52.13333, 59.31667)",Russian Federation,Europe
+144,Bruderheim,5156,Valid,L6,303000.0,Fell,1960.0,53.9,-112.88333,"(53.9, -112.88333)",Canada,North America
+145,Bukhara,30448,Valid,CV3,5300.0,Fell,2001.0,39.77978,64.60035,"(39.77978, 64.60035)",Uzbekistan,Asia
+146,Bulls Run,5163,Valid,Iron?,2250.0,Fell,1964.0,-29.09845,22.584989,"-29.098450, 22.584989",South Africa,Africa
+147,Bunburra Rockhole,48653,Valid,Eucrite,324.0,Fell,2007.0,-31.35,129.19,"(-31.35, 129.19)",Australia,Oceania
+148,Bununu,5165,Valid,Howardite,357.0,Fell,1942.0,10.01667,9.58333,"(10.01667, 9.58333)",Nigeria,Africa
+149,Bur-Gheluai,5169,Valid,H5,120000.0,Fell,1919.0,5.0,48.0,"(5.0, 48.0)",Somalia,Africa
+150,Burnwell,5175,Valid,H4-an,1504.0,Fell,1990.0,37.62194,-82.23722,"(37.62194, -82.23722)",United States,North America
+151,Bursa,5177,Valid,L6,25000.0,Fell,1946.0,40.2,29.23333,"(40.2, 29.23333)",Turkey,Asia
+152,Buschhof,5178,Valid,L6,5000.0,Fell,1863.0,46.45,25.78333,"(46.45, 25.78333)",Romania,Europe
+153,Bustee,5181,Valid,Aubrite,1500.0,Fell,1852.0,26.78333,82.83333,"(26.78333, 82.83333)",India,Asia
+154,Butsura,5183,Valid,H6,29000.0,Fell,1861.0,27.08333,84.08333,"(27.08333, 84.08333)",India,Asia
+155,Buzzard Coulee,48654,Valid,H4,41000.0,Fell,2008.0,52.996,-109.84817,"(52.996, -109.84817)",Canada,North America
+156,Cabezo de Mayo,5185,Valid,L/LL6,25000.0,Fell,1870.0,37.98333,-1.16667,"(37.98333, -1.16667)",Spain,Europe
+157,Cabin Creek,5186,Valid,"Iron, IIIAB",48500.0,Fell,1886.0,35.5,-93.5,"(35.5, -93.5)",United States,North America
+158,Cacak,5187,Valid,OC,212.0,Fell,1919.0,43.83889,20.33333,"(43.83889, 20.33333)",Serbia,Europe
+159,Cali,45976,Valid,H/L4,478.0,Fell,2007.0,3.405,-76.51,"(3.405, -76.51)",Colombia,South America
+160,Calivo,5200,Valid,Stone-uncl,2400.0,Fell,1916.0,11.75,122.33333,"(11.75, 122.33333)",Philippines,Asia
+161,Campos Sales,5249,Valid,L5,23680.0,Fell,1991.0,-7.03333,-40.16667,"(-7.03333, -40.16667)",Brazil,South America
+162,Çanakkale,5250,Valid,L6,4000.0,Fell,1964.0,39.8,26.6,"(39.8, 26.6)",Turkey,Asia
+163,Cañellas,5251,Valid,H4,945.0,Fell,1861.0,41.25,1.66667,"(41.25, 1.66667)",Spain,Europe
+164,Cangas de Onis,5252,Valid,H5,34000.0,Fell,1866.0,43.38333,-5.15,"(43.38333, -5.15)",Spain,Europe
+165,Canon City,5253,Valid,H6,1400.0,Fell,1973.0,38.47028,-105.24139,"(38.47028, -105.24139)",United States,North America
+166,Cape Girardeau,5260,Valid,H6,2300.0,Fell,1846.0,37.26667,-89.58333,"(37.26667, -89.58333)",United States,North America
+167,Capilla del Monte,5264,Valid,H6,750.0,Fell,1934.0,-30.88333,-64.55,"(-30.88333, -64.55)",Argentina,South America
+168,Carancas,45817,Valid,H4-5,342.0,Fell,2007.0,-16.66444,-69.04389,"(-16.66444, -69.04389)",Peru,South America
+169,Caratash,5265,Valid,LL6,8.0,Fell,1902.0,38.5,27.0,"(38.5, 27.0)",Turkey,Asia
+170,Castalia,5291,Valid,H5,7300.0,Fell,1874.0,36.08333,-78.06667,"(36.08333, -78.06667)",United States,North America
+171,Castel Berardenga,5292,Valid,Stone-uncl,,Fell,1791.0,43.35,11.5,"(43.35, 11.5)",Italy,Europe
+172,Castine,5293,Valid,L6,94.0,Fell,1848.0,44.38333,-68.75,"(44.38333, -68.75)",United States,North America
+173,Castrovillari,5295,Valid,Stone-uncl,15000.0,Fell,1583.0,39.8,16.2,"(39.8, 16.2)",Italy,Europe
+174,Caswell County,5296,Valid,OC,1360.0,Fell,1810.0,36.5,-79.25,"(36.5, -79.25)",United States,North America
+175,Ceniceros,5306,Valid,L3.7,1025.0,Fell,1988.0,26.46667,-105.23333,"(26.46667, -105.23333)",Mexico,North America
+176,Centerville,5307,Valid,H5,45.6,Fell,1956.0,43.2,-96.91667,"(43.2, -96.91667)",United States,North America
+177,Cereseto,5308,Valid,H5,6460.0,Fell,1840.0,45.08333,8.3,"(45.08333, 8.3)",Italy,Europe
+178,Chadong,5313,Valid,L6,3700.0,Fell,1998.0,28.53333,109.31667,"(28.53333, 109.31667)",China,Asia
+179,Chail,5314,Valid,H6,0.5,Fell,1814.0,25.36667,81.66667,"(25.36667, 81.66667)",India,Asia
+180,Chainpur,5315,Valid,LL3.4,8200.0,Fell,1907.0,25.85,83.48333,"(25.85, 83.48333)",India,Asia
+181,Chajari,5316,Valid,L5,18300.0,Fell,1933.0,-30.78333,-58.05,"(-30.78333, -58.05)",Argentina,South America
+182,Chandakapur,5320,Valid,L5,8800.0,Fell,1838.0,20.26667,76.01667,"(20.26667, 76.01667)",India,Asia
+183,Chandpur,5321,Valid,L6,1100.0,Fell,1885.0,27.28333,79.05,"(27.28333, 79.05)",India,Asia
+184,Changde,5322,Valid,H5,1810.0,Fell,1977.0,29.08333,111.75,"(29.08333, 111.75)",China,Asia
+185,Chantonnay,5325,Valid,L6,31500.0,Fell,1812.0,46.68333,1.05,"(46.68333, 1.05)",France,Europe
+186,Charlotte,5328,Valid,"Iron, IVA",4300.0,Fell,1835.0,36.16667,-87.33333,"(36.16667, -87.33333)",United States,North America
+187,Charsonville,5329,Valid,H6,27000.0,Fell,1810.0,47.93333,1.56667,"(47.93333, 1.56667)",France,Europe
+188,Charwallas,5330,Valid,H6,12000.0,Fell,1834.0,29.48333,75.5,"(29.48333, 75.5)",India,Asia
+189,Chassigny,5331,Valid,Martian (chassignite),4000.0,Fell,1815.0,47.71667,5.36667,"(47.71667, 5.36667)",France,Europe
+190,Château-Renard,5332,Valid,L6,30000.0,Fell,1841.0,47.93333,2.91667,"(47.93333, 2.91667)",France,Europe
+191,Chaves,5334,Valid,Howardite,2945.0,Fell,1925.0,41.93333,-7.46667,"(41.93333, -7.46667)",Spain,Europe
+192,Chela,5338,Valid,H4,2936.0,Fell,1988.0,-3.66667,32.5,"(-3.66667, 32.5)","Tanzania, United Republic of",Africa
+193,Chelyabinsk,57165,Valid,LL5,100000.0,Fell,2013.0,54.81667,61.11667,"(54.81667, 61.11667)",Russian Federation,Europe
+194,Chergach ,47347,Valid,H5,100000.0,Fell,2007.0,23.69639,-5.01472,"(23.69639, -5.01472)",Mali,Africa
+195,Chernyi Bor,5339,Valid,H4,6000.0,Fell,1964.0,53.7,30.1,"(53.7, 30.1)",Belarus,Europe
+196,Cherokee Springs,5340,Valid,LL6,8400.0,Fell,1933.0,35.03333,-81.88333,"(35.03333, -81.88333)",United States,North America
+197,Chervettaz,5341,Valid,L5,705.0,Fell,1901.0,46.55,6.81667,"(46.55, 6.81667)",Switzerland,Europe
+198,Chervony Kut,5342,Valid,Eucrite-mmict,1700.0,Fell,1939.0,50.83333,34.0,"(50.83333, 34.0)",Ukraine,Europe
+199,Chetrinahatti,5344,Valid,Stone-uncl,72.0,Fell,1880.0,14.5,76.5,"(14.5, 76.5)",India,Asia
+200,Chiang Khan,5345,Valid,H6,367.0,Fell,1981.0,17.9,101.63333,"(17.9, 101.63333)",Lao People's Democratic Republic,Asia
+201,Chicora,5349,Valid,LL6,303.0,Fell,1938.0,40.93333,-79.73333,"(40.93333, -79.73333)",United States,North America
+202,Chisenga,5355,Valid,"Iron, IIIAB",3920.0,Fell,1988.0,-10.05944,33.395,"(-10.05944, 33.395)",Malawi,Africa
+203,Chitado,5356,Valid,L6,,Fell,1966.0,-17.35,13.96667,"(-17.35, 13.96667)",Angola,Africa
+204,Chitenay,5357,Valid,L6,4000.0,Fell,1978.0,47.47083,0.97667,"(47.47083, 0.97667)",France,Europe
+205,Cilimus,5364,Valid,L5,1600.0,Fell,1979.0,-6.95,108.1,"(-6.95, 108.1)",Indonesia,Asia
+206,Claxton,5374,Valid,L6,1455.0,Fell,1984.0,32.1025,-81.87278,"(32.1025, -81.87278)",United States,North America
+207,Clohars,5383,Valid,L4,48.6,Fell,1822.0,47.89,-4.06,"47.890000, -4.060000",France,Europe
+208,Colby (Wisconsin),5395,Valid,L6,104000.0,Fell,1917.0,44.9,-90.28333,"(44.9, -90.28333)",United States,North America
+209,Cold Bokkeveld,5397,Valid,CM2,5200.0,Fell,1838.0,-33.13333,19.38333,"(-33.13333, 19.38333)",South Africa,Africa
+210,Coleman,5401,Valid,L6,469.0,Fell,1994.0,43.76111,-84.50778,"(43.76111, -84.50778)",United States,North America
+211,Collescipoli,5403,Valid,H5,5000.0,Fell,1890.0,42.53333,12.61667,"(42.53333, 12.61667)",Italy,Europe
+212,Conquista,5418,Valid,H4,20350.0,Fell,1965.0,-19.85,-47.55,"(-19.85, -47.55)",Brazil,South America
+213,Cosina,5451,Valid,H5,1200.0,Fell,1844.0,21.16667,-100.86667,"(21.16667, -100.86667)",Mexico,North America
+214,Cranganore,5465,Valid,L6,1460.0,Fell,1917.0,10.2,76.26667,"(10.2, 76.26667)",India,Asia
+215,Crescent,5470,Valid,CM2,78.4,Fell,1936.0,35.95,-97.58333,"(35.95, -97.58333)",United States,North America
+216,Cronstad,5474,Valid,H5,3650.0,Fell,1877.0,-27.7,27.3,"(-27.7, 27.3)",South Africa,Africa
+217,Cross Roads,5476,Valid,H5,167.0,Fell,1892.0,35.63333,-78.13333,"(35.63333, -78.13333)",United States,North America
+218,Crumlin,5477,Valid,L5,4255.0,Fell,1902.0,54.61667,-6.21667,"(54.61667, -6.21667)",United Kingdom,Europe
+219,Cumberland Falls,5496,Valid,Aubrite,17000.0,Fell,1919.0,36.83333,-84.35,"(36.83333, -84.35)",United States,North America
+220,Cynthiana,5500,Valid,L/LL4,6000.0,Fell,1877.0,38.4,-84.25,"(38.4, -84.25)",United States,North America
+221,Dahmani,5504,Valid,LL6,18000.0,Fell,1981.0,35.61667,8.83333,"(35.61667, 8.83333)",Tunisia,Africa
+222,Dandapur,5511,Valid,L6,5650.0,Fell,1878.0,26.91667,83.96667,"(26.91667, 83.96667)",India,Asia
+223,Daniel's Kuil,5513,Valid,EL6,1064.0,Fell,1868.0,-28.2,24.56667,"(-28.2, 24.56667)",South Africa,Africa
+224,Danville,5514,Valid,L6,2000.0,Fell,1868.0,34.4,-87.06667,"(34.4, -87.06667)",United States,North America
+225,Darmstadt,6603,Valid,H5,100.0,Fell,1804.0,49.86667,8.65,"(49.86667, 8.65)",Germany,Europe
+226,Dashoguz,6604,Valid,H5,7000.0,Fell,1998.0,41.98444,59.685,"(41.98444, 59.685)",Turkmenistan,Asia
+227,Daule,51559,Valid,L5,6580.0,Fell,2008.0,-1.87089,-79.95756,"(-1.87089, -79.95756)",Ecuador,South America
+228,De Cewsville,6621,Valid,H6,340.0,Fell,1887.0,43.0,-80.0,"(43.0, -80.0)",Canada,North America
+229,Deal,6634,Valid,L6,28.0,Fell,1829.0,40.25,-74.0,"(40.25, -74.0)",United States,North America
+230,Delhi,6642,Valid,L5,0.8,Fell,1897.0,28.56667,77.25,"(28.56667, 77.25)",India,Asia
+231,Demina,6649,Valid,L6,16400.0,Fell,1911.0,51.46667,84.76667,"(51.46667, 84.76667)",Russian Federation,Europe
+232,Denver,6660,Valid,L6,230.0,Fell,1967.0,39.7825,-104.93056,"(39.7825, -104.93056)",United States,North America
+233,Dergaon,6664,Valid,H5,12500.0,Fell,2001.0,26.68333,93.86667,"(26.68333, 93.86667)",India,Asia
+234,Desuri,6693,Valid,H6,25400.0,Fell,1962.0,25.73333,73.61667,"(25.73333, 73.61667)",India,Asia
+235,Devgaon,6694,Valid,H3.8,12000.0,Fell,2001.0,19.0,81.0,"(19.0, 81.0)",India,Asia
+236,Devri-Khera,6696,Valid,L6,1140.0,Fell,1994.0,24.225,76.525,"(24.225, 76.525)",India,Asia
+237,Dhajala,6698,Valid,H3.8,45000.0,Fell,1976.0,22.37778,71.42722,"(22.37778, 71.42722)",India,Asia
+238,Dharwar,6699,Valid,OC,1800.0,Fell,1848.0,14.88333,75.6,"(14.88333, 75.6)",India,Asia
+239,Dhurmsala,7640,Valid,LL6,32000.0,Fell,1860.0,32.23333,76.46667,"(32.23333, 76.46667)",India,Asia
+240,Didim,47350,Valid,H3-5,3396.0,Fell,2007.0,37.35172,27.32997,"(37.35172, 27.32997)",Turkey,Asia
+241,Diep River,7642,Valid,L6,1000.0,Fell,1906.0,-33.75,18.56667,"(-33.75, 18.56667)",South Africa,Africa
+242,Distrito Quebracho,7649,Valid,H4,400.0,Fell,1957.0,-31.88333,-60.46667,"(-31.88333, -60.46667)",Argentina,South America
+243,Djati-Pengilon,7652,Valid,H6,166000.0,Fell,1884.0,-7.5,111.5,"(-7.5, 111.5)",Indonesia,Asia
+244,Djermaia,7656,Valid,H,3950.0,Fell,1961.0,12.73333,15.05,"(12.73333, 15.05)",Chad,Africa
+245,Djoumine,7657,Valid,H5-6,10000.0,Fell,1999.0,36.95,9.55,"(36.95, 9.55)",Tunisia,Africa
+246,Dokachi,7658,Valid,H5,3840.0,Fell,1903.0,23.5,90.33333,"(23.5, 90.33333)",Bangladesh,Asia
+247,Dolgovoli,7659,Valid,L6,1600.0,Fell,1864.0,50.75,25.3,"(50.75, 25.3)",Ukraine,Europe
+248,Domanitch,7661,Valid,L5,438.0,Fell,1907.0,40.0,29.0,"(40.0, 29.0)",Turkey,Asia
+249,Dong Ujimqin Qi,7706,Valid,Mesosiderite,128800.0,Fell,1995.0,45.5,119.03333,"(45.5, 119.03333)",China,Asia
+250,Donga Kohrod,7707,Valid,H6,230.0,Fell,1899.0,21.86667,82.45,"(21.86667, 82.45)",India,Asia
+251,Dongtai,7708,Valid,LL6,5500.0,Fell,1970.0,32.91667,120.78333,"(32.91667, 120.78333)",China,Asia
+252,Doroninsk,7718,Valid,H5-7,3891.0,Fell,1805.0,51.2,112.3,"(51.2, 112.3)",Russian Federation,Europe
+253,Dosso,7722,Valid,L6,1250.0,Fell,1962.0,13.05,3.16667,"(13.05, 3.16667)",Niger,Africa
+254,Douar Mghila,7723,Valid,LL6,1161.0,Fell,1932.0,32.33333,-6.3,"(32.33333, -6.3)",Morocco,Africa
+255,Dowa,7725,Valid,Stone-uncl,642.0,Fell,1976.0,-13.66667,33.91667,"(-13.66667, 33.91667)",Malawi,Africa
+256,Drake Creek,7728,Valid,L6,5000.0,Fell,1827.0,36.4,-86.5,"(36.4, -86.5)",United States,North America
+257,Dresden (Ontario),7731,Valid,H6,47700.0,Fell,1939.0,42.52,-82.26,"(42.52, -82.26)",Canada,North America
+258,Dubrovnik,7736,Valid,L3-6,1900.0,Fell,1951.0,42.45833,18.44167,"(42.45833, 18.44167)",Croatia,Europe
+259,Dunbogan,7743,Valid,L6,30.0,Fell,1999.0,-31.66667,152.83333,"(-31.66667, 152.83333)",Australia,Oceania
+260,Dundrum,7745,Valid,H5,2270.0,Fell,1865.0,52.55,-8.03333,"(52.55, -8.03333)",Ireland,Europe
+261,Dunhua,7749,Valid,Stone-uncl,,Fell,1976.0,43.33333,128.25,"(43.33333, 128.25)",China,Asia
+262,Durala,7750,Valid,L6,13200.0,Fell,1815.0,30.3,76.63333,"(30.3, 76.63333)",India,Asia
+263,Duruma,7752,Valid,L6,577.0,Fell,1853.0,-4.0,39.5,"(-4.0, 39.5)",Kenya,Africa
+264,Duwun,7754,Valid,L6,2117.0,Fell,1943.0,33.43333,127.26667,"(33.43333, 127.26667)",Antarctica,Antarctica
+265,Dwaleni,7755,Valid,H4-6,3230.0,Fell,1970.0,-27.2,31.31667,"(-27.2, 31.31667)",Eswatini,Africa
+266,Dyalpur,7757,Valid,Ureilite,300.0,Fell,1872.0,26.25,82.0,"(26.25, 82.0)",India,Asia
+267,Dyarrl Island,7758,Valid,Mesosiderite-A1,188.0,Fell,1933.0,-3.0,151.0,"(-3.0, 151.0)",Papua New Guinea,Oceania
+268,Eagle,7760,Valid,EL6,10000.0,Fell,1947.0,40.78167,-96.47167,"(40.78167, -96.47167)",United States,North America
+269,Ehole,7774,Valid,H5,2400.0,Fell,1961.0,-17.3,15.83333,"(-17.3, 15.83333)",Angola,Africa
+270,Eichstädt,7775,Valid,H5,3000.0,Fell,1785.0,48.9,11.21667,"(48.9, 11.21667)",Germany,Europe
+271,Ekeby,7776,Valid,H4,3336.0,Fell,1939.0,56.03333,13.0,"(56.03333, 13.0)",Sweden,Europe
+272,Ekh Khera,7777,Valid,H6,840.0,Fell,1916.0,28.26667,78.78333,"(28.26667, 78.78333)",India,Asia
+273,El Idrissia,7807,Valid,L6,10000.0,Fell,1989.0,34.41667,3.25,"(34.41667, 3.25)",Algeria,Africa
+274,El Paso de Aguila,45977,Valid,H5,17226.0,Fell,1977.0,25.37,-97.37,"(25.37, -97.37)",Mexico,North America
+275,El Tigre,7819,Valid,L6,5000.0,Fell,1993.0,19.96722,-103.05167,"(19.96722, -103.05167)",Mexico,North America
+276,Elbert,7822,Valid,LL6,680.5,Fell,1998.0,39.24667,-104.58817,"(39.24667, -104.58817)",United States,North America
+277,Elbogen,7823,Valid,"Iron, IID",107000.0,Fell,1399.0,50.18333,12.73333,"(50.18333, 12.73333)",Czechia,Europe
+278,Elenovka,7824,Valid,L5,54640.0,Fell,1951.0,47.83333,37.66667,"(47.83333, 37.66667)",Ukraine,Europe
+279,Ellemeet,10019,Valid,Diogenite,1470.0,Fell,1925.0,51.75,4.0,"(51.75, 4.0)",Netherlands,Europe
+280,Emmaville,10033,Valid,Eucrite-mmict,127.0,Fell,1900.0,-29.46667,151.61667,"(-29.46667, 151.61667)",Australia,Oceania
+281,Enshi,10038,Valid,H5,8000.0,Fell,1974.0,30.3,109.5,"(30.3, 109.5)",China,Asia
+282,Ensisheim,10039,Valid,LL6,127000.0,Fell,1491.0,47.86667,7.35,"(47.86667, 7.35)",France,Europe
+283,Épinal,10041,Valid,H5,277.0,Fell,1822.0,48.18333,6.46667,"(48.18333, 6.46667)",France,Europe
+284,Erakot,10042,Valid,CM2,113.0,Fell,1940.0,19.03333,81.89167,"(19.03333, 81.89167)",India,Asia
+285,Erevan,10043,Valid,Howardite,107.2,Fell,1911.0,40.3,44.5,"(40.3, 44.5)",Armenia,Asia
+286,Ergheo,10044,Valid,L5,20000.0,Fell,1889.0,1.16667,44.16667,"(1.16667, 44.16667)",Somalia,Africa
+287,Erxleben,10049,Valid,H6,2250.0,Fell,1812.0,52.21667,11.25,"(52.21667, 11.25)",Germany,Europe
+288,Esnandes,10051,Valid,L6,1500.0,Fell,1837.0,46.25,-1.1,"(46.25, -1.1)",France,Europe
+289,Essebi,10055,Valid,C2-ung,500.0,Fell,1957.0,2.88333,30.83333,"(2.88333, 30.83333)","Congo, The Democratic Republic of the",Africa
+290,Estherville,10059,Valid,Mesosiderite-A3/4,320000.0,Fell,1879.0,43.41667,-94.83333,"(43.41667, -94.83333)",United States,North America
+291,Farmington,10074,Valid,L5,89400.0,Fell,1890.0,39.75,-97.03333,"(39.75, -97.03333)",United States,North America
+292,Farmville,10075,Valid,H4,56000.0,Fell,1934.0,35.55,-77.53333,"(35.55, -77.53333)",United States,North America
+293,Favars,10078,Valid,H5,1500.0,Fell,1844.0,44.38333,2.81667,"(44.38333, 2.81667)",France,Europe
+294,Fayetteville,10079,Valid,H4,2360.0,Fell,1934.0,36.05,-94.16667,"(36.05, -94.16667)",United States,North America
+295,Feid Chair,10080,Valid,H4,380.0,Fell,1875.0,36.88333,8.45,"(36.88333, 8.45)",Algeria,Africa
+296,Felix,10081,Valid,CO3.3,3200.0,Fell,1900.0,32.53333,-87.16667,"(32.53333, -87.16667)",United States,North America
+297,Fenghsien-Ku,10086,Valid,H5,82.0,Fell,1924.0,34.6,116.75,"(34.6, 116.75)",China,Asia
+298,Ferguson,10088,Valid,OC,220.0,Fell,1889.0,36.1,-81.41667,"(36.1, -81.41667)",United States,North America
+299,Fermo,10091,Valid,H3-5,10200.0,Fell,1996.0,43.18111,13.75333,"(43.18111, 13.75333)",Italy,Europe
+300,Fisher,10107,Valid,L6,17600.0,Fell,1894.0,47.81667,-96.85,"(47.81667, -96.85)",United States,North America
+301,Florence,10111,Valid,H3,3640.0,Fell,1922.0,30.83333,-97.76667,"(30.83333, -97.76667)",United States,North America
+302,Forest City,10119,Valid,H5,152000.0,Fell,1890.0,43.25,-93.66667,"(43.25, -93.66667)",United States,North America
+303,Forest Vale,10120,Valid,H4,26000.0,Fell,1942.0,-33.35,146.85833,"(-33.35, 146.85833)",Australia,Oceania
+304,Forksville,10123,Valid,L6,6067.0,Fell,1924.0,36.78333,-78.08333,"(36.78333, -78.08333)",United States,North America
+305,Forsbach,10163,Valid,H6,240.0,Fell,1900.0,50.95,7.31667,"(50.95, 7.31667)",Germany,Europe
+306,Forsyth,10164,Valid,L6,16300.0,Fell,1829.0,33.01667,-83.96667,"(33.01667, -83.96667)",United States,North America
+307,Fort Flatters,10166,Valid,Stone-uncl,,Fell,1944.0,28.25,7.0,"(28.25, 7.0)",Algeria,Africa
+308,Frankfort (stone),10177,Valid,Howardite,650.0,Fell,1868.0,34.48333,-87.83333,"(34.48333, -87.83333)",United States,North America
+309,Fuhe,52412,Valid,L5,23000.0,Fell,1945.0,31.47556,113.56694,"(31.47556, 113.56694)",China,Asia
+310,Fukutomi,10836,Valid,L5,11620.0,Fell,1882.0,33.18333,130.2,"(33.18333, 130.2)",Japan,Asia
+311,Fünen,10838,Valid,Stone-uncl,,Fell,1654.0,55.33333,10.33333,"(55.33333, 10.33333)",Denmark,Europe
+312,Futtehpur,10839,Valid,L6,4000.0,Fell,1822.0,25.95,80.81667,"(25.95, 80.81667)",India,Asia
+313,Fuyang,10840,Valid,Stone-uncl,2500.0,Fell,1977.0,32.9,115.9,"(32.9, 115.9)",China,Asia
+314,Galapian,10846,Valid,H6,132.7,Fell,1826.0,44.3,0.4,"(44.3, 0.4)",France,Europe
+315,Galim (a),10848,Valid,LL6,36.1,Fell,1952.0,7.05,12.43333,"(7.05, 12.43333)",Cameroon,Africa
+316,Galim (b),10849,Valid,EH3/4-an,28.0,Fell,1952.0,7.05,12.43333,"(7.05, 12.43333)",Cameroon,Africa
+317,Galkiv,10850,Valid,H4,5000.0,Fell,1995.0,51.68333,30.78333,"(51.68333, 30.78333)",Ukraine,Europe
+318,Gambat,10851,Valid,L6,6400.0,Fell,1897.0,27.35,68.53333,"(27.35, 68.53333)",Pakistan,Asia
+319,Gao-Guenie,10854,Valid,H5,,Fell,1960.0,11.65,-2.18333,"(11.65, -2.18333)",Burkina Faso,Africa
+320,Garhi Yasin,10860,Valid,"Iron, IIE",380.0,Fell,1917.0,27.88333,68.53333,"(27.88333, 68.53333)",Pakistan,Asia
+321,Garland,10861,Valid,Diogenite-pm,102.0,Fell,1950.0,41.68333,-112.13333,"(41.68333, -112.13333)",United States,North America
+322,Gashua,44882,Valid,L6,4162.0,Fell,1984.0,12.85,11.03333,"(12.85, 11.03333)",Nigeria,Africa
+323,Gasseltepaoua,10866,Valid,H5,,Fell,2000.0,14.15083,-2.04167,"(14.15083, -2.04167)",Burkina Faso,Africa
+324,Geidam,10870,Valid,H5,725.0,Fell,1950.0,12.91667,11.91667,"(12.91667, 11.91667)",Nigeria,Africa
+325,Gifu,10914,Valid,L6,14290.0,Fell,1909.0,35.53333,136.88333,"(35.53333, 136.88333)",Japan,Asia
+326,Girgenti,10917,Valid,L6,18000.0,Fell,1853.0,37.31667,13.56667,"(37.31667, 13.56667)",Italy,Europe
+327,Git-Git,10919,Valid,L6,480.0,Fell,1947.0,9.6,9.91667,"(9.6, 9.91667)",Nigeria,Africa
+328,Glanerbrug,10923,Valid,L/LL5,670.0,Fell,1990.0,52.2,6.86667,"(52.2, 6.86667)",Netherlands,Europe
+329,Glanggang,10924,Valid,H5-6,1303.0,Fell,1939.0,-7.25,107.7,"(-7.25, 107.7)",Indonesia,Asia
+330,Glasatovo,10926,Valid,H4,152000.0,Fell,1918.0,57.35,37.61667,"(57.35, 37.61667)",Russian Federation,Europe
+331,Glatton,10930,Valid,L6,767.0,Fell,1991.0,52.45972,-0.3,"(52.45972, -0.3)",United Kingdom,Europe
+332,Gnadenfrei,10936,Valid,H5,1750.0,Fell,1879.0,50.66667,16.76667,"(50.66667, 16.76667)",Poland,Europe
+333,Gopalpur,10948,Valid,H6,1600.0,Fell,1865.0,24.23333,89.05,"(24.23333, 89.05)",Bangladesh,Asia
+334,Gorlovka,10949,Valid,H3.7,3618.0,Fell,1974.0,48.28333,38.08333,"(48.28333, 38.08333)",Ukraine,Europe
+335,Granes,10956,Valid,L6,9000.0,Fell,1964.0,42.9,2.25,"(42.9, 2.25)",France,Europe
+336,Grefsheim,11196,Valid,L5,45.5,Fell,1976.0,60.66667,11.0,"(60.66667, 11.0)",Norway,Europe
+337,Grimsby,50911,Valid,H5,215.0,Fell,2009.0,43.2,-79.61667,"(43.2, -79.61667)",Canada,North America
+338,Grosnaja,11206,Valid,CV3,3500.0,Fell,1861.0,43.66667,45.38333,"(43.66667, 45.38333)",Russian Federation,Europe
+339,Gross-Divina,11207,Valid,H5,10500.0,Fell,1837.0,49.26667,18.71667,"(49.26667, 18.71667)",Slovakia,Europe
+340,Grossliebenthal,11208,Valid,L6,8000.0,Fell,1881.0,46.35,30.58333,"(46.35, 30.58333)",Ukraine,Europe
+341,Grüneberg,11426,Valid,H4,1000.0,Fell,1841.0,51.93333,15.5,"(51.93333, 15.5)",Poland,Europe
+342,Grzempach,11429,Valid,H5,690.0,Fell,1910.0,52.86667,16.63333,"(52.86667, 16.63333)",Poland,Europe
+343,Gualeguaychú,11432,Valid,H6,22000.0,Fell,1932.0,-33.0,-58.61667,"(-33.0, -58.61667)",Argentina,South America
+344,Guangmingshan,11435,Valid,H5,2910.0,Fell,1996.0,39.80417,122.76389,"(39.80417, 122.76389)",China,Asia
+345,Guangnan,11436,Valid,L6,,Fell,1983.0,24.1,105.0,"(24.1, 105.0)",China,Asia
+346,Guangrao,11437,Valid,L6,1900.0,Fell,1980.0,37.1,118.4,"(37.1, 118.4)",China,Asia
+347,Guareña,11439,Valid,H6,39000.0,Fell,1892.0,38.73333,-6.01667,"(38.73333, -6.01667)",Spain,Europe
+348,Guêa,11440,Valid,Stone-uncl,1915.0,Fell,1891.0,43.76667,20.23333,"(43.76667, 20.23333)",Serbia,Europe
+349,Guibga,11442,Valid,L5,288.0,Fell,1972.0,13.5,-0.68333,"(13.5, -0.68333)",Burkina Faso,Africa
+350,Guidder,11443,Valid,LL5,968.0,Fell,1949.0,9.91667,13.98333,"(9.91667, 13.98333)",Cameroon,Africa
+351,Gujargaon,11448,Valid,H5,2449.0,Fell,1982.0,22.98333,76.05,"(22.98333, 76.05)",India,Asia
+352,Gujba,11449,Valid,CBa,100000.0,Fell,1984.0,11.49167,11.65833,"(11.49167, 11.65833)",Nigeria,Africa
+353,Gumoschnik,11450,Valid,H5,5700.0,Fell,1904.0,42.9,24.7,"(42.9, 24.7)",Bulgaria,Europe
+354,Gurram Konda,11464,Valid,L6,28.0,Fell,1814.0,13.78333,78.56667,"(13.78333, 78.56667)",India,Asia
+355,Gursum,11465,Valid,H4/5,34650.0,Fell,1981.0,9.36667,42.41667,"(9.36667, 42.41667)",Ethiopia,Africa
+356,Gütersloh,11466,Valid,H3/4,1000.0,Fell,1851.0,51.91667,8.38333,"(51.91667, 8.38333)",Germany,Europe
+357,Gyokukei,11467,Valid,OC,1320.0,Fell,1930.0,35.0,127.5,"(35.0, 127.5)","Korea, Republic of",Asia
+358,Hachi-oji,11468,Valid,H?,0.2,Fell,1817.0,35.65,139.33333,"(35.65, 139.33333)",Japan,Asia
+359,Hainaut,11472,Valid,H3-6,9000.0,Fell,1934.0,50.31667,3.73333,"(50.31667, 3.73333)",France,Europe
+360,Hallingeberg,11479,Valid,L3.4,1456.0,Fell,1944.0,57.81667,16.23333,"(57.81667, 16.23333)",Sweden,Europe
+361,Hamlet,11485,Valid,LL4,3710.0,Fell,1959.0,41.38333,-86.6,"(41.38333, -86.6)",United States,North America
+362,Haraiya,11824,Valid,Eucrite-mmict,1000.0,Fell,1878.0,26.8,82.53333,"(26.8, 82.53333)",India,Asia
+363,Haripura,11829,Valid,CM2,315.0,Fell,1921.0,28.38333,75.78333,"(28.38333, 75.78333)",India,Asia
+364,Harleton,11830,Valid,L6,8360.0,Fell,1961.0,32.675,-94.51167,"(32.675, -94.51167)",United States,North America
+365,Harrison County,11842,Valid,L6,680.0,Fell,1859.0,38.25,-86.16667,"(38.25, -86.16667)",United States,North America
+366,Hashima,11848,Valid,H4,1110.6,Fell,1910.0,35.2945,136.70033,"(35.2945, 136.70033)",Japan,Asia
+367,Hassi-Jekna,11852,Valid,"Iron, IAB-sHL",1250.0,Fell,1890.0,28.95,0.81667,"(28.95, 0.81667)",Algeria,Africa
+368,Hatford,11855,Valid,Stone-uncl,29000.0,Fell,1628.0,51.65,-1.51667,"(51.65, -1.51667)",United Kingdom,Europe
+369,Haverö,11859,Valid,Ureilite,1544.0,Fell,1971.0,60.24556,22.06194,"(60.24556, 22.06194)",Finland,Europe
+370,Hedeskoga,11869,Valid,H5,3500.0,Fell,1922.0,55.46667,13.78333,"(55.46667, 13.78333)",Sweden,Europe
+371,Hedjaz,11870,Valid,L3.7-6,6100.0,Fell,1910.0,27.33333,35.66667,"(27.33333, 35.66667)",Saudi Arabia,Asia
+372,Heredia,11875,Valid,H5,1000.0,Fell,1857.0,10.0,-84.1,"(10.0, -84.1)",Costa Rica,North America
+373,Hessle,11878,Valid,H5,20000.0,Fell,1869.0,59.85,17.66667,"(59.85, 17.66667)",Sweden,Europe
+374,Higashi-koen,11883,Valid,H5,750.0,Fell,1897.0,33.6,130.43333,"(33.6, 130.43333)",Japan,Asia
+375,High Possil,11884,Valid,L6,4500.0,Fell,1804.0,55.9,-4.23333,"(55.9, -4.23333)",United Kingdom,Europe
+376,Hiroshima,11889,Valid,H5,414.0,Fell,2003.0,34.45,132.38333,"(34.45, 132.38333)",Japan,Asia
+377,Hoima,44714,Valid,H6,167.7,Fell,2003.0,1.345,31.47278,"(1.345, 31.47278)",Uganda,Africa
+378,Hökmark,11893,Valid,L4,305.5,Fell,1954.0,64.43333,21.2,"(64.43333, 21.2)",Sweden,Europe
+379,Holbrook,11894,Valid,L/LL6,220000.0,Fell,1912.0,34.9,-110.18333,"(34.9, -110.18333)",United States,North America
+380,Holetta,11895,Valid,Stone-uncl,1415.0,Fell,1923.0,9.06667,38.41667,"(9.06667, 38.41667)",Ethiopia,Africa
+381,Homestead,11901,Valid,L5,230000.0,Fell,1875.0,41.8,-91.86667,"(41.8, -91.86667)",United States,North America
+382,Honolulu,11904,Valid,L5,2420.0,Fell,1825.0,21.3,-157.86667,"(21.3, -157.86667)",United States,North America
+383,Hotse,11913,Valid,L6,180.0,Fell,1956.0,35.66667,115.5,"(35.66667, 115.5)",China,Asia
+384,Hoxie,11915,Valid,OC,266.1,Fell,1963.0,39.35,-100.45,"(39.35, -100.45)",United States,North America
+385,Hraschina,11916,Valid,"Iron, IID",49000.0,Fell,1751.0,46.1,16.33333,"(46.1, 16.33333)",Croatia,Europe
+386,Huaxi,54719,Valid,H5,1600.0,Fell,2010.0,26.46469,106.63241,"(26.46469, 106.63241)",China,Asia
+387,Hungen,11986,Valid,H6,112.0,Fell,1877.0,50.3,8.91667,"(50.3, 8.91667)",Germany,Europe
+388,Hvittis,11989,Valid,EL6,14000.0,Fell,1901.0,61.18333,22.68333,"(61.18333, 22.68333)",Finland,Europe
+389,Ibbenbüren,11992,Valid,Diogenite,2000.0,Fell,1870.0,52.28333,7.7,"(52.28333, 7.7)",Germany,Europe
+390,Ibitira,11993,Valid,Eucrite-mmict,2500.0,Fell,1957.0,-20.0,-45.0,"(-20.0, -45.0)",Brazil,South America
+391,Ibrisim,11994,Valid,OC,,Fell,1949.0,38.0,35.0,"(38.0, 35.0)",Turkey,Asia
+392,Ichkala,11995,Valid,H6,3973.0,Fell,1936.0,58.2,82.93333,"(58.2, 82.93333)",Russian Federation,Europe
+393,Idutywa,12000,Valid,H5,3457.0,Fell,1956.0,-32.1,28.33333,"(-32.1, 28.33333)",South Africa,Africa
+394,Iguaracu,12003,Valid,H5,1200.0,Fell,1977.0,-23.2,-51.83333,"(-23.2, -51.83333)",Brazil,South America
+395,Ijopega,12004,Valid,H6,7330.0,Fell,1975.0,-6.03333,145.36667,"(-6.03333, 145.36667)",Papua New Guinea,Oceania
+396,Indarch,12027,Valid,EH4,27000.0,Fell,1891.0,39.75,46.66667,"(39.75, 46.66667)",Azerbaijan,Asia
+397,Independence,12028,Valid,L6,880.0,Fell,1917.0,39.08333,-94.4,"(39.08333, -94.4)",United States,North America
+398,Inner Mongolia,12037,Valid,L6,3000.0,Fell,1963.0,41.0,112.0,"(41.0, 112.0)",China,Asia
+399,Innisfree,12039,Valid,L5,4576.0,Fell,1977.0,53.415,-111.3375,"(53.415, -111.3375)",Canada,North America
+400,Ipiranga,12043,Valid,H6,7000.0,Fell,1972.0,-25.5,-54.5,"(-25.5, -54.5)",Brazil,South America
+401,Ishinga,12049,Valid,H,1300.0,Fell,1954.0,-8.93333,33.8,"(-8.93333, 33.8)","Tanzania, United Republic of",Africa
+402,Isthilart,12053,Valid,H5,3050.0,Fell,1928.0,-31.18333,-57.95,"(-31.18333, -57.95)",Argentina,South America
+403,Itapicuru-Mirim,12056,Valid,H5,2024.0,Fell,1879.0,-3.4,-44.33333,"(-3.4, -44.33333)",Brazil,South America
+404,Itqiy,12058,Valid,EH7-an,4720.0,Fell,1990.0,26.59083,-12.95217,"(26.59083, -12.95217)",Morocco,Africa
+405,Ivuna,12063,Valid,CI1,704.5,Fell,1938.0,-8.41667,32.43333,"(-8.41667, 32.43333)","Tanzania, United Republic of",Africa
+406,Jackalsfontein,12065,Valid,L6,48000.0,Fell,1903.0,-32.5,21.9,"(-32.5, 21.9)",South Africa,Africa
+407,Jajh deh Kot Lalu,12067,Valid,EL6,973.0,Fell,1926.0,26.75,68.41667,"(26.75, 68.41667)",Pakistan,Asia
+408,Jalanash,12068,Valid,Ureilite,700.0,Fell,1990.0,48.3,89.5,"48.300000, 89.500000",Mongolia,Asia
+409,Jalandhar,12069,Valid,Iron,1967.0,Fell,1621.0,31.0,75.0,"(31.0, 75.0)",India,Asia
+410,Jamkheir,12072,Valid,H6,22.0,Fell,1866.0,18.75,75.33333,"(18.75, 75.33333)",India,Asia
+411,Jartai,12074,Valid,L6,20500.0,Fell,1979.0,39.7,105.8,"(39.7, 105.8)",China,Asia
+412,Jelica,12078,Valid,LL6,34000.0,Fell,1889.0,43.83333,20.44167,"(43.83333, 20.44167)",Serbia,Europe
+413,Jemlapur,12079,Valid,L6,450.0,Fell,1901.0,25.3,86.5,"25.3, 86.5",India,Asia
+414,Jesenice,51589,Valid,L6,3667.0,Fell,2009.0,46.42137,14.05217,"(46.42137, 14.05217)",Slovenia,Europe
+415,Jhung,12085,Valid,L5,5900.0,Fell,1873.0,31.3,72.38333,"(31.3, 72.38333)",Pakistan,Asia
+416,Jiange,12086,Valid,H5,222.0,Fell,1964.0,31.91667,104.91667,"(31.91667, 104.91667)",China,Asia
+417,Jianshi,12087,Valid,"Iron, IIIAB",600000.0,Fell,1890.0,30.80833,109.5,"(30.80833, 109.5)",China,Asia
+418,Jilin,12171,Valid,H5,4000000.0,Fell,1976.0,44.05,126.16667,"(44.05, 126.16667)",China,Asia
+419,Jodiya,47362,Valid,L5,100.0,Fell,2006.0,22.68,70.31333,"(22.68, 70.31333)",India,Asia
+420,Jodzie,12173,Valid,Howardite,30.0,Fell,1877.0,55.7,24.4,"(55.7, 24.4)",Lithuania,Europe
+421,Johnstown,12198,Valid,Diogenite,40300.0,Fell,1924.0,40.35,-104.9,"(40.35, -104.9)",United States,North America
+422,Jolomba,12199,Valid,LL6,483.0,Fell,1974.0,-11.85,15.83333,"(-11.85, 15.83333)",Angola,Africa
+423,Jonzac,12202,Valid,Eucrite-mmict,5000.0,Fell,1819.0,45.43333,-0.45,"(45.43333, -0.45)",France,Europe
+424,Juancheng,12203,Valid,H5,100000.0,Fell,1997.0,35.5,115.41667,"(35.5, 115.41667)",China,Asia
+425,Judesegeri,12207,Valid,H6,680.0,Fell,1876.0,12.85,76.8,"(12.85, 76.8)",India,Asia
+426,Jumapalo,12209,Valid,L6,32490.0,Fell,1984.0,-7.71667,111.2,"(-7.71667, 111.2)",Indonesia,Asia
+427,Junan,12210,Valid,L6,950.0,Fell,1976.0,35.2,118.8,"(35.2, 118.8)",China,Asia
+428,Juromenha,12213,Valid,"Iron, IIIAB",25250.0,Fell,1968.0,38.74028,-7.27,"(38.74028, -7.27)",Portugal,Europe
+429,Juvinas,12214,Valid,Eucrite-mmict,91000.0,Fell,1821.0,44.71667,4.3,"(44.71667, 4.3)",France,Europe
+430,Kaba,12218,Valid,CV3,3000.0,Fell,1857.0,47.35,21.3,"(47.35, 21.3)",Hungary,Europe
+431,Kabo,12220,Valid,H4,13400.0,Fell,1971.0,11.85,8.21667,"(11.85, 8.21667)",Nigeria,Africa
+432,Kadonah,12221,Valid,H6,89.0,Fell,1822.0,27.08333,78.33333,"(27.08333, 78.33333)",India,Asia
+433,Kaee,12222,Valid,H5,230.0,Fell,1838.0,27.25,79.96667,"(27.25, 79.96667)",India,Asia
+434,Kagarlyk,12227,Valid,L6,1900.0,Fell,1908.0,49.86667,30.83333,"(49.86667, 30.83333)",Ukraine,Europe
+435,Kaidun,12228,Valid,CR2,2000.0,Fell,1980.0,15.0,48.3,"(15.0, 48.3)",Yemen,Asia
+436,Kainsaz,12229,Valid,CO3.2,200000.0,Fell,1937.0,55.43333,53.25,"(55.43333, 53.25)",Russian Federation,Europe
+437,Kakangari,12230,Valid,K3,350.0,Fell,1890.0,12.38333,78.51667,"(12.38333, 78.51667)",India,Asia
+438,Kakowa,12231,Valid,L6,577.0,Fell,1858.0,45.13333,21.66667,"(45.13333, 21.66667)",Romania,Europe
+439,Kalaba,12232,Valid,H4,950.0,Fell,1951.0,-6.83333,29.5,"(-6.83333, 29.5)","Congo, The Democratic Republic of the",Africa
+440,Kalumbi,12236,Valid,L6,4500.0,Fell,1879.0,17.83333,73.98333,"(17.83333, 73.98333)",India,Asia
+441,Kamalpur,12238,Valid,L6,2770.0,Fell,1942.0,26.03333,81.46667,"(26.03333, 81.46667)",India,Asia
+442,Kamiomi,12240,Valid,H5,448.0,Fell,1913.0,36.04167,139.95667,"(36.04167, 139.95667)",Japan,Asia
+443,Kamsagar,12241,Valid,L6,1293.0,Fell,1902.0,14.18333,75.8,"(14.18333, 75.8)",India,Asia
+444,Kandahar (Afghanistan),12243,Valid,L6,299.0,Fell,1959.0,31.6,65.78333,"(31.6, 65.78333)",Afghanistan,Asia
+445,Kangean,12245,Valid,H5,1630.0,Fell,1908.0,-7.0,115.5,"(-7.0, 115.5)",Indonesia,Asia
+446,Kangra Valley,12246,Valid,H5,400.0,Fell,1897.0,32.08333,76.3,"(32.08333, 76.3)",India,Asia
+447,Kapoeta,12251,Valid,Howardite,11355.0,Fell,1942.0,4.7,33.63333,"(4.7, 33.63333)",South Sudan,Africa
+448,Kaprada,47357,Valid,L5/6,1600.0,Fell,2004.0,20.33916,73.22329,"(20.33916, 73.22329)",India,Asia
+449,Kaptal-Aryk,12253,Valid,L6,3500.0,Fell,1937.0,42.45,73.36667,"(42.45, 73.36667)",Kazakhstan,Asia
+450,Karakol,12256,Valid,LL6,3000.0,Fell,1840.0,47.21667,81.01667,"(47.21667, 81.01667)",Kazakhstan,Asia
+451,Karatu,12258,Valid,LL6,2220.0,Fell,1963.0,-3.5,35.58333,"(-3.5, 35.58333)","Tanzania, United Republic of",Africa
+452,Karewar,12260,Valid,L6,180.0,Fell,1949.0,12.9,7.15,"(12.9, 7.15)",Nigeria,Africa
+453,Karkh,12262,Valid,L6,22000.0,Fell,1905.0,27.8,67.16667,"(27.8, 67.16667)",Pakistan,Asia
+454,Karloowala,12263,Valid,L6,2950.0,Fell,1955.0,31.58333,71.6,"(31.58333, 71.6)",Pakistan,Asia
+455,Karoonda,12264,Valid,CK4,41730.0,Fell,1930.0,-35.08333,139.91667,"(-35.08333, 139.91667)",Australia,Oceania
+456,Kasamatsu,12266,Valid,H,710.0,Fell,1938.0,35.36667,136.76667,"(35.36667, 136.76667)",Japan,Asia
+457,Kasauli,30740,Valid,H4,16820.0,Fell,2003.0,29.58333,77.58333,"(29.58333, 77.58333)",India,Asia
+458,Katagum,35465,Valid,L6,1500.0,Fell,1999.0,11.33333,10.08333,"(11.33333, 10.08333)",Nigeria,Africa
+459,Kavarpura,47351,Valid,"Iron, IIE-an",6800.0,Fell,2006.0,25.14333,75.81333,"(25.14333, 75.81333)",India,Asia
+460,Kayakent,12268,Valid,"Iron, IIIAB",85000.0,Fell,1961.0,39.26333,31.78,"(39.26333, 31.78)",Turkey,Asia
+461,Kediri,12270,Valid,L4,3300.0,Fell,1940.0,-7.75,112.01667,"(-7.75, 112.01667)",Indonesia,Asia
+462,Kemer,53654,Valid,L4,5760.0,Fell,2008.0,36.54194,29.41822,"(36.54194, 29.41822)",Turkey,Asia
+463,Kendleton,12275,Valid,L4,6937.0,Fell,1939.0,29.45,-96.0,"(29.45, -96.0)",United States,North America
+464,Kendrapara,12276,Valid,H4-5,6669.2,Fell,2003.0,20.4625,86.70278,"(20.4625, 86.70278)",India,Asia
+465,Kerilis,12282,Valid,H5,5000.0,Fell,1874.0,48.4,-3.3,"(48.4, -3.3)",France,Europe
+466,Kernouve,12284,Valid,H6,80000.0,Fell,1869.0,48.11667,-3.08333,"(48.11667, -3.08333)",France,Europe
+467,Kesen,12286,Valid,H4,135000.0,Fell,1850.0,38.98333,141.61667,"(38.98333, 141.61667)",Japan,Asia
+468,Khairpur,12288,Valid,EL6,13600.0,Fell,1873.0,29.53333,72.3,"(29.53333, 72.3)",Pakistan,Asia
+469,Khanpur,12289,Valid,LL5,3698.0,Fell,1932.0,25.55,83.11667,"(25.55, 83.11667)",India,Asia
+470,Kharkov,12291,Valid,L6,1500.0,Fell,1787.0,50.625,35.075,"(50.625, 35.075)",Ukraine,Europe
+471,Kheragur,12294,Valid,L6,450.0,Fell,1860.0,26.95,77.88333,"(26.95, 77.88333)",India,Asia
+472,Khetri,12296,Valid,H6,100.0,Fell,1867.0,28.01667,75.81667,"(28.01667, 75.81667)",India,Asia
+473,Khmelevka,12297,Valid,L5,6109.0,Fell,1929.0,56.75,75.33333,"(56.75, 75.33333)",Russian Federation,Europe
+474,Khohar,12298,Valid,L3.6,9700.0,Fell,1910.0,25.1,81.53333,"(25.1, 81.53333)",India,Asia
+475,Khor Temiki,12299,Valid,Aubrite,3200.0,Fell,1932.0,16.0,36.0,"(16.0, 36.0)",Sudan,Africa
+476,Kidairat,12300,Valid,H6,100000.0,Fell,1983.0,14.0,28.0,"(14.0, 28.0)",Sudan,Africa
+477,Kiel,12301,Valid,L6,737.6,Fell,1962.0,54.4,10.15,"(54.4, 10.15)",Germany,Europe
+478,Kiffa,12303,Valid,H5,1500.0,Fell,1970.0,16.58333,-11.33333,"(16.58333, -11.33333)",Mauritania,Africa
+479,Kijima (1906),12305,Valid,Stone-uncl,331.0,Fell,1906.0,36.85,138.38333,"(36.85, 138.38333)",Japan,Asia
+480,Kikino,12306,Valid,H6,195.0,Fell,1809.0,55.0,34.0,"(55.0, 34.0)",Russian Federation,Europe
+481,Kilabo,12307,Valid,LL6,19000.0,Fell,2002.0,12.76667,9.8,"(12.76667, 9.8)",Nigeria,Africa
+482,Kilbourn,12308,Valid,H5,772.0,Fell,1911.0,43.58333,-89.6,"(43.58333, -89.6)",United States,North America
+483,Killeter,12309,Valid,H6,140.0,Fell,1844.0,54.66667,-7.66667,"(54.66667, -7.66667)",United Kingdom,Europe
+484,Kingai,12316,Valid,H6,67.4,Fell,1967.0,11.63333,24.68333,"(11.63333, 24.68333)",Sudan,Africa
+485,Kirbyville,12321,Valid,Eucrite-mmict,97.7,Fell,1906.0,30.75,-95.95,"(30.75, -95.95)",United States,North America
+486,Kisvarsány,12325,Valid,L6,1550.0,Fell,1914.0,48.16667,22.30833,"(48.16667, 22.30833)",Hungary,Europe
+487,Kitchener,12326,Valid,L6,202.6,Fell,1998.0,43.38333,-80.38333,"(43.38333, -80.38333)",Canada,North America
+488,Klein-Wenden,12332,Valid,H6,3250.0,Fell,1843.0,51.6,10.8,"(51.6, 10.8)",Germany,Europe
+489,Knyahinya,12335,Valid,L/LL5,500000.0,Fell,1866.0,48.9,22.4,"(48.9, 22.4)",Slovakia,Europe
+490,Kobe,12336,Valid,CK4,136.0,Fell,1999.0,34.73333,135.16667,"(34.73333, 135.16667)",Japan,Asia
+491,Kokubunji,12342,Valid,L6,11510.0,Fell,1986.0,34.3,133.95,"(34.3, 133.95)",Japan,Asia
+492,Komagome,12343,Valid,Iron,238.0,Fell,1926.0,35.73333,139.75,"(35.73333, 139.75)",Japan,Asia
+493,Konovo,12344,Valid,LL5,90.0,Fell,1931.0,42.51667,26.16667,"(42.51667, 26.16667)",Bulgaria,Europe
+494,Košice,53810,Valid,H5,4300.0,Fell,2010.0,48.76367,21.17633,"(48.76367, 21.17633)",Slovakia,Europe
+495,Krähenberg,12353,Valid,LL5,16500.0,Fell,1869.0,49.32694,7.46472,"(49.32694, 7.46472)",Germany,Europe
+496,Krasnoi-Ugol,12355,Valid,L6,2440.0,Fell,1829.0,54.03333,40.9,"(54.03333, 40.9)",Russian Federation,Europe
+497,Krasnyi Klyuch,12357,Valid,H5,4000.0,Fell,1946.0,54.33333,56.08333,"(54.33333, 56.08333)",Russian Federation,Europe
+498,Krutikha,12363,Valid,OC,845.2,Fell,1906.0,56.8,77.0,"(56.8, 77.0)",Russian Federation,Europe
+499,Krymka,12364,Valid,LL3.2,50000.0,Fell,1946.0,47.83333,30.76667,"(47.83333, 30.76667)",Ukraine,Europe
+500,Kukschin,12368,Valid,L6,2250.0,Fell,1938.0,51.15,31.7,"(51.15, 31.7)",Ukraine,Europe
+501,Kulak,12369,Valid,L5,453.6,Fell,1961.0,30.73111,66.80222,"(30.73111, 66.80222)",Pakistan,Asia
+502,Kuleschovka,12370,Valid,L6,6000.0,Fell,1811.0,50.75,33.5,"(50.75, 33.5)",Ukraine,Europe
+503,Kulp,12373,Valid,H6,3719.0,Fell,1906.0,41.11667,45.0,"(41.11667, 45.0)",Armenia,Asia
+504,Kunashak,12377,Valid,L6,200000.0,Fell,1949.0,55.78333,61.36667,"(55.78333, 61.36667)",Russian Federation,Europe
+505,Kunya-Urgench,12379,Valid,H5,1100000.0,Fell,1998.0,42.25,59.2,"(42.25, 59.2)",Turkmenistan,Asia
+506,Kushiike,12381,Valid,OC,4460.0,Fell,1920.0,37.05,138.38333,"(37.05, 138.38333)",Japan,Asia
+507,Kusiali,12382,Valid,L6,5.0,Fell,1860.0,29.68333,78.38333,"(29.68333, 78.38333)",India,Asia
+508,Kutais,12383,Valid,H5,23.0,Fell,1977.0,44.51667,39.3,"(44.51667, 39.3)",Russian Federation,Europe
+509,Kuttippuram,12384,Valid,L6,45000.0,Fell,1914.0,10.83333,76.03333,"(10.83333, 76.03333)",India,Asia
+510,Kuznetzovo,12385,Valid,L6,4047.0,Fell,1932.0,55.2,75.33333,"(55.2, 75.33333)",Russian Federation,Europe
+511,Kyushu,12390,Valid,L6,45000.0,Fell,1886.0,32.03333,130.63333,"(32.03333, 130.63333)",Japan,Asia
+512,La Bécasse,12392,Valid,L6,2800.0,Fell,1879.0,47.08333,1.75,"(47.08333, 1.75)",France,Europe
+513,La Charca,12394,Valid,OC,399.0,Fell,1878.0,20.66667,-101.28333,"(20.66667, -101.28333)",Mexico,North America
+514,La Colina,12395,Valid,H5,2000.0,Fell,1924.0,-37.33333,-61.53333,"(-37.33333, -61.53333)",Argentina,South America
+515,La Criolla,12396,Valid,L6,45000.0,Fell,1985.0,-31.23333,-58.16667,"(-31.23333, -58.16667)",Argentina,South America
+516,Laborel,12408,Valid,H5,3833.0,Fell,1871.0,44.28333,5.58333,"(44.28333, 5.58333)",France,Europe
+517,Lahrauli,12433,Valid,Ureilite,900.0,Fell,1955.0,26.78333,82.71667,"(26.78333, 82.71667)",India,Asia
+518,L'Aigle,12434,Valid,L6,37000.0,Fell,1803.0,48.76667,0.63333,"(48.76667, 0.63333)",France,Europe
+519,Lakangaon,12435,Valid,Eucrite-mmict,212.5,Fell,1910.0,21.86667,76.03333,"(21.86667, 76.03333)",India,Asia
+520,Lalitpur,12451,Valid,L6,372.0,Fell,1887.0,24.45,78.56667,"(24.45, 78.56667)",India,Asia
+521,Lancé,12455,Valid,CO3.5,51700.0,Fell,1872.0,47.7,1.06667,"(47.7, 1.06667)",France,Europe
+522,Lancon,12456,Valid,H6,7000.0,Fell,1897.0,43.75,5.11667,"(43.75, 5.11667)",France,Europe
+523,Långhalsen,12461,Valid,L6,2300.0,Fell,1947.0,58.85,16.73333,"(58.85, 16.73333)",Sweden,Europe
+524,Lanxi,12464,Valid,L6,1282.0,Fell,1986.0,46.24167,126.19611,"(46.24167, 126.19611)",China,Asia
+525,Lanzenkirchen,12465,Valid,L4,7000.0,Fell,1925.0,47.75,16.23333,"(47.75, 16.23333)",Austria,Europe
+526,Laochenzhen,12466,Valid,H5,14250.0,Fell,1987.0,33.13333,115.16667,"(33.13333, 115.16667)",China,Asia
+527,Launton,12740,Valid,L6,1060.0,Fell,1830.0,51.9,-1.11667,"(51.9, -1.11667)",United Kingdom,Europe
+528,Lavrentievka,12743,Valid,L6,800.0,Fell,1938.0,52.45,51.56667,"(52.45, 51.56667)",Russian Federation,Europe
+529,Le Pressoir,12748,Valid,H5,3000.0,Fell,1845.0,47.16667,0.43333,"(47.16667, 0.43333)",France,Europe
+530,Le Teilleul,12749,Valid,Howardite,780.0,Fell,1845.0,48.53333,-0.86667,"(48.53333, -0.86667)",France,Europe
+531,Leedey,12755,Valid,L6,51500.0,Fell,1943.0,35.88333,-99.33333,"(35.88333, -99.33333)",United States,North America
+532,Leeuwfontein,12756,Valid,L6,460.0,Fell,1912.0,-25.66667,28.36667,"(-25.66667, 28.36667)",South Africa,Africa
+533,Leighlinbridge,12759,Valid,L6,271.4,Fell,1999.0,52.66667,-6.96667,"(52.66667, -6.96667)",Ireland,Europe
+534,Leighton,12760,Valid,H5,877.0,Fell,1907.0,34.58333,-87.5,"(34.58333, -87.5)",United States,North America
+535,Leonovka,12765,Valid,L6,700.0,Fell,1900.0,52.26667,32.85,"(52.26667, 32.85)",Ukraine,Europe
+536,Les Ormes,12769,Valid,L6,125.0,Fell,1857.0,48.35,3.25,"(48.35, 3.25)",France,Europe
+537,Lesves,12772,Valid,L6,2000.0,Fell,1896.0,50.36667,4.73333,"(50.36667, 4.73333)",Belgium,Europe
+538,Lichtenberg,14646,Valid,H6,4000.0,Fell,1973.0,-26.15,26.18333,"(-26.15, 26.18333)",South Africa,Africa
+539,Lillaverke,14650,Valid,H5,6862.0,Fell,1930.0,56.65,15.86667,"(56.65, 15.86667)",Sweden,Europe
+540,Limerick,14652,Valid,H5,50000.0,Fell,1813.0,52.56667,-8.78333,"(52.56667, -8.78333)",Ireland,Europe
+541,Linum,14655,Valid,L6,1862.0,Fell,1854.0,52.75,12.9,"(52.75, 12.9)",Germany,Europe
+542,Lishui,14659,Valid,L5,498.0,Fell,1978.0,31.63333,118.98333,"(31.63333, 118.98333)",China,Asia
+543,Lissa,14661,Valid,L6,12800.0,Fell,1808.0,50.2,14.85,"(50.2, 14.85)",Czechia,Europe
+544,Little Piney,14664,Valid,L5,491.0,Fell,1839.0,37.91667,-92.08333,"(37.91667, -92.08333)",United States,North America
+545,Lixna,14670,Valid,H4,5213.0,Fell,1820.0,56.0,26.43333,"(56.0, 26.43333)",Latvia,Europe
+546,Lodran,14675,Valid,Lodranite,1000.0,Fell,1868.0,29.53333,71.8,"(29.53333, 71.8)",Pakistan,Asia
+547,Lohawat,14678,Valid,Howardite,40000.0,Fell,1994.0,26.96556,72.62667,"(26.96556, 72.62667)",India,Asia
+548,Lorton,52843,Valid,L6,329.7,Fell,2010.0,38.70066,-77.21163,"(38.70066, -77.21163)",United States,North America
+549,Los Martinez,14708,Valid,L6,25.0,Fell,1894.0,38.0,-0.83333,"(38.0, -0.83333)",Spain,Europe
+550,Lost City,14711,Valid,H5,17000.0,Fell,1970.0,36.00833,-95.15,"(36.00833, -95.15)",United States,North America
+551,Louisville,14716,Valid,L6,1300.0,Fell,1977.0,38.25,-85.75,"(38.25, -85.75)",United States,North America
+552,Łowicz,14718,Valid,Mesosiderite-A3,59000.0,Fell,1935.0,52.0,19.91667,"(52.0, 19.91667)",Poland,Europe
+553,Lua,14721,Valid,L5,9241.0,Fell,1926.0,24.95,75.15,"(24.95, 75.15)",India,Asia
+554,Lucé,14724,Valid,L6,3500.0,Fell,1768.0,47.85,0.48333,"(47.85, 0.48333)",France,Europe
+555,Lumpkin,14753,Valid,L6,340.0,Fell,1869.0,32.03333,-84.76667,"(32.03333, -84.76667)",United States,North America
+556,Lunan,14754,Valid,H6,2520.0,Fell,1980.0,24.8,103.3,"(24.8, 103.3)",China,Asia
+557,Lundsgård,14755,Valid,L6,11000.0,Fell,1889.0,56.21667,13.03333,"(56.21667, 13.03333)",Sweden,Europe
+558,Luotolax,14756,Valid,Howardite,885.0,Fell,1813.0,61.2,27.7,"(61.2, 27.7)",Finland,Europe
+559,Luponnas,14757,Valid,H3-5,14000.0,Fell,1753.0,46.21667,5.0,"(46.21667, 5.0)",France,Europe
+560,Lusaka,14759,Valid,Unknown,,Fell,1951.0,-7.21667,29.43333,"(-7.21667, 29.43333)","Congo, The Democratic Republic of the",Africa
+561,Mabwe-Khoywa,14764,Valid,L5,540.0,Fell,1937.0,19.0,97.0,"(19.0, 97.0)",Myanmar,Asia
+562,Macau,15370,Valid,H5,1500.0,Fell,1836.0,-5.2,-36.66667,"(-5.2, -36.66667)",Brazil,South America
+563,Machinga,15371,Valid,L6,93200.0,Fell,1981.0,-15.21222,35.24222,"(-15.21222, 35.24222)",Malawi,Africa
+564,Macibini,15372,Valid,Eucrite-pmict,1995.0,Fell,1936.0,-28.83333,31.95,"(-28.83333, 31.95)",South Africa,Africa
+565,Madhipura,15379,Valid,L,1000.0,Fell,1950.0,25.91667,86.36667,"(25.91667, 86.36667)",India,Asia
+566,Madiun,15380,Valid,L6,400.0,Fell,1935.0,-7.75,111.53333,"(-7.75, 111.53333)",Indonesia,Asia
+567,Madrid,15382,Valid,L6,400.0,Fell,1896.0,40.41667,-3.71667,"(40.41667, -3.71667)",Spain,Europe
+568,Mafra,15383,Valid,L3-4,600.0,Fell,1941.0,-26.16667,-49.93333,"(-26.16667, -49.93333)",Brazil,South America
+569,Magnesia,15386,Valid,"Iron, IAB-sHL",5000.0,Fell,1899.0,37.86667,27.51667,"(37.86667, 27.51667)",Turkey,Asia
+570,Magombedze,15387,Valid,H3-5,666.6,Fell,1990.0,-19.48333,31.65,"(-19.48333, 31.65)",Zimbabwe,Africa
+571,Mahadevpur,47361,Valid,H4/5,70500.0,Fell,2007.0,27.66667,95.78333,"(27.66667, 95.78333)",India,Asia
+572,Maigatari-Danduma,30751,Valid,H5/6,4629.0,Fell,2004.0,12.83333,9.38333,"(12.83333, 9.38333)",Niger,Africa
+573,Malaga,15393,Valid,OC,150.0,Fell,1933.0,32.21667,-104.0,"(32.21667, -104.0)",United States,North America
+574,Malakal,15394,Valid,L5,2000.0,Fell,1970.0,9.5,31.75,"(9.5, 31.75)",South Sudan,Africa
+575,Malampaka,15395,Valid,H,470.0,Fell,1930.0,-3.13333,33.51667,"(-3.13333, 33.51667)","Tanzania, United Republic of",Africa
+576,Malotas,15397,Valid,H5,,Fell,1931.0,-28.93333,-63.23333,"(-28.93333, -63.23333)",Argentina,South America
+577,Malvern,15400,Valid,Eucrite-pmict,807.0,Fell,1933.0,-29.45,26.76667,"(-29.45, 26.76667)",South Africa,Africa
+578,Mamra Springs,15401,Valid,L6,1000.0,Fell,1927.0,45.21667,62.08333,"(45.21667, 62.08333)",Kazakhstan,Asia
+579,Manbhoom,15402,Valid,LL6,1700.0,Fell,1863.0,23.05,86.7,"(23.05, 86.7)",India,Asia
+580,Manegaon,15403,Valid,Diogenite,50.0,Fell,1843.0,20.96667,76.1,"(20.96667, 76.1)",India,Asia
+581,Mangwendi,15405,Valid,LL6,22300.0,Fell,1934.0,-17.65,31.6,"(-17.65, 31.6)",Zimbabwe,Africa
+582,Manych,15409,Valid,LL3.4,3555.0,Fell,1951.0,45.81667,44.63333,"(45.81667, 44.63333)",Russian Federation,Europe
+583,Mardan,15414,Valid,H5,4500.0,Fell,1948.0,34.23333,72.08333,"(34.23333, 72.08333)",Pakistan,Asia
+584,Maria Linden,15418,Valid,L4,114.0,Fell,1925.0,-30.25,28.483333,"-30.250000, 28.483333",South Africa,Africa
+585,Mariaville,15419,Valid,Iron,340.0,Fell,1898.0,42.71667,-99.38333,"(42.71667, -99.38333)",United States,North America
+586,Maribo,48973,Valid,CM2,25.81,Fell,2009.0,54.76183,11.46745,"(54.76183, 11.46745)",Denmark,Europe
+587,Maridi,15421,Valid,H6,3200.0,Fell,1941.0,4.66667,29.25,"(4.66667, 29.25)",South Sudan,Africa
+588,Marilia,15422,Valid,H4,2500.0,Fell,1971.0,-22.25,-49.93333,"(-22.25, -49.93333)",Brazil,South America
+589,Marion (Iowa),15424,Valid,L6,28400.0,Fell,1847.0,41.9,-91.6,"(41.9, -91.6)",United States,North America
+590,Marjalahti,15426,Valid,"Pallasite, PMG",45000.0,Fell,1902.0,61.5,30.5,"(61.5, 30.5)",Russian Federation,Europe
+591,Marmande,15429,Valid,L5,3000.0,Fell,1848.0,44.5,0.15,"(44.5, 0.15)",France,Europe
+592,Maromandia,15430,Valid,L6,6000.0,Fell,2002.0,-14.2,48.1,"(-14.2, 48.1)",Madagascar,Africa
+593,Maryville,15436,Valid,L6,1443.0,Fell,1983.0,35.8,-84.1,"(35.8, -84.1)",United States,North America
+594,Mascombes,15438,Valid,L6,1000.0,Fell,1836.0,45.36667,1.86667,"(45.36667, 1.86667)",France,Europe
+595,Mason Gully,53653,Valid,H5,24.54,Fell,2010.0,-30.453609466,127.647201538,"-30.453609466, 127.647201538",Australia,Oceania
+596,Mässing,15443,Valid,Howardite,1600.0,Fell,1803.0,48.13333,12.61667,"(48.13333, 12.61667)",Germany,Europe
+597,Mauerkirchen,15446,Valid,L6,19000.0,Fell,1768.0,48.18333,13.13333,"(48.18333, 13.13333)",Austria,Europe
+598,Mauritius,15447,Valid,L6,220.0,Fell,1801.0,-20.0,57.0,"(-20.0, 57.0)",Antarctica,Antarctica
+599,Mayo Belwa,15451,Valid,Aubrite,4850.0,Fell,1974.0,8.96667,12.08333,"(8.96667, 12.08333)",Nigeria,Africa
+600,Mazapil,15453,Valid,"Iron, IAB-sLL",4000.0,Fell,1885.0,24.68333,-101.68333,"(24.68333, -101.68333)",Mexico,North America
+601,Maziba,15454,Valid,L6,4975.0,Fell,1942.0,-1.21667,30.0,"(-1.21667, 30.0)",Uganda,Africa
+602,Mbale,15455,Valid,L5/6,150000.0,Fell,1992.0,1.06667,34.16667,"(1.06667, 34.16667)",Uganda,Africa
+603,Medanitos,15467,Valid,Eucrite-cm,31.0,Fell,1953.0,-27.25,-67.5,"(-27.25, -67.5)",Argentina,South America
+604,Meerut,15469,Valid,H5,22.0,Fell,1861.0,29.01667,77.8,"(29.01667, 77.8)",India,Asia
+605,Meester-Cornelis,15470,Valid,H5,24750.0,Fell,1915.0,-6.23333,106.88333,"(-6.23333, 106.88333)",Indonesia,Asia
+606,Menow,15485,Valid,H4,10500.0,Fell,1862.0,53.18333,13.15,"(53.18333, 13.15)",Germany,Europe
+607,Menziswyl,15486,Valid,L5,28.9,Fell,1903.0,46.81867,7.21817,"(46.81867, 7.21817)",Switzerland,Europe
+608,Mern,15489,Valid,L6,4000.0,Fell,1878.0,55.05,12.06667,"(55.05, 12.06667)",Denmark,Europe
+609,Meru,15491,Valid,LL6,6000.0,Fell,1945.0,0.0,37.66667,"(0.0, 37.66667)",Kenya,Africa
+610,Merua,15492,Valid,H5,71400.0,Fell,1920.0,25.48333,81.98333,"(25.48333, 81.98333)",India,Asia
+611,Messina,15495,Valid,L5,2405.0,Fell,1955.0,38.18333,15.56667,"(38.18333, 15.56667)",Italy,Europe
+612,Meuselbach,16626,Valid,L6,870.0,Fell,1897.0,50.58333,11.1,"(50.58333, 11.1)",Germany,Europe
+613,Mezel,16627,Valid,L6,1300.0,Fell,1949.0,45.76667,3.25,"(45.76667, 3.25)",France,Europe
+614,Mezö-Madaras,16628,Valid,L3.7,22700.0,Fell,1852.0,46.5,25.73333,"(46.5, 25.73333)",Romania,Europe
+615,Mhow,16629,Valid,L6,350.0,Fell,1827.0,25.9,83.61667,"(25.9, 83.61667)",India,Asia
+616,Mianchi,16631,Valid,H5,1100.0,Fell,1980.0,34.8,111.7,"(34.8, 111.7)",China,Asia
+617,Middlesbrough,16632,Valid,L6,1600.0,Fell,1881.0,54.56667,-1.16667,"(54.56667, -1.16667)",United Kingdom,Europe
+618,Mifflin,52090,Valid,L5,3584.0,Fell,2010.0,42.9075,-90.36556,"(42.9075, -90.36556)",United States,North America
+619,Mighei,16634,Valid,CM2,8000.0,Fell,1889.0,48.06667,30.96667,"(48.06667, 30.96667)",Ukraine,Europe
+620,Mihonoseki,16635,Valid,L6,6380.0,Fell,1992.0,35.56833,133.22,"(35.56833, 133.22)",Japan,Asia
+621,Mike,16636,Valid,L6,224.2,Fell,1944.0,46.23333,17.53333,"(46.23333, 17.53333)",Hungary,Europe
+622,Milena,16640,Valid,L6,10000.0,Fell,1842.0,46.18333,16.1,"(46.18333, 16.1)",Croatia,Europe
+623,Millbillillie,16643,Valid,Eucrite-mmict,330000.0,Fell,1960.0,-26.45,120.36667,"(-26.45, 120.36667)",Australia,Oceania
+624,Miller (Arkansas),16645,Valid,H5,16700.0,Fell,1930.0,35.4,-92.05,"(35.4, -92.05)",United States,North America
+625,Minamino,16692,Valid,L,1040.0,Fell,1632.0,35.07833,136.93333,"(35.07833, 136.93333)",Japan,Asia
+626,Mineo,16696,Valid,Pallasite,42.0,Fell,1826.0,37.28333,14.7,"(37.28333, 14.7)",Italy,Europe
+627,Min-Fan-Zhun,16697,Valid,LL6,5500.0,Fell,1952.0,32.33333,120.66667,"(32.33333, 120.66667)",China,Asia
+628,Minnichhof,16700,Valid,OC,550.0,Fell,1905.0,47.7,16.6,"(47.7, 16.6)",Hungary,Europe
+629,Mirzapur,16701,Valid,L5,8510.0,Fell,1910.0,25.68333,83.25,"(25.68333, 83.25)",India,Asia
+630,Misshof,16703,Valid,H5,5800.0,Fell,1890.0,56.66667,23.0,"(56.66667, 23.0)",Latvia,Europe
+631,Mjelleim,16707,Valid,H,100.7,Fell,1898.0,61.73333,5.93333,"(61.73333, 5.93333)",Norway,Europe
+632,Mocs,16709,Valid,L5-6,300000.0,Fell,1882.0,46.8,24.03333,"(46.8, 24.03333)",Romania,Europe
+633,Modoc (1905),16711,Valid,L6,35000.0,Fell,1905.0,38.5,-101.1,"(38.5, -101.1)",United States,North America
+634,Mokoia,16713,Valid,CV3,4500.0,Fell,1908.0,-39.63333,174.4,"(-39.63333, 174.4)",New Zealand,Oceania
+635,Molina,16715,Valid,H5,144000.0,Fell,1858.0,38.11667,-1.16667,"(38.11667, -1.16667)",Spain,Europe
+636,Molteno,16717,Valid,Howardite,150.0,Fell,1953.0,-31.25,26.46667,"(-31.25, 26.46667)",South Africa,Africa
+637,Monahans (1998),16719,Valid,H5,2587.0,Fell,1998.0,31.60833,-102.85833,"(31.60833, -102.85833)",United States,North America
+638,Monroe,16720,Valid,H4,8600.0,Fell,1849.0,35.25,-80.5,"(35.25, -80.5)",United States,North America
+639,Monte das Fortes,16725,Valid,L5,4885.0,Fell,1950.0,38.01667,-8.25,"(38.01667, -8.25)",Portugal,Europe
+640,Monte Milone,16726,Valid,L5,3130.0,Fell,1846.0,43.26667,13.35,"(43.26667, 13.35)",Italy,Europe
+641,Montferré,16727,Valid,H5,149000.0,Fell,1923.0,43.39056,1.9625,"(43.39056, 1.9625)",France,Europe
+642,Montlivault,16729,Valid,L6,500.0,Fell,1838.0,47.63333,1.58333,"(47.63333, 1.58333)",France,Europe
+643,Monze,16733,Valid,L6,,Fell,1950.0,-15.96667,27.35,"(-15.96667, 27.35)",Zambia,Africa
+644,Moore County,16736,Valid,Eucrite-cm,1880.0,Fell,1913.0,35.41667,-79.38333,"(35.41667, -79.38333)",United States,North America
+645,Mooresfort,16737,Valid,H5,3520.0,Fell,1810.0,52.45,-8.33333,"(52.45, -8.33333)",Ireland,Europe
+646,Moorleah,16738,Valid,L6,8887.5,Fell,1930.0,-40.975,145.6,"(-40.975, 145.6)",Australia,Oceania
+647,Moradabad,16740,Valid,L6,70.0,Fell,1808.0,28.78333,78.83333,"(28.78333, 78.83333)",India,Asia
+648,Morávka,16742,Valid,H5,633.0,Fell,2000.0,49.6,18.53333,"(49.6, 18.53333)",Czechia,Europe
+649,Mornans,16747,Valid,H5,1300.0,Fell,1875.0,44.6,5.13333,"(44.6, 5.13333)",France,Europe
+650,Moss,36592,Valid,CO3.6,3763.0,Fell,2006.0,59.43333,10.7,"(59.43333, 10.7)",Norway,Europe
+651,Moti-ka-nagla,16759,Valid,H6,1500.0,Fell,1868.0,26.83333,77.33333,"(26.83333, 77.33333)",India,Asia
+652,Motta di Conti,16762,Valid,H4,9150.0,Fell,1868.0,45.2,8.5,"(45.2, 8.5)",Italy,Europe
+653,Mount Browne,16766,Valid,H6,11300.0,Fell,1902.0,-29.8,141.7,"(-29.8, 141.7)",Australia,Oceania
+654,Mount Tazerzait,16804,Valid,L5,110000.0,Fell,1991.0,18.7,4.8,"(18.7, 4.8)",Niger,Africa
+655,Mount Vaisi,16805,Valid,Stone-uncl,17000.0,Fell,1637.0,44.08333,6.86667,"(44.08333, 6.86667)",France,Europe
+656,Mtola,16820,Valid,Stone-uncl,1100.0,Fell,1944.0,-11.5,33.5,"(-11.5, 33.5)",Malawi,Africa
+657,Muddoor,16841,Valid,L5,4400.0,Fell,1865.0,12.63333,77.01667,"(12.63333, 77.01667)",India,Asia
+658,Mulletiwu,16851,Valid,L,25.5,Fell,1795.0,9.33333,80.83333,"(9.33333, 80.83333)",Sri Lanka,Asia
+659,Muraid,16874,Valid,L6,4703.0,Fell,1924.0,24.5,90.21667,"(24.5, 90.21667)",Bangladesh,Asia
+660,Murchison,16875,Valid,CM2,100000.0,Fell,1969.0,-36.61667,145.2,"(-36.61667, 145.2)",Australia,Oceania
+661,Murray,16882,Valid,CM2,12600.0,Fell,1950.0,36.6,-88.1,"(36.6, -88.1)",United States,North America
+662,Muzaffarpur,16885,Valid,"Iron, IAB-sHL",1245.0,Fell,1964.0,26.13333,85.53333,"(26.13333, 85.53333)",India,Asia
+663,Myhee Caunta,16887,Valid,OC,,Fell,1842.0,23.05,72.63333,"(23.05, 72.63333)",India,Asia
+664,Nadiabondi,16889,Valid,H5,8165.0,Fell,1956.0,12.0,1.0,"(12.0, 1.0)",Burkina Faso,Africa
+665,Nagai,16890,Valid,L6,1810.0,Fell,1922.0,38.12167,140.06167,"(38.12167, 140.06167)",Japan,Asia
+666,Nagaria,16892,Valid,Eucrite-cm,20.0,Fell,1875.0,26.98333,78.21667,"(26.98333, 78.21667)",India,Asia
+667,Nagy-Borové,16893,Valid,L5,6100.0,Fell,1895.0,49.16667,19.5,"(49.16667, 19.5)",Slovakia,Europe
+668,Nakhla,16898,Valid,Martian (nakhlite),10000.0,Fell,1911.0,31.31667,30.35,"(31.31667, 30.35)",Egypt,Africa
+669,Nakhon Pathom,16899,Valid,L6,23200.0,Fell,1923.0,13.73333,100.08333,"(13.73333, 100.08333)",Thailand,Asia
+670,Nammianthal,16902,Valid,H5,4500.0,Fell,1886.0,12.28333,79.2,"(12.28333, 79.2)",India,Asia
+671,Nan Yang Pao,16903,Valid,L6,52900.0,Fell,1917.0,35.66667,103.5,"(35.66667, 103.5)",China,Asia
+672,Nanjemoy,16904,Valid,H6,7500.0,Fell,1825.0,38.41667,-77.16667,"(38.41667, -77.16667)",United States,North America
+673,Nantong,16907,Valid,H6,529.0,Fell,1984.0,32.11667,121.8,"(32.11667, 121.8)",China,Asia
+674,Naoki,16908,Valid,H6,17000.0,Fell,1928.0,19.25,77.0,"(19.25, 77.0)",India,Asia
+675,Naragh,16909,Valid,H6,2700.0,Fell,1974.0,33.75,51.5,"(33.75, 51.5)","Iran, Islamic Republic of",Asia
+676,Narellan,16912,Valid,L6,367.5,Fell,1928.0,-34.05,150.68889,"(-34.05, 150.68889)",Australia,Oceania
+677,Narni,16914,Valid,Stone-uncl,,Fell,920.0,42.51667,12.51667,"(42.51667, 12.51667)",Italy,Europe
+678,Nassirah,16922,Valid,H4,347.0,Fell,1936.0,-21.73333,165.9,"(-21.73333, 165.9)",France,Europe
+679,Natal,16923,Valid,Stone-uncl,1.4,Fell,1973.0,-30.57249771,30.57249771,"-30.57249771, 30.57249771",South Africa,Africa
+680,Nawapali,16927,Valid,CM2,105.0,Fell,1890.0,21.25,83.66667,"(21.25, 83.66667)",India,Asia
+681,Neagari,16934,Valid,L6,420.0,Fell,1995.0,36.44917,136.46528,"(36.44917, 136.46528)",Japan,Asia
+682,Nedagolla,16935,Valid,"Iron, ungrouped",4500.0,Fell,1870.0,18.68333,83.48333,"(18.68333, 83.48333)",India,Asia
+683,Nejo,16941,Valid,L6,2450.0,Fell,1970.0,9.5,35.33333,"(9.5, 35.33333)",Ethiopia,Africa
+684,Nerft,16945,Valid,L6,10250.0,Fell,1864.0,56.5,21.5,"(56.5, 21.5)",Latvia,Europe
+685,Neuschwanstein,16950,Valid,EL6,6189.0,Fell,2002.0,47.525,10.80833,"(47.525, 10.80833)",Germany,Europe
+686,New Concord,16953,Valid,L6,230000.0,Fell,1860.0,40.0,-81.76667,"(40.0, -81.76667)",United States,North America
+687,New Halfa,16954,Valid,L4,12000.0,Fell,1994.0,15.36667,35.68333,"(15.36667, 35.68333)",Sudan,Africa
+688,New Orleans,16960,Valid,H5,19256.0,Fell,2003.0,29.94718,-90.10976,"(29.94718, -90.10976)",United States,North America
+689,Ngawi,16966,Valid,LL3.6,1393.0,Fell,1883.0,-7.45,111.41667,"(-7.45, 111.41667)",Indonesia,Asia
+690,N'Goureyma,16968,Valid,"Iron, ungrouped",37500.0,Fell,1900.0,13.85,-4.38333,"(13.85, -4.38333)",Mali,Africa
+691,Nicorps,16970,Valid,Stone-uncl,,Fell,1750.0,49.03333,-1.43333,"(49.03333, -1.43333)",France,Europe
+692,Niger (L6),16974,Valid,L6,3.3,Fell,1967.0,13.71455,9.15856,"13.71455, 9.15856",Niger,Africa
+693,Niger (LL6),16975,Valid,LL6,3.3,Fell,1967.0,13.71455,9.15856,"13.71455, 9.15856",Niger,Africa
+694,Nikolaevka,16976,Valid,H4,3996.0,Fell,1935.0,52.45,78.63333,"(52.45, 78.63333)",Kazakhstan,Asia
+695,Nikolskoe,16977,Valid,L4,6000.0,Fell,1954.0,56.11667,37.33333,"(56.11667, 37.33333)",Russian Federation,Europe
+696,Ningbo,16980,Valid,"Iron, IVA",14250.0,Fell,1975.0,29.86667,121.48333,"(29.86667, 121.48333)",China,Asia
+697,Ningqiang,16981,Valid,C3-ung,4610.0,Fell,1983.0,32.925,105.90667,"(32.925, 105.90667)",China,Asia
+698,Nio,16982,Valid,H3-4,467.0,Fell,1897.0,34.2,131.56667,"(34.2, 131.56667)",Japan,Asia
+699,N'Kandhla,16983,Valid,"Iron, IID",17200.0,Fell,1912.0,-28.56667,30.7,"(-28.56667, 30.7)",South Africa,Africa
+700,Nobleborough,16984,Valid,Eucrite-pmict,2300.0,Fell,1823.0,44.08333,-69.48333,"(44.08333, -69.48333)",United States,North America
+701,Noblesville,16985,Valid,H4-6,483.7,Fell,1991.0,40.08528,-86.055,"(40.08528, -86.055)",United States,North America
+702,Nogata,16988,Valid,L6,472.0,Fell,860.0,33.725,130.75,"(33.725, 130.75)",Japan,Asia
+703,Nogoya,16989,Valid,CM2,4000.0,Fell,1879.0,-32.36667,-59.83333,"(-32.36667, -59.83333)",Argentina,South America
+704,Norfork,16994,Valid,"Iron, IIIAB",1050.0,Fell,1918.0,36.21667,-92.26667,"(36.21667, -92.26667)",United States,North America
+705,Norton County,17922,Valid,Aubrite,1100000.0,Fell,1948.0,39.68333,-99.86667,"(39.68333, -99.86667)",United States,North America
+706,Noventa Vicentina,17930,Valid,H4,177.0,Fell,1971.0,45.29167,11.52722,"(45.29167, 11.52722)",Italy,Europe
+707,Novo-Urei,17933,Valid,Ureilite,1900.0,Fell,1886.0,54.81667,46.0,"(54.81667, 46.0)",Russian Federation,Europe
+708,Novy-Ergi,17934,Valid,Stone-uncl,,Fell,1662.0,58.55,31.33333,"(58.55, 31.33333)",Russian Federation,Europe
+709,Novy-Projekt,17935,Valid,OC,1001.0,Fell,1908.0,56.0,22.0,"(56.0, 22.0)",Lithuania,Europe
+710,Noyan-Bogdo,17936,Valid,L6,250.0,Fell,1933.0,42.91667,102.46667,"(42.91667, 102.46667)",Mongolia,Asia
+711,Nuevo Mercurio,17938,Valid,H5,50000.0,Fell,1978.0,24.3,-102.13333,"(24.3, -102.13333)",Mexico,North America
+712,Nulles,17959,Valid,H6,5000.0,Fell,1851.0,41.63333,0.75,"(41.63333, 0.75)",Spain,Europe
+713,Numakai,17960,Valid,H4,363.0,Fell,1925.0,43.33333,141.86667,"(43.33333, 141.86667)",Japan,Asia
+714,Nyaung,17969,Valid,"Iron, IIIAB",737.6,Fell,1939.0,21.20833,94.91667,"(21.20833, 94.91667)",Myanmar,Asia
+715,Nyirábrany,17970,Valid,LL5,1100.0,Fell,1914.0,47.55,22.025,"(47.55, 22.025)",Hungary,Europe
+716,Ochansk,17979,Valid,H4,500000.0,Fell,1887.0,57.78333,55.26667,"(57.78333, 55.26667)",Russian Federation,Europe
+717,Oesede,17988,Valid,H5,1400.0,Fell,1927.0,52.28333,8.05,"(52.28333, 8.05)",Germany,Europe
+718,Oesel,17989,Valid,L6,6000.0,Fell,1855.0,58.5,23.0,"(58.5, 23.0)",Estonia,Europe
+719,Ofehértó,17990,Valid,L6,3750.0,Fell,1900.0,47.88333,22.03333,"(47.88333, 22.03333)",Hungary,Europe
+720,Ogi,17994,Valid,H6,14360.0,Fell,1741.0,33.28333,130.2,"(33.28333, 130.2)",Japan,Asia
+721,Ohaba,17995,Valid,H5,16250.0,Fell,1857.0,46.06667,23.58333,"(46.06667, 23.58333)",Romania,Europe
+722,Ohuma,17996,Valid,L5,7700.0,Fell,1963.0,6.75,8.5,"(6.75, 8.5)",Nigeria,Africa
+723,Ojuelos Altos,17997,Valid,L6,5850.0,Fell,1926.0,38.18333,-5.4,"(38.18333, -5.4)",Spain,Europe
+724,Okabe,17998,Valid,H5,194.0,Fell,1958.0,36.18333,139.21667,"(36.18333, 139.21667)",Japan,Asia
+725,Okano,18000,Valid,"Iron, IIAB",4742.0,Fell,1904.0,35.08333,135.2,"(35.08333, 135.2)",Japan,Asia
+726,Okniny,18002,Valid,LL6,12000.0,Fell,1834.0,50.83333,25.5,"(50.83333, 25.5)",Ukraine,Europe
+727,Oldenburg (1930),18009,Valid,L6,16570.0,Fell,1930.0,52.95,8.16667,"(52.95, 8.16667)",Germany,Europe
+728,Oliva-Gandia,18012,Valid,Stone-uncl,,Fell,1519.0,39.0,-0.03333,"(39.0, -0.03333)",Spain,Europe
+729,Olivenza,18013,Valid,LL5,150000.0,Fell,1924.0,38.71667,-7.06667,"(38.71667, -7.06667)",Spain,Europe
+730,Olmedilla de Alarcón,18015,Valid,H5,40000.0,Fell,1929.0,39.56667,-2.1,"(39.56667, -2.1)",Spain,Europe
+731,Omolon,18019,Valid,"Pallasite, PMG",250000.0,Fell,1981.0,64.02,161.80833,"(64.02, 161.80833)",Russian Federation,Europe
+732,Orgueil,18026,Valid,CI1,14000.0,Fell,1864.0,43.88333,1.38333,"(43.88333, 1.38333)",France,Europe
+733,Orlando,34489,Valid,Eucrite,180.0,Fell,2004.0,28.5475,-81.36222,"(28.5475, -81.36222)",United States,North America
+734,Ornans,18030,Valid,CO3.4,6000.0,Fell,1868.0,47.11667,6.15,"(47.11667, 6.15)",France,Europe
+735,Ortenau,18033,Valid,Stone-uncl,4500.0,Fell,1671.0,48.5,8.0,"(48.5, 8.0)",Germany,Europe
+736,Orvinio,18034,Valid,H6,3400.0,Fell,1872.0,42.13333,12.93333,"(42.13333, 12.93333)",Italy,Europe
+737,Oterøy,18042,Valid,L6,246.0,Fell,1928.0,58.88333,9.4,"(58.88333, 9.4)",Norway,Europe
+738,Otomi,18045,Valid,H,6510.0,Fell,1867.0,38.4,140.35,"(38.4, 140.35)",Japan,Asia
+739,Ottawa,18046,Valid,LL6,840.0,Fell,1896.0,38.6,-95.21667,"(38.6, -95.21667)",United States,North America
+740,Ouadangou,56729,Valid,L5,4440.0,Fell,2003.0,12.9,0.08,"(12.9, 0.08)",Burkina Faso,Africa
+741,Oued el Hadjar,18050,Valid,LL6,1215.5,Fell,1986.0,30.18,-6.57717,"(30.18, -6.57717)",Morocco,Africa
+742,Oum Dreyga,31282,Valid,H3-5,17000.0,Fell,2003.0,24.3,-13.1,"(24.3, -13.1)",Morocco,Africa
+743,Ourique,18052,Valid,H4,20000.0,Fell,1998.0,37.60833,-8.28,"(37.60833, -8.28)",Portugal,Europe
+744,Ovambo,18055,Valid,L6,121.5,Fell,1900.0,-18.0,16.0,"(-18.0, 16.0)",Namibia,Africa
+745,Oviedo,18058,Valid,H5,205.0,Fell,1856.0,43.4,-5.86667,"(43.4, -5.86667)",Spain,Europe
+746,Owrucz,18062,Valid,OC,,Fell,1775.0,51.33333,28.83333,"(51.33333, 28.83333)",Ukraine,Europe
+747,Pacula,18068,Valid,L6,3400.0,Fell,1881.0,21.05,-99.3,"(21.05, -99.3)",Mexico,North America
+748,Padvarninkai,18069,Valid,Eucrite-mmict,3858.0,Fell,1929.0,55.66667,25.0,"(55.66667, 25.0)",Lithuania,Europe
+749,Paitan,18072,Valid,H6,515.0,Fell,1910.0,17.74333,120.45583,"(17.74333, 120.45583)",Philippines,Asia
+750,Palahatchie,18073,Valid,OC,,Fell,1910.0,32.31667,-89.71667,"(32.31667, -89.71667)",United States,North America
+751,Palca de Aparzo,18074,Valid,L5,1430.0,Fell,1988.0,-23.11667,-65.1,"(-23.11667, -65.1)",Argentina,South America
+752,Palinshih,18077,Valid,Iron,18000.0,Fell,1914.0,43.48333,118.61667,"(43.48333, 118.61667)",China,Asia
+753,Palmyra,18079,Valid,L3,135.0,Fell,1926.0,39.8,-91.5,"(39.8, -91.5)",United States,North America
+754,Palolo Valley,18082,Valid,H5,682.0,Fell,1949.0,21.3,-157.78333,"(21.3, -157.78333)",United States,North America
+755,Pampanga,18093,Valid,L5,10500.0,Fell,1859.0,15.08333,120.7,"(15.08333, 120.7)",Philippines,Asia
+756,Pantar,18098,Valid,H5,2130.0,Fell,1938.0,8.06667,124.28333,"(8.06667, 124.28333)",Philippines,Asia
+757,Paragould,18101,Valid,LL5,408000.0,Fell,1930.0,36.06667,-90.5,"(36.06667, -90.5)",United States,North America
+758,Parambu,18102,Valid,LL5,2000.0,Fell,1967.0,-6.23333,-40.7,"(-6.23333, -40.7)",Brazil,South America
+759,Paranaiba,18103,Valid,L6,100000.0,Fell,1956.0,-19.13333,-51.66667,"(-19.13333, -51.66667)",Brazil,South America
+760,Park Forest,18106,Valid,L5,18000.0,Fell,2003.0,41.48472,-87.67917,"(41.48472, -87.67917)",United States,North America
+761,Parnallee,18108,Valid,LL3.6,77600.0,Fell,1857.0,9.23333,78.35,"(9.23333, 78.35)",India,Asia
+762,Parsa,18109,Valid,EH3,800.0,Fell,1942.0,26.2,85.4,"(26.2, 85.4)",India,Asia
+763,Pasamonte,18110,Valid,Eucrite-pmict,5100.0,Fell,1933.0,36.21667,-103.4,"(36.21667, -103.4)",United States,North America
+764,Patora,18112,Valid,H6,4375.0,Fell,1969.0,20.93694,82.05,"(20.93694, 82.05)",India,Asia
+765,Patrimonio,18116,Valid,L6,2121.0,Fell,1950.0,-19.53333,-48.56667,"(-19.53333, -48.56667)",Brazil,South America
+766,Patti,18118,Valid,Iron,12.0,Fell,1922.0,38.13333,14.96667,"(38.13333, 14.96667)",Italy,Europe
+767,Patwar,18171,Valid,Mesosiderite-A1,37350.0,Fell,1935.0,23.15,91.18333,"(23.15, 91.18333)",Bangladesh,Asia
+768,Pavel,18173,Valid,H5,2968.0,Fell,1966.0,43.46667,25.51667,"(43.46667, 25.51667)",Bulgaria,Europe
+769,Pavlodar (stone),18175,Valid,H5,142.5,Fell,1938.0,52.3,77.03333,"(52.3, 77.03333)",Kazakhstan,Asia
+770,Pavlograd,18176,Valid,L6,40000.0,Fell,1826.0,48.53333,35.98333,"(48.53333, 35.98333)",Ukraine,Europe
+771,Pavlovka,18177,Valid,Howardite,2000.0,Fell,1882.0,52.03333,43.0,"(52.03333, 43.0)",Russian Federation,Europe
+772,Pê,18179,Valid,L6,,Fell,1989.0,11.33367,-3.54217,"(11.33367, -3.54217)",Burkina Faso,Africa
+773,Peace River,18180,Valid,L6,45760.0,Fell,1963.0,56.13333,-117.93333,"(56.13333, -117.93333)",Canada,North America
+774,Peckelsheim,18181,Valid,Diogenite-pm,117.8,Fell,1953.0,51.66667,9.25,"(51.66667, 9.25)",Germany,Europe
+775,Peekskill,18782,Valid,H6,12570.0,Fell,1992.0,41.28333,-73.91667,"(41.28333, -73.91667)",United States,North America
+776,Peña Blanca Spring,18786,Valid,Aubrite,70000.0,Fell,1946.0,30.125,-103.11667,"(30.125, -103.11667)",United States,North America
+777,Peramiho,18792,Valid,Eucrite-mmict,165.0,Fell,1899.0,-10.66667,35.5,"(-10.66667, 35.5)","Tanzania, United Republic of",Africa
+778,Perpeti,18793,Valid,L6,23474.0,Fell,1935.0,23.325,91.0,"(23.325, 91.0)",Bangladesh,Asia
+779,Perth,18797,Valid,LL5,2.0,Fell,1830.0,56.4,-3.43333,"(56.4, -3.43333)",United Kingdom,Europe
+780,Pervomaisky,18798,Valid,L6,66000.0,Fell,1933.0,56.63333,39.43333,"(56.63333, 39.43333)",Russian Federation,Europe
+781,Pesyanoe,18799,Valid,Aubrite,3393.0,Fell,1933.0,55.5,66.08333,"(55.5, 66.08333)",Russian Federation,Europe
+782,Pétèlkolé,18800,Valid,H5,189.0,Fell,1995.0,14.052,0.42,"(14.052, 0.42)",Niger,Africa
+783,Petersburg,18801,Valid,Eucrite-pmict,1800.0,Fell,1855.0,35.3,-86.63333,"(35.3, -86.63333)",United States,North America
+784,Pettiswood,18804,Valid,Stone-uncl,,Fell,1779.0,53.53333,-7.33333,"(53.53333, -7.33333)",Ireland,Europe
+785,Phillips County (stone),18808,Valid,L6,57900.0,Fell,1901.0,40.0,-99.25,"(40.0, -99.25)",United States,North America
+786,Phu Hong,18809,Valid,H4,500.0,Fell,1887.0,11.25,108.58333,"(11.25, 108.58333)",Viet Nam,Asia
+787,Phum Sambo,18811,Valid,H4,7800.0,Fell,1933.0,12.0,105.48333,"(12.0, 105.48333)",Cambodia,Asia
+788,Phuoc-Binh,18812,Valid,L5,11000.0,Fell,1941.0,15.71667,108.1,"(15.71667, 108.1)",Viet Nam,Asia
+789,Piancaldoli,18813,Valid,LL3.4,13.1,Fell,1968.0,44.24417,11.50222,"(44.24417, 11.50222)",Italy,Europe
+790,Picote,18816,Valid,Stone-uncl,,Fell,1843.0,41.36667,-6.23333,"(41.36667, -6.23333)",Spain,Europe
+791,Pillistfer,18822,Valid,EL6,23250.0,Fell,1863.0,58.66667,25.73333,"(58.66667, 25.73333)",Estonia,Europe
+792,Piplia Kalan,18831,Valid,Eucrite-mmict,42000.0,Fell,1996.0,26.03472,73.94167,"(26.03472, 73.94167)",India,Asia
+793,Piquetberg,18832,Valid,H,37.0,Fell,1881.0,-32.86667,18.71667,"(-32.86667, 18.71667)",South Africa,Africa
+794,Pirgunje,18834,Valid,L6,842.0,Fell,1882.0,25.8,88.45,"(25.8, 88.45)",Bangladesh,Asia
+795,Pirthalla,18835,Valid,H6,1161.0,Fell,1884.0,29.58333,76.0,"(29.58333, 76.0)",India,Asia
+796,Pitts,18837,Valid,"Iron, IAB-ung",3760.0,Fell,1921.0,31.95,-83.51667,"(31.95, -83.51667)",United States,North America
+797,Plantersville,18846,Valid,H6,2085.0,Fell,1930.0,30.7,-96.11667,"(30.7, -96.11667)",United States,North America
+798,Pleşcoi,51706,Valid,L5-6,6913.0,Fell,2008.0,45.275,26.70972,"(45.275, 26.70972)",Romania,Europe
+799,Ploschkovitz,18849,Valid,L5,39.0,Fell,1723.0,50.53333,14.11667,"(50.53333, 14.11667)",Czechia,Europe
+800,Pnompehn,18851,Valid,L6,96.0,Fell,1868.0,11.58333,104.91667,"(11.58333, 104.91667)",Cambodia,Asia
+801,Pohlitz,18853,Valid,L5,3000.0,Fell,1819.0,50.93333,12.13333,"(50.93333, 12.13333)",Germany,Europe
+802,Pokhra,18858,Valid,H5,350.0,Fell,1866.0,26.71667,82.66667,"(26.71667, 82.66667)",India,Asia
+803,Pollen,18860,Valid,CM2,253.6,Fell,1942.0,66.34833,14.015,"(66.34833, 14.015)",Norway,Europe
+804,Pontlyfni,18865,Valid,Winonaite,157.0,Fell,1931.0,53.03639,-4.31944,"(53.03639, -4.31944)",United Kingdom,Europe
+805,Portales Valley,18874,Valid,H6,71400.0,Fell,1998.0,34.175,-103.295,"(34.175, -103.295)",United States,North America
+806,Portugal,18876,Valid,Stone-uncl,4500.0,Fell,1796.0,38.5,-8.0,"(38.5, -8.0)",Portugal,Europe
+807,Po-wang Chen,18879,Valid,LL,665.0,Fell,1933.0,31.41667,118.5,"(31.41667, 118.5)",China,Asia
+808,Prambachkirchen,18883,Valid,L6,2125.0,Fell,1932.0,48.3025,13.94083,"(48.3025, 13.94083)",Austria,Europe
+809,Pribram,18887,Valid,H5,5555.0,Fell,1959.0,49.66667,14.03333,"(49.66667, 14.03333)",Czechia,Europe
+810,Pricetown,18888,Valid,L6,900.0,Fell,1893.0,39.11667,-83.85,"(39.11667, -83.85)",United States,North America
+811,Puerto Lápice,45984,Valid,Eucrite-br,500.0,Fell,2007.0,39.35,-3.51667,"(39.35, -3.51667)",Spain,Europe
+812,Pulsora,18899,Valid,H5,560.0,Fell,1863.0,23.36667,75.18333,"(23.36667, 75.18333)",India,Asia
+813,Pultusk,18901,Valid,H5,250000.0,Fell,1868.0,52.76667,21.26667,"(52.76667, 21.26667)",Poland,Europe
+814,Punganaru,18902,Valid,Stone-uncl,100.0,Fell,1811.0,13.33333,78.95,"(13.33333, 78.95)",India,Asia
+815,Putinga,18905,Valid,L6,300000.0,Fell,1937.0,-29.03333,-53.05,"(-29.03333, -53.05)",Brazil,South America
+816,Qidong,18907,Valid,L/LL5,1275.0,Fell,1982.0,32.08333,121.5,"(32.08333, 121.5)",China,Asia
+817,Qingzhen,18908,Valid,EH3,2600.0,Fell,1976.0,26.53333,106.46667,"(26.53333, 106.46667)",China,Asia
+818,Queen's Mercy,22357,Valid,H6,7000.0,Fell,1925.0,-30.11667,28.7,"(-30.11667, 28.7)",Lesotho,Africa
+819,Quenggouk,22358,Valid,H4,6045.0,Fell,1857.0,17.76667,95.18333,"(17.76667, 95.18333)",Myanmar,Asia
+820,Quesa,22360,Valid,"Iron, IAB-ung",10750.0,Fell,1898.0,39.0,-0.66667,"(39.0, -0.66667)",Spain,Europe
+821,Quija,22361,Valid,H,17450.0,Fell,1990.0,44.61667,126.13333,"(44.61667, 126.13333)",China,Asia
+822,Quincay,22363,Valid,L6,65.0,Fell,1851.0,46.6,0.25,"(46.6, 0.25)",France,Europe
+823,Raco,22368,Valid,H5,5000.0,Fell,1957.0,-26.66667,-65.45,"(-26.66667, -65.45)",Argentina,South America
+824,Raghunathpura,22371,Valid,"Iron, IIAB",10200.0,Fell,1986.0,27.72528,76.465,"(27.72528, 76.465)",India,Asia
+825,Rahimyar Khan,31302,Valid,L5,67225.0,Fell,1983.0,28.225,70.2,"(28.225, 70.2)",Pakistan,Asia
+826,Rakovka,22376,Valid,L6,9000.0,Fell,1878.0,52.98333,37.03333,"(52.98333, 37.03333)",Russian Federation,Europe
+827,Ramnagar,22384,Valid,L6,3766.0,Fell,1940.0,26.45,82.9,"(26.45, 82.9)",India,Asia
+828,Rampurhat,22385,Valid,LL,100.0,Fell,1916.0,24.16667,87.76667,"(24.16667, 87.76667)",India,Asia
+829,Ramsdorf,22386,Valid,L6,4682.0,Fell,1958.0,51.88333,6.93333,"(51.88333, 6.93333)",Germany,Europe
+830,Ranchapur,22387,Valid,H4,290.4,Fell,1917.0,23.98333,87.08333,"(23.98333, 87.08333)",India,Asia
+831,Rancho de la Presa,22390,Valid,H5,300.0,Fell,1899.0,19.86667,-100.81667,"(19.86667, -100.81667)",Mexico,North America
+832,Rangala,22392,Valid,L6,3224.5,Fell,1937.0,25.38333,72.01667,"(25.38333, 72.01667)",India,Asia
+833,Raoyang,22394,Valid,L6,4910.0,Fell,1919.0,38.2,115.7,"(38.2, 115.7)",China,Asia
+834,Ras Tanura,22395,Valid,H6,6.1,Fell,1961.0,26.66667,50.15,"(26.66667, 50.15)",Saudi Arabia,Asia
+835,Rasgrad,22396,Valid,Stone-uncl,24700.0,Fell,1740.0,43.5,26.53333,"(43.5, 26.53333)",Bulgaria,Europe
+836,Ratyn,22398,Valid,Stone-uncl,910.0,Fell,1880.0,52.2,17.98333,"(52.2, 17.98333)",Poland,Europe
+837,Red Canyon Lake,53502,Valid,H5,18.41,Fell,2007.0,38.13742,-119.75812,"(38.13742, -119.75812)",United States,North America
+838,Reliegos,22584,Valid,L5,17300.0,Fell,1947.0,42.475,-5.33333,"(42.475, -5.33333)",Spain,Europe
+839,Rembang,22585,Valid,"Iron, IVA",10000.0,Fell,1919.0,-6.73333,111.36667,"(-6.73333, 111.36667)",Indonesia,Asia
+840,Renazzo,22586,Valid,CR2,1000.0,Fell,1824.0,44.76667,11.28333,"(44.76667, 11.28333)",Italy,Europe
+841,Renca,22587,Valid,L5,300.0,Fell,1925.0,-32.75,-65.28333,"(-32.75, -65.28333)",Argentina,South America
+842,Renqiu,22589,Valid,L6,355.0,Fell,1916.0,38.66667,116.13333,"(38.66667, 116.13333)",China,Asia
+843,Repeev Khutor,22590,Valid,"Iron, IIF",7000.0,Fell,1933.0,48.6,45.66667,"(48.6, 45.66667)",Russian Federation,Europe
+844,Revelstoke,22592,Valid,CI1,1.0,Fell,1965.0,51.33333,-118.95,"(51.33333, -118.95)",Canada,North America
+845,Rewari,22593,Valid,L6,3332.0,Fell,1929.0,28.2,76.66667,"(28.2, 76.66667)",India,Asia
+846,Rich Mountain,22597,Valid,L6,668.0,Fell,1903.0,35.03333,-83.03333,"(35.03333, -83.03333)",United States,North America
+847,Uzcudun,24140,Valid,L,20000.0,Fell,1948.0,-44.11667,-66.15,"(-44.11667, -66.15)",Argentina,South America
+848,Richardton,22599,Valid,H5,90000.0,Fell,1918.0,46.88333,-102.31667,"(46.88333, -102.31667)",United States,North America
+849,Richland Springs,22602,Valid,OC,1900.0,Fell,1980.0,31.25,-99.03333,"(31.25, -99.03333)",United States,North America
+850,Richmond,22603,Valid,LL5,1800.0,Fell,1828.0,37.46667,-77.5,"(37.46667, -77.5)",United States,North America
+851,Rio Negro,22611,Valid,L4,1310.0,Fell,1934.0,-26.1,-49.8,"(-26.1, -49.8)",Brazil,South America
+852,Rivolta de Bassi,22614,Valid,Stone-uncl,103.3,Fell,1490.0,45.48333,9.51667,"(45.48333, 9.51667)",Italy,Europe
+853,Rochester,22637,Valid,H6,340.0,Fell,1876.0,41.08333,-86.28333,"(41.08333, -86.28333)",United States,North America
+854,Rockhampton,22640,Valid,Stone-uncl,1641.0,Fell,1895.0,-23.38333,150.51667,"(-23.38333, 150.51667)",Australia,Oceania
+855,Roda,22641,Valid,Diogenite,400.0,Fell,1871.0,42.3,0.55,"(42.3, 0.55)",Spain,Europe
+856,Rodach,22642,Valid,Stone-uncl,2900.0,Fell,1775.0,50.35,10.8,"(50.35, 10.8)",Germany,Europe
+857,Rose City,22766,Valid,H5,10600.0,Fell,1921.0,44.51667,-83.95,"(44.51667, -83.95)",United States,North America
+858,Rowton,22773,Valid,"Iron, IIIAB",3500.0,Fell,1876.0,52.76667,-2.51667,"(52.76667, -2.51667)",United Kingdom,Europe
+859,Ruhobobo,22780,Valid,L6,465.5,Fell,1976.0,-1.45,29.83333,"(-1.45, 29.83333)",Rwanda,Africa
+860,Rumuruti,22782,Valid,R3.8-6,67.0,Fell,1934.0,0.26667,36.53333,"(0.26667, 36.53333)",Kenya,Africa
+861,Rupota,22783,Valid,L4-6,6000.0,Fell,1949.0,-10.26667,38.76667,"(-10.26667, 38.76667)","Tanzania, United Republic of",Africa
+862,Ryechki,22791,Valid,L5,13000.0,Fell,1914.0,51.13333,34.5,"(51.13333, 34.5)",Ukraine,Europe
+863,Sabetmahet,22792,Valid,H5,1250.0,Fell,1855.0,27.43333,82.08333,"(27.43333, 82.08333)",India,Asia
+864,Sabrum,22793,Valid,LL6,478.0,Fell,1999.0,23.08333,91.66667,"(23.08333, 91.66667)",India,Asia
+865,Sagan,22796,Valid,Stone-uncl,,Fell,1636.0,51.53333,14.88333,"(51.53333, 14.88333)",Poland,Europe
+866,Saint-Sauveur,23101,Valid,EH5,14000.0,Fell,1914.0,43.73333,1.38333,"(43.73333, 1.38333)",France,Europe
+867,Saint-Séverin,23102,Valid,LL6,271000.0,Fell,1966.0,45.3,0.23333,"(45.3, 0.23333)",France,Europe
+868,Sakauchi,23103,Valid,Iron,4180.0,Fell,1913.0,35.66667,136.3,"(35.66667, 136.3)",Japan,Asia
+869,Salem,23107,Valid,L6,61.4,Fell,1981.0,44.97917,-122.96944,"(44.97917, -122.96944)",United States,North America
+870,Salles,23111,Valid,L5,9000.0,Fell,1798.0,46.05,4.63333,"(46.05, 4.63333)",France,Europe
+871,Salzwedel,23114,Valid,LL5,43.0,Fell,1985.0,52.75,11.05,"(52.75, 11.05)",Germany,Europe
+872,Samelia,23115,Valid,"Iron, IIIAB",2462.0,Fell,1921.0,25.66667,74.86667,"(25.66667, 74.86667)",India,Asia
+873,San Juan Capistrano,23128,Valid,H6,56.0,Fell,1973.0,33.48472,-117.6625,"(33.48472, -117.6625)",United States,North America
+874,San Michele,31315,Valid,L6,237.0,Fell,2002.0,43.66667,13.0,"(43.66667, 13.0)",Italy,Europe
+875,San Pedro de Quiles,23130,Valid,L6,282.0,Fell,1956.0,-31.01667,-71.4,"(-31.01667, -71.4)",Chile,South America
+876,San Pedro Jacuaro,34063,Valid,LL6,460.0,Fell,1968.0,19.76667,-100.65,"(19.76667, -100.65)",Mexico,North America
+877,Santa Barbara,23161,Valid,L4,400.0,Fell,1873.0,-29.2,-51.86667,"(-29.2, -51.86667)",Brazil,South America
+878,Santa Cruz,23164,Valid,CM2,60.0,Fell,1939.0,24.16667,-99.33333,"(24.16667, -99.33333)",Mexico,North America
+879,Santa Isabel,23165,Valid,L6,5500.0,Fell,1924.0,-33.9,-61.7,"(-33.9, -61.7)",Argentina,South America
+880,Santa Lucia (2008),50909,Valid,L6,4000.0,Fell,2008.0,-31.535556,-68.489444,"(-31.535556, -68.489444)",Argentina,South America
+881,São Jose do Rio Preto,23171,Valid,H4,927.0,Fell,1962.0,-20.81,-49.38056,"(-20.81, -49.38056)",Brazil,South America
+882,Saratov,23176,Valid,L4,200000.0,Fell,1918.0,52.55,46.55,"(52.55, 46.55)",Russian Federation,Europe
+883,Sasagase,23187,Valid,H,695.0,Fell,1688.0,34.71667,137.78333,"(34.71667, 137.78333)",Japan,Asia
+884,Sauguis,23188,Valid,L6,4000.0,Fell,1868.0,43.15,-0.85,"(43.15, -0.85)",France,Europe
+885,Savtschenskoje,23190,Valid,LL4,2500.0,Fell,1894.0,47.21667,29.86667,"(47.21667, 29.86667)",Ukraine,Europe
+886,Sayama,23192,Valid,CM2,430.0,Fell,1986.0,35.86667,139.4,"(35.86667, 139.4)",Japan,Asia
+887,Sazovice,23455,Valid,L5,412.0,Fell,1934.0,49.23333,17.56667,"(49.23333, 17.56667)",Czechia,Europe
+888,Schellin,23457,Valid,L,7000.0,Fell,1715.0,53.35,15.05,"(53.35, 15.05)",Poland,Europe
+889,Schenectady,23458,Valid,H5,283.3,Fell,1968.0,42.86083,-73.95028,"(42.86083, -73.95028)",United States,North America
+890,Schönenberg,23460,Valid,L6,8000.0,Fell,1846.0,48.11667,10.46667,"(48.11667, 10.46667)",Germany,Europe
+891,Searsmont,23472,Valid,H5,5400.0,Fell,1871.0,44.36667,-69.2,"(44.36667, -69.2)",United States,North America
+892,Sediköy,23473,Valid,L6,240.0,Fell,1917.0,38.3,27.13333,"(38.3, 27.13333)",Turkey,Asia
+893,Segowlie,23476,Valid,LL6,6930.0,Fell,1853.0,26.75,84.78333,"(26.75, 84.78333)",India,Asia
+894,Selakopi,23481,Valid,H5,1590.0,Fell,1939.0,-7.23333,107.33333,"(-7.23333, 107.33333)",Indonesia,Asia
+895,Seldebourak,23483,Valid,H5,150.0,Fell,1947.0,22.83333,4.98333,"(22.83333, 4.98333)",Algeria,Africa
+896,Semarkona,23487,Valid,LL3.00,691.0,Fell,1940.0,22.25,79.0,"(22.25, 79.0)",India,Asia
+897,Sena,23495,Valid,H4,4000.0,Fell,1773.0,41.71667,-0.05,"(41.71667, -0.05)",Spain,Europe
+898,Senboku,23496,Valid,H6,866.0,Fell,1993.0,39.43833,140.51167,"(39.43833, 140.51167)",Japan,Asia
+899,Seoni,23500,Valid,H6,20000.0,Fell,1966.0,21.68389,79.50083,"(21.68389, 79.50083)",India,Asia
+900,Seres,23501,Valid,H4,8500.0,Fell,1818.0,41.05,23.56667,"(41.05, 23.56667)",Greece,Europe
+901,Serra de Magé,23502,Valid,Eucrite-cm,1800.0,Fell,1923.0,-8.38333,-36.76667,"(-8.38333, -36.76667)",Brazil,South America
+902,Sete Lagoas,23504,Valid,H4,350.0,Fell,1908.0,-19.46667,-44.21667,"(-19.46667, -44.21667)",Brazil,South America
+903,Sevilla,23508,Valid,LL4,180.0,Fell,1862.0,37.41667,-6.0,"(37.41667, -6.0)",Spain,Europe
+904,Sevrukovo,23509,Valid,L5,101000.0,Fell,1874.0,50.61667,36.6,"(50.61667, 36.6)",Russian Federation,Europe
+905,Sfax,23512,Valid,L6,7000.0,Fell,1989.0,34.75,10.71667,"(34.75, 10.71667)",Tunisia,Africa
+906,Shalka,23521,Valid,Diogenite,4000.0,Fell,1850.0,23.1,87.3,"(23.1, 87.3)",India,Asia
+907,Sharps,23525,Valid,H3.4,1265.0,Fell,1921.0,37.83333,-76.7,"(37.83333, -76.7)",United States,North America
+908,Shelburne,23529,Valid,L5,18600.0,Fell,1904.0,44.05,-80.16667,"(44.05, -80.16667)",Canada,North America
+909,Shergotty,23530,Valid,Martian (shergottite),5000.0,Fell,1865.0,24.55,84.83333,"(24.55, 84.83333)",India,Asia
+910,Sheyang,23531,Valid,L6,605.0,Fell,1976.0,33.65,120.06667,"(33.65, 120.06667)",China,Asia
+911,Shikarpur,23534,Valid,L6,3679.7,Fell,1921.0,25.85,87.5775,"(25.85, 87.5775)",India,Asia
+912,Shuangyang,23582,Valid,H5,3900.0,Fell,1971.0,43.5,125.66667,"(43.5, 125.66667)",China,Asia
+913,Shupiyan,23583,Valid,H6,5000.0,Fell,1912.0,33.71667,74.83333,"(33.71667, 74.83333)",India,Asia
+914,Shytal,23584,Valid,L6,3200.0,Fell,1863.0,24.33333,90.16667,"(24.33333, 90.16667)",Bangladesh,Asia
+915,Siena,23586,Valid,LL5,3700.0,Fell,1794.0,43.11667,11.6,"(43.11667, 11.6)",Italy,Europe
+916,Sikhote-Alin,23593,Valid,"Iron, IIAB",23000000.0,Fell,1947.0,46.16,134.65333,"(46.16, 134.65333)",Russian Federation,Europe
+917,Silao,23594,Valid,H5,1710.0,Fell,1995.0,20.93333,-101.38333,"(20.93333, -101.38333)",Mexico,North America
+918,Silistra,55584,Valid,Achondrite-ung,0.15,Fell,1917.0,44.11667,27.26667,"(44.11667, 27.26667)",Bulgaria,Europe
+919,Simmern,23603,Valid,H5,1222.0,Fell,1920.0,49.98333,7.53333,"(49.98333, 7.53333)",Germany,Europe
+920,Sinai,23606,Valid,L6,1455.0,Fell,1916.0,30.9,32.48333,"(30.9, 32.48333)",Egypt,Africa
+921,Sindhri,23611,Valid,H5,8400.0,Fell,1901.0,26.21667,69.55,"(26.21667, 69.55)",Pakistan,Asia
+922,Sinnai,23613,Valid,H6,2000.0,Fell,1956.0,39.3,9.2,"(39.3, 9.2)",Italy,Europe
+923,Sioux County,23614,Valid,Eucrite-mmict,4100.0,Fell,1933.0,42.58333,-103.66667,"(42.58333, -103.66667)",United States,North America
+924,Sitathali,23616,Valid,H5,1600.0,Fell,1875.0,20.91667,82.58333,"(20.91667, 82.58333)",India,Asia
+925,Sivas,23617,Valid,H6,40000.0,Fell,1989.0,39.82467,36.13583,"(39.82467, 36.13583)",Turkey,Asia
+926,Sixiangkou,23619,Valid,L5,630.0,Fell,1989.0,32.43333,119.86667,"(32.43333, 119.86667)",China,Asia
+927,Ski,23621,Valid,L6,850.0,Fell,1848.0,59.73333,10.86667,"(59.73333, 10.86667)",Norway,Europe
+928,Slavetic,23626,Valid,H5,1708.0,Fell,1868.0,45.68333,15.6,"(45.68333, 15.6)",Croatia,Europe
+929,Slobodka,23645,Valid,L4,2750.0,Fell,1818.0,55.0,35.0,"(55.0, 35.0)",Russian Federation,Europe
+930,Soheria,23660,Valid,OC,72.9,Fell,1960.0,27.13333,84.06667,"(27.13333, 84.06667)",India,Asia
+931,Soko-Banja,23661,Valid,LL4,80000.0,Fell,1877.0,43.66667,21.86667,"(43.66667, 21.86667)",Serbia,Europe
+932,Sologne,23663,Valid,H5,54.0,Fell,1860.0,47.36667,1.73333,"(47.36667, 1.73333)",France,Europe
+933,Sołtmany,53829,Valid,L6,1066.0,Fell,2011.0,54.00883,22.005,"(54.00883, 22.005)",Poland,Europe
+934,Sone,23667,Valid,H5,17100.0,Fell,1866.0,35.16667,135.33333,"(35.16667, 135.33333)",Japan,Asia
+935,Songyuan,23668,Valid,L6,36900.0,Fell,1993.0,45.25,125.0,"(45.25, 125.0)",China,Asia
+936,Sopot,23670,Valid,OC,958.0,Fell,1927.0,44.41667,23.5,"(44.41667, 23.5)",Romania,Europe
+937,Soroti,23671,Valid,"Iron, ungrouped",2050.0,Fell,1945.0,1.7,33.63333,"(1.7, 33.63333)",Uganda,Africa
+938,St. Caprais-de-Quinsac,23081,Valid,L6,360.0,Fell,1883.0,44.75,0.05,"(44.75, 0.05)",France,Europe
+939,St. Christophe-la-Chartreuse,23082,Valid,L6,5500.0,Fell,1841.0,46.95,-1.5,"(46.95, -1.5)",France,Europe
+940,St. Denis Westrem,23083,Valid,L6,700.0,Fell,1855.0,51.05,3.75,"(51.05, 3.75)",Belgium,Europe
+941,St. Germain-du-Pinel,23087,Valid,H6,4000.0,Fell,1890.0,48.01667,-1.15,"(48.01667, -1.15)",France,Europe
+942,St. Louis,23089,Valid,H4,1000.0,Fell,1950.0,38.7,-90.23333,"(38.7, -90.23333)",United States,North America
+943,St. Mark's,23090,Valid,EH5,13780.0,Fell,1903.0,-32.01667,27.41667,"(-32.01667, 27.41667)",South Africa,Africa
+944,St. Mary's County,23091,Valid,LL3.3,24.3,Fell,1919.0,38.16667,-76.38333,"(38.16667, -76.38333)",United States,North America
+945,St. Mesmin,23092,Valid,LL6,8300.0,Fell,1866.0,48.45,3.93333,"(48.45, 3.93333)",France,Europe
+946,St. Michel,23093,Valid,L6,17000.0,Fell,1910.0,61.65,27.2,"(61.65, 27.2)",Finland,Europe
+947,St.-Chinian,23097,Valid,L6,134.3,Fell,1959.0,43.43333,2.95,"(43.43333, 2.95)",France,Europe
+948,Ställdalen,23712,Valid,H5,34000.0,Fell,1876.0,59.93333,14.95,"(59.93333, 14.95)",Sweden,Europe
+949,Stannern,23713,Valid,Eucrite-mmict,52000.0,Fell,1808.0,49.28333,15.56667,"(49.28333, 15.56667)",Czechia,Europe
+950,Stavropol,23717,Valid,L6,1500.0,Fell,1857.0,45.05,41.98333,"(45.05, 41.98333)",Russian Federation,Europe
+951,Ste. Marguerite,23099,Valid,H4,4960.0,Fell,1962.0,50.76667,3.0,"(50.76667, 3.0)",Belgium,Europe
+952,Sterlitamak,23724,Valid,"Iron, IIIAB",325000.0,Fell,1990.0,53.66667,55.98333,"(53.66667, 55.98333)",Russian Federation,Europe
+953,Stolzenau,23726,Valid,Stone-uncl,,Fell,1647.0,52.53333,9.05,"(52.53333, 9.05)",Germany,Europe
+954,Stratford,23728,Valid,L6,50.0,Fell,1974.0,41.2,-73.13333,"(41.2, -73.13333)",United States,North America
+955,Strathmore,23729,Valid,L6,13400.0,Fell,1917.0,56.58333,-3.25,"(56.58333, -3.25)",United Kingdom,Europe
+956,Stretchleigh,23732,Valid,Stone-uncl,10400.0,Fell,1623.0,50.38333,-3.95,"(50.38333, -3.95)",United Kingdom,Europe
+957,St-Robert,23733,Valid,H5,25400.0,Fell,1994.0,45.96861,-72.97806,"(45.96861, -72.97806)",Canada,North America
+958,Success,23736,Valid,L6,3500.0,Fell,1924.0,36.48333,-90.66667,"(36.48333, -90.66667)",United States,North America
+959,Suchy Dul,23737,Valid,L6,815.3,Fell,1969.0,50.53806,16.26333,"(50.53806, 16.26333)",Czechia,Europe
+960,Suizhou,23738,Valid,L6,260000.0,Fell,1986.0,31.61667,113.46667,"(31.61667, 113.46667)",China,Asia
+961,Sulagiri,48951,Valid,LL6,110000.0,Fell,2008.0,12.66667,78.03333,"(12.66667, 78.03333)",India,Asia
+962,Sultanpur,23741,Valid,L/LL6,1710.5,Fell,1916.0,25.93333,84.28333,"(25.93333, 84.28333)",India,Asia
+963,Sungach,23745,Valid,H5,637.0,Fell,1935.0,44.86667,133.16667,"(44.86667, 133.16667)",Russian Federation,Europe
+964,Supuhee,23760,Valid,H6,7235.0,Fell,1865.0,26.71667,84.21667,"(26.71667, 84.21667)",India,Asia
+965,Sutter's Mill,55529,Valid,C,992.5,Fell,2012.0,38.80389,-120.90806,"(38.80389, -120.90806)",United States,North America
+966,Sylacauga,23773,Valid,H4,5560.0,Fell,1954.0,33.18836,-86.2945,"(33.18836, -86.2945)",United States,North America
+967,Tabor,23776,Valid,H5,7540.0,Fell,1753.0,49.4,14.65,"(49.4, 14.65)",Czechia,Europe
+968,Tadjera,23778,Valid,L5,9000.0,Fell,1867.0,36.18333,5.41667,"(36.18333, 5.41667)",Algeria,Africa
+969,Tagish Lake,23782,Valid,C2-ung,10000.0,Fell,2000.0,59.70444,-134.20139,"(59.70444, -134.20139)",Canada,North America
+970,Tahara,23784,Valid,H4/5,1000.0,Fell,1991.0,34.72,137.305,"(34.72, 137.305)",Japan,Asia
+971,Takenouchi,23789,Valid,H5,720.0,Fell,1880.0,35.38333,134.9,"(35.38333, 134.9)",Japan,Asia
+972,Talampaya,23791,Valid,Eucrite-cm,1421.0,Fell,1995.0,-29.76811,-67.93886,"-29.76811, -67.93886",Argentina,South America
+973,Tambakwatu,23795,Valid,L6,10500.0,Fell,1975.0,-7.75,112.76667,"(-7.75, 112.76667)",Indonesia,Asia
+974,Tamdakht,48691,Valid,H5,100000.0,Fell,2008.0,31.16333,-7.015,"(31.16333, -7.015)",Morocco,Africa
+975,Tané,23801,Valid,L5,905.0,Fell,1918.0,35.43333,136.23333,"(35.43333, 136.23333)",Japan,Asia
+976,Taonan,23873,Valid,L5,3850.0,Fell,1965.0,45.4,122.9,"(45.4, 122.9)",China,Asia
+977,Tatahouine,23884,Valid,Diogenite,12000.0,Fell,1931.0,32.95,10.41667,"(32.95, 10.41667)",Tunisia,Africa
+978,Tathlith,23885,Valid,L6,2500.0,Fell,1967.0,19.38333,43.73333,"(19.38333, 43.73333)",Saudi Arabia,Asia
+979,Tauk,23887,Valid,L6,6000.0,Fell,1929.0,35.13333,44.45,"(35.13333, 44.45)",Iraq,Asia
+980,Tauti,23888,Valid,L6,21000.0,Fell,1937.0,46.71667,23.5,"(46.71667, 23.5)",Romania,Europe
+981,Tenham,23897,Valid,L6,160000.0,Fell,1879.0,-25.73333,142.95,"(-25.73333, 142.95)",Australia,Oceania
+982,Tennasilm,23898,Valid,L4,28500.0,Fell,1872.0,58.03333,26.95,"(58.03333, 26.95)",Estonia,Europe
+983,Thal,23908,Valid,H6,342.0,Fell,1950.0,33.4,70.6,"(33.4, 70.6)",Pakistan,Asia
+984,Thika,54493,Valid,L6,14200.0,Fell,2011.0,-1.00278,37.15028,"(-1.00278, 37.15028)",Kenya,Africa
+985,Thuathe,23976,Valid,H4/5,45300.0,Fell,2002.0,-29.33333,27.58333,"(-29.33333, 27.58333)",Lesotho,Africa
+986,Tianzhang,23984,Valid,H5,2232.0,Fell,1986.0,32.94667,118.99,"(32.94667, 118.99)",China,Asia
+987,Tieschitz,23989,Valid,H/L3.6,28000.0,Fell,1878.0,49.6,17.11667,"(49.6, 17.11667)",Czechia,Europe
+988,Tilden,23998,Valid,L6,74800.0,Fell,1927.0,38.2,-89.68333,"(38.2, -89.68333)",United States,North America
+989,Tillaberi,23999,Valid,L6,3000.0,Fell,1970.0,14.25,1.53333,"(14.25, 1.53333)",Niger,Africa
+990,Timochin,24004,Valid,H5,65500.0,Fell,1807.0,54.5,35.2,"(54.5, 35.2)",Russian Federation,Europe
+991,Tirupati,24009,Valid,H6,230.0,Fell,1934.0,13.63333,79.41667,"(13.63333, 79.41667)",India,Asia
+992,Tissint,54823,Valid,Martian (shergottite),7000.0,Fell,2011.0,29.48195,-7.61123,"(29.48195, -7.61123)",Morocco,Africa
+993,Tjabe,24011,Valid,H6,20000.0,Fell,1869.0,-7.08333,111.53333,"(-7.08333, 111.53333)",Indonesia,Asia
+994,Tjerebon,24012,Valid,L5,16500.0,Fell,1922.0,-6.66667,106.58333,"(-6.66667, 106.58333)",Indonesia,Asia
+995,Tomakovka,24019,Valid,LL6,600.0,Fell,1905.0,47.85,34.76667,"(47.85, 34.76667)",Ukraine,Europe
+996,Tomatlan,24020,Valid,H6,900.0,Fell,1879.0,20.16667,-105.21667,"(20.16667, -105.21667)",Mexico,North America
+997,Tomita,24023,Valid,L,600.0,Fell,1916.0,34.5,133.75,"(34.5, 133.75)",Japan,Asia
+998,Tomiya,24024,Valid,H4/5,27.5,Fell,1984.0,38.36667,140.86556,"(38.36667, 140.86556)",Japan,Asia
+999,Tonk,24026,Valid,CI1,7.7,Fell,1911.0,24.65,76.86667,"(24.65, 76.86667)",India,Asia
+1000,Torino,24029,Valid,H6,977.0,Fell,1988.0,45.06667,7.66667,"(45.06667, 7.66667)",Italy,Europe
+1001,Torrington,24032,Valid,H6,259.1,Fell,1944.0,42.06667,-104.16667,"(42.06667, -104.16667)",United States,North America
+1002,Toulouse,24036,Valid,H6,1030.0,Fell,1812.0,43.6,1.4,"(43.6, 1.4)",France,Europe
+1003,Tounkin,24037,Valid,OC,2000.0,Fell,1824.0,51.73333,102.53333,"(51.73333, 102.53333)",Russian Federation,Europe
+1004,Tourinnes-la-Grosse,24038,Valid,L6,14500.0,Fell,1863.0,50.78333,4.76667,"(50.78333, 4.76667)",Belgium,Europe
+1005,Trebbin,24042,Valid,LL6,1250.0,Fell,1988.0,52.21667,13.16667,"(52.21667, 13.16667)",Germany,Europe
+1006,Trenzano,24046,Valid,H3/4,11800.0,Fell,1856.0,45.46667,10.0,"(45.46667, 10.0)",Italy,Europe
+1007,Treysa,24050,Valid,"Iron, IIIAB-an",63000.0,Fell,1916.0,50.91667,9.18333,"(50.91667, 9.18333)",Germany,Europe
+1008,Tromøy,24053,Valid,H,357.4,Fell,1950.0,58.47333,8.86667,"(58.47333, 8.86667)",Norway,Europe
+1009,Troup,24054,Valid,L6,1020.0,Fell,1917.0,32.16667,-95.1,"(32.16667, -95.1)",United States,North America
+1010,Trysil,24057,Valid,L/LL6,640.0,Fell,1927.0,61.3,12.3,"(61.3, 12.3)",Norway,Europe
+1011,Tsukuba,24059,Valid,H5-6,800.0,Fell,1996.0,36.06333,140.145,"(36.06333, 140.145)",Japan,Asia
+1012,Tuan Tuc,24060,Valid,L6,13100.0,Fell,1921.0,9.66667,105.66667,"(9.66667, 105.66667)",Viet Nam,Asia
+1013,Tugalin-Bulen,24062,Valid,H6,10000.0,Fell,1967.0,45.46667,105.38333,"(45.46667, 105.38333)",Mongolia,Asia
+1014,Tulung Dzong,24071,Valid,Stone-uncl,,Fell,1944.0,30.0,90.75,"(30.0, 90.75)",China,Asia
+1015,Turtle Lake,47343,Valid,L5,89.3,Fell,1996.0,45.34583,-92.05167,"(45.34583, -92.05167)",United States,North America
+1016,Tuxtuac,24086,Valid,LL5,30000.0,Fell,1975.0,21.66667,-103.36667,"(21.66667, -103.36667)",Mexico,North America
+1017,Tysnes Island,24094,Valid,H4,19860.0,Fell,1884.0,60.0,5.61667,"(60.0, 5.61667)",Norway,Europe
+1018,Tyumen,24095,Valid,Iron,750.0,Fell,1903.0,57.16667,65.53333,"(57.16667, 65.53333)",Russian Federation,Europe
+1019,Uberaba,24096,Valid,H5,40000.0,Fell,1903.0,-19.81667,-48.78333,"(-19.81667, -48.78333)",Brazil,South America
+1020,Ucera,24097,Valid,H5,4590.0,Fell,1970.0,11.05,-69.85,"(11.05, -69.85)","Venezuela, Bolivarian Republic of",South America
+1021,Uchkuduk,24098,Valid,L6,1000.0,Fell,1989.0,41.76667,62.51667,"(41.76667, 62.51667)",Uzbekistan,Asia
+1022,Udaipur,24099,Valid,H3,2000.0,Fell,1976.0,24.57872,73.68626,"24.57872, 73.68626",India,Asia
+1023,Udei Station,24101,Valid,"Iron, IAB-ung",103000.0,Fell,1927.0,7.95,8.08333,"(7.95, 8.08333)",Nigeria,Africa
+1024,Uden,24103,Valid,LL7,710.0,Fell,1840.0,51.65,5.61667,"(51.65, 5.61667)",Netherlands,Europe
+1025,Udipi,24104,Valid,H5,3600.0,Fell,1866.0,13.48333,74.78333,"(13.48333, 74.78333)",India,Asia
+1026,Ufana,24106,Valid,EL6,189.2,Fell,1957.0,-4.26667,35.35,"(-4.26667, 35.35)","Tanzania, United Republic of",Africa
+1027,Ulmiz,24108,Valid,L,76.5,Fell,1926.0,46.93333,7.21667,"(46.93333, 7.21667)",Switzerland,Europe
+1028,Umbala,24112,Valid,LL5,100.0,Fell,1822.0,30.33333,76.33333,"(30.33333, 76.33333)",India,Asia
+1029,Umm Ruaba,24118,Valid,L5,1700.0,Fell,1966.0,13.46667,31.21667,"(13.46667, 31.21667)",Sudan,Africa
+1030,Undulung,24121,Valid,L4,113.4,Fell,1986.0,66.13889,124.76667,"(66.13889, 124.76667)",Russian Federation,Europe
+1031,Unkoku,24123,Valid,OC,1000.0,Fell,1924.0,34.8,127.0,"(34.8, 127.0)","Korea, Republic of",Asia
+1032,Urasaki,24129,Valid,Stone-uncl,1500.0,Fell,1926.0,34.48333,133.28333,"(34.48333, 133.28333)",Japan,Asia
+1033,Usti Nad Orlici,24132,Valid,L6,1269.0,Fell,1963.0,49.975,16.375,"(49.975, 16.375)",Czechia,Europe
+1034,Utrecht,24135,Valid,L6,9700.0,Fell,1843.0,52.11667,5.18333,"(52.11667, 5.18333)",Netherlands,Europe
+1035,Utzenstorf,24136,Valid,H5,3422.0,Fell,1928.0,47.11667,7.55,"(47.11667, 7.55)",Switzerland,Europe
+1036,Vago,24143,Valid,H6,40.0,Fell,1668.0,45.41667,11.13333,"(45.41667, 11.13333)",Italy,Europe
+1037,Valdavur,24144,Valid,H6,2799.0,Fell,1944.0,11.98333,79.75,"(11.98333, 79.75)",India,Asia
+1038,Valdinizza,24145,Valid,L6,1004.0,Fell,1903.0,44.86667,9.15,"(44.86667, 9.15)",Italy,Europe
+1039,Valdinoce,24146,Valid,Stone-uncl,,Fell,1495.0,44.06667,12.1,"(44.06667, 12.1)",Italy,Europe
+1040,Valera,24149,Valid,L5,50000.0,Fell,1972.0,9.31667,-70.62833,"(9.31667, -70.62833)","Venezuela, Bolivarian Republic of",South America
+1041,Varre-Sai,53633,Valid,L5,2500.0,Fell,2010.0,-20.85001,-41.73356,"(-20.85001, -41.73356)",Brazil,South America
+1042,Vavilovka,24154,Valid,LL6,1932.0,Fell,1876.0,46.15,32.83333,"(46.15, 32.83333)",Ukraine,Europe
+1043,Vengerovo,24158,Valid,H5,10800.0,Fell,1950.0,56.13333,77.26667,"(56.13333, 77.26667)",Russian Federation,Europe
+1044,Veramin,24162,Valid,Mesosiderite-B2,54000.0,Fell,1880.0,35.33333,51.63333,"(35.33333, 51.63333)","Iran, Islamic Republic of",Asia
+1045,Verkhne Tschirskaia,24165,Valid,H5,8000.0,Fell,1843.0,48.41667,43.2,"(48.41667, 43.2)",Russian Federation,Europe
+1046,Vernon County,24168,Valid,H6,1500.0,Fell,1865.0,43.5,-91.16667,"(43.5, -91.16667)",United States,North America
+1047,Vetluga,24169,Valid,Eucrite-mmict,750.0,Fell,1949.0,57.8,45.8,"(57.8, 45.8)",Russian Federation,Europe
+1048,Vigarano,24174,Valid,CV3,15000.0,Fell,1910.0,44.85,11.4,"(44.85, 11.4)",Italy,Europe
+1049,Villalbeto de la Peña,24179,Valid,L6,3500.0,Fell,2004.0,42.8,-4.66667,"(42.8, -4.66667)",Spain,Europe
+1050,Villarrica,24181,Valid,Stone-uncl,,Fell,1925.0,-25.83333,-56.5,"(-25.83333, -56.5)",Paraguay,South America
+1051,Vilna,24183,Valid,L5,0.1,Fell,1967.0,54.225,-111.69167,"(54.225, -111.69167)",Canada,North America
+1052,Virba,24185,Valid,L6,3600.0,Fell,1873.0,43.53333,22.63333,"(43.53333, 22.63333)",Bulgaria,Europe
+1053,Vishnupur,24187,Valid,LL4-6,2437.0,Fell,1906.0,23.1,87.43333,"(23.1, 87.43333)",India,Asia
+1054,Vissannapeta,24188,Valid,Eucrite-cm,1303.8,Fell,1997.0,16.83333,80.75,"(16.83333, 80.75)",India,Asia
+1055,Visuni,24189,Valid,H6,594.0,Fell,1915.0,25.45,70.0,"(25.45, 70.0)",Pakistan,Asia
+1056,Vouillé,24191,Valid,L6,20000.0,Fell,1831.0,46.63333,0.16667,"(46.63333, 0.16667)",France,Europe
+1057,Walters,24210,Valid,L6,28100.0,Fell,1946.0,34.33333,-98.3,"(34.33333, -98.3)",United States,North America
+1058,Warrenton,24215,Valid,CO3.7,1600.0,Fell,1877.0,38.68333,-91.15,"(38.68333, -91.15)",United States,North America
+1059,Washougal,24218,Valid,Howardite,225.0,Fell,1939.0,45.58333,-122.35,"(45.58333, -122.35)",United States,North America
+1060,Werdama,47344,Valid,H5,4000.0,Fell,2006.0,32.79732,21.78713,"(32.79732, 21.78713)",Libya,Africa
+1061,Wessely,24244,Valid,H5,3750.0,Fell,1831.0,48.95,17.38333,"(48.95, 17.38333)",Czechia,Europe
+1062,Weston,24249,Valid,H4,150000.0,Fell,1807.0,41.266667,-73.266667,"(41.266667, -73.266667)",United States,North America
+1063,Wethersfield (1971),24250,Valid,L6,350.0,Fell,1971.0,41.7,-72.65,"(41.7, -72.65)",United States,North America
+1064,Wethersfield (1982),24251,Valid,L6,2756.0,Fell,1982.0,41.71056,-72.67361,"(41.71056, -72.67361)",United States,North America
+1065,Whetstone Mountains,49514,Valid,H5,2138.74,Fell,2009.0,31.96185,-110.434183,"(31.96185, -110.434183)",United States,North America
+1066,Wiluna,24281,Valid,H5,150000.0,Fell,1967.0,-26.59278,120.32833,"(-26.59278, 120.32833)",Australia,Oceania
+1067,Witklip Farm,24321,Valid,H5,22.0,Fell,1918.0,-26.0,30.0,"(-26.0, 30.0)",South Africa,Africa
+1068,Witsand Farm,24322,Valid,LL4,66.0,Fell,1932.0,-28.66667,18.91667,"(-28.66667, 18.91667)",Namibia,Africa
+1069,Wittekrantz,24323,Valid,L5,2200.0,Fell,1880.0,-32.5,23.0,"(-32.5, 23.0)",South Africa,Africa
+1070,Wolamo,24324,Valid,OC,166.4,Fell,1964.0,9.0,39.0,"(9.0, 39.0)",Ethiopia,Africa
+1071,Wold Cottage,24325,Valid,L6,25000.0,Fell,1795.0,54.13667,-0.41333,"(54.13667, -0.41333)",United Kingdom,Europe
+1072,Woolgorong,24334,Valid,L6,36000.0,Fell,1960.0,-27.75,115.83333,"(-27.75, 115.83333)",Australia,Oceania
+1073,Worden,24337,Valid,L5,1551.0,Fell,1997.0,42.38467,-83.6115,"(42.38467, -83.6115)",United States,North America
+1074,Wuan,24340,Valid,H6,50000.0,Fell,1986.0,36.75,114.25,"(36.75, 114.25)",China,Asia
+1075,Wuzhi,24342,Valid,Stone-uncl,,Fell,1931.0,35.13333,113.33333,"(35.13333, 113.33333)",China,Asia
+1076,Xi Ujimgin,24345,Valid,L/LL6-an,5900.0,Fell,1980.0,44.66667,117.5,"(44.66667, 117.5)",China,Asia
+1077,Xingyang,24346,Valid,H6,75500.0,Fell,1977.0,32.33333,114.31667,"(32.33333, 114.31667)",China,Asia
+1078,Yafa,24351,Valid,H5,5700.0,Fell,2000.0,13.71111,45.17,"(13.71111, 45.17)",Yemen,Asia
+1079,Yambo,30345,Valid,H5,4.0,Fell,1951.0,1.0,22.5,"(1.0, 22.5)","Congo, The Democratic Republic of the",Africa
+1080,Yangchiang,30348,Valid,H5,20000.0,Fell,1954.0,21.83333,111.83333,"(21.83333, 111.83333)",China,Asia
+1081,Yanzhuang,30350,Valid,H6,3500.0,Fell,1990.0,24.56667,114.16667,"(24.56667, 114.16667)",China,Asia
+1082,Yardymly,30352,Valid,"Iron, IAB complex",150200.0,Fell,1959.0,38.93333,48.25,"(38.93333, 48.25)",Azerbaijan,Asia
+1083,Yatoor,30358,Valid,H5,13600.0,Fell,1852.0,14.3,79.76667,"(14.3, 79.76667)",India,Asia
+1084,Yonozu,30366,Valid,H4/5,31650.0,Fell,1837.0,37.75,139.0,"(37.75, 139.0)",Japan,Asia
+1085,Yorktown (New York),30370,Valid,L5,250.0,Fell,1869.0,41.28333,-73.81667,"(41.28333, -73.81667)",United States,North America
+1086,Yoshiki,30372,Valid,Stone-uncl,0.1,Fell,1928.0,34.16667,131.45,"(34.16667, 131.45)",Japan,Asia
+1087,Yukan,30377,Valid,LL6,4800.0,Fell,1931.0,28.71667,116.61667,"(28.71667, 116.61667)",China,Asia
+1088,Yurtuk,30378,Valid,Howardite,1472.0,Fell,1936.0,47.31667,35.36667,"(47.31667, 35.36667)",Ukraine,Europe
+1089,Zaborzika,30379,Valid,L6,3867.0,Fell,1818.0,50.28333,27.68333,"(50.28333, 27.68333)",Ukraine,Europe
+1090,Zabrodje,30380,Valid,L6,3000.0,Fell,1893.0,55.18333,27.91667,"(55.18333, 27.91667)",Belarus,Europe
+1091,Zag,30384,Valid,H3-6,175000.0,Fell,1998.0,27.33333,-9.33333,"(27.33333, -9.33333)",Morocco,Africa
+1092,Zagami,30386,Valid,Martian (shergottite),18000.0,Fell,1962.0,11.73333,7.08333,"(11.73333, 7.08333)",Nigeria,Africa
+1093,Zaisan,30388,Valid,H5,463.0,Fell,1963.0,47.5,83.0,"(47.5, 83.0)",Kazakhstan,Asia
+1094,Zaisho,30389,Valid,"Pallasite, PMG-an",330.0,Fell,1898.0,33.7,133.8,"(33.7, 133.8)",Japan,Asia
+1095,Zaoyang,30391,Valid,H5,14250.0,Fell,1984.0,32.3,112.75,"(32.3, 112.75)",China,Asia
+1096,Zavetnoe,30395,Valid,L6,800.0,Fell,1952.0,47.13333,43.9,"(47.13333, 43.9)",Russian Federation,Europe
+1097,Zavid,30396,Valid,L6,95000.0,Fell,1897.0,44.4,19.11667,"(44.4, 19.11667)",Serbia,Europe
+1098,Zebrak,30397,Valid,H5,2000.0,Fell,1824.0,49.88333,13.91667,"(49.88333, 13.91667)",Czechia,Europe
+1099,Zemaitkiemis,30399,Valid,L6,44100.0,Fell,1933.0,55.3,25.0,"(55.3, 25.0)",Lithuania,Europe
+1100,Zhaodong,30404,Valid,L4,42000.0,Fell,1984.0,45.81667,125.91667,"(45.81667, 125.91667)",China,Asia
+1101,Zhovtnevyi,30407,Valid,H6,107000.0,Fell,1938.0,47.58333,37.25,"(47.58333, 37.25)",Ukraine,Europe
+1102,Zhuanghe,30408,Valid,H5,2900.0,Fell,1976.0,39.66667,122.98333,"(39.66667, 122.98333)",China,Asia
+1103,Zmenj,30411,Valid,Howardite,246.0,Fell,1858.0,51.83333,26.83333,"(51.83333, 26.83333)",Belarus,Europe
+1104,Zomba,30412,Valid,L6,7500.0,Fell,1899.0,-15.18333,35.28333,"(-15.18333, 35.28333)",Malawi,Africa
+1105,Zsadany,30413,Valid,H5,552.0,Fell,1875.0,46.93333,21.5,"(46.93333, 21.5)",Hungary,Europe
+1106,Zvonkov,30415,Valid,H6,2568.0,Fell,1955.0,50.2,30.25,"(50.2, 30.25)",Ukraine,Europe

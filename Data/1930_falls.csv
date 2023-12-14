@@ -1,0 +1,92 @@
+,name,id,nametype,recclass,mass (g),fall,year,reclat,reclong,GeoLocation,country,continent,decade
+8,Aguada,398,Valid,L6,1620.0,Fell,1930.0,-31.6,-65.23333,"(-31.6, -65.23333)",Argentina,South America,1930
+36,Andura,2298,Valid,H6,17900.0,Fell,1939.0,20.88333,76.86667,"(20.88333, 76.86667)",India,Asia,1930
+45,Archie,2329,Valid,H6,5070.0,Fell,1932.0,38.5,-94.3,"(38.5, -94.3)",United States,North America,1930
+53,Athens,4885,Valid,LL6,265.0,Fell,1933.0,34.75,-87.0,"(34.75, -87.0)",United States,North America,1930
+63,Aztec,4913,Valid,L6,2830.0,Fell,1938.0,36.8,-108.0,"(36.8, -108.0)",United States,North America,1930
+65,Bahjoi,4922,Valid,"Iron, IAB-sLL",10322.0,Fell,1934.0,28.48333,78.5,"(28.48333, 78.5)",India,Asia,1930
+73,Banten,4938,Valid,CM2,629.0,Fell,1933.0,-6.33333,106.0,"(-6.33333, 106.0)",Indonesia,Asia,1930
+92,Belville,5009,Valid,OC,,Fell,1937.0,-32.33333,-64.86667,"(-32.33333, -64.86667)",Argentina,South America,1930
+96,Benld,5021,Valid,H6,1770.5,Fell,1938.0,39.08333,-89.15,"(39.08333, -89.15)",United States,North America,1930
+125,Bloomington,5076,Valid,LL6,67.8,Fell,1938.0,40.48,-89.00417,"(40.48, -89.00417)",United States,North America,1930
+132,Boriskino,5112,Valid,CM2,1342.0,Fell,1930.0,54.23333,52.48333,"(54.23333, 52.48333)",Russian Federation,Europe,1930
+143,Brient,5140,Valid,Eucrite-pmict,219.0,Fell,1933.0,52.13333,59.31667,"(52.13333, 59.31667)",Russian Federation,Europe,1930
+167,Capilla del Monte,5264,Valid,H6,750.0,Fell,1934.0,-30.88333,-64.55,"(-30.88333, -64.55)",Argentina,South America,1930
+181,Chajari,5316,Valid,L5,18300.0,Fell,1933.0,-30.78333,-58.05,"(-30.78333, -58.05)",Argentina,South America,1930
+196,Cherokee Springs,5340,Valid,LL6,8400.0,Fell,1933.0,35.03333,-81.88333,"(35.03333, -81.88333)",United States,North America,1930
+198,Chervony Kut,5342,Valid,Eucrite-mmict,1700.0,Fell,1939.0,50.83333,34.0,"(50.83333, 34.0)",Ukraine,Europe,1930
+201,Chicora,5349,Valid,LL6,303.0,Fell,1938.0,40.93333,-79.73333,"(40.93333, -79.73333)",United States,North America,1930
+215,Crescent,5470,Valid,CM2,78.4,Fell,1936.0,35.95,-97.58333,"(35.95, -97.58333)",United States,North America,1930
+254,Douar Mghila,7723,Valid,LL6,1161.0,Fell,1932.0,32.33333,-6.3,"(32.33333, -6.3)",Morocco,Africa,1930
+257,Dresden (Ontario),7731,Valid,H6,47700.0,Fell,1939.0,42.52,-82.26,"(42.52, -82.26)",Canada,North America,1930
+267,Dyarrl Island,7758,Valid,Mesosiderite-A1,188.0,Fell,1933.0,-3.0,151.0,"(-3.0, 151.0)",Papua New Guinea,Oceania,1930
+271,Ekeby,7776,Valid,H4,3336.0,Fell,1939.0,56.03333,13.0,"(56.03333, 13.0)",Sweden,Europe,1930
+292,Farmville,10075,Valid,H4,56000.0,Fell,1934.0,35.55,-77.53333,"(35.55, -77.53333)",United States,North America,1930
+294,Fayetteville,10079,Valid,H4,2360.0,Fell,1934.0,36.05,-94.16667,"(36.05, -94.16667)",United States,North America,1930
+329,Glanggang,10924,Valid,H5-6,1303.0,Fell,1939.0,-7.25,107.7,"(-7.25, 107.7)",Indonesia,Asia,1930
+343,Gualeguaychú,11432,Valid,H6,22000.0,Fell,1932.0,-33.0,-58.61667,"(-33.0, -58.61667)",Argentina,South America,1930
+357,Gyokukei,11467,Valid,OC,1320.0,Fell,1930.0,35.0,127.5,"(35.0, 127.5)","Korea, Republic of",Asia,1930
+359,Hainaut,11472,Valid,H3-6,9000.0,Fell,1934.0,50.31667,3.73333,"(50.31667, 3.73333)",France,Europe,1930
+392,Ichkala,11995,Valid,H6,3973.0,Fell,1936.0,58.2,82.93333,"(58.2, 82.93333)",Russian Federation,Europe,1930
+405,Ivuna,12063,Valid,CI1,704.5,Fell,1938.0,-8.41667,32.43333,"(-8.41667, 32.43333)","Tanzania, United Republic of",Africa,1930
+436,Kainsaz,12229,Valid,CO3.2,200000.0,Fell,1937.0,55.43333,53.25,"(55.43333, 53.25)",Russian Federation,Europe,1930
+449,Kaptal-Aryk,12253,Valid,L6,3500.0,Fell,1937.0,42.45,73.36667,"(42.45, 73.36667)",Kazakhstan,Asia,1930
+455,Karoonda,12264,Valid,CK4,41730.0,Fell,1930.0,-35.08333,139.91667,"(-35.08333, 139.91667)",Australia,Oceania,1930
+456,Kasamatsu,12266,Valid,H,710.0,Fell,1938.0,35.36667,136.76667,"(35.36667, 136.76667)",Japan,Asia,1930
+463,Kendleton,12275,Valid,L4,6937.0,Fell,1939.0,29.45,-96.0,"(29.45, -96.0)",United States,North America,1930
+469,Khanpur,12289,Valid,LL5,3698.0,Fell,1932.0,25.55,83.11667,"(25.55, 83.11667)",India,Asia,1930
+475,Khor Temiki,12299,Valid,Aubrite,3200.0,Fell,1932.0,16.0,36.0,"(16.0, 36.0)",Sudan,Africa,1930
+493,Konovo,12344,Valid,LL5,90.0,Fell,1931.0,42.51667,26.16667,"(42.51667, 26.16667)",Bulgaria,Europe,1930
+500,Kukschin,12368,Valid,L6,2250.0,Fell,1938.0,51.15,31.7,"(51.15, 31.7)",Ukraine,Europe,1930
+510,Kuznetzovo,12385,Valid,L6,4047.0,Fell,1932.0,55.2,75.33333,"(55.2, 75.33333)",Russian Federation,Europe,1930
+528,Lavrentievka,12743,Valid,L6,800.0,Fell,1938.0,52.45,51.56667,"(52.45, 51.56667)",Russian Federation,Europe,1930
+539,Lillaverke,14650,Valid,H5,6862.0,Fell,1930.0,56.65,15.86667,"(56.65, 15.86667)",Sweden,Europe,1930
+552,Łowicz,14718,Valid,Mesosiderite-A3,59000.0,Fell,1935.0,52.0,19.91667,"(52.0, 19.91667)",Poland,Europe,1930
+561,Mabwe-Khoywa,14764,Valid,L5,540.0,Fell,1937.0,19.0,97.0,"(19.0, 97.0)",Myanmar,Asia,1930
+564,Macibini,15372,Valid,Eucrite-pmict,1995.0,Fell,1936.0,-28.83333,31.95,"(-28.83333, 31.95)",South Africa,Africa,1930
+566,Madiun,15380,Valid,L6,400.0,Fell,1935.0,-7.75,111.53333,"(-7.75, 111.53333)",Indonesia,Asia,1930
+573,Malaga,15393,Valid,OC,150.0,Fell,1933.0,32.21667,-104.0,"(32.21667, -104.0)",United States,North America,1930
+575,Malampaka,15395,Valid,H,470.0,Fell,1930.0,-3.13333,33.51667,"(-3.13333, 33.51667)","Tanzania, United Republic of",Africa,1930
+576,Malotas,15397,Valid,H5,,Fell,1931.0,-28.93333,-63.23333,"(-28.93333, -63.23333)",Argentina,South America,1930
+577,Malvern,15400,Valid,Eucrite-pmict,807.0,Fell,1933.0,-29.45,26.76667,"(-29.45, 26.76667)",South Africa,Africa,1930
+581,Mangwendi,15405,Valid,LL6,22300.0,Fell,1934.0,-17.65,31.6,"(-17.65, 31.6)",Zimbabwe,Africa,1930
+624,Miller (Arkansas),16645,Valid,H5,16700.0,Fell,1930.0,35.4,-92.05,"(35.4, -92.05)",United States,North America,1930
+646,Moorleah,16738,Valid,L6,8887.5,Fell,1930.0,-40.975,145.6,"(-40.975, 145.6)",Australia,Oceania,1930
+678,Nassirah,16922,Valid,H4,347.0,Fell,1936.0,-21.73333,165.9,"(-21.73333, 165.9)",France,Europe,1930
+694,Nikolaevka,16976,Valid,H4,3996.0,Fell,1935.0,52.45,78.63333,"(52.45, 78.63333)",Kazakhstan,Asia,1930
+710,Noyan-Bogdo,17936,Valid,L6,250.0,Fell,1933.0,42.91667,102.46667,"(42.91667, 102.46667)",Mongolia,Asia,1930
+714,Nyaung,17969,Valid,"Iron, IIIAB",737.6,Fell,1939.0,21.20833,94.91667,"(21.20833, 94.91667)",Myanmar,Asia,1930
+727,Oldenburg (1930),18009,Valid,L6,16570.0,Fell,1930.0,52.95,8.16667,"(52.95, 8.16667)",Germany,Europe,1930
+756,Pantar,18098,Valid,H5,2130.0,Fell,1938.0,8.06667,124.28333,"(8.06667, 124.28333)",Philippines,Asia,1930
+757,Paragould,18101,Valid,LL5,408000.0,Fell,1930.0,36.06667,-90.5,"(36.06667, -90.5)",United States,North America,1930
+763,Pasamonte,18110,Valid,Eucrite-pmict,5100.0,Fell,1933.0,36.21667,-103.4,"(36.21667, -103.4)",United States,North America,1930
+767,Patwar,18171,Valid,Mesosiderite-A1,37350.0,Fell,1935.0,23.15,91.18333,"(23.15, 91.18333)",Bangladesh,Asia,1930
+769,Pavlodar (stone),18175,Valid,H5,142.5,Fell,1938.0,52.3,77.03333,"(52.3, 77.03333)",Kazakhstan,Asia,1930
+778,Perpeti,18793,Valid,L6,23474.0,Fell,1935.0,23.325,91.0,"(23.325, 91.0)",Bangladesh,Asia,1930
+780,Pervomaisky,18798,Valid,L6,66000.0,Fell,1933.0,56.63333,39.43333,"(56.63333, 39.43333)",Russian Federation,Europe,1930
+781,Pesyanoe,18799,Valid,Aubrite,3393.0,Fell,1933.0,55.5,66.08333,"(55.5, 66.08333)",Russian Federation,Europe,1930
+787,Phum Sambo,18811,Valid,H4,7800.0,Fell,1933.0,12.0,105.48333,"(12.0, 105.48333)",Cambodia,Asia,1930
+797,Plantersville,18846,Valid,H6,2085.0,Fell,1930.0,30.7,-96.11667,"(30.7, -96.11667)",United States,North America,1930
+804,Pontlyfni,18865,Valid,Winonaite,157.0,Fell,1931.0,53.03639,-4.31944,"(53.03639, -4.31944)",United Kingdom,Europe,1930
+807,Po-wang Chen,18879,Valid,LL,665.0,Fell,1933.0,31.41667,118.5,"(31.41667, 118.5)",China,Asia,1930
+808,Prambachkirchen,18883,Valid,L6,2125.0,Fell,1932.0,48.3025,13.94083,"(48.3025, 13.94083)",Austria,Europe,1930
+815,Putinga,18905,Valid,L6,300000.0,Fell,1937.0,-29.03333,-53.05,"(-29.03333, -53.05)",Brazil,South America,1930
+832,Rangala,22392,Valid,L6,3224.5,Fell,1937.0,25.38333,72.01667,"(25.38333, 72.01667)",India,Asia,1930
+843,Repeev Khutor,22590,Valid,"Iron, IIF",7000.0,Fell,1933.0,48.6,45.66667,"(48.6, 45.66667)",Russian Federation,Europe,1930
+851,Rio Negro,22611,Valid,L4,1310.0,Fell,1934.0,-26.1,-49.8,"(-26.1, -49.8)",Brazil,South America,1930
+860,Rumuruti,22782,Valid,R3.8-6,67.0,Fell,1934.0,0.26667,36.53333,"(0.26667, 36.53333)",Kenya,Africa,1930
+878,Santa Cruz,23164,Valid,CM2,60.0,Fell,1939.0,24.16667,-99.33333,"(24.16667, -99.33333)",Mexico,North America,1930
+887,Sazovice,23455,Valid,L5,412.0,Fell,1934.0,49.23333,17.56667,"(49.23333, 17.56667)",Czechia,Europe,1930
+894,Selakopi,23481,Valid,H5,1590.0,Fell,1939.0,-7.23333,107.33333,"(-7.23333, 107.33333)",Indonesia,Asia,1930
+923,Sioux County,23614,Valid,Eucrite-mmict,4100.0,Fell,1933.0,42.58333,-103.66667,"(42.58333, -103.66667)",United States,North America,1930
+963,Sungach,23745,Valid,H5,637.0,Fell,1935.0,44.86667,133.16667,"(44.86667, 133.16667)",Russian Federation,Europe,1930
+977,Tatahouine,23884,Valid,Diogenite,12000.0,Fell,1931.0,32.95,10.41667,"(32.95, 10.41667)",Tunisia,Africa,1930
+980,Tauti,23888,Valid,L6,21000.0,Fell,1937.0,46.71667,23.5,"(46.71667, 23.5)",Romania,Europe,1930
+991,Tirupati,24009,Valid,H6,230.0,Fell,1934.0,13.63333,79.41667,"(13.63333, 79.41667)",India,Asia,1930
+1059,Washougal,24218,Valid,Howardite,225.0,Fell,1939.0,45.58333,-122.35,"(45.58333, -122.35)",United States,North America,1930
+1068,Witsand Farm,24322,Valid,LL4,66.0,Fell,1932.0,-28.66667,18.91667,"(-28.66667, 18.91667)",Namibia,Africa,1930
+1075,Wuzhi,24342,Valid,Stone-uncl,,Fell,1931.0,35.13333,113.33333,"(35.13333, 113.33333)",China,Asia,1930
+1087,Yukan,30377,Valid,LL6,4800.0,Fell,1931.0,28.71667,116.61667,"(28.71667, 116.61667)",China,Asia,1930
+1088,Yurtuk,30378,Valid,Howardite,1472.0,Fell,1936.0,47.31667,35.36667,"(47.31667, 35.36667)",Ukraine,Europe,1930
+1099,Zemaitkiemis,30399,Valid,L6,44100.0,Fell,1933.0,55.3,25.0,"(55.3, 25.0)",Lithuania,Europe,1930
+1101,Zhovtnevyi,30407,Valid,H6,107000.0,Fell,1938.0,47.58333,37.25,"(47.58333, 37.25)",Ukraine,Europe,1930

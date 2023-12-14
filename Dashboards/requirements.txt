@@ -1,0 +1,8 @@
+streamlit
+pandas
+plost
+plotly
+numpy
+#PIL
+scipy
+hydralit_components

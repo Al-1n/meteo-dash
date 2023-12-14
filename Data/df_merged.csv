@@ -1,0 +1,865 @@
+,name,Type_x,Class,(A)chondrite,Group_x,Petrologic type,Type_y,Group_y,mass (g),Year,Month,Day,Hour,Locality,Country,continent,latitude,longitude
+0,Aarhus,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,720.0,1951,October,2,1813,,Denmark,Europe,56.1833,10.2333
+1,Aldsworth,Stone,Ordinary,Chondrite,LL,5,Chondrite,LL5,700.0,1835,August,4,1630,Gloucestershire,England,Europe,51.7833,-1.7833
+2,Alessandria,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,908.0,1860,February,2,1145,Piemonte,Italy,Europe,44.8833,8.75
+3,Alexandrovsky,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,9251.0,1900,July,8,1600,Chernivhivska Provin,Ukraine,Europe,50.95,31.8167
+4,Alfianello,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,228000.0,1883,February,16,1500,Lombardy,Italy,Europe,45.2667,10.15
+5,Allegan,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,32000.0,1899,July,10,800,Michigan,USA,North America,42.5333,-85.8833
+6,Allende,Stone,Carbonaceous,Chondrite,CV,3,Chondrite,CV3,2000000.0,1969,February,8,105,Chihuahua,Mexico,North America,26.9667,-105.3167
+7,Al Rais,Stone,Carbonaceous,Chondrite,CR,2,Chondrite,CR2-an,160.0,1957,December,10,,,Saudi Arabia,Asia,24.4167,39.5167
+8,Alta'ameem,Stone,Ordinary,Chondrite,LL,5,Chondrite,LL5,6000.0,1977,August,20,1030-1100,,Iraq,Asia,35.2733,44.2156
+9,Acapulco,Stone,Acapulcoite,Achondrite,ACAP,,Primitive Achondrite,Acapulcoite,1914.0,1976,August,11,1100,Guerrero,Mexico,North America,16.8833,-99.9
+10,Ambapur Nagla,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,6400.0,1895,May,27,100,Uttar Pradesh,India,Asia,27.6667,78.25
+11,Andhara,Stone,,,,,Unclassified,Stone-uncl,2700.0,1880,December,2,1600,Bihar,India,Asia,26.5833,85.5667
+12,Andover,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,3200.0,1898,August,5,730,Maine,USA,North America,44.6167,-70.75
+13,Andreevka,Stone,Ordinary,Chondrite,L,3,Chondrite,L3,600.0,1969,August,7,1900,Donetsk Province,Ukraine,Europe,48.7,37.5
+14,Andura,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,17900.0,1939,August,9,,Maharashtra,India,Asia,20.8833,76.8667
+15,Angra dos Reis (stone),Stone,Angrite,Achondrite,ANGR,,Achondrite,Angrite,1500.0,1869,January,,500,,Brazil,South America,-22.9667,-44.3167
+16,Ankober,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,6500.0,1942,July,7,1100,,Ethiopia,Africa,9.5333,39.7167
+17,Anlong,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,2500.0,1971,May,2,1600,Guizhou,China,Asia,25.15,105.1833
+18,Aomori,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,320.0,1984,June,30,1350,Honshu,Japan,Asia,40.8106,140.7856
+19,Appley Bridge,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,15000.0,1914,October,13,2045,Lancashire,England,Europe,53.5833,-2.7167
+20,Arbol Solo,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,810.0,1954,September,11,2100,San Luis,Argentina,South America,-33.0,-66.0
+21,Archie,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,5070.0,1932,August,10,1630,Missouri,USA,North America,38.5,-94.3
+22,Ashdon,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1300.0,1923,March,9,1300,Essex,England,Europe,52.05,0.3
+23,Assisi,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,2000.0,1886,May,24,700,Umbria,Italy,Europe,43.0333,12.55
+24,Atarra,Stone,Ordinary,Chondrite,L,4,Chondrite,L4,1280.0,1920,December,23,1735,Uttar Pradesh,India,Asia,25.2542,80.625
+25,Atemajac,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,94.2,1896,February,26,,Jalisco,Mexico,North America,20.0667,-103.6667
+26,Athens,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,265.0,1933,July,11,930,Alabama,USA,North America,34.75,-87.0
+27,Atoka,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1384.2,1945,September,17,,Oklahoma,USA,North America,34.3167,-96.15
+28,Aubres,Stone,Aubrite,Achondrite,AUB,,Achondrite,Aubrite,800.0,1836,September,14,1500,Drome,France,Europe,44.3833,5.1667
+29,Aumale,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,50000.0,1865,August,25,1100-1200,Alger,Algeria,Africa,36.1667,3.6667
+30,Aumieres,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,2000.0,1842,June,3,2100,Lozere,France,Europe,44.3333,3.2333
+31,Ausson,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,50000.0,1858,December,9,730,Haute Garonne,France,Europe,43.0833,0.5833
+32,Adhi Kot,Stone,Enstatite,Chondrite,EH,4,Chondrite,EH4,4239.0,1919,May,1,1200,Punjab,Pakistan,Asia,32.1,71.8
+33,Avce,Iron,Hexahedrite,,IIAB,H,Achondrite,"Iron, IIAB",1230.0,1908,March,31,845,,Slovenia,Europe,46.0,13.5
+34,Avilez,Stone,Ordinary,Chondrite,H,,Chondrite,H,146.0,1855,June,,,Durango,Mexico,North America,25.0,-103.5
+35,Awere,Stone,Ordinary,Chondrite,L,4,Chondrite,L4,134.0,1968,July,12,300,Omoro County,Uganda,Africa,2.7167,32.8333
+36,Aztec,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,2830.0,1938,February,1,1700,New Mexico,USA,North America,36.8,-108.0
+37,Adzhi-Bogdo (stone),Stone,Ordinary,Chondrite,LL,3-6,Chondrite,LL3-6,910.0,1949,October,30,,,Mongolia,Asia,44.8333,95.1667
+38,Aguada,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1620.0,1930,September,,,Cordoba,Argentina,South America,-31.6,-65.2333
+39,Aguila Blanca,Stone,Ordinary,Chondrite,L,,Chondrite,L,1440.0,1920,January,15,2000,Cordoba,Argentina,South America,-30.8667,-64.55
+40,Aioun el Atrouss,Stone,Diogenite,Achondrite,DIO,,Achondrite,Diogenite-pm,1000.0,1974,April,17,,,Mauritania,Africa,16.3981,-9.5703
+41,Akaba,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,779.0,1949,September,21,,,Jordan,Asia,29.5167,35.05
+42,Akbarpur,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,1800.0,1838,April,18,800,Uttar Pradesh,India,Asia,29.7167,77.95
+43,Akwanga,Stone,Ordinary,Chondrite,H,,Chondrite,H,3000.0,1959,July,2,,,Nigeria,Africa,8.9167,8.4333
+44,Akyumak,Iron,Medium octahedrite,,IVA,Om,Achondrite,"Iron, IVA",50000.0,1981,August,2,1530-1600,East Anatolia,Turkey,Asia,39.9167,42.8167
+45,Abee,Stone,Enstatite,Chondrite,EH,,Chondrite,EH4,107000.0,1952,June,9,2305,Alberta,Canada,North America,54.2153,-113.0064
+46,Alberta,Stone,Ordinary,Chondrite,L,,Chondrite,L,625.0,1949,November,13,1400,,Congo,Africa,2.0,22.6667
+47,Bells,Stone,Carbonaceous,Chondrite,CM,2,Chondrite,C2-ung,375.0,1961,September,9,,Texas,USA,North America,33.6,-96.4667
+48,Belville,Stone,,Chondrite,,,Chondrite,OC,,1937,December,,,Cordoba,Argentina,South America,-32.3333,-64.8667
+49,Benld,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,1770.5,1938,September,29,900,Illinois,USA,North America,39.0833,-89.15
+50,Benoni,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,3880.0,1943,July,25,1735,Transvaal,South Africa,Africa,-26.1667,28.4167
+51,Benton,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,2840.0,1949,January,16,2000,New Brunswick,Canada,North America,45.95,-67.55
+52,Bahjoi,Iron,Coarse octahedrite,,IAB,Og,Primitive Achondrite,"Iron, IAB-sLL",10322.0,1934,July,23,2130,Uttar Pradesh,India,Asia,28.4833,78.5
+53,Béréba,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-mmict,18000.0,1924,June,27,1530,,Burkina Faso,Africa,11.65,-3.65
+54,Bethlehem,Stone,Ordinary,Chondrite,H,,Chondrite,H,13.9,1859,August,11,730,New York,USA,North America,42.5333,-73.8333
+55,Beuste,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,2000.0,1859,May,,,Basses-Pyrénées,France,Europe,43.2167,-0.2333
+56,Beyrout,Stone,Ordinary,Chondrite,L,4,Chondrite,LL3.8,1100.0,1921,December,31,1545,,Syria,Asia,33.8833,35.5
+57,Bhagur,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,18.0,1877,November,27,1800,Maharashtra,India,Asia,20.8833,74.8333
+58,Bherai,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,100.0,1893,April,28,800,Gujarat,India,Asia,20.8333,71.4667
+59,Bhola,Stone,Ordinary,Chondrite,LL,3-6,Chondrite,LL3-6,1047.0,1940,March,27,,Khulna,Bangladesh,Asia,22.6833,90.65
+60,Bholghati,Stone,Howardite,Achondrite,HOW,,Achondrite,Howardite,2500.0,1905,October,29,830,Orissa,India,Asia,22.0833,86.9
+61,Bielokrynitschie,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,1900.0,1887,January,1,1800,Khmelnytska Province,Ukraine,Europe,50.1333,27.1667
+62,Bilanga,Stone,Diogenite,Achondrite,DIO,,Achondrite,Diogenite,25000.0,1999,October,27,1030 (local time),,Burkina Faso,Africa,12.45,-0.0833
+63,Binningup,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,488.1,1984,September,30,1010,Western Australia,Australia,Oceania,-33.1564,115.6764
+64,Birni N'konni,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,560.0,1923,April,,,,Niger,Africa,13.7667,5.3
+65,Bald Mountain,Stone,Ordinary,Chondrite,L,4,Chondrite,L4,3700.0,1929,July,9,,North Carolina,USA,North America,35.9667,-82.4833
+66,Bishopville,Stone,Aubrite,Achondrite,AUB,,Achondrite,Aubrite,6000.0,1843,March,25,,South Carolina,USA,North America,34.1667,-80.2833
+67,Bishunpur,Stone,Ordinary,Chondrite,LL,3,Chondrite,LL3.15,1039.0,1895,April,26,1500,Uttar Pradesh,India,Asia,25.3833,82.6
+68,Bjurböle,Stone,Ordinary,Chondrite,L/LL,4,Chondrite,L/LL4,330000.0,1899,March,12,2230,,Finland,Europe,60.4,25.8
+69,Black Moshannan Park,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,705.0,1941,July,10,0600-0630,Pennsylvania,USA,North America,40.9167,-78.0833
+70,Blackwell,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,2381.0,1906,May,,2100,Oklahoma,USA,North America,36.8333,-97.3333
+71,Blanket,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,5100.0,1909,May,30,2230,Texas,USA,North America,31.8333,-98.8333
+72,Blansko,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,470.0,1833,November,25,1830,Moravia,Czech Republic,Europe,49.3667,16.6333
+73,Baldwyn,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,345.0,1922,February,2,,Mississippi,USA,North America,34.5,-88.6667
+74,Bali,Stone,Carbonaceous,Chondrite,CV,3,Chondrite,CV3,1000.0,1907,November,22 or 23,1030,,Central African,Africa,5.3833,16.3833
+75,Bogou,Iron,Coarse octahedrite,,IAB,Og,Primitive Achondrite,"Iron, IAB-MG",8800.0,1962,August,14,1000,,Burkina Faso,Africa,12.5,0.7
+76,Boguslavka,Iron,Hexahedrite,,IIAB,H,Achondrite,"Iron, IIAB",256000.0,1916,October,18,1147,Maritime Territory,Russia,Europe,44.55,131.6333
+77,Bori,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,8600.0,1894,May,9,1600,Madhya Pradesh,India,Asia,21.95,78.0333
+78,Boriskino,Stone,Carbonaceous,Chondrite,CM,2,Chondrite,CM2,1342.0,1930,April,20,1330,Orenburg Province,Russia,Europe,54.2333,52.4833
+79,Borkut,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,7000.0,1852,October,13,1500,Zakarpatska Province,Ukraine,Europe,48.15,24.2833
+80,Bovedy,Stone,Ordinary,Chondrite,L,3,Chondrite,L3,5460.0,1969,April,25,2122,County Londonderry,Northern Ireland,Europe,54.5667,-6.3333
+81,Bo Xian,Stone,Ordinary,Chondrite,LL,4,Chondrite,LL3.9,7500.0,1977,October,20,1430,Anhui,China,Asia,33.8333,115.8333
+82,Bradford Woods,Stone,Ordinary,Chondrite,L,,Chondrite,L,762.0,1886,September,,1200,Pennsylvania,USA,North America,40.5,-80.0833
+83,Braunau,Iron,Hexahedrite,,IIAB,H,Achondrite,"Iron, IIAB",39000.0,1847,July,14,345,Bohemia,Czech Republic,Europe,50.6,16.3
+84,Breitscheid,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1500.0,1956,August,11,1530,Hessen,Germany,Europe,50.6669,8.1836
+85,Bremervörde,Stone,Ordinary,Chondrite,H/L,3,Chondrite,H/L3.9,7250.0,1855,May,13,1700,Niedersachsen,Germany,Europe,53.4,9.1
+86,Brient,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-pmict,219.0,1933,April,19,2030,Orenburg Province,Russia,Europe,52.1333,59.3167
+87,Bruderheim,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,303000.0,1960,March,4,806,Alberta,Canada,North America,53.9,-112.8833
+88,Bununu,Stone,Howardite,Achondrite,HOW,,Achondrite,Howardite,357.0,1942,April,,1000,,Nigeria,Africa,10.0167,9.5833
+89,Bandong,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,11500.0,1871,December,10,1330,Java,Indonesia,Asia,-6.9167,107.6
+90,Bur-Gheluai,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,120000.0,1919,October,16,800,,Somalia,Africa,5.0,48.0
+91,Burnwell,Stone,Ordinary,Chondrite,UNGR,4,Chondrite,H4-an,1504.0,1990,September,4,1545 EDT (1945 UT),Kentucky,USA,North America,37.6219,-82.2372
+92,Buschhof,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,5000.0,1863,June,2,730,,Latvia,Europe,46.45,25.7833
+93,Bustee,Stone,Aubrite,Achondrite,AUB,,Achondrite,Aubrite,1500.0,1852,December,2,1000,Uttar Pradesh,India,Asia,26.7833,82.8333
+94,Butsura,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,29000.0,1861,May,12,1200,Bihar,India,Asia,27.0833,84.0833
+95,Ban Rong Du,Iron,Coarse octahedrite,,UNGR,Og,Unclassified,Iron,16700.0,1993,June,13,2030 local time (123,,Thailand,Asia,16.6667,101.1833
+96,Banswal,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,14.0,1913,January,12,1800,Uttar Pradesh,India,Asia,30.4,78.2
+97,Banten,Stone,Carbonaceous,Chondrite,CM,2,Chondrite,CM2,629.0,1933,May,24,0400-0500,Java,Indonesia,Asia,-6.3333,106.0
+98,Barea,Stony-iron,Mesosiderite,,MES,,Achondrite,Mesosiderite-A1,3200.0,1842,July,4,,,Spain,Europe,42.3833,-2.5
+99,Barnaul,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,23.2,1904,May,22,2330,Altai Republic,Russia,Europe,52.7333,84.0833
+100,Barntrup,Stone,Ordinary,Chondrite,LL,4,Chondrite,LL4,17.0,1886,May,28,1430,Nordrhein-Westfalen,Germany,Europe,52.0,9.1
+101,Baroti,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,4500.0,1910,September,15,1000,Himachal Pradesh,India,Asia,31.6167,76.8
+102,Barwell,Stone,Ordinary,Chondrite,L,6,Chondrite,L5,44000.0,1965,December,24,1620,Leicestershire,England,Europe,52.5667,-1.3333
+103,Baszkówka,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,15500.0,1994,August,25,15:50 (local time),,Poland,Europe,52.0333,20.9358
+104,Bath,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,21000.0,1892,August,29,1600,South Dakota,USA,North America,45.4167,-98.3167
+105,Bath Furnace,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,86000.0,1902,November,15,1845,Kentucky,USA,North America,38.25,-83.75
+106,Bawku,Stone,Ordinary,Chondrite,LL,5,Chondrite,LL5,1557.0,1989,December,29,16:30 (local time),,Ghana,Africa,11.0833,-0.1833
+107,Baxter,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,611.0,1916,January,18,900,Missouri,USA,North America,36.75,-93.5
+108,Beardsley,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,16000.0,1929,October,15,2330,Kansas,USA,North America,39.8,-101.2
+109,Beaver Creek,Stone,Ordinary,Chondrite,H,4,Chondrite,H5,14000.0,1893,May,26,1530,British Columbia,Canada,North America,51.1667,-117.3333
+110,Beddgelert,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,794.0,1949,September,21,147,Gwynedd,Wales,Europe,53.0167,-4.1
+111,Cacak,Stone,,Chondrite,,,Chondrite,OC,212.0,1919,June,6,2030,Serbia,Yugoslavia,Europe,43.8389,20.3333
+112,Castalia,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,7300.0,1874,May,14,1430,North Carolina,USA,North America,36.0833,-78.0667
+113,Castine,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,94.0,1848,May,20,400,Maine,USA,North America,44.3833,-68.75
+114,Ceniceros,Stone,Ordinary,Chondrite,H,3,Chondrite,L3.7,1025.0,1988,August,20,1020,Chihuahua,Mexico,North America,26.4667,-105.2333
+115,Centerville,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,45.6,1956,February,29,,South Dakota,USA,North America,43.2,-96.9167
+116,Cereseto,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,6460.0,1840,July,17,730,Piemonte,Italy,Europe,45.0833,8.3
+117,Chadong,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,3700.0,1998,September,17,1900 (local time),Hunan Province,China,Asia,28.5333,109.3167
+118,Chainpur,Stone,Ordinary,Chondrite,LL,3,Chondrite,LL3.4,8200.0,1907,May,9,1330,Uttar Pradesh,India,Asia,25.85,83.4833
+119,Chajari,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,18300.0,1933,November,29,1300,Entre Rios,Argentina,South America,-30.7833,-58.05
+120,Chandakapur,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,8800.0,1838,June,6,1200,Maharashtra,India,Asia,20.2667,76.0167
+121,Chandpur,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1100.0,1885,April,6,evening,Uttar Pradesh,India,Asia,27.2833,79.05
+122,Changde,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1810.0,1977,March,11,1154,Hunan,China,Asia,29.0833,111.75
+123,Charlotte,Iron,Fine octahedrite,,IVA,Of,Achondrite,"Iron, IVA",4300.0,1835,July,31,1400-1500,Tennessee,USA,North America,36.1667,-87.3333
+124,Charwallas,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,12000.0,1834,June,12,800,Haryana,India,Asia,29.4833,75.5
+125,Château-Renard,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,30000.0,1841,June,12,1330,Loiret,France,Europe,47.9333,2.9167
+126,Chaves,Stone,Howardite,Achondrite,HOW,,Achondrite,Howardite,2945.0,1925,May,3,,,Portugal,Europe,41.9333,-7.4667
+127,Chela,Stone,Ordinary,Chondrite,H,5,Chondrite,H4,2936.0,1988,July,12,1140,Kahama district,Tanzania,Africa,-3.6667,32.5
+128,Cherokee Springs,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,8400.0,1933,July,1,942,South Carolina,USA,North America,35.0333,-81.8833
+129,Chervettaz,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,705.0,1901,November,30,1400,Vaud,Switzerland,Europe,46.55,6.8167
+130,Chervony Kut,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-mmict,1700.0,1939,June,23,1300,Sumska Province,Ukraine,Europe,50.8333,34.0
+131,Chetrinahatti,Stone,,,,,Unclassified,Stone-uncl,72.0,1880,September,6,2210,Karnataka,India,Asia,14.5,76.5
+132,Chiang Khan,Stone,Ordinary,Chondrite,H,5,Chondrite,H6,367.0,1981,November,17,530,,Thailand,Asia,17.9,101.6333
+133,Chicora,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,303.0,1938,June,24,1800,Pennsylvania,USA,North America,40.9333,-79.7333
+134,Chisenga,Iron,Medium octahedrite,,IIIAB,Om,Achondrite,"Iron, IIIAB",3920.0,1988,January,17,afternoon,,Malawi,Africa,-10.0594,33.395
+135,Chitado,Stone,Ordinary,Chondrite,H,6,Chondrite,L6,,1966,October,20,,Cunene,Angola,Africa,-17.35,13.9667
+136,Chitenay,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,4000.0,1978,February,21,1956,Loir-et-Cher,France,Europe,47.4708,0.9767
+137,Calivo,Stone,,Achondrite,,,Unclassified,Stone-uncl,2400.0,1916,May,26,,Panay,Philippines,Asia,11.75,122.3333
+138,Cilimus,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,1600.0,1979,May,7,930,Java,Indonesia,Asia,-6.95,108.1
+139,Claxton,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1455.0,1984,December,10,1730,Georgia,USA,North America,32.1025,-81.8728
+140,Colby (Wisconsin),Stone,Ordinary,Chondrite,L,6,Chondrite,L6,104000.0,1917,July,4,1820,Wisconsin,USA,North America,44.9,-90.2833
+141,Cold Bokkeveld,Stone,Carbonaceous,Chondrite,CM,2,Chondrite,CM2,5200.0,1838,October,13,900,Cape Province,South Africa,Africa,-33.1333,19.3833
+142,Coleman,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,469.0,1994,October,20,01:52 local daylight,Michigan,USA,North America,43.7611,-84.5083
+143,Collescipoli,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,5000.0,1890,February,3,1330,Umbria,Italy,Europe,42.5333,12.6167
+144,Conquista,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,20350.0,1965,December,,600,Minas Gerais,Brazil,South America,-19.85,-47.55
+145,Cosina,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1200.0,1844,January,,1100,Guanajuato,Mexico,North America,21.1667,-100.8667
+146,Cranganore,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1460.0,1917,July,3,1245,Kerala,India,Asia,10.2,76.2667
+147,Crescent,Stone,Carbonaceous,Chondrite,CM,2,Chondrite,CM2,78.4,1936,August,17,1907,Oklahoma,USA,North America,35.95,-97.5833
+148,Campos Sales,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,23680.0,1991,January,31,22:00 (local time),,Brazil,South America,-7.0333,-40.1667
+149,Cronstad,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,3650.0,1877,November,19,1600,Orange Free State,South Africa,Africa,-27.7,27.3
+150,Cross Roads,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,167.0,1892,May,24,500,North Carolina,USA,North America,35.6333,-78.1333
+151,Crumlin,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,4255.0,1902,September,13,1030,County Antrim,Northern Ireland,Europe,54.6167,-6.2167
+152,Cumberland Falls,Stone,Aubrite,Achondrite,AUB,,Achondrite,Aubrite,17000.0,1919,April,9,1200,Kentucky,USA,North America,36.8333,-84.35
+153,Çanakkale,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,4000.0,1964,July,,,,Turkey,Asia,39.8,26.6
+154,Cynthiana,Stone,Ordinary,Chondrite,L/LL,4,Chondrite,L/LL4,6000.0,1877,January,23,1600,Kentucky,USA,North America,38.4,-84.25
+155,Cañellas,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,945.0,1861,May,14,1330,,Spain,Europe,41.25,1.6667
+156,Cangas de Onis,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,34000.0,1866,December,6,1100,,Spain,Europe,43.3833,-5.15
+157,Canon City,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,1400.0,1973,October,27,approx. 1800,Colorado,USA,North America,38.4703,-105.2414
+158,Cabezo de Mayo,Stone,Ordinary,Chondrite,L,6,Chondrite,L/LL6,25000.0,1870,August,18,615,,Spain,Europe,37.9833,-1.1667
+159,Cape Girardeau,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,2300.0,1846,August,14,1500,Missouri,USA,North America,37.2667,-89.5833
+160,Cabin Creek,Iron,Medium octahedrite,,IIIAB,Om,Achondrite,"Iron, IIIAB",48500.0,1886,March,27,1500,Arkansas,USA,North America,35.5,-93.5
+161,Caratash,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,8.0,1902,August,22,2000,,Turkey,Asia,38.5,27.0
+162,Dolgovoli,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1600.0,1864,June,26,700,Volynska Province,Ukraine,Europe,50.75,25.3
+163,Domanitch,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,438.0,1907,February,1,,,Turkey,Asia,40.0,29.0
+164,Donga Kohrod,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,230.0,1899,September,23,1500,Madhya Pradesh,India,Asia,21.8667,82.45
+165,Dongtai,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,5500.0,1970,January,20,2000,Jiangsu,China,Asia,32.9167,120.7833
+166,Dong Ujimqin Qi,Stony-iron,Mesosiderite,,MES,,Achondrite,Mesosiderite,128800.0,1995,September,7,13:35 local time,Inner Mongolia,China,Asia,45.5,119.0333
+167,Dosso,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1250.0,1962,February,19,1230,,Niger,Africa,13.05,3.1667
+168,Douar Mghila,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,1161.0,1932,August,20,1500,,Morocco,Africa,32.3333,-6.3
+169,Dowa,Stone,,,,,Unclassified,Stone-uncl,642.0,1976,March,25,1300,Central province,Malawi,Africa,-13.6667,33.9167
+170,Dresden (Ontario),Stone,Ordinary,Chondrite,H,6,Chondrite,H6,47700.0,1939,June,11,2056,Ontario,Canada,North America,42.52,-82.26
+171,Dubrovnik,Stone,Ordinary,Chondrite,L,3-6,Chondrite,L3-6,1900.0,1951,February,20,1400,Dalmatia,Croatia,Europe,42.4583,18.4417
+172,Dunbogan,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,30.0,1999,December,14,,New South Wales,Australia,Oceania,-31.6667,152.8333
+173,Dundrum,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,2270.0,1865,August,12,1900,County Tipperary,Ireland,Europe,52.55,-8.0333
+174,Dunhua,Stone,,,,,Unclassified,Stone-uncl,,1976,July,9,,Jilin,China,Asia,43.3333,128.25
+175,Duruma,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,577.0,1853,March,6,,,Kenya,Africa,-4.0,39.5
+176,Duwun,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,2117.0,1943,November,23,1547,Choeure-namdo,Korea,Antarctica,33.4333,127.2667
+177,Dwaleni,Stone,Ordinary,Chondrite,H,6,Chondrite,H4-6,3230.0,1970,October,12,1030,,Swaziland,Africa,-27.2,31.3167
+178,Dyalpur,Stone,Ureilite,Achondrite,URE,,Primitive Achondrite,Ureilite,300.0,1872,May,8,,Uttar Pradesh,India,Asia,26.25,82.0
+179,Dyarrl Island,Stony-iron,Mesosiderite,,MES,,Achondrite,Mesosiderite-A1,188.0,1933,January,31,1630,,Papua-New Guinea,Oceania,-3.0,151.0
+180,Dandapur,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,5650.0,1878,September,5,1700,Uttar Pradesh,India,Asia,26.9167,83.9667
+181,Daniel's Kuil,Stone,Enstatite,Chondrite,EL,6,Chondrite,EL6,1064.0,1868,March,20,,Cape Province,South Africa,Africa,-28.2,24.5667
+182,Danville,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,2000.0,1868,November,27,1700,Alabama,USA,North America,34.4,-87.0667
+183,Dashoguz,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,7000.0,1998,September,5,,,Turkmenistan,Asia,41.9844,59.685
+184,De Cewsville,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,340.0,1887,January,21,1400,Ontario,Canada,North America,43.0,-80.0
+185,Delhi,Stone,Ordinary,Chondrite,L,,Chondrite,L5,0.8,1897,October,18,1930,Delhi state,India,Asia,28.5667,77.25
+186,Demina,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,16400.0,1911,September,6,1530,Altai Republic,Russia,Europe,51.4667,84.7667
+187,Denver,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,230.0,1967,July,42309,,Colorado,USA,North America,39.7825,-104.9306
+188,Dergaon,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,12500.0,2001,March,2,1640 (local time),Assam,India,Asia,26.6833,93.8667
+189,Dahmani,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,18000.0,1981,May,,,,Tunisia,Africa,35.6167,8.8333
+190,Desuri,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,25400.0,1962,July,18,,Rajasthan,India,Asia,25.7333,73.6167
+191,Devri-Khera,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1140.0,1994,October,30,2100 (local time),Rajasthan,India,Asia,24.225,76.525
+192,Dhajala,Stone,Ordinary,Chondrite,H,3,Chondrite,H3.8,45000.0,1976,January,28,2100,Gujarat,India,Asia,22.3778,71.4272
+193,Dharwar,Stone,,Chondrite,,,Chondrite,OC,1800.0,1848,February,15,1300,Karnataka,India,Asia,14.8833,75.6
+194,Dhurmsala,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,32000.0,1860,July,14,1415,Himachal Pradesh,India,Asia,32.2333,76.4667
+195,Diep River,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1000.0,1906,November,4,1630,Cape Province,South Africa,Africa,-33.75,18.5667
+196,Distrito Quebracho,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,400.0,1957,March,13,2000,Entre Rios,Argentina,South America,-31.8833,-60.4667
+197,Djati-Pengilon,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,166000.0,1884,March,19,1630,Java,Indonesia,Asia,-7.5,111.5
+198,Djermaia,Stone,Ordinary,Chondrite,H,,Chondrite,H,3950.0,1961,February,25,,,Chad,Africa,12.7333,15.05
+199,Dokachi,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,3840.0,1903,October,22,1900,Dacca,Bangladesh,Asia,23.5,90.3333
+200,Enshi,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,8000.0,1974,December,26,1530,Hubei,China,Asia,30.3,109.5
+201,Erakot,Stone,Carbonaceous,Chondrite,CM,2,Chondrite,CM2,113.0,1940,June,22,1700,Madhya Pradesh,India,Asia,19.0333,81.8917
+202,Ergheo,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,20000.0,1889,July,,,,Somalia,Africa,1.1667,44.1667
+203,Esnandes,Stone,Ordinary,Chondrite,H,6,Chondrite,L6,1500.0,1837,August,,,Charente Maritime,France,Europe,46.25,-1.1
+204,Essebi,Stone,Carbonaceous,Chondrite,CM,2,Chondrite,C2-ung,500.0,1957,July,28,720,,Congo,Africa,2.8833,30.8333
+205,Estherville,Stony-iron,Mesosiderite,,MES,,Achondrite,Mesosiderite-A3/4,320000.0,1879,May,10,1700,Iowa,USA,North America,43.4167,-94.8333
+206,Ehole,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,2400.0,1961,August,31,1645,Cunene,Angola,Africa,-17.3,15.8333
+207,Ekeby,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,3336.0,1939,April,5,612,,Sweden,Europe,56.0333,13.0
+208,Ekh Khera,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,840.0,1916,April,5,230,Uttar Pradesh,India,Asia,28.2667,78.7833
+209,Elenovka,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,54640.0,1951,October,17,1630,Donetsk Province,Ukraine,Europe,47.8333,37.6667
+210,El Idrissia,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,10000.0,1998,March,10,,Djelfa,Algeria,Africa,34.4167,3.25
+211,Ellemeet,Stone,Diogenite,Achondrite,DIO,,Achondrite,Diogenite,1470.0,1925,August,28,1130,Zeeland,Netherlands,Europe,51.75,4.0
+212,El Tigre,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,5000.0,1993,December,23,,Jalisco,Mexico,North America,19.9672,-103.0517
+213,Fukutomi,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,11620.0,1882,March,19,1300,Kyushu,Japan,Asia,33.1833,130.2
+214,Fuyang,Stone,,,,,Unclassified,Stone-uncl,2500.0,1977,June,,,Anhui,China,Asia,32.9,115.8
+215,Farmington,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,89400.0,1890,June,25,1300,Kansas,USA,North America,39.75,-97.0333
+216,Farmville,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,56000.0,1934,December,4,,North Carolina,USA,North America,35.55,-77.5333
+217,Favars,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1500.0,1844,October,21,645,Aveyron,France,Europe,44.3833,2.8167
+218,Fayetteville,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,2360.0,1934,December,26,1158,Arkansas,USA,North America,36.05,-94.1667
+219,Feid Chair,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,380.0,1875,August,16,midday,Constantine,Algeria,Africa,36.8833,8.45
+220,Felix,Stone,Carbonaceous,Chondrite,CO,3,Chondrite,CO3.3,3200.0,1900,May,15,1130,Alabama,USA,North America,32.5333,-87.1667
+221,Fenghsien-Ku,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,82.0,1924,October,5,1822,Jiangsu,China,Asia,34.6,116.75
+222,Ferguson,Stone,,Chondrite,,,Chondrite,OC,220.0,1889,July,18,,North Carolina,USA,North America,36.1,-81.4167
+223,Fermo,Stone,Ordinary,Chondrite,H,3-5,Chondrite,H3-5,10200.0,1996,September,25,1530 UT,Marche,Italy,Europe,43.1811,13.7533
+224,Fisher,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,17600.0,1894,April,9,1600,Minnesota,USA,North America,47.8167,-96.85
+225,Florence,Stone,Ordinary,Chondrite,H,3,Chondrite,H3,3640.0,1922,January,21,2000,Texas,USA,North America,30.8333,-97.7667
+226,Forest City,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,152000.0,1890,May,2,1715,Iowa,USA,North America,43.25,-93.6667
+227,Forest Vale,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,26000.0,1942,August,7,1500,New South Wales,Australia,Oceania,-33.35,146.8583
+228,Forksville,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,6067.0,1924,July,16,1745,Virginia,USA,North America,36.7833,-78.0833
+229,Forsbach,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,240.0,1900,June,12,1400,Nordrhein-Westfalen,Germany,Europe,50.95,7.3167
+230,Fort Flatters,Stone,,,,,Unclassified,Stone-uncl,,1944,June,23,,,Algeria,Africa,28.25,7.0
+231,Frankfort (stone),Stone,Howardite,Achondrite,HOW,,Achondrite,Howardite,650.0,1868,December,5,1500,Alabama,USA,North America,34.4833,-87.8333
+232,Fuc Bin,Stone,Ordinary,Chondrite,L,5,,,,1971,July,,,,Vietnam,,22.0,106.0
+233,Granes,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,9000.0,1964,November,13,1700,Aude,France,Europe,42.9,2.25
+234,Gambat,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,6400.0,1897,September,15,,Sind,Pakistan,Asia,27.35,68.5333
+235,Grefsheim,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,45.5,1976,January,25-31,,,Norway,Europe,60.6667,11.0
+236,Grosnaja,Stone,Carbonaceous,Chondrite,CV,3,Chondrite,CV3,3500.0,1861,June,28,1900,Checheno-Ingushskaya,Russia,Europe,43.6667,45.3833
+237,Gross-Divina,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,10500.0,1837,July,24,1130,Carpathian Mountains,Slovakia,Europe,49.2667,18.7167
+238,Grossliebenthal,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,8000.0,1881,November,19,630,Odessa Province,Ukraine,Europe,46.35,30.5833
+239,Grüneberg,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,1000.0,1841,March,22,1530,,Poland,Europe,51.9333,15.5
+240,Grzempach,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,690.0,1910,September,3,1500,,Poland,Europe,52.8667,16.6333
+241,Gualeguaychu,Stone,Ordinary,Chondrite,H,6,,,,1932,October,,,Entre Rios,Argentina,,-33.0,-58.6167
+242,Guangmingshan,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,2910.0,1996,December,30,0800 (local time),Liaoning Province,China,Asia,39.8042,122.7639
+243,Guangnan,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,,1983,February,7,,Yunan,China,Asia,24.1,105.0
+244,Guangrao,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1900.0,1980,June,21,1615,Shandong,China,Asia,37.1,118.4
+245,Guareña,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,39000.0,1892,July,20,1030,,Spain,Europe,38.7333,-6.0167
+246,Gao-Guenie,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,3600.0,1960,March,5,1700,,Burkina Faso,Africa,11.65,-2.1833
+247,Guêa,Stone,,,,,Unclassified,Stone-uncl,1915.0,1891,September,28,1700,Serbia,Yugoslavia,Europe,43.7667,20.2333
+248,Guibga,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,288.0,1972,February,26,,,Burkina Faso,Africa,13.5,-0.6833
+249,Guidder,Stone,Ordinary,Chondrite,LL,5,Chondrite,LL5,968.0,1949,January,7,1845,Nord province,Cameroun,Africa,9.9167,13.9833
+250,Gujargaon,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,2449.0,1982,September,4,1500,Madhya Pradesh,India,Asia,22.9833,76.05
+251,Gujba,Stone,Ungrouped,Chondrite,UNGR,,Chondrite,CBa,100000.0,1984,April,3,1830 (local time),Yobe,Nigeria,Africa,11.4917,11.6583
+252,Gumoschnik,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,5700.0,1904,April,28,1820,Gabrovo,Bulgaria,Europe,42.9,24.7
+253,Gursum,Stone,Ordinary,Chondrite,H,4,Chondrite,H4/5,34650.0,1981,February,10,1330,,Ethiopia,Africa,9.3667,42.4167
+254,Gütersloh,Stone,Ordinary,Chondrite,H,4,Chondrite,H3/4,1000.0,1851,April,17,2000,Nordrhein-Westfalen,Germany,Europe,51.9167,8.3833
+255,Gyokukei,Stone,,Chondrite,,,Chondrite,OC,1320.0,1930,March,17,,,Korea,Asia,35.0,127.5
+256,Garhi Yasin,Iron,Medium octahedrite,,IIE,Om,Achondrite,"Iron, IIE",380.0,1917,January,,during darkness,Sind,Pakistan,Asia,27.8833,68.5333
+257,Geidam,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,725.0,1950,July,6,,,Nigeria,Africa,12.9167,11.9167
+258,Gifu,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,14290.0,1909,July,24,544,Honshu,Japan,Asia,35.5333,136.8833
+259,Girgenti,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,18000.0,1853,February,10,1830,Sicily,Italy,Europe,37.3167,13.5667
+260,Git-Git,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,480.0,1947,January,9,700,,Nigeria,Africa,9.6,9.9167
+261,Glanerbrug,Stone,Ordinary,Chondrite,LL,6,Chondrite,L/LL5,670.0,1990,April,7,1833,Overijssel,Netherlands,Europe,52.2181,6.9511
+262,Glanggang,Stone,Ordinary,Chondrite,H,5-6,Chondrite,H5-6,1303.0,1939,September,26,,Java,Indonesia,Asia,-7.25,107.7
+263,Glasatovo,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,152000.0,1918,February,27,1245,Tver Province,Russia,Europe,57.35,37.6167
+264,Glatton,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,767.0,1991,May,5,12.3,Cambridgeshire,England,Europe,52.46,-0.3
+265,Galim (a),Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,36.1,1952,November,13,1700,,Cameroun,Africa,7.05,12.4333
+266,Galkiv,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,5000.0,1995,January,12,11:30 local time,Chernigov Region,Ukraine,Europe,51.6833,30.7833
+267,Gnadenfrei,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1750.0,1879,May,17,1600,,Poland,Europe,50.6667,16.7667
+268,Gopalpur,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,1600.0,1865,May,23,1800,Rajshahi,Bangladesh,Asia,24.2333,89.05
+269,Gorlovka,Stone,Ordinary,Chondrite,H,3-4,Chondrite,H3.7,3618.0,1974,July,17,1730,Donetsk Province,Ukraine,Europe,48.2833,38.0833
+270,Hökmark,Stone,Ordinary,Chondrite,L,4,Chondrite,L4,305.5,1954,June,9,2031,,Sweden,Europe,64.4333,21.2
+271,Holbrook,Stone,Ordinary,Chondrite,L/LL,6,Chondrite,L/LL6,220000.0,1912,July,19,1915,Arizona,USA,North America,34.9,-110.1833
+272,Holetta,Stone,,,,,Unclassified,Stone-uncl,1415.0,1923,April,14,1125,,Ethiopia,Africa,9.0667,38.4167
+273,Homestead,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,230000.0,1875,February,12,2215,Iowa,USA,North America,41.8,-91.8667
+274,Hotse,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,180.0,1956,June,26,,Shandong,China,Asia,35.6667,115.5
+275,Hallingeberg,Stone,Ordinary,Chondrite,L,3,Chondrite,L3.4,1456.0,1944,February,1,1400,,Sweden,Europe,57.8167,16.2333
+276,Hungen,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,112.0,1877,May,17,700,Hessen,Germany,Europe,50.3,8.9167
+277,Hvittis,Stone,Enstatite,Chondrite,EL,6,Chondrite,EL6,14000.0,1901,October,21,1200,,Finland,Europe,61.1833,22.6833
+278,Hamlet,Stone,Ordinary,Chondrite,LL,4,Chondrite,LL4,3710.0,1959,October,13,905,Indiana,USA,North America,41.3833,-86.6
+279,Haraiya,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-mmict,1000.0,1878,August,,,Uttar Pradesh,India,Asia,26.8,82.5333
+280,Haripura,Stone,Carbonaceous,Chondrite,CM,2,Chondrite,CM2,315.0,1921,January,17,2100,Rajasthan,India,Asia,28.3833,75.7833
+281,Harleton,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,8360.0,1961,May,30,2230,Texas,USA,North America,32.675,-94.5117
+282,Harrison County,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,680.0,1859,March,28,1600,Indiana,USA,North America,38.25,-86.1667
+283,Haverö,Stone,Ureilite,Achondrite,URE,,Primitive Achondrite,Ureilite,1544.0,1971,August,2,1545,,Finland,Europe,60.2456,22.0619
+284,Hedeskoga,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,3500.0,1922,April,20,1945,,Sweden,Europe,55.4667,13.7833
+285,Hainaut,Stone,Ordinary,Chondrite,H,3-6,Chondrite,H3-6,9000.0,1934,November,26,2000-2100,,Belgium,Europe,50.3167,3.7333
+286,Heredia,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1000.0,1857,April,1,at night,,Costa Rica,North America,10.0,-84.1
+287,Hessle,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,20000.0,1869,January,1,1230,,Sweden,Europe,59.85,17.6667
+288,Higashi-koen,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,750.0,1897,August,11,,Kyushu,Japan,Asia,33.6,136.4333
+289,Idutywa,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,3457.0,1956,February,1,1815,Cape Province,South Africa,Africa,-32.1,28.3333
+290,Iguaracu,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1200.0,1977,October,,,Parana,Brazil,South America,-23.2,-51.8333
+291,Ijopega,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,7330.0,1975,March,3,2145,Goroka,Papua-New Guinea,Oceania,-6.0333,145.3667
+292,Indarch,Stone,Enstatite,Chondrite,EH,4,Chondrite,EH4,27000.0,1891,April,7,2010,Nagorno-Karabakh,Azerbaijan,Asia,39.75,46.6667
+293,Ibbenbüren,Stone,Diogenite,Achondrite,DIO,,Achondrite,Diogenite,2000.0,1870,June,17,1400,Nordrhein-Westfalen,Germany,Europe,52.2833,7.7
+294,Innisfree,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,4576.0,1977,February,5,1917,Alberta,Canada,North America,53.415,-111.3375
+295,Ibitira,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-mmict,2500.0,1957,June,30,1715,Minas Gerais,Brazil,South America,-20.0,-45.0
+296,Ipiranga,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,7000.0,1972,December,27,1030,Parana,Brazil,South America,-25.5,-54.5
+297,Ishinga,Stone,Ordinary,Chondrite,H,,Chondrite,H,1300.0,1954,October,8,1500,,Tanzania,Africa,-8.9333,33.8
+298,Ichkala,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,3973.0,1936,May,29,2334,Tomsk Province,Russia,Europe,58.2,82.9333
+299,Isthilart,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,3050.0,1928,November,12,730,Entre Rios,Argentina,South America,-31.1833,-57.95
+300,Itapicuru-Mirim,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,2024.0,1879,March,,,Maranhão,Brazil,South America,-3.4,-44.3333
+301,Ivuna,Stone,Carbonaceous,Chondrite,CI,1,Chondrite,CI1,704.5,1938,December,16,1730,,Tanzania,Africa,-8.4167,32.4333
+302,Jamkheir,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,22.0,1866,October,5,1200,Maharashtra,India,Asia,18.75,75.3333
+303,Jartai,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,20500.0,1979,March,15,,Ningxia,China,Asia,39.7,105.8
+304,Jackalsfontein,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,48000.0,1903,April,22,1130,Cape Province,South Africa,Africa,-32.5,21.9
+305,Jelica,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,34000.0,1889,December,1,1430,Serbia,Yugoslavia,Europe,43.8333,20.4417
+306,Jemlapur,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,450.0,1901,February,,,,India,Asia,,
+307,Jhung,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,5900.0,1873,June,,1500,Punjab,Pakistan,Asia,31.3,72.3833
+308,Jiange,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,222.0,1964,October,9,1900?,Sichuan,China,Asia,31.9167,104.9167
+309,Jilin,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,4000000.0,1976,March,8,1500,Jilin,China,Asia,44.0,126.5
+310,Jajh deh Kot Lalu,Stone,Enstatite,Chondrite,EL,6,Chondrite,EL6,973.0,1926,May,2,1700-1800,Sind,Pakistan,Asia,26.75,68.4167
+311,Jodzie,Stone,Howardite,Achondrite,HOW,,Achondrite,Howardite,30.0,1877,June,17,430,Kovno,Lithuania,Europe,55.7,24.4
+312,Johnstown,Stone,Diogenite,Achondrite,DIO,,Achondrite,Diogenite,40300.0,1924,July,6,1620,Colorado,USA,North America,40.35,-104.9
+313,Jolomba,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,483.0,1974,February,3,,Huambo district,Angola,Africa,-11.85,15.8333
+314,Jalanash,Stone,Ureilite,Achondrite,URE,,Primitive Achondrite,Ureilite,700.0,1990,August,15,,Bayan-Ölgiy,Mongolia,Asia,,
+315,Juancheng,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,100000.0,1997,February,15,23:23:35 (Beijing ti,Shandong,China,Asia,35.5,115.4167
+316,Judesegeri,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,680.0,1876,February,16,,Karnataka,India,Asia,12.85,76.8
+317,Jumapalo,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,32490.0,1984,March,13,1000,Java,Indonesia,Asia,-7.7167,111.2
+318,Junan,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,950.0,1976,May,15,1100,Shandong,China,Asia,35.2,118.8
+319,Juromenha,Iron,,,IIIAB,,Achondrite,"Iron, IIIAB",25250.0,1968,November,14,1755,,Portugal,Europe,38.7403,-7.27
+320,Kendleton,Stone,Ordinary,Chondrite,L,4,Chondrite,L4,6937.0,1939,May,2,1925,Texas,USA,North America,29.45,-96.0
+321,Kerilis,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,5000.0,1874,November,26,1030,Cotes-du-Nord,France,Europe,48.4,-3.3
+322,Kaee,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,230.0,1838,January,29,,Uttar Pradesh,India,Asia,27.25,79.9667
+323,Kernouve,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,80000.0,1869,May,22,2200,Morbihan,France,Europe,48.1167,-3.0833
+324,Kesen,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,135000.0,1850,June,13,500,Honshu,Japan,Asia,38.9833,141.6167
+325,Kagarlyk,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1900.0,1908,June,30,700,Kiev Province,Ukraine,Europe,49.8667,30.8333
+326,Khairpur,Stone,Enstatite,Chondrite,EL,6,Chondrite,EL6,13600.0,1873,September,23,500,Sind,Pakistan,Asia,29.5333,72.3
+327,Khanpur,Stone,Ordinary,Chondrite,LL,5,Chondrite,LL5,3698.0,1932,July,8,1200-1300,Uttar Pradesh,India,Asia,25.55,83.1167
+328,Khenteisky,Stone,,,,,,,,1952,July,10,2330,Choybalsan aymag,Mongolia,,49.2,113.4667
+329,Kheragur,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,450.0,1860,March,28,,Uttar Pradesh,India,Asia,26.95,77.8833
+330,Khetri,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,100.0,1867,January,19,900,Rajasthan,India,Asia,28.0167,75.8167
+331,Khmelevka,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,6109.0,1929,March,1,524,Omsk Province,Russia,Europe,56.75,75.3333
+332,Khohar,Stone,Ordinary,Chondrite,L,3,Chondrite,L3.6,9700.0,1910,September,19,1300,Uttar Pradesh,India,Asia,25.1,81.5333
+333,Khor Temiki,Stone,Aubrite,Achondrite,AUB,,Achondrite,Aubrite,3200.0,1932,April,8,,,Sudan,Africa,16.0,36.0
+334,Kiel,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,737.6,1962,April,26,1245,Schleswig-Holstein,Germany,Europe,54.4,10.15
+335,Kidairat,Stone,Ordinary,Chondrite,H,4,Chondrite,H6,100000.0,1983,January,,,Northern Kardofan pr,Sudan,Africa,14.0,28.0
+336,Kaidun,Stone,Carbonaceous,Chondrite,CR,,Chondrite,CR2,2000.0,1980,December,30,445,,South Yemen,Asia,15.0,48.3
+337,Kiffa,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1500.0,1970,October,23,1455,,Mauritania,Africa,16.5833,-11.3333
+338,Kijima (1906),Stone,Enstatite,Chondrite,EL,,Chondrite,EL,331.0,1906,June,15,,Honshu,Japan,Asia,36.85,138.3833
+339,Kilbourn,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,772.0,1911,June,16,1700,Wisconsin,USA,North America,43.5833,-89.6
+340,Killeter,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,140.0,1844,April,29,1530,County Tyrone,Ireland,Europe,54.6667,-7.6667
+341,Kingai,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,67.4,1967,November,7,1400,,Sudan,Africa,11.6333,24.6833
+342,Kirbyville,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-mmict,97.7,1906,November,12,1530,Texas,USA,North America,30.75,-95.95
+343,Kirkland,Iron,Octahedrite,,,O,,,,1955,January,17,1100,Washington,USA,,42.6931,-122.1703
+344,Kainsaz,Stone,Carbonaceous,Chondrite,CO,3,Chondrite,CO3.2,200000.0,1937,September,13,1415,Tatarstan Republic,Russia,Europe,55.4333,53.25
+345,Kisvarsány,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1550.0,1914,May,24,,,Hungary,Europe,48.1667,22.3083
+346,Kitchener,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,202.6,1998,July,12,0830 (local time),Ontario,Canada,North America,43.3833,-80.3833
+347,Kakangari,Stone,Kakangari-type,Chondrite,K,3,Chondrite,K3,350.0,1890,June,4,800,Tamil Nadu,India,Asia,12.3833,78.5167
+348,Klein-Wenden,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,3250.0,1843,September,16,1645,Thuringen,Germany,Europe,51.6,10.8
+349,Knyahinya,Stone,Ordinary,Chondrite,L/LL,5,Chondrite,L/LL5,500000.0,1866,June,9,,Ungvár,Ukraine,Europe,48.9,22.4
+350,Kobe,Stone,Carbonaceous,Chondrite,CK,4,Chondrite,CK4,136.0,1999,September,26,2021 (local time),Kobe,Japan,Asia,34.7333,135.1667
+351,Kakowa,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,577.0,1858,May,19,800,,Romania,Europe,45.1333,21.6667
+352,Kokubunji,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,11510.0,1986,July,29,1900,Shikoku,Japan,Asia,34.3,133.95
+353,Komagome,Iron,Octahedrite,,,O,Unclassified,Iron,238.0,1926,April,18,,Honshu,Japan,Asia,,
+354,Konovo,Stone,,Chondrite,,,Chondrite,LL5,90.0,1931,May,26,0000-0100,Sliven,Bulgaria,Europe,42.5167,26.1667
+355,Kalaba,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,950.0,1951,October,31,1730,Katanga,Congo,Africa,-6.8333,29.5
+356,Krähenberg,Stone,Ordinary,Chondrite,LL,5,Chondrite,LL5,16500.0,1869,May,5,1830,Rheinland-Pfalz,Germany,Europe,49.3269,7.4647
+357,Krasnyi Klyuch,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,4000.0,1946,May,4,,Bashkir Republic,Russia,Europe,54.3333,56.0833
+358,Krymka,Stone,Ordinary,Chondrite,LL,3,Chondrite,LL3.2,50000.0,1946,January,21,,Mykolaïv Province,Ukraine,Europe,47.8333,30.7667
+359,Kukschin,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,2250.0,1938,June,11,1400,Chernivhivska Provin,Ukraine,Europe,51.15,31.7
+360,Kulak,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,453.6,1961,March,25,1730,Baluchistan,Pakistan,Asia,30.7311,66.8022
+361,Kulp,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,3719.0,1906,March,29,,,Armenia,Asia,41.1167,45.0
+362,Kunashak,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,200000.0,1949,June,11,814,Chelyabinsk Province,Russia,Europe,55.7833,61.3667
+363,Kunya-Urgench,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1100000.0,1998,June,20,1725,Dashkhowus Velayat,Turkmenistan,Asia,42.25,59.2
+364,Kushiike,Stone,Ordinary,Chondrite,H,5,Chondrite,OC,4460.0,1920,September,16,1800,Honshu,Japan,Asia,37.05,138.3833
+365,Kusiali,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,5.0,1860,June,16,500,Uttar Pradesh,India,Asia,29.6833,78.3833
+366,Kutais,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,23.0,1977,November,28,800,Krasnodarsky Territo,Russia,Europe,44.5167,39.3
+367,Kuttippuram,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,45000.0,1914,April,6,700,Kerala,India,Asia,10.8333,76.0333
+368,Kuznetzovo,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,4047.0,1932,May,26,between 1700 and 180,Novosibirsk Province,Russia,Europe,55.2,75.3333
+369,Kyushu,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,45000.0,1886,October,26,1500,Kyushu,Japan,Asia,32.0333,130.6333
+370,Kalumbi,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,4500.0,1879,November,4,,Maharashtra,India,Asia,17.8333,73.9833
+371,Kamalpur,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,2770.0,1942,August,18,,Uttar Pradesh,India,Asia,26.0333,81.4667
+372,Kamiomi,Stone,Ordinary,Chondrite,H,4,Chondrite,H5,448.0,1913,March,,1500,Honshu,Japan,Asia,36.0417,139.9567
+373,Kamsagar,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1293.0,1902,November,12,1300,Karnataka,India,Asia,14.1833,75.8
+374,Kandahar (Afghanistan),Stone,Ordinary,Chondrite,L,6,Chondrite,L6,299.0,1959,November,,,,Afghanistan,Asia,31.6,65.7833
+375,Kangean,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1630.0,1908,November,27,1100,Kangean Island,Indonesia,Asia,-7.0,115.5
+376,Kaba,Stone,Carbonaceous,Chondrite,CV,3,Chondrite,CV3,3000.0,1857,April,15,2200,,Hungary,Europe,47.35,21.3
+377,Kapoeta,Stone,Howardite,Achondrite,HOW,,Achondrite,Howardite,11355.0,1942,April,22,1900,,Sudan,Africa,4.7,33.6333
+378,Kaptal-Aryk,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,3500.0,1937,May,12,2045,Kirgiziya,Kazakstan,Asia,42.45,73.3667
+379,Karakol,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,3000.0,1840,May,9,1200,Semipalatinsk,Kazakstan,Asia,47.2167,81.0167
+380,Karatu,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,2220.0,1963,September,11,,,Tanzania,Africa,-3.5,35.5833
+381,Karewar,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,180.0,1949,September,19,1900,Katsina province,Nigeria,Africa,12.9,7.15
+382,Karkh,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,22000.0,1905,April,27,1300,Baluchistan,Pakistan,Asia,27.8,67.1667
+383,Karloowala,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,2950.0,1955,July,21,1200,,Pakistan,Asia,31.5833,71.6
+384,Karoonda,Stone,Carbonaceous,Chondrite,CK,4,Chondrite,CK4,41730.0,1930,November,25,2253,South Australia,Australia,Oceania,-35.0833,139.9167
+385,Kabo,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,13400.0,1971,April,25,1630,,Nigeria,Africa,11.85,8.2167
+386,Kasamatsu,Stone,Ordinary,Chondrite,H,,Chondrite,H,710.0,1938,March,31,,Honshu,Japan,Asia,35.3667,136.7667
+387,Kayakent,Iron,Medium octahedrite,,IIIAB,Om,Achondrite,"Iron, IIIAB",85000.0,1961,April,,,,Turkey,Asia,39.2633,31.78
+388,Leighton,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,877.0,1907,January,12,2000,Alabama,USA,North America,34.5833,-87.5
+389,Leonovka,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,700.0,1900,August,23,2100,Chernivhivska Provin,Ukraine,Europe,52.2667,32.85
+390,Le Pressoir,Stone,Ordinary,Chondrite,L,6,Chondrite,H5,3000.0,1845,January,25,1500,Indre-et-Loir,France,Europe,47.1667,0.4333
+391,Les Ormes,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,125.0,1857,October,1,1700,Yonne,France,Europe,48.35,3.25
+392,Lesves,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,2000.0,1896,April,13,730,,Belgium,Europe,50.3667,4.7333
+393,Le Teilleul,Stone,Howardite,Achondrite,HOW,,Achondrite,Howardite,780.0,1845,July,14,1500,Manche,France,Europe,48.5333,-0.8667
+394,Lichtenberg,Stone,,Chondrite,,,Chondrite,H6,4000.0,1973,September,26,,Transvaal,South Africa,Africa,-26.15,26.1833
+395,Lillaverke,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,6862.0,1930,May,11,1600,Smaland,Sweden,Europe,56.65,15.8667
+396,Linum,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1862.0,1854,September,5,800,Brandenburg,Germany,Europe,52.75,12.9
+397,Lishui,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,498.0,1978,September,10,1600,Jiangsu,China,Asia,31.6333,118.9833
+398,Little Piney,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,491.0,1839,February,13,1530,Missouri,USA,North America,37.9167,-92.0833
+399,Lodran,Stone,Lodranite,Achondrite,LOD,,Primitive Achondrite,Lodranite,1000.0,1868,October,1,1400,Punjab,Pakistan,Asia,29.5333,71.8
+400,Lohawat,Stone,Howardite,Achondrite,HOW,,Achondrite,Howardite,40000.0,1994,October,30,2345 (local time),Rajasthan,India,Asia,26.9656,72.6267
+401,Lahrauli,Stone,Ureilite,Achondrite,URE,,Primitive Achondrite,Ureilite,900.0,1955,March,24,1100,Uttar Pradesh,India,Asia,26.7833,82.7167
+402,Los Martinez,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,25.0,1894,May,,,,Spain,Europe,37.7833,-1.7833
+403,La Bécasse,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,2800.0,1879,January,31,1230,Indre,France,Europe,47.0833,1.75
+404,Lost City,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,17000.0,1970,January,3,2014,Oklahoma,USA,North America,36.0083,-95.15
+405,Louisville,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1300.0,1977,January,31,1530,Kentucky,USA,North America,38.25,-85.75
+406,Lowicz,Stony-iron,Mesosiderite,,MES,,,,,1935,March,12,52,,Poland,,52.0,19.9167
+407,Lua,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,9241.0,1926,June,26,1600,Rajasthan,India,Asia,24.95,75.15
+408,Lakangaon,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-mmict,212.5,1910,November,24,1800,Madhya Pradesh,India,Asia,21.8667,76.0333
+409,Lumpkin,Stone,Ordinary,Chondrite,H,6,Chondrite,L6,340.0,1869,October,6,1145,Georgia,USA,North America,32.0333,-84.7667
+410,Lunan,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,2520.0,1980,April,4,1700,Yunan,China,Asia,24.8,103.3
+411,Lundsgård,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,11000.0,1889,April,3,2030,Skåne,Sweden,Europe,56.2167,13.0333
+412,Lusaka,,,,,,Unclassified,Unknown,,1951,April,,,,Congo,Africa,-7.2167,29.4333
+413,Lalitpur,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,372.0,1887,April,7,1030,Uttar Pradesh,India,Asia,24.45,78.5667
+414,Lancé,Stone,Carbonaceous,Chondrite,CO,3,Chondrite,CO3.5,51700.0,1872,July,23,1720,Loir-et-Cher,France,Europe,47.7,1.0667
+415,Lancon,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,7000.0,1897,June,20,2030,Bouches du Rhone,France,Europe,43.75,5.1167
+416,Laborel,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,3833.0,1871,June,14,2000,Drome,France,Europe,44.2833,5.5833
+417,Långhalsen,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,2300.0,1947,February,6,1515,Södermanland,Sweden,Europe,58.85,16.7333
+418,Lanxi,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1282.0,1986,June,10,1000,Heilongjiang,China,Asia,46.2417,126.1961
+419,Lanzenkirchen,Stone,Ordinary,Chondrite,L,4,Chondrite,L4,7000.0,1925,August,28,1925,Nieder Osterreich,Austria,Europe,47.75,16.2333
+420,Laochenzhen,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,14250.0,1987,February,23,300,Henan,China,Asia,33.1333,115.1667
+421,La Charca,Stone,,Chondrite,,,Chondrite,OC,399.0,1878,June,11,1130,Guanajuato,Mexico,North America,20.6667,-101.2833
+422,Launton,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1060.0,1830,February,15,1930,Oxfordshire,England,Europe,51.9,-1.1167
+423,Lavrentievka,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,800.0,1938,January,11,1430,Orenburg Province,Russia,Europe,52.45,51.5667
+424,La Colina,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,2000.0,1924,March,19,2330,Buenos Aires provinc,Argentina,South America,-37.3333,-61.5333
+425,Leedey,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,51500.0,1943,November,25,1900,Oklahoma,USA,North America,35.8833,-99.3333
+426,La Criolla,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,45000.0,1985,January,6,,Entre Rios,Argentina,South America,-31.2333,-58.1667
+427,Leeuwfontein,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,460.0,1912,June,21,1400,Transvaal,South Africa,Africa,-25.6667,28.3667
+428,Leighlinbridge,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,271.4,1999,November,28,2210 (local time),Carlow,Ireland,Europe,52.6667,-6.9667
+429,Maryville,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1443.0,1983,January,28,513,Tennessee,USA,North America,35.8,-84.1
+430,Mascombes,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1000.0,1836,January,31,1300,Correze,France,Europe,45.3667,1.8667
+431,Mayo Belwa,Stone,Aubrite,Achondrite,AUB,,Achondrite,Aubrite,4850.0,1974,August,3,evening,,Nigeria,Africa,8.9667,12.0833
+432,Mazapil,Iron,Medium octahedrite,,IAB,Om,Primitive Achondrite,"Iron, IAB-sLL",4000.0,1885,November,27,2100,Zacatecas,Mexico,North America,24.6833,-101.6833
+433,Maziba,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,4975.0,1942,September,24,,Kigezi district,Uganda,Africa,-1.2167,30.0
+434,Mbale,Stone,Ordinary,Chondrite,L,5-6,Chondrite,L5/6,150000.0,1992,August,14,15:40 (Local); 12:40,,Uganda,Africa,1.0667,34.1667
+435,Madhipura,Stone,Ordinary,Chondrite,L,,Chondrite,L,1000.0,1950,May,23,1500,Bihar,India,Asia,25.9167,86.3667
+436,Medanitos,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-cm,31.0,1953,July,14,1400,Catamarca,Argentina,South America,-27.25,-67.5
+437,Meester-Cornelis,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,24750.0,1915,June,2,0600-0615,Java,Indonesia,Asia,-6.2333,106.8833
+438,Menow,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,10500.0,1862,October,7,1230,Brandenburg,Germany,Europe,53.1833,13.15
+439,Menziswyl,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,28.9,1903,July,,,Fribourg,Switzerland,Europe,46.8186,7.2181
+440,Mern,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,4000.0,1878,August,29,1430,Sorestrøm,Denmark,Europe,55.05,12.0667
+441,Meru,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,6000.0,1945,February,2,1700,,Kenya,Africa,0.0,37.6667
+442,Madiun,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,400.0,1935,June,20,,Java,Indonesia,Asia,-7.75,111.5333
+443,Merua,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,71400.0,1920,August,30,1115,Uttar Pradesh,India,Asia,25.4833,81.9833
+444,Messina,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,2405.0,1955,July,16,1307,Sicily,Italy,Europe,38.1833,15.5667
+445,Meuselbach,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,870.0,1897,May,19,1945,Thuringen,Germany,Europe,50.5833,11.1
+446,Mezel,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1300.0,1949,January,25,1956,Puy de Dome,France,Europe,45.7667,3.25
+447,Mezö-Madaras,Stone,Ordinary,Chondrite,L,3,Chondrite,L3.7,22700.0,1852,September,4,1630,Harghita,Romania,Europe,46.5,25.7333
+448,Madrid,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,400.0,1896,February,10,930,,Spain,Europe,40.4167,-3.7167
+449,Mianchi,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1100.0,1980,September,4,1100,Henan,China,Asia,34.8,111.7
+450,Middlesbrough,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1600.0,1881,March,14,1535,Yorkshire,England,Europe,54.5667,-1.1667
+451,Mighei,Stone,Carbonaceous,Chondrite,CM,2,Chondrite,CM2,8000.0,1889,June,18,830,Mykolaïv Province,Ukraine,Europe,48.0667,30.9667
+452,Mihonoseki,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,6380.0,1992,December,10,21:00 (local),Honshu,Japan,Asia,35.5683,133.22
+453,Mabwe-Khoywa,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,540.0,1937,September,17,2245,Kayah,Burma,Asia,19.0,97.0
+454,Mike,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,224.2,1944,May,3,1900,,Hungary,Europe,46.2333,17.5333
+455,Milena,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,10000.0,1842,April,26,1500,,Croatia,Europe,46.1833,16.1
+456,Millbillillie,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-mmict,330000.0,1960,October,,,Western Australia,Australia,Oceania,-26.45,120.3667
+457,Miller (Arkansas),Stone,Ordinary,Chondrite,H,5,Chondrite,H5,16700.0,1930,July,13,,Arkansas,USA,North America,35.4,-92.05
+458,Min-Fan-Zhun,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,5500.0,1952,April,1,,Jiangsu,China,Asia,32.3333,120.6667
+459,Minnichhof,Stone,,Chondrite,,,Chondrite,OC,550.0,1905,May,27,1045,,Austria,Europe,47.7,16.6
+460,Mirzapur,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,8510.0,1910,January,7,1130,Uttar Pradesh,India,Asia,25.6833,83.25
+461,Misshof,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,5800.0,1890,April,10,1530,Dobeles,Latvia,Europe,56.6667,23.0
+462,Mjelleim,Stone,Ordinary,Chondrite,H,,Chondrite,H,100.7,1898,January,24,1400-1500,Nordfjord,Norway,Europe,61.7333,5.9333
+463,Mocs,Stone,Ordinary,Chondrite,L,6,Chondrite,L5-6,300000.0,1882,February,3,1600,Transylvania,Romania,Europe,46.8,24.0333
+464,Modoc (1905),Stone,Ordinary,Chondrite,L,6,Chondrite,L6,35000.0,1905,September,2,2130,Kansas,USA,North America,38.5,-101.1
+465,Mokoia,Stone,Carbonaceous,Chondrite,CV,3,Chondrite,CV3,4500.0,1908,November,26,1230,North Island,New Zealand,Oceania,-39.6333,174.4
+466,Molina,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,144000.0,1858,December,24,,,Spain,Europe,38.1167,-1.1667
+467,Monahans (1998),Stone,Ordinary,Chondrite,H,5,Chondrite,H5,2587.0,1998,March,22,1848 CST,Texas,USA,North America,31.6083,-102.8583
+468,Monroe,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,8600.0,1849,October,31,1500,North Carolina,USA,North America,35.25,-80.5
+469,Monte das Fortes,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,4885.0,1950,August,23,late afternoon,,Portugal,Europe,38.0167,-8.25
+470,Monte Milone,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,3130.0,1846,May,8,915,Marche,Italy,Europe,43.2667,13.35
+471,Montlivault,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,500.0,1838,July,22,,Loir-et-Cher,France,Europe,47.6333,1.5833
+472,Monze,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,,1950,October,5,410,Southern Province,Zambia,Africa,-15.9667,27.35
+473,Moore County,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-cm,1880.0,1913,April,21,1700,North Carolina,USA,North America,35.4167,-79.3833
+474,Moorleah,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,8887.5,1930,October,,1830,Tasmania,Australia,Oceania,-40.975,145.6
+475,Morávka,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,633.0,2000,May,6,1151 (UTC),North Moravia,Czech Republic,Europe,49.6,18.5333
+476,Mornans,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1300.0,1875,September,,,Drome,France,Europe,44.6,-5.1333
+477,Magombedze,Stone,Ordinary,Chondrite,H,5,Chondrite,H3-5,666.6,1990,July,2,1730,,Zimbabwe,Africa,-19.6333,31.1667
+478,Moti-ka-nagla,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,1500.0,1868,December,22,1700,Rajasthan,India,Asia,26.8333,77.3333
+479,Motta di Conti,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,9150.0,1868,February,29,1100,Piemonte,Italy,Europe,45.2,8.5
+480,Mount Browne,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,11300.0,1902,July,17,930,New South Wales,Australia,Oceania,-29.8,141.7
+481,Mount Tazerzait,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,110000.0,1991,August,21,,,Niger,Africa,18.7,4.8
+482,Mtola,Stone,,,,,Unclassified,Stone-uncl,1100.0,1944,June,17,1000,Mzimba district,Malawi,Africa,-11.5,33.5
+483,Muddoor,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,4400.0,1865,September,21,700,Karnataka,India,Asia,12.6333,77.0167
+484,Muraid,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,4703.0,1924,August,7,1430,Dacca,Bangladesh,Asia,24.5,90.2167
+485,Murchison,Stone,Carbonaceous,Chondrite,CM,2,Chondrite,CM2,100000.0,1969,September,28,1045-1100,Victoria,Australia,Oceania,-36.6167,145.2
+486,Murray,Stone,Carbonaceous,Chondrite,CM,2,Chondrite,CM2,12600.0,1950,September,20,,Kentucky,USA,North America,36.6,-88.1
+487,Muzaffarpur,Iron,Plessitic octahedrite,,UNGR,Opl,Primitive Achondrite,"Iron, IAB-sHL",1245.0,1964,April,11,1700,Bihar,India,Asia,26.1333,85.5333
+488,Myhee Caunta,Stone,,Chondrite,,,Chondrite,OC,,1842,November,30,1600,Gujarat,India,Asia,23.05,72.6333
+489,Majorca,Iron,Octahedrite,,,O,,,,1935,July,17,1135,,Spain,,39.45,2.8167
+490,Malaga,Stone,,Chondrite,,,Chondrite,OC,150.0,1933,November,,,New Mexico,USA,North America,32.2167,-104.0
+491,Malakal,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,2000.0,1970,August,,,,Sudan,Africa,9.5,31.75
+492,Malampaka,Stone,Ordinary,Chondrite,H,,Chondrite,H,470.0,1930,September,,at mid-day,,Tanzania,Africa,-3.1333,33.5167
+493,Macau,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1500.0,1836,November,11,500,Rio Grande do Norte,Brazil,South America,-5.2,-36.6667
+494,Malotas,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,,1931,June,22,440,Santiago del Estero,Argentina,South America,-28.9333,-63.2333
+495,Malvern,Stone,Howardite,Achondrite,HOW,,Achondrite,Eucrite-pmict,807.0,1933,November,20-30,,Orange Free State,South Africa,Africa,-29.45,26.7667
+496,Mamra Springs,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1000.0,1927,May,42125,,,Kazakstan,Asia,45.2167,62.0833
+497,Manbhoom,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,1700.0,1863,December,22,900,West Bengal,India,Asia,23.05,86.7
+498,Manegaon,Stone,Diogenite,Achondrite,DIO,,Achondrite,Diogenite,50.0,1843,June,29,1530,Maharashtra,India,Asia,20.9667,76.1
+499,Mangwendi,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,22300.0,1934,March,7,1245,Mashonaland,Zimbabwe,Africa,-17.65,31.6
+500,Machinga,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,93200.0,1981,January,22,1000,Southern province,Malawi,Africa,-15.2122,35.2422
+501,Manych,Stone,Ordinary,Chondrite,LL,3,Chondrite,LL3.4,3555.0,1951,October,20,1530,Kalmykia Republic,Russia,Europe,45.8167,44.6333
+502,Macibini,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-pmict,1995.0,1936,September,23,800,Natal,South Africa,Africa,-28.8333,31.95
+503,Mardan,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,4500.0,1948,May,8,1200,North-west Frontier,Pakistan,Asia,34.2333,72.0833
+504,Maria Linden,Stone,Ordinary,Chondrite,L,4,Chondrite,L4,114.0,1925,April,15,,,South Africa,Africa,,
+505,Mariaville,Iron,Octahedrite,,,O,Unclassified,Iron,340.0,1898,October,16,midnight,Nebraska,USA,North America,42.7167,-99.3833
+506,Marilia,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,2500.0,1971,October,5,1700,São Paulo,Brazil,South America,-22.25,-49.9333
+507,Marion (Iowa),Stone,Ordinary,Chondrite,L,6,Chondrite,L6,28400.0,1847,February,25,1445,Iowa,USA,North America,41.9,-91.6
+508,Marjalahti,Stony-iron,Pallasite,,PAL,,Achondrite,"Pallasite, PMG",45000.0,1902,June,,2200,Karelian Republic,Russia,Europe,61.5,30.5
+509,Marmande,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,3000.0,1848,July,4,,Lot-et-Garonne,France,Europe,44.5,0.15
+510,Nadiabondi,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,8165.0,1956,July,27,1930,Gourma,Burkina Faso,Africa,11.955,1.5233
+511,Niger (L6),Stone,Ordinary,Chondrite,L,6,Chondrite,L6,3.3,1967,August,1,,,Niger,Africa,,
+512,Niger (LL6),Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,3.3,1967,August,1,,,Niger,Africa,,
+513,Nikolaevka,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,3996.0,1935,July,11,300,Pavlodar,Kazakstan,Asia,52.45,78.6333
+514,Nikolskoe,Stone,Ordinary,Chondrite,L,4,Chondrite,L4,6000.0,1954,March,6,1522,Moscow,Russia,Europe,56.1167,37.3333
+515,Ningbo,Iron,Fine octahedrite,,IVA,Of,Achondrite,"Iron, IVA",14250.0,1975,October,4,1220,Zhejiang,China,Asia,29.9,121.55
+516,Ningqiang,Stone,Carbonaceous,Chondrite,CK,3,Chondrite,C3-ung,4610.0,1983,June,25,1900,Shanxi,China,Asia,32.925,105.9067
+517,Nio,Stone,Ordinary,Chondrite,H,,Chondrite,H3-4,467.0,1897,August,8,2230,Honshu,Japan,Asia,34.2,131.5667
+518,N'Kandhla,Iron,Medium octahedrite,,IID,Om,Achondrite,"Iron, IID",17200.0,1912,August,1,1330,Natal,South Africa,Africa,-28.5667,30.7
+519,Noblesville,Stone,Ordinary,Chondrite,H,4,Chondrite,H4-6,483.7,1991,August,31,approx. 1900 CDT,Indiana,USA,North America,40.0853,-86.055
+520,Nogoya,Stone,Carbonaceous,Chondrite,CM,2,Chondrite,CM2,4000.0,1879,June,30,,Entre Rios,Argentina,South America,-32.3667,-59.8333
+521,Norfork,Iron,Medium octahedrite,,IIIAB,Om,Achondrite,"Iron, IIIAB",1050.0,1918,October,,,Arkansas,USA,North America,36.2167,-92.2667
+522,Nakhla,Stone,Nakhlite,Achondrite,SNC,,Achondrite,Martian (nakhlite),10000.0,1911,June,28,900,,Egypt,Africa,31.3167,30.35
+523,Nakhon Pathom,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,23200.0,1923,December,21,2100,,Thailand,Asia,13.7333,100.0833
+524,Norton County,Stone,Aubrite,Achondrite,AUB,,Achondrite,Aubrite,1100000.0,1948,February,18,1656,Kansas,USA,North America,39.6833,-99.8667
+525,Noventa Vicentina,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,177.0,1971,May,12,,Veneto,Italy,Europe,45.2917,11.5272
+526,Novo-Urei,Stone,Ureilite,Achondrite,URE,,Primitive Achondrite,Ureilite,1900.0,1886,September,4,715,Mordova Republic,Russia,Europe,54.8167,46.0
+527,Novy-Projekt,Stone,,Chondrite,,,Chondrite,OC,1001.0,1908,April,25,200,Plunges,Lithuania,Europe,56.0,22.0
+528,Noyan-Bogdo,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,250.0,1933,September,,,Omnogov aymag,Mongolia,Asia,42.9167,102.4667
+529,Nuevo Mercurio,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,50000.0,1978,December,15,1850,Zacatecas,Mexico,North America,24.3,-102.1333
+530,Nulles,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,5000.0,1851,November,5,1730,,Spain,Europe,41.6333,0.75
+531,Numakai,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,363.0,1925,September,5,,Hokkaido,Japan,Asia,43.3333,141.8667
+532,Nyaung,Iron,Medium octahedrite,,IIIAB,Om,Achondrite,"Iron, IIIAB",737.6,1939,December,24,1940,Upper Burma,Burma,Asia,21.2083,94.9167
+533,Nammianthal,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,4500.0,1886,January,27,,Tamil Nadu,India,Asia,12.2833,79.2
+534,Nyirábrany,Stone,Ordinary,Chondrite,LL,5,Chondrite,LL5,1100.0,1914,July,17,,Ungarn,Hungary,Europe,47.55,22.025
+535,Nantong,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,529.0,1984,June,15,1135,Jiangsu,China,Asia,32.1167,121.8
+536,Nan Yang Pao,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,52900.0,1917,July,11,1200,Gansu,China,Asia,35.6667,103.5
+537,Naoki,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,17000.0,1928,September,29,1700,Maharashtra,India,Asia,19.25,77.0
+538,Nagai,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1810.0,1922,May,30,,Honshu,Japan,Asia,38.1217,140.0617
+539,Naragh,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,2700.0,1974,August,18,1830,,Iran,Asia,33.75,51.5
+540,Narellan,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,367.5,1928,April,8,1915,New South Wales,Australia,Oceania,-34.05,150.6889
+541,Näs,Stone,Ordinary,Chondrite,LL,6,,,,1907,May,14,,,Sweden,,59.1833,12.2167
+542,Nagaria,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-cm,20.0,1875,April,24,730,Uttar Pradesh,India,Asia,26.9833,78.2167
+543,Nassirah,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,347.0,1936,July,15,1630 to 1700,,New Caledonia,Europe,-21.7333,165.9
+544,Nawapali,Stone,Carbonaceous,Chondrite,CM,2,Chondrite,CM2,105.0,1890,June,6,1800,Orissa,India,Asia,21.25,83.6667
+545,Neagari,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,420.0,1995,February,18,approx. 23:55 (Japan,Honshu,Japan,Asia,36.4483,136.465
+546,Nedagolla,Iron,,,UNGR,,Unclassified,Iron,4500.0,1870,January,23,1900,Andhra Pradesh,India,Asia,18.6833,83.4833
+547,Nejo,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,2450.0,1970,May,11,1130,,Ethiopia,Africa,9.5,35.3333
+548,Nerft,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,10250.0,1864,April,12,445,Liepajas,Latvia,Europe,56.5,21.5
+549,Nagy-Borové,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,6100.0,1895,May,9,,Tatry,Slovakia,Europe,49.1667,19.5
+550,New Concord,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,230000.0,1860,May,1,1245,Ohio,USA,North America,40.0,-81.7667
+551,New Halfa,Stone,Ordinary,Chondrite,L,4,Chondrite,L4,12000.0,1994,November,8,5:30 (local time),Kassala,Sudan,Africa,15.3667,35.6833
+552,Ngawi,Stone,Ordinary,Chondrite,LL,3,Chondrite,LL3.6,1393.0,1883,October,3,1715,Java,Indonesia,Asia,-7.45,111.4167
+553,N'Goureyma,Iron,,,UNGR,,Unclassified,Iron,37500.0,1900,June,15,,Ke Macina,Mali,Africa,13.85,-4.3833
+554,Otomi,Stone,Ordinary,Chondrite,H,,Chondrite,H,6510.0,1867,May,24,,Honshu,Japan,Asia,38.4,140.35
+555,Ottawa,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,840.0,1896,April,9,1815,Kansas,USA,North America,38.6,-95.2167
+556,Oued el Hadjar,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,1215.5,1986,March,,,,Morocco,Africa,30.18,-6.5772
+557,Ourique,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,20000.0,1998,December,28,0050 UT,,Portugal,Europe,37.6083,-8.28
+558,Oviedo,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,205.0,1856,August,5,1745,,Spain,Europe,43.4,-5.8667
+559,Ochansk,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,500000.0,1887,August,30,1300,Perm Province,Russia,Europe,57.7833,55.2667
+560,Oesede,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1400.0,1927,December,30,1130,Niedersachsen,Germany,Europe,52.2833,8.05
+561,Oesel,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,6000.0,1855,May,11,1530,Saare Province,Estonia,Europe,58.5,23.0
+562,Ofehértó,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,3750.0,1900,July,25,,Szabolcs,Hungary,Europe,47.8833,22.0333
+563,Ohaba,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,16250.0,1857,October,11,15,Transylvania,Romania,Europe,46.0667,23.5833
+564,Ohuma,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,7700.0,1963,April,11,,,Nigeria,Africa,6.75,8.5
+565,Ojuelos Altos,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,5850.0,1926,December,10,930,Cordoba,Spain,Europe,38.1833,-5.4
+566,Okabe,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,194.0,1958,November,26,1500,Honshu,Japan,Asia,36.1833,139.2167
+567,Okano,Iron,Hexahedrite,,IIAB,H,Achondrite,"Iron, IIAB",4742.0,1904,April,7,635,Honshu,Japan,Asia,35.0833,135.2
+568,Okniny,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,12000.0,1834,January,8,930,Volynska Province,Ukraine,Europe,50.8333,25.5
+569,Oldenburg (1930),Stone,Ordinary,Chondrite,L,6,Chondrite,L6,16570.0,1930,September,10,1415,Niedersachsen,Germany,Europe,52.95,8.1667
+570,Olivenza,Stone,Ordinary,Chondrite,LL,5,Chondrite,LL5,150000.0,1924,June,19,800,,Spain,Europe,38.7167,-7.0667
+571,Olmedilla de Alarcón,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,40000.0,1929,February,26,1200,,Spain,Europe,39.5667,-2.1
+572,Omolon,Stony-iron,Pallasite,,PAL,,Achondrite,"Pallasite, PMG",250000.0,1981,May,16,510,,Russia,Europe,64.02,161.8083
+573,Orebro,Stone,,,,,,,,1958,October,15,,,Sweden,,59.2833,15.2167
+574,Orgueil,Stone,Carbonaceous,Chondrite,CI,1,Chondrite,CI1,14000.0,1864,May,14,2000,Tarn-et-Garonne,France,Europe,43.8833,1.3833
+575,Ornans,Stone,Carbonaceous,Chondrite,CO,3,Chondrite,CO3.4,6000.0,1868,July,11,1915,Doubs,France,Europe,47.1167,6.15
+576,Orvinio,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,3400.0,1872,August,31,515,Lazio,Italy,Europe,42.1333,12.9333
+577,Oterøy,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,246.0,1928,October,15,1500,,Norway,Europe,58.8833,9.4
+578,Pacula,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,3400.0,1881,June,18,,Hidalgo,Mexico,North America,21.05,-99.3
+579,Palca de Aparzo,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,1430.0,1988,September,14,640,Jujuy Province,Argentina,South America,-23.1167,-65.1
+580,Phillips County (stone),Stone,Ordinary,Chondrite,L,6,Chondrite,L6,57900.0,1901,May,9,,Kansas,USA,North America,40.0,-99.25
+581,Phu Hong,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,500.0,1887,September,22,,,Vietnam,Asia,11.25,108.5833
+582,Phum Sambo,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,7800.0,1933,January,9,1630,,Cambodia,Asia,12.0,105.4833
+583,Phuoc-Binh,Stone,Ordinary,Chondrite,H,,Chondrite,L5,11000.0,1941,July,18,1600,,Vietnam,Asia,15.7167,108.1
+584,Piancaldoli,Stone,Ordinary,Chondrite,LL,3,Chondrite,LL3.4,13.1,1968,August,10,2014,Tuscany,Italy,Europe,44.2442,11.5022
+585,Picote,Stone,,,,,Unclassified,Stone-uncl,,1843,September,,,Traz-os-Montes,Portugal,Europe,41.3667,-6.2333
+586,Pillistfer,Stone,Enstatite,Chondrite,EL,6,Chondrite,EL6,23250.0,1863,August,8,1230,Viljandi Province,Estonia,Europe,58.6667,25.7333
+587,Piplia Kalan,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-mmict,42000.0,1996,June,20,20:15 local time,Rajasthan,India,Asia,26.0347,73.9417
+588,Pirgunje,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,842.0,1882,August,29,,East Bengal,Bangladesh,Asia,25.8,88.45
+589,Pirthalla,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,1161.0,1884,February,9,1400,Haryana,India,Asia,29.5833,76.0
+590,Pitts,Iron,Fine octahedrite,,IAB,Of,Primitive Achondrite,"Iron, IAB-ung",3760.0,1921,April,20,900,Georgia,USA,North America,31.95,-83.5167
+591,Plantersville,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,2085.0,1930,September,4,1600,Texas,USA,North America,30.7,-96.1167
+592,Palinshih,Iron,Octahedrite,,,O,Unclassified,Iron,18000.0,1914,July,,,Liaoning,China,Asia,43.4833,118.6167
+593,Pnompehn,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,96.0,1868,June,20-30,1500,,Cambodia,Asia,11.5833,104.9167
+594,Pokhra,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,350.0,1866,May,27,2030,Uttar Pradesh,India,Asia,26.7167,82.6667
+595,Pollen,Stone,Carbonaceous,Chondrite,CM,2,Chondrite,CM2,253.6,1942,April,6,1900,,Norway,Europe,66.3483,14.015
+596,Pontlyfni,Stone,Winonaite,Achondrite,WIN,,Primitive Achondrite,Winonaite,157.0,1931,April,14,1153,Gwynedd,Wales,Europe,53.0364,-4.3194
+597,Palmyra,Stone,Ordinary,Chondrite,L,3,Chondrite,L3,135.0,1926,January,20,1730,Missouri,USA,North America,39.8,-91.5
+598,Portales Valley,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,71400.0,1998,June,13,0730 MDT; 1330 UT,New Mexico,USA,North America,34.175,-103.295
+599,Po-wang Chen,Stone,,,,,Chondrite,LL,665.0,1933,October,23,1900,Anhui,China,Asia,31.4167,118.5
+600,Prambachkirchen,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,2125.0,1932,November,5,2155,Ober-Österreich,Austria,Europe,48.3025,13.9408
+601,Palolo Valley,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,682.0,1949,April,24,,Hawaii,USA,North America,21.3,-157.7833
+602,Pribram,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,5555.0,1959,April,7,1930,Bohemia,Czech Republic,Europe,49.6667,14.0333
+603,Pricetown,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,900.0,1893,February,13,,Ohio,USA,North America,39.1167,-83.85
+604,Pulsora,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,560.0,1863,March,16,,Madhya Pradesh,India,Asia,23.3667,75.1833
+605,Pultusk,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,250000.0,1868,January,30,1900,,Poland,Europe,52.7667,21.2667
+606,Putinga,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,300000.0,1937,August,16,1630,Rio Grande do Sul,Brazil,South America,-29.0333,-53.05
+607,Pampanga,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,10500.0,1859,April,5,1700,Luzon,Philippines,Asia,15.0833,120.7
+608,Pantar,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,2130.0,1938,June,16,2045,Mindanao,Philippines,Asia,8.0667,124.2833
+609,Paragould,Stone,Ordinary,Chondrite,LL,5,Chondrite,LL5,408000.0,1930,February,17,408,Arkansas,USA,North America,36.0667,-90.5
+610,Parambu,Stone,Ordinary,Chondrite,LL,5,Chondrite,LL5,2000.0,1967,July,24,1900,Ceara,Brazil,South America,-6.2333,-40.7
+611,Padvarninkai,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-mmict,3858.0,1929,February,9,45,Anyksciu,Lithuania,Europe,55.6667,25.0
+612,Parnallee,Stone,Ordinary,Chondrite,LL,3,Chondrite,LL3.6,77600.0,1857,February,28,1200,Tamil Nadu,India,Asia,9.2333,78.35
+613,Parsa,Stone,Enstatite,Chondrite,EH,3,Chondrite,EH3,800.0,1942,April,14,,Bihar,India,Asia,26.2,85.4
+614,Pasamonte,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-pmict,5100.0,1933,March,24,500,New Mexico,USA,North America,36.2167,-103.4
+615,Patora,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,4375.0,1969,October,20,1100,Madhya Pradesh,India,Asia,20.9369,82.05
+616,Patrimonio,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,2121.0,1950,August,6,905,Minas Gerais,Brazil,South America,-19.5333,-48.5667
+617,Patwar,Stony-iron,Mesosiderite,,MES,,Achondrite,Mesosiderite-A1,37350.0,1935,July,29,1420,Chittagong,Bangladesh,Asia,23.15,91.1833
+618,Pavel,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,2968.0,1966,February,28,1400,Veliko Turnovo,Bulgaria,Europe,43.4667,25.5167
+619,Pavlodar (stone),Stone,Ordinary,Chondrite,H,5,Chondrite,H5,142.5,1938,May,23,1340,,Kazakstan,Asia,52.3,77.0333
+620,Pavlovka,Stone,Howardite,Achondrite,HOW,,Achondrite,Howardite,2000.0,1882,August,2,1700,Saratov Province,Russia,Europe,52.0333,43.0
+621,Peace River,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,45760.0,1963,March,31,435,Alberta,Canada,North America,56.1333,-117.9333
+622,Peckelsheim,Stone,Ungrouped,Achondrite,DIO,,Achondrite,Diogenite-pm,117.8,1953,March,3,1430,Nordrhein-Westfalen,Germany,Europe,51.6667,9.25
+623,Peekskill,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,12570.0,1992,October,9,19:50 EDT (23:50 UT),New York,USA,North America,41.2833,-73.9167
+624,Paitan,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,515.0,1910,May,,,Luzon,Philippines,Asia,17.7433,120.4558
+625,Peña Blanca Spring,Stone,Aubrite,Achondrite,AUB,,Achondrite,Aubrite,70000.0,1946,August,2,afternoon,Texas,USA,North America,30.125,-103.1167
+626,Peramiho,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-mmict,165.0,1899,October,24,700,Ruvuma,Tanzania,Africa,-10.6667,35.5
+627,Perpeti,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,23474.0,1935,May,14,2300,Chittagong,Bangladesh,Asia,23.325,91.0
+628,Perth,Stone,Ordinary,Chondrite,LL,5,Chondrite,LL5,2.0,1830,May,17,1230,Perthshire,Scotland,Europe,56.4,-3.4333
+629,Palahatchie,Stone,,Chondrite,,,Chondrite,OC,,1910,October,17,,Mississippi,USA,North America,32.3167,-89.7167
+630,Pervomaisky,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,66000.0,1933,December,26,1800,Vladimir Province,Russia,Europe,56.6333,39.4333
+631,Pesyanoe,Stone,Aubrite,Achondrite,AUB,,Achondrite,Aubrite,3393.0,1933,October,2,600,Kurgan Province,Russia,Europe,55.5,66.0833
+632,Petersburg,Stone,Howardite,Achondrite,HOW,,Achondrite,Eucrite-pmict,1800.0,1855,August,5,1530,Tennessee,USA,North America,35.3,-86.6333
+633,Qidong,Stone,Ordinary,Chondrite,L/LL,5,Chondrite,L/LL5,1275.0,1982,July,2,1745,Jiangsu,China,Asia,32.0833,121.5
+634,Qingzhen,Stone,Enstatite,Chondrite,EH,3,Chondrite,EH3,2600.0,1976,September,13,1640,Guizhou,China,Asia,26.5333,106.4667
+635,Queen's Mercy,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,7000.0,1925,April,30,2000,Cape Province,South Africa,Africa,-30.1167,28.7
+636,Quenggouk,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,6045.0,1857,December,27,230,,Burma,Asia,17.7667,95.1833
+637,Quesa,Iron,Medium octahedrite,,UNGR,Om,Primitive Achondrite,"Iron, IAB-ung",10750.0,1898,August,1,2100,Valencia,Spain,Europe,39.0,-0.6667
+638,Quija,Stone,,Chondrite,,,Chondrite,H,17450.0,1990,March,20,1240,Jilin,China,Asia,44.6167,126.1333
+639,Rakovka,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,9000.0,1878,November,20,1500,Orlovsk Province,Russia,Europe,52.9833,37.0333
+640,Rose City,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,10600.0,1921,October,17,2300,Michigan,USA,North America,44.5167,-83.95
+641,Ramnagar,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,3766.0,1940,December,15,1430,Uttar Pradesh,India,Asia,26.45,82.9
+642,Rowton,Iron,Medium octahedrite,,IIIAB,Om,Achondrite,"Iron, IIIAB",3500.0,1876,April,20,1545,Shropshire,England,Europe,52.7667,-2.5167
+643,Ruhobobo,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,465.5,1976,October,13,1630,Ruhengeri Prefecture,Rwanda,Africa,-1.45,29.8333
+644,Rumuruti,Stone,Rumurutiite,Chondrite,R,3-6,Chondrite,R3.8-6,67.0,1934,January,28,2245,,Kenya,Africa,0.2667,36.5333
+645,Rupota,Stone,Ordinary,Chondrite,L,4,Chondrite,L4-6,6000.0,1949,February,7,1200,,Tanzania,Africa,-10.2667,38.7667
+646,Rampurhat,Stone,Ordinary,Chondrite,LL,,Chondrite,LL,100.0,1916,November,21,930,West Bengal,India,Asia,24.1667,87.7667
+647,Ryechki,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,13000.0,1914,April,9,1330,Sumska Province,Ukraine,Europe,51.1333,34.5
+648,Ramsdorf,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,4682.0,1958,July,26,1830,Nordrhein-Westfalen,Germany,Europe,51.8833,6.9333
+649,Ranchapur,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,290.4,1917,February,20,830,Bihar,India,Asia,23.9833,87.0833
+650,Raco,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,5000.0,1957,November,17,,Tucuman,Argentina,South America,-26.6667,-65.45
+651,Rangala,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,3224.5,1937,December,29,1000,Rajasthan,India,Asia,25.3833,72.0167
+652,Ras Tanura,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,6.1,1961,February,23,1142,,Saudi Arabia,Asia,26.6667,50.15
+653,Ratyn,Stone,,,,,Unclassified,Stone-uncl,910.0,1880,August,24,between 1400 and 150,,Poland,Europe,52.2,17.9833
+654,Raghunathpura,Iron,Hexahedrite,,IIAB,H,Achondrite,"Iron, IIAB",10200.0,1986,November,20,2000,Rajasthan,India,Asia,27.7253,76.465
+655,Reliegos,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,17300.0,1947,December,28,800,,Spain,Europe,42.475,-5.3333
+656,Rembang,Iron,Fine octahedrite,,IVA,Of,Achondrite,"Iron, IVA",10000.0,1919,August,30,,Java,Indonesia,Asia,-6.7333,111.3667
+657,Renca,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,300.0,1925,June,20,1500,San Luis,Argentina,South America,-32.75,-65.2833
+658,Renqiu,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,355.0,1916,March,23,1200,Hebei,China,Asia,38.6667,116.1333
+659,Repeev Khutor,Iron,Plessitic octahedrite,,IIF,Opl,Achondrite,"Iron, IIF",7000.0,1933,August,8,2000,Astrakhan Province,Russia,Europe,48.6,45.6667
+660,Revelstoke,Stone,Carbonaceous,Chondrite,CI,1,Chondrite,CI1,1.0,1965,March,31,2147,British Columbia,Canada,North America,51.3333,-118.95
+661,Rewari,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,3332.0,1929,July,,,Haryana,India,Asia,28.2,76.6667
+662,Richardton,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,90000.0,1918,June,30,2200,North Dakota,USA,North America,46.8833,-102.3167
+663,Richland Springs,Stone,,Chondrite,,,Chondrite,OC,1900.0,1980,September,20,2130,Texas,USA,North America,31.25,-99.0333
+664,Rich Mountain,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,668.0,1903,June,30,1400,North Carolina,USA,North America,33.2833,-85.1667
+665,Rio Negro,Stone,Ordinary,Chondrite,L,4,Chondrite,L4,1310.0,1934,September,21,2030,Parana,Brazil,South America,-26.1,-49.8
+666,Rochester,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,340.0,1876,December,21,2045,Indiana,USA,North America,41.0833,-86.2833
+667,Sabetmahet,Stone,,Chondrite,,,Chondrite,H5,1250.0,1855,August,16,evening,Uttar Pradesh,India,Asia,27.4333,82.0833
+668,Santa Barbara,Stone,Ordinary,Chondrite,L,4,Chondrite,L4,400.0,1873,September,26,,Rio Grande do Sul,Brazil,South America,-29.2,-51.8667
+669,St. Caprais-de-Quinsac,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,360.0,1883,January,28,1445,Gironde,France,Europe,44.75,0.05
+670,Santa Cruz,Stone,Carbonaceous,Chondrite,CM,2,Chondrite,CM2,60.0,1939,September,3,1200,Tamaulipas,Mexico,North America,24.1667,-99.3333
+671,Santa Isabel,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,5500.0,1924,November,18,930,Santa Fe,Argentina,South America,-33.9,-61.7
+672,St.-Chinian,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,134.3,1959,December,25,1530,Herault,France,Europe,43.4333,2.95
+673,São Jose do Rio Preto,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,927.0,1962,August,14,800,São Paulo,Brazil,South America,-20.81,-49.3806
+674,Saratov,Stone,Ordinary,Chondrite,L,4,Chondrite,L4,200000.0,1918,September,6,1500,Saratov Province,Russia,Europe,52.55,46.55
+675,St. Christophe-la-Chartreuse,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,5500.0,1841,November,5,evening,Vendée,France,Europe,46.95,-1.5
+676,Sauguis,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,4000.0,1868,September,7,230,Basses-Pyrénées,France,Europe,43.15,-0.85
+677,Savtschenskoje,Stone,Ordinary,Chondrite,LL,4,Chondrite,LL4,2500.0,1894,July,27,2000,Odessa Province,Ukraine,Europe,47.2167,29.8667
+678,Sayama,Stone,Carbonaceous,Chondrite,CM,2,Chondrite,CM2,430.0,1986,April,29,,,Japan,Asia,35.8667,139.4
+679,Sazovice,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,412.0,1934,June,28,2000,Moravia,Czech Republic,Europe,49.2333,17.5667
+680,Schenectady,Stone,Ordinary,Chondrite,H,4,Chondrite,H5,283.3,1968,April,12,2030,New York,USA,North America,42.8608,-73.9503
+681,St. Denis Westrem,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,700.0,1855,June,7,1945,,Belgium,Europe,51.05,3.75
+682,Schönenberg,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,8000.0,1846,December,25,1400,Bayern,Germany,Europe,48.1167,10.4667
+683,Searsmont,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,5400.0,1871,May,21,815,Maine,USA,North America,44.3667,-69.2
+684,Ste. Marguerite,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,4960.0,1962,June,8,,Nord,France,Europe,50.7667,3.0
+685,Segowlie,Stone,Ordinary,Chondrite,L,6,Chondrite,LL6,6930.0,1853,March,4,1200,Bihar,India,Asia,26.75,84.7833
+686,Selakopi,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1590.0,1939,September,26,,Java,Indonesia,Asia,-7.2333,107.3333
+687,Seldebourak,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,150.0,1947,February,26,1545,,Algeria,Africa,22.8333,4.9833
+688,Semarkona,Stone,Ordinary,Chondrite,LL,3,Chondrite,LL3.00,691.0,1940,October,26,,Madhya Pradesh,India,Asia,22.25,79.0
+689,Seoni,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,20000.0,1966,January,16,1445,Madhya Pradesh,India,Asia,21.6839,79.5008
+690,Serra de Magé,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-cm,1800.0,1923,October,1,1100,Pernambuco,Brazil,South America,-8.3833,-36.7667
+691,Sete Lagoas,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,350.0,1908,December,15,,Minas Gerais,Brazil,South America,-19.4667,-44.2167
+692,Sevilla,Stone,Ordinary,Chondrite,LL,4-6,Chondrite,LL4,180.0,1862,November,1,,,Spain,Europe,37.4167,-6.0
+693,Sevrukovo,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,101000.0,1874,May,11,2345,Belgorod Province,Russia,Europe,50.6167,36.6
+694,Sfax,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,7000.0,1989,October,16,930,,Tunisia,Africa,34.75,10.7167
+695,St. Germain-du-Pinel,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,4000.0,1890,July,4,1530,Ille-et-Vilaine,France,Europe,48.0167,-1.15
+696,Shalka,Stone,Diogenite,Achondrite,DIO,,Achondrite,Diogenite,4000.0,1850,November,30,,West Bengal,India,Asia,23.1,87.3
+697,Sharps,Stone,Ordinary,Chondrite,H,3,Chondrite,H3.4,1265.0,1921,April,1,,Virginia,USA,North America,37.8333,-76.7
+698,Shelburne,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,18600.0,1904,August,13,2000,Ontario,Canada,North America,44.05,-80.1667
+699,Shergotty,Stone,Shergottite,Achondrite,SNC,,Achondrite,Martian (shergottite),5000.0,1865,August,25,900,Bihar,India,Asia,24.55,84.8333
+700,Sheyang,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,605.0,1976,July,11,1330,Jiangsu,China,Asia,33.65,120.0667
+701,Shikarpur,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,3679.7,1921,August,9,900,Bihar,India,Asia,25.85,87.5775
+702,Shuangyang,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,3900.0,1971,May,25,1500,Jilin,China,Asia,43.5,125.6667
+703,Shupiyan,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,5000.0,1912,April,,,Kashmir,India,Asia,33.7167,74.8333
+704,Shytal,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,3200.0,1863,August,11,1200,Tangail,Bangladesh,Asia,24.3333,90.1667
+705,St. Louis,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,1000.0,1950,December,10,2307,Missouri,USA,North America,38.7,-90.2333
+706,St. Mark's,Stone,Enstatite,Chondrite,EH,5,Chondrite,EH5,13780.0,1903,January,3,2300,Cape Province,South Africa,Africa,-32.0167,27.4167
+707,Sikhote-Alin,Iron,Coarsest octahedrite,,IIAB,Ogg,Achondrite,"Iron, IIAB",23000000.0,1947,February,12,1038,Maritime Territory,Russia,Europe,46.16,134.6533
+708,Silao,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1710.0,1995,March,12,830,Guanajuato,Mexico,North America,20.9333,-101.3833
+709,St. Mary's County,Stone,Ordinary,Chondrite,LL,3,Chondrite,LL3.3,24.3,1919,June,20,1800,Maryland,USA,North America,38.1667,-76.3833
+710,Simmern,Stone,Ordinary,Chondrite,H,6,Chondrite,H5,1222.0,1920,July,1,915,Rheinland-Pfalz,Germany,Europe,49.9833,7.5333
+711,Sinai,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1455.0,1916,July,14-17,1430,,Egypt,Africa,30.9,32.4833
+712,Sindhri,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,8400.0,1901,June,10,2300,Sind,Pakistan,Asia,26.2167,69.55
+713,St. Mesmin,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,8300.0,1866,May,30,1545,Aube,France,Europe,48.45,3.9333
+714,Sinnai,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,2000.0,1956,February,19,early morning,Sardinia,Italy,Europe,39.3,9.2
+715,Sioux County,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-mmict,4100.0,1933,August,8,1030,Nebraska,USA,North America,42.5833,-103.6667
+716,Sitathali,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,1600.0,1875,March,4,1100,Madhya Pradesh,India,Asia,20.9167,82.5833
+717,Sixiangkou,Stone,Ordinary,Chondrite,L,6,Chondrite,L5,630.0,1989,August,15,2153,Jiangsu,China,Asia,32.4333,119.8667
+718,St. Michel,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,17000.0,1910,July,12,1925,,Finland,Europe,61.65,27.2
+719,Ski,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,850.0,1848,December,27,evening,,Norway,Europe,59.7333,10.8667
+720,Slavetic,Stone,Ordinary,Chondrite,H,4,Chondrite,H5,1708.0,1868,May,22,1030,,Croatia,Europe,45.6833,15.6
+721,Soheria,Stone,,Chondrite,,,Chondrite,OC,72.9,1960,January,8,200,Bihar,India,Asia,27.1333,84.0667
+722,Soko-Banja,Stone,Ordinary,Chondrite,LL,4,Chondrite,LL4,80000.0,1877,October,13,1400,Serbia,Yugoslavia,Europe,43.6667,21.8667
+723,Sone,Stone,Ordinary,Chondrite,H,,Chondrite,H5,17100.0,1866,June,7,1200,Honshu,Japan,Asia,35.1667,135.3333
+724,Songyuan,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,36900.0,1993,August,15,1430-1500 (local time),Jilin Province,China,Asia,45.25,125.0
+725,Sabrum,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,478.0,1999,April,30,,Tripura,India,Asia,23.0833,91.6667
+726,Sopot,Stone,,Chondrite,,,Chondrite,OC,958.0,1927,April,27,0000-0100,,Romania,Europe,44.4167,23.5
+727,St-Robert,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,25400.0,1994,June,14,20:02 local time (00,Québec,Canada,North America,45.9333,-72.975
+728,Soroti,Iron,Finest octahedrite,,UNGR,Off,Unclassified,Iron,2050.0,1945,September,17,,,Uganda,Africa,1.7,33.6333
+729,Saint-Sauveur,Stone,Enstatite,Chondrite,EH,5,Chondrite,EH5,14000.0,1914,July,10,1400-1500,Haute Garonne,France,Europe,43.7333,1.3833
+730,Saint-Séverin,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,271000.0,1966,June,27,1540,Charente,France,Europe,45.3,0.2333
+731,Sakauchi,Iron,Hexahedrite,,,H,Unclassified,Iron,4180.0,1913,April,13,,Honshu,Japan,Asia,35.6667,136.3
+732,Ställdalen,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,34000.0,1876,June,28,2330,Örebro,Sweden,Europe,59.9333,14.95
+733,Stavropol,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1500.0,1857,March,24,1700,Stavrapol Territory,Russia,Europe,45.05,41.9833
+734,Sterlitamak,Iron,Medium octahedrite,,IIIAB,Om,Achondrite,"Iron, IIIAB",325000.0,1990,May,17,2320,Bashkir Republic,Russia,Europe,53.6667,55.9833
+735,Stratford,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,50.0,1974,May,27,1600,Connecticut,USA,North America,41.2,-73.1333
+736,Strathmore,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,13400.0,1917,December,3,1315,Perthshire,Scotland,Europe,56.5833,-3.25
+737,Success,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,3500.0,1924,April,18,0300-0400,Arkansas,USA,North America,36.4833,-90.6667
+738,Suchy Dul,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,815.3,1969,September,16,715,Bohemia,Czech Republic,Europe,50.5381,16.2633
+739,Suizhou,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,260000.0,1986,April,15,1850,Hubei,China,Asia,31.7167,113.3833
+740,Sultanpur,Stone,Ordinary,Chondrite,L/LL,6,Chondrite,L/LL6,1710.5,1916,July,10,1100,Uttar Pradesh,India,Asia,25.9333,84.2833
+741,Sungach,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,637.0,1935,April,10,730,Maritime Territory,Russia,Europe,44.8667,133.1667
+742,Supuhee,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,7235.0,1865,January,19,1200,Uttar Pradesh,India,Asia,26.7167,84.2167
+743,Sylacauga,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,5560.0,1954,November,30,1300,Alabama,USA,North America,33.2333,-86.2833
+744,Salem,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,61.4,1981,May,11,115,Oregon,USA,North America,44.95,-123.0167
+745,Salzwedel,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL5,43.0,1985,November,14,1917,Sachsen-Anhalt,Germany,Europe,52.8,11.2
+746,Samelia,Iron,Medium octahedrite,,IIIAB,Om,Achondrite,"Iron, IIIAB",2462.0,1921,May,20,1730,Rajasthan,India,Asia,25.6667,74.8667
+747,San Juan Capistrano,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,56.0,1973,March,15,0000-0400,California,USA,North America,33.4847,-117.6625
+748,Tadjera,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,9000.0,1867,June,9,2230,Constantine,Algeria,Africa,36.1833,5.4167
+749,Tieschitz,Stone,Ordinary,Chondrite,H/L,3,Chondrite,H/L3.6,28000.0,1878,July,15,1345,Moravia,Czech Republic,Europe,49.6,17.1167
+750,Tilden,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,74800.0,1927,July,13,1300,Illinois,USA,North America,38.2,-89.6833
+751,Tillaberi,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,3000.0,1970,April,,in the morning,Niamey,Niger,Africa,14.25,1.5333
+752,Tagish Lake,Stone,Carbonaceous,Chondrite,C,2,Chondrite,C2-ung,10000.0,2000,January,18,0843 (local time),British Columbia,Canada,North America,59.7044,-134.2014
+753,Tahara,Stone,Ordinary,Chondrite,H,5,Chondrite,H4/5,1000.0,1991,March,26,11:00 to 12.00 noon,Honshu,Japan,Asia,34.72,137.305
+754,Tirupati,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,230.0,1934,March,20,1830,Andhra Pradesh,India,Asia,13.6333,79.4167
+755,Tjabe,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,20000.0,1869,September,19,2100,Java,Indonesia,Asia,-7.0833,111.5333
+756,Tjerebon,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,16500.0,1922,July,10,2230,Java,Indonesia,Asia,-6.6667,106.5833
+757,Tomakovka,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,600.0,1905,January,17,2130,Dnipropetrovsk Provi,Ukraine,Europe,47.85,34.7667
+758,Tomatlan,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,900.0,1879,September,17,1630,Jalisco,Mexico,North America,20.1667,-105.2167
+759,Tomita,Stone,Ordinary,Chondrite,L,,Chondrite,L,600.0,1916,April,13,,Honshu,Japan,Asia,34.5,133.75
+760,Tomiya,Stone,Ordinary,Chondrite,H,4,Chondrite,H4/5,27.5,1984,August,22,1335,Honshu,Japan,Asia,38.3667,140.8656
+761,Tonk,Stone,Carbonaceous,Chondrite,CI,1,Chondrite,CI1,7.7,1911,January,22,1555,Rajasthan,India,Asia,24.65,76.8667
+762,Torino,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,977.0,1988,May,18,1330,Piemonte,Italy,Europe,45.0667,7.6667
+763,Torrington,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,259.1,1944,September,23,1230,Wyoming,USA,North America,42.0667,-104.1667
+764,Tourinnes-la-Grosse,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,14500.0,1863,December,7,1130,,Belgium,Europe,50.7833,4.7667
+765,Trebbin,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,1250.0,1988,March,1,1330,Brandenburg,Germany,Europe,53.2167,13.1667
+766,Trenzano,Stone,Ordinary,Chondrite,H,6,Chondrite,H3/4,11800.0,1856,November,12,1600,Lombardy,Italy,Europe,45.4667,10.0
+767,Treysa,Iron,Medium octahedrite,,IIIAB,Om,Achondrite,"Iron, IIIAB-an",63000.0,1916,April,3,1530,Hessen,Germany,Europe,50.9167,9.1833
+768,Tromøy,Stone,Ordinary,Chondrite,H,,Chondrite,H,357.4,1950,April,9,1500,,Norway,Europe,58.4733,8.8667
+769,Troup,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1020.0,1917,April,26,morning,Texas,USA,North America,32.1667,-95.1
+770,Trysil,Stone,Ordinary,Chondrite,L/LL,6,Chondrite,L/LL6,640.0,1927,June,21,600,,Norway,Europe,61.3,12.3
+771,Tsukuba,Stone,Ordinary,Chondrite,H,5-6,Chondrite,H5-6,800.0,1996,January,7,16:20 (local time),Honshu,Japan,Asia,36.0633,140.145
+772,Tuan Tuc,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,13100.0,1921,June,30,1500,,Vietnam,Asia,9.6667,105.6667
+773,Takenouchi,Stone,Ordinary,Chondrite,H,6,Chondrite,H5,720.0,1880,February,18,530,Honshu,Japan,Asia,35.3833,134.9
+774,Tugalin-Bulen,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,10000.0,1967,February,13,,Ovor-Hangay aymag,Mongolia,Asia,45.0,103.0
+775,Tulung Dzong,Stone,,,,,Unclassified,Stone-uncl,,1944,March,26,1015,,Tibet,Asia,30.0,90.75
+776,Tunguska,,,,,,,,,1908,June,30,16,Evenki,Russia,,60.9,101.95
+777,Tuxtuac,Stone,Ordinary,Chondrite,LL,5,Chondrite,LL5,30000.0,1975,October,16,1820,Zacatecas,Mexico,North America,21.6667,-103.3667
+778,Tysnes Island,Stone,Ordinary,Chondrite,H,4,Chondrite,H4,19860.0,1884,May,20,2030,,Norway,Europe,60.0,5.6167
+779,Tyumen,Iron,,,,,Unclassified,Iron,750.0,1903,April,20,,Tyumen Province,Russia,Europe,57.1667,65.5333
+780,Tambakwatu,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,10500.0,1975,February,14,,Java,Indonesia,Asia,-7.75,112.7667
+781,Tané,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,905.0,1918,January,25,1428,Honshu,Japan,Asia,35.4333,136.2333
+782,Taonan,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,3850.0,1965,February,28,1200,Jilin,China,Asia,45.4,122.9
+783,Tatahouine,Stone,Diogenite,Achondrite,DIO,,Achondrite,Diogenite,12000.0,1931,June,27,130,,Tunisia,Africa,32.95,10.4167
+784,Tathlith,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,2500.0,1967,October,5,0515-0530,,Saudi Arabia,Asia,19.3833,43.7333
+785,Tennasilm,Stone,Ordinary,Chondrite,L,4,Chondrite,L4,28500.0,1872,June,28,1200,Põlva Province,Estonia,Europe,58.0333,26.95
+786,Thal,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,342.0,1950,June,,,Northwest Frontier,Pakistan,Asia,33.4,70.6
+787,Tianzhang,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,2232.0,1986,January,28,1700,Anhui,China,Asia,32.9467,118.99
+788,Ufana,Stone,Enstatite,Chondrite,EL,6,Chondrite,EL6,189.2,1957,August,5,1820,,Tanzania,Africa,-4.2667,35.35
+789,Ulmiz,Stone,Ordinary,Chondrite,L,,Chondrite,L,76.5,1926,December,25,650,Fribourg,Switzerland,Europe,46.9333,7.2167
+790,Uberaba,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,40000.0,1903,June,29,1000,Minas Gerais,Brazil,South America,-19.8167,-48.7833
+791,Umm Ruaba,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,1700.0,1966,December,27,1300-1400,,Sudan,Africa,13.4667,31.2167
+792,Undulung,Stone,Ordinary,Chondrite,L,4,Chondrite,L4,113.4,1986,September,11,,Yakutiya,Russia,Europe,66.1389,124.7667
+793,Unkoku,Stone,,Chondrite,,,Chondrite,OC,1000.0,1924,September,7,,,South Korea,Asia,34.8,127.0
+794,Ucera,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,4590.0,1970,January,16,1900,,Venezuela,South America,11.05,-69.85
+795,Uchkuduk,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1000.0,1989,June,21,1800,Bukharskaya region,Uzbekistan,Asia,41.7667,62.5167
+796,Urasaki,,,,,,Unclassified,Stone-uncl,1500.0,1926,April,16,,Honshu,Japan,Asia,34.4833,133.2833
+797,Usti nad Orlici,Stone,Ordinary,Chondrite,L,6,,,,1963,June,12,1358,Bohemia,Czech Republic,,49.975,16.375
+798,Utrecht,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,9700.0,1843,June,2,2000,Utrecht,Netherlands,Europe,52.1167,5.1833
+799,Utzenstorf,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,3422.0,1928,August,16,1900,,Switzerland,Europe,47.1167,7.55
+800,Uzcudun,Stone,Ordinary,Chondrite,L,,Chondrite,L,20000.0,1948,April,16,1600,Chubut,Argentina,South America,-44.1167,-66.15
+801,Uden,Stone,Ordinary,Chondrite,LL,7,Chondrite,LL7,710.0,1840,June,12,1030,Noord-Brabant,Netherlands,Europe,51.65,5.6167
+802,Udipi,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,3600.0,1866,April,,1000,Karnataka,India,Asia,13.4833,74.7833
+803,Vouillé,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,20000.0,1831,May,13,2300,Vienne,France,Europe,46.6333,0.1667
+804,Vavilovka,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,1932.0,1876,June,19,1400,Kherson Province,Ukraine,Europe,46.15,32.8333
+805,Vengerovo,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,10800.0,1950,October,11,1849,Novosibirsk Province,Russia,Europe,56.1333,77.2667
+806,Veramin,Stony-iron,Mesosiderite,,MES,,Achondrite,Mesosiderite-B2,54000.0,1880,April,18,,Tehran,Iran,Asia,35.3333,51.6333
+807,Valdavur,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,2799.0,1944,October,30,1700-1710,Tamil Nadu,India,Asia,11.9833,79.75
+808,Verkhne Tschirskaia,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,8000.0,1843,November,12,1200,Volgograd Province,Russia,Europe,48.4167,43.2
+809,Vernon County,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,1500.0,1865,March,26,900,Wisconsin,USA,North America,43.5,-91.1667
+810,Vetluga,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-mmict,750.0,1949,February,27,day time,Nizhiy Province,Russia,Europe,57.8,45.8
+811,Vigarano,Stone,Carbonaceous,Chondrite,CV,3,Chondrite,CV3,15000.0,1910,January,22,2130,Emilia-Romagna,Italy,Europe,44.85,11.4
+812,Valdinizza,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,1004.0,1903,July,12,1000,Lombardy,Italy,Europe,44.8667,9.15
+813,Villarrica,Stone,,,,,Unclassified,Stone-uncl,,1925,July,20,1900,,Paraguay,South America,-25.8333,-56.5
+814,Vilna,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,0.1,1967,February,5,1855,Alberta,Canada,North America,54.225,-111.6917
+815,Virba,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,3600.0,1873,June,1,,,Bulgaria,Europe,43.5333,22.6333
+816,Vishnupur,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL4-6,2437.0,1906,December,15,930,West Bengal,India,Asia,23.1,87.4333
+817,Vissannapeta,Stone,Eucrite,Achondrite,EUC,,Achondrite,Eucrite-cm,1303.8,1997,December,13,1530 (local time),Andhra Pradesh,India,Asia,16.8333,80.75
+818,Valera,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,50000.0,1972,October,15,,Trujillo,Venezuela,South America,9.3167,-70.6283
+819,Visuni,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,594.0,1915,January,19,1200,Sind,Pakistan,Asia,25.45,70.0
+820,Wiluna,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,150000.0,1967,September,2,2246,Western Australia,Australia,Oceania,-26.5928,120.3283
+821,Witklip Farm,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,22.0,1918,May,26,940,Transvaal,South Africa,Africa,-26.0,30.0
+822,Witsand Farm,Stone,Ordinary,Chondrite,LL,4,Chondrite,LL4,66.0,1932,December,1,1700,,Namibia,Africa,-28.6667,18.9167
+823,Wittekrantz,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,2200.0,1880,December,9,800,Cape Province,South Africa,Africa,-32.5,23.0
+824,Wolamo,Stone,,Chondrite,,,Chondrite,OC,166.4,1964,August,,,,Ethiopia,Africa,9.0,39.0
+825,Woolgorong,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,36000.0,1960,December,20,1400,Western Australia,Australia,Oceania,-27.75,115.8333
+826,Worden,Stone,Ordinary,Chondrite,L,5,Chondrite,L5,1551.0,1997,September,1,1700-1715 (local time),Michigan,USA,North America,42.3847,-83.6115
+827,Wuan,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,50000.0,1986,July,31,1100,Hebei,China,Asia,36.75,114.25
+828,Wuzhi,Stone,,,,,Unclassified,Stone-uncl,,1931,June,25,2300,Henan,China,Asia,35.1333,113.3333
+829,Walters,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,28100.0,1946,July,28,1545,Oklahoma,USA,North America,34.3333,-98.3
+830,Warrenton,Stone,Carbonaceous,Chondrite,CO,3,Chondrite,CO3.7,1600.0,1877,January,3,715,Missouri,USA,North America,38.6833,-91.15
+831,Washougal,Stone,Howardite,Achondrite,HOW,,Achondrite,Howardite,225.0,1939,July,2,735,Washington,USA,North America,45.5833,-122.35
+832,Wessely,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,3750.0,1831,September,9,1530,Moravia,Czech Republic,Europe,48.95,17.3833
+833,Wethersfield (1971),Stone,Ordinary,Chondrite,L,6,Chondrite,L6,350.0,1971,April,8,0430-1130,Connecticut,USA,North America,41.7,-72.65
+834,Wethersfield (1982),Stone,Ordinary,Chondrite,L,6,Chondrite,L6,2756.0,1982,November,8,2114,Connecticut,USA,North America,41.7106,-72.6736
+835,Xingyang,Stone,Ordinary,Chondrite,H,5,Chondrite,H6,75500.0,1977,December,1,1857,Henan,China,Asia,32.3333,114.3167
+836,Xi Ujimgin,Stone,Ordinary,Chondrite,L/LL,6,Chondrite,L/LL6-an,5900.0,1980,August,24,1700,Nei Monggol,China,Asia,44.6667,117.5
+837,Yangchiang,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,20000.0,1954,April,12,400,Guangdong,China,Asia,21.8333,111.8333
+838,Yanzhuang,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,3500.0,1990,October,31,945,Guangdong,China,Asia,24.5667,114.1667
+839,Yardymly,Iron,Coarse octahedrite,,IIICD,Og,Primitive Achondrite,"Iron, IAB complex",150200.0,1959,November,24,705,,Azerbaijan,Asia,38.9333,48.25
+840,Yatoor,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,13600.0,1852,January,23,1630,Andhra Pradesh,India,Asia,14.3,79.7667
+841,Yonozu,Stone,Ordinary,Chondrite,H,4,Chondrite,H4/5,31650.0,1837,July,13,1600,Honshu,Japan,Asia,37.75,139.0
+842,Yorktown (New York),Stone,Ordinary,Chondrite,L,5,Chondrite,L5,250.0,1869,September,,,New York,USA,North America,41.2833,-73.8167
+843,Yoshiki,Stone,,,,,Unclassified,Stone-uncl,0.1,1928,June,25,,Honshu,Japan,Asia,34.1667,131.45
+844,Yukan,Stone,Ordinary,Chondrite,LL,6,Chondrite,LL6,4800.0,1931,August,27,1500,Jiangxi,China,Asia,28.7167,116.6167
+845,Yurtuk,Stone,Howardite,Achondrite,HOW,,Achondrite,Howardite,1472.0,1936,April,2,100,Zaporizhaya Province,Ukraine,Europe,47.3167,35.3667
+846,Yafa,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,5700.0,2000,July,15,,Yafa Province,Yemen,Asia,13.7111,45.17
+847,Yambo,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,4.0,1951,October,20,2100,,Congo,Africa,1.0,22.5
+848,Zag,Stone,Ordinary,Chondrite,H,3-6,Chondrite,H3-6,175000.0,1998,August,4 or 5,,,Western Sahara,Africa,27.3333,-9.3333
+849,Zagami,Stone,Shergottite,Achondrite,SNC,,Achondrite,Martian (shergottite),18000.0,1962,October,3,,,Nigeria,Africa,11.7333,7.0833
+850,Zaisan,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,463.0,1963,December,18,1100,,Kazakstan,Asia,47.5,83.0
+851,Zaisho,Stony-iron,Pallasite,,PAL,,Achondrite,"Pallasite, PMG-an",330.0,1898,February,1,500,Shikoku,Japan,Asia,33.7,133.8
+852,Zaoyang,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,14250.0,1984,October,18,1815,Hubei,China,Asia,32.3,112.75
+853,Zavetnoe,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,800.0,1952,December,4,1630,Rostov Province,Russia,Europe,47.1333,43.9
+854,Zavid,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,95000.0,1897,August,1,1122,,Bosnia-Herzegovina,Europe,44.4,19.1167
+855,Zemaitkiemis,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,44100.0,1933,February,2,2033,Ukmerges,Lithuania,Europe,55.3,25.0
+856,Zhaodong,Stone,Ordinary,Chondrite,L,4,Chondrite,L4,42000.0,1984,October,25,1505,Heilongjiang,China,Asia,45.8167,125.9167
+857,Zhovtnevyi,Stone,Ordinary,Chondrite,H,5,Chondrite,H6,107000.0,1938,October,10,night,Donetsk Province,Ukraine,Europe,47.5833,37.25
+858,Zhuanghe,Stone,,,,,Chondrite,H5,2900.0,1976,August,18,2032,Liaoning,China,Asia,39.6667,122.9833
+859,Zmenj,Stone,Howardite,Achondrite,HOW,,Achondrite,Howardite,246.0,1858,August,,,Brest Province,Belarus,Europe,51.8333,26.8333
+860,Zomba,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,7500.0,1899,January,25,745,Southern province,Malawi,Africa,-15.1833,35.2833
+861,Zsadany,Stone,Ordinary,Chondrite,H,5,Chondrite,H5,552.0,1875,March,31,1500-1600,,Romania,Europe,46.9333,21.5
+862,Zvonkov,Stone,Ordinary,Chondrite,H,6,Chondrite,H6,2568.0,1955,September,2,1545,Kiev Province,Ukraine,Europe,50.2,30.25
+863,Zabrodje,Stone,Ordinary,Chondrite,L,6,Chondrite,L6,3000.0,1893,September,22,,Vitebsk Province,Belarus,Europe,55.1833,27.9167

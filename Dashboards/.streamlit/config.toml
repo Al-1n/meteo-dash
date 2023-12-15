@@ -1,4 +1,18 @@
 [theme]
-base="light"
-primaryColor="#8fe22d"
-secondaryBackgroundColor="#fff208"
+
+# Primary accent for interactive elements
+primaryColor = '#E2474B'
+
+# Background color for the main content area
+backgroundColor = '#2F3A56'
+
+# Background color for sidebar and most interactive widgets
+secondaryBackgroundColor = '#406D96'
+
+# Color used for almost all text
+textColor = '#FAFAFA'
+
+# Font family for all text in the app, except code blocks
+# Accepted values (serif | sans serif | monospace) 
+# Default: "sans serif"
+font = "sans serif"

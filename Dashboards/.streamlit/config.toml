@@ -1,5 +1,7 @@
-[theme]
+[server]
+enableStaticServing = true
 
+[theme]
 # Primary accent for interactive elements
 primaryColor = '#E2474B'
 
@@ -14,5 +16,4 @@ textColor = '#FAFAFA'
 
 # Font family for all text in the app, except code blocks
 # Accepted values (serif | sans serif | monospace) 
-# Default: "sans serif"
 font = "sans serif"

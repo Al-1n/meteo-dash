@@ -23,7 +23,7 @@ st.markdown(
 
 
 # define an RGB color
-title_color = (89, 89, 89)
+title_color = (126, 126, 126)
 
 # write text with the specified color
 st.write(f'<span style="color:rgb{title_color};font-size:36px">Classifying Falls: Meteorite Type Analysis</span>', unsafe_allow_html=True)
@@ -133,7 +133,7 @@ if choice == 'Chondrites':
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                 title=dict(text='<b>Monthly observations of chondrites over 171 years</b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,
                 xaxis_title='Month',
@@ -188,7 +188,7 @@ if choice == 'Chondrites':
                                  hole=.4,
                                  textposition = 'outside', 
                                  marker=dict(colors=['rgb(102,194,165)', 'rgb(252,141,98)', 'rgb(141,160,203)', 'rgb(231,138,195)'], 
-                                             line=dict(color='rgb(89, 89, 89)', width=1)),
+                                             line=dict(color='rgb(126, 126, 126)', width=1)),
                                  opacity=0.9,
                                  pull=[0.4, 0.0, 0.0, 0.0])])
             
@@ -199,7 +199,7 @@ if choice == 'Chondrites':
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                 title=dict(text='<b>Percentage of observed meteorite falls by type</b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x=0.01,
                 margin=dict(l=20, r=20, b=5, t = 70),
@@ -260,7 +260,7 @@ if choice == 'Chondrites':
                         )
 
         fig.update_traces(hoverinfo = "text", 
-                          marker=dict(cornerradius=5),
+                          #marker=dict(cornerradius=5),
                           opacity = 0.8,
                          hovertemplate = "<br>".join([
                              "%{label}",
@@ -274,7 +274,7 @@ if choice == 'Chondrites':
         fig.update_layout(
             {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
             title=dict(text='<b>Observed chondrite falls sorted by group and frequency</b>'),
-            title_font_color='rgb(89, 89, 89)',
+            title_font_color='rgb(126, 126, 126)',
             title_font_size=16,
             title_x = 0.01,
             margin=dict(l=35, r=35, b=45, t = 50),
@@ -320,7 +320,7 @@ elif choice == 'Achondrites':
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                 title=dict(text='<b>Monthly observations of achondrites over 171 years</b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,
                 xaxis_title='Month',
@@ -362,7 +362,7 @@ elif choice == 'Achondrites':
                                  hole=.4,
                                  textposition = 'outside',textinfo = 'percent',
                                  marker=dict(colors=['rgb(102,194,165)', 'rgb(252,141,98)', 'rgb(141,160,203)', 'rgb(231,138,195)'], 
-                                             line=dict(color='rgb(89, 89, 89)', width=1)),
+                                             line=dict(color='rgb(126, 126, 126)', width=1)),
                                  opacity=0.9,
                                  pull=[0.0, 0.4, 0.0, 0.0])])
             
@@ -373,7 +373,7 @@ elif choice == 'Achondrites':
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                 title=dict(text='<b>Percentage of observed meteorite falls by type</b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x=0.01,
                 margin=dict(l=20, r=20, b=5, t = 70),
@@ -433,7 +433,7 @@ elif choice == 'Achondrites':
                         )
 
         fig.update_traces(hoverinfo = "text", 
-                          marker=dict(cornerradius=5),
+                          #marker=dict(cornerradius=5),
                           opacity = 0.9,
                          hovertemplate = "<br>".join([
                              "%{label}",
@@ -448,7 +448,7 @@ elif choice == 'Achondrites':
         fig.update_layout(
             {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
             title=dict(text='<b>Observed achondrite falls sorted by group and frequency</b>'),
-            title_font_color='rgb(89, 89, 89)',
+            title_font_color='rgb(126, 126, 126)',
             title_font_size=16,
             title_x = 0.01,
             margin=dict(l=35, r=35, b=45, t = 50),
@@ -487,7 +487,7 @@ elif choice == 'Primitive achondrites':
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                 title=dict(text='<b>Monthly observations of primitive achondrites over 171 years</b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,
                 xaxis_title='Month',
@@ -524,7 +524,7 @@ elif choice == 'Primitive achondrites':
                                  hole=.4,
                                  textposition = 'outside',textinfo = 'percent',
                                  marker=dict(colors=['rgb(102,194,165)', 'rgb(252,141,98)', 'rgb(141,160,203)', 'rgb(231,138,195)'], 
-                                             line=dict(color='rgb(89, 89, 89)', width=1)),
+                                             line=dict(color='rgb(126, 126, 126)', width=1)),
                                  opacity=0.9,
                                  pull=[0.0, 0.0, 0.4, 0.0])])
             
@@ -535,7 +535,7 @@ elif choice == 'Primitive achondrites':
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                 title=dict(text='<b>Percentage of observed meteorite falls by type</b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x=0.01,
                 margin=dict(l=50, r=50, b=5, t = 70),
@@ -593,7 +593,7 @@ elif choice == 'Primitive achondrites':
                         )
 
         fig.update_traces(hoverinfo = "text", 
-                          marker=dict(cornerradius=5),
+                          #marker=dict(cornerradius=5),
                           opacity = 0.9,
                          hovertemplate = "<br>".join([
                              "%{label}",
@@ -608,7 +608,7 @@ elif choice == 'Primitive achondrites':
         fig.update_layout(
             {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
             title=dict(text='<b>Observed primitive achondrite falls sorted by group and frequency</b>'),
-            title_font_color='rgb(89, 89, 89)',
+            title_font_color='rgb(126, 126, 126)',
             title_font_size=16,
             title_x = 0.01,
             margin=dict(l=35, r=35, b=45, t = 50),
@@ -656,7 +656,7 @@ elif choice == 'Primitive achondrites':
                         fig.update_layout(
                             {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                             title=dict(text='<b>Monthly observations of primitive achondrites over 171 years (based on alternative classification)</b>'),
-                            title_font_color='rgb(89, 89, 89)',
+                            title_font_color='rgb(126, 126, 126)',
                             title_font_size=16,
                             title_x = 0.01,
                             xaxis_title='Month',
@@ -692,7 +692,7 @@ elif choice == 'Unclassified':
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                 title=dict(text='<b>Monthly observations of unclassified meteorites over 171 years</b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,
                 xaxis_title='Month',
@@ -735,7 +735,7 @@ elif choice == 'Unclassified':
                                  hole=.4,
                                  textposition = 'outside',textinfo = 'percent',
                                  marker=dict(colors=['rgb(102,194,165)', 'rgb(252,141,98)', 'rgb(141,160,203)', 'rgb(231,138,195)'], 
-                                             line=dict(color='rgb(89, 89, 89)', width=1)),
+                                             line=dict(color='rgb(126, 126, 126)', width=1)),
                                  opacity=0.9,
                                  pull=[0.0, 0.0, 0.0, 0.4])])
             
@@ -746,7 +746,7 @@ elif choice == 'Unclassified':
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                 title=dict(text='<b>Percentage of observed meteorite falls by type</b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x=0.01,
                 margin=dict(l=50, r=50, b=5, t = 70),
@@ -806,7 +806,7 @@ elif choice == 'Unclassified':
                         )
 
         fig.update_traces(hoverinfo = "text", 
-                          marker=dict(cornerradius=5),
+                          #marker=dict(cornerradius=5),
                           opacity = 0.9,
                           hovertemplate = "<br>".join([
                              "%{label}",
@@ -820,7 +820,7 @@ elif choice == 'Unclassified':
         fig.update_layout(
             {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
             title=dict(text='<b>Unclassified observed falls sorted by group and frequency</b>'),
-            title_font_color='rgb(89, 89, 89)',
+            title_font_color='rgb(126, 126, 126)',
             title_font_size=16,
             title_x = 0.01,
             margin=dict(l=35, r=35, b=45, t = 50),

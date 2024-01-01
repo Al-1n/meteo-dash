@@ -1,0 +1,994 @@
+,name,id,Type,group,mass (g),year,latitude,longitude,country,continent,country code,area(sq Km),marker_color
+0,Aachen,1,Chondrite,L5,21.0,1880.0,50.775,6.08333,Germany,Europe,DEU,348570.0,orange
+1,Aarhus,2,Chondrite,H6,720.0,1951.0,56.18333,10.23333,Denmark,Europe,DNK,40000.0,orange
+2,Abee,6,Chondrite,EH4,107000.0,1952.0,54.21667,-113.0,Canada,North America,CAN,8965590.0,orange
+3,Acapulco,10,Primitive Achondrite,Acapulcoite,1914.0,1976.0,16.88333,-99.9,Mexico,North America,MEX,1943950.0,blue
+4,Achiras,370,Chondrite,L6,780.0,1902.0,-33.16667,-64.95,Argentina,South America,ARG,2736690.0,orange
+5,Adhi Kot,379,Chondrite,EH4,4239.0,1919.0,32.1,71.8,Pakistan,Asia,PAK,770880.0,orange
+6,Adzhi-Bogdo (stone),390,Chondrite,LL3-6,910.0,1949.0,44.83333,95.16667,Mongolia,Asia,MNG,1557292.418,orange
+7,Aguada,398,Chondrite,L6,1620.0,1930.0,-31.6,-65.23333,Argentina,South America,ARG,2736690.0,orange
+8,Aguila Blanca,417,Chondrite,L,1440.0,1920.0,-30.86667,-64.55,Argentina,South America,ARG,2736690.0,orange
+9,Aioun el Atrouss,423,Achondrite,Diogenite-pm,1000.0,1974.0,16.39806,-9.57028,Mauritania,Africa,MRT,1030700.0,gray
+10,Aïr,424,Chondrite,L6,24000.0,1925.0,19.08333,8.38333,Niger,Africa,NER,1266700.0,orange
+11,Akaba,426,Chondrite,L6,779.0,1949.0,29.51667,35.05,Jordan,Asia,JOR,88780.0,orange
+12,Akbarpur,427,Chondrite,H4,1800.0,1838.0,29.71667,77.95,India,Asia,IND,2973190.0,orange
+13,Akwanga,432,Chondrite,H,3000.0,1959.0,8.91667,8.43333,Nigeria,Africa,NGA,910770.0,orange
+14,Akyumak,433,Achondrite,"Iron, IVA",50000.0,1981.0,39.91667,42.81667,Turkey,Asia,,,gray
+15,Al Rais,446,Chondrite,CR2-an,160.0,1957.0,24.41667,39.51667,Saudi Arabia,Asia,SAU,2149690.0,orange
+16,Al Zarnkh,447,Chondrite,LL5,700.0,2001.0,13.66033,28.96,Sudan,Africa,SDN,2376000.0,orange
+17,Alberta,454,Chondrite,L,625.0,1949.0,2.0,22.66667,"Congo, The Democratic Republic of the",Africa,,,orange
+18,Alby sur Chéran,458,Achondrite,Eucrite-mmict,252.0,2002.0,45.82133,6.01533,France,Europe,FRA,547557.0,gray
+19,Aldsworth,461,Chondrite,LL5,700.0,1835.0,51.78333,-1.78333,United Kingdom,Europe,GBR,241930.0,orange
+20,Aleppo,462,Chondrite,L6,3200.0,1873.0,36.23333,37.13333,Syrian Arab Republic,Asia,SYR,183630.0,orange
+21,Alessandria,463,Chondrite,H5,908.0,1860.0,44.88333,8.75,Italy,Europe,ITA,295718.0,orange
+22,Alexandrovsky,465,Chondrite,H4,9251.0,1900.0,50.95,31.81667,Ukraine,Europe,UKR,579320.0,orange
+23,Alfianello,466,Chondrite,L6,228000.0,1883.0,45.26667,10.15,Italy,Europe,ITA,295718.0,orange
+24,Allegan,2276,Chondrite,H5,32000.0,1899.0,42.53333,-85.88333,United States,North America,USA,9147420.0,orange
+25,Allende,2278,Chondrite,CV3,2000000.0,1969.0,26.96667,-105.31667,Mexico,North America,MEX,1943950.0,orange
+26,Almahata Sitta,48915,Primitive Achondrite,Ureilite-an,3950.0,2008.0,20.74575,32.41275,Sudan,Africa,SDN,2376000.0,blue
+27,Alta'ameem,2284,Chondrite,LL5,6000.0,1977.0,35.27333,44.21556,Iraq,Asia,IRQ,434320.0,orange
+28,Ambapur Nagla,2290,Chondrite,H5,6400.0,1895.0,27.66667,78.25,India,Asia,IND,2973190.0,orange
+29,Andhara,2294,Unclassified,Stone-uncl,2700.0,1880.0,26.58333,85.56667,India,Asia,IND,2973190.0,darkred
+30,Andover,2295,Chondrite,L6,3200.0,1898.0,44.61667,-70.75,United States,North America,USA,9147420.0,orange
+31,Andreevka,2296,Chondrite,L3,600.0,1969.0,48.7,37.5,Ukraine,Europe,UKR,579320.0,orange
+32,Andura,2298,Chondrite,H6,17900.0,1939.0,20.88333,76.86667,India,Asia,IND,2973190.0,orange
+33,Angra dos Reis (stone),2302,Achondrite,Angrite,1500.0,1869.0,-22.96667,-44.31667,Brazil,South America,BRA,8358140.0,gray
+34,Ankober,2304,Chondrite,H4,6500.0,1942.0,9.53333,39.71667,Ethiopia,Africa,ETH,1128570.952,orange
+35,Anlong,2305,Chondrite,H5,2500.0,1971.0,25.15,105.18333,China,Asia,CHN,9424700.7,orange
+36,Aomori,2313,Chondrite,L6,320.0,1984.0,40.81056,140.78556,Japan,Asia,JPN,364500.0,orange
+37,Appley Bridge,2318,Chondrite,LL6,15000.0,1914.0,53.58333,-2.71667,United Kingdom,Europe,GBR,241930.0,orange
+38,Arbol Solo,2325,Chondrite,H5,810.0,1954.0,-33.0,-66.0,Argentina,South America,ARG,2736690.0,orange
+39,Archie,2329,Chondrite,H6,5070.0,1932.0,38.5,-94.3,United States,North America,USA,9147420.0,orange
+40,Arroyo Aguiar,2340,Chondrite,H5,7450.0,1950.0,-31.41667,-60.66667,Argentina,South America,ARG,2736690.0,orange
+41,Ash Creek,48954,Chondrite,L6,9500.0,2009.0,31.805,-97.01,United States,North America,USA,9147420.0,orange
+42,Ashdon,2346,Chondrite,L6,1300.0,1923.0,52.05,0.3,United Kingdom,Europe,GBR,241930.0,orange
+43,Assisi,2353,Chondrite,H5,2000.0,1886.0,43.03333,12.55,Italy,Europe,ITA,295718.0,orange
+44,Atarra,4883,Chondrite,L4,1280.0,1920.0,25.25417,80.625,India,Asia,IND,2973190.0,orange
+45,Atemajac,4884,Chondrite,L6,94.2,1896.0,20.06667,-103.66667,Mexico,North America,MEX,1943950.0,orange
+46,Athens,4885,Chondrite,LL6,265.0,1933.0,34.75,-87.0,United States,North America,USA,9147420.0,orange
+47,Atoka,4888,Chondrite,L6,1384.2,1945.0,34.31667,-96.15,United States,North America,USA,9147420.0,orange
+48,Aubres,4893,Achondrite,Aubrite,800.0,1836.0,44.38333,5.16667,France,Europe,FRA,547557.0,gray
+49,Aumale,4899,Chondrite,L6,50000.0,1865.0,36.16667,3.66667,Algeria,Africa,DZA,2381740.0,orange
+50,Aumieres,4900,Chondrite,L6,2000.0,1842.0,44.33333,3.23333,France,Europe,FRA,547557.0,orange
+51,Ausson,4903,Chondrite,L5,50000.0,1858.0,43.08333,0.58333,France,Europe,FRA,547557.0,orange
+52,Avanhandava,4905,Chondrite,H4,9330.0,1952.0,-21.46028,-49.95083,Brazil,South America,BRA,8358140.0,orange
+53,Avce,4906,Achondrite,"Iron, IIAB",1230.0,1908.0,46.0,13.5,Slovenia,Europe,SVN,20146.2,gray
+54,Avilez,4907,Chondrite,H,146.0,1855.0,25.0,-103.5,Mexico,North America,MEX,1943950.0,orange
+55,Awere,4910,Chondrite,L4,134.0,1968.0,2.71667,32.83333,Uganda,Africa,UGA,200520.0,orange
+56,Aztec,4913,Chondrite,L6,2830.0,1938.0,36.8,-108.0,United States,North America,USA,9147420.0,orange
+57,Bahjoi,4922,Primitive Achondrite,"Iron, IAB-sLL",10322.0,1934.0,28.48333,78.5,India,Asia,IND,2973190.0,blue
+58,Bald Mountain,4925,Chondrite,L4,3700.0,1929.0,35.96667,-82.48333,United States,North America,USA,9147420.0,orange
+59,Baldwyn,4926,Chondrite,L6,345.0,1922.0,34.5,-88.66667,United States,North America,USA,9147420.0,orange
+60,Bali,4928,Chondrite,CV3,1000.0,1907.0,5.38333,16.38333,Central African Republic,Africa,CAF,622980.0,orange
+61,Ban Rong Du,4934,Unclassified,"Iron, ungrouped",16700.0,1993.0,16.66667,101.18333,Thailand,Asia,THA,510890.0,darkred
+62,Bandong,4935,Chondrite,LL6,11500.0,1871.0,-6.91667,107.6,Indonesia,Asia,IDN,1877519.0,orange
+63,Bansur,4936,Chondrite,L6,15000.0,1892.0,27.7,76.33333,India,Asia,IND,2973190.0,orange
+64,Banswal,4937,Chondrite,L5,14.0,1913.0,30.4,78.2,India,Asia,IND,2973190.0,orange
+65,Banten,4938,Chondrite,CM2,629.0,1933.0,-6.33333,106.0,Indonesia,Asia,IDN,1877519.0,orange
+66,Barea,4946,Achondrite,Mesosiderite-A1,3200.0,1842.0,42.38333,-2.5,Spain,Europe,ESP,500010.0,gray
+67,Barnaul,4947,Chondrite,H5,23.2,1904.0,52.73333,84.08333,Russian Federation,Europe,RUS,16376870.0,orange
+68,Barntrup,4948,Chondrite,LL4,17.0,1886.0,52.0,9.1,Germany,Europe,DEU,348570.0,orange
+69,Baroti,4949,Chondrite,L6,4500.0,1910.0,31.61667,76.8,India,Asia,IND,2973190.0,orange
+70,Barwell,4954,Chondrite,L5,44000.0,1965.0,52.56528,-1.33972,United Kingdom,Europe,GBR,241930.0,orange
+71,Bassikounou,44876,Chondrite,H5,29560.0,2006.0,15.78333,-5.9,Mauritania,Africa,MRT,1030700.0,orange
+72,Baszkówka,4957,Chondrite,L5,15500.0,1994.0,52.03333,20.93583,Poland,Europe,POL,306280.0,orange
+73,Bath,4974,Chondrite,H4,21000.0,1892.0,45.41667,-98.31667,United States,North America,USA,9147420.0,orange
+74,Bath Furnace,4975,Chondrite,L6,86000.0,1902.0,38.25,-83.75,United States,North America,USA,9147420.0,orange
+75,Battle Mountain,56133,Chondrite,L6,2900.0,2012.0,40.66813,-117.18913,United States,North America,USA,9147420.0,orange
+76,Bawku,4976,Chondrite,LL5,1557.0,1989.0,11.08333,-0.18333,Ghana,Africa,GHA,227540.0,orange
+77,Baxter,4977,Chondrite,L6,611.0,1916.0,36.75,-93.5,United States,North America,USA,9147420.0,orange
+78,Beardsley,4984,Chondrite,H5,16000.0,1929.0,39.8,-101.2,United States,North America,USA,9147420.0,orange
+79,Beaver Creek,4986,Chondrite,H5,14000.0,1893.0,51.16667,-117.33333,Canada,North America,CAN,8965590.0,orange
+80,Beddgelert,4993,Chondrite,H5,794.0,1949.0,53.01667,-4.1,United Kingdom,Europe,GBR,241930.0,orange
+81,Bells,5005,Chondrite,C2-ung,375.0,1961.0,33.6,-96.46667,United States,North America,USA,9147420.0,orange
+82,Belville,5009,Chondrite,OC,,1937.0,-32.33333,-64.86667,Argentina,South America,ARG,2736690.0,orange
+83,Benguerir,30443,Chondrite,LL6,25000.0,2004.0,32.25,-8.15,Morocco,Africa,MAR,446300.0,orange
+84,Beni M'hira,5018,Chondrite,L6,19000.0,2001.0,32.86667,10.8,Tunisia,Africa,TUN,155360.0,orange
+85,Benld,5021,Chondrite,H6,1770.5,1938.0,39.08333,-89.15,United States,North America,USA,9147420.0,orange
+86,Benoni,5023,Chondrite,H6,3880.0,1943.0,-26.16667,28.41667,South Africa,Africa,ZAF,1213090.0,orange
+87,Bensour,5024,Chondrite,LL6,45000.0,2002.0,30.0,-7.0,Morocco,Africa,MAR,446300.0,orange
+88,Benton,5026,Chondrite,LL6,2840.0,1949.0,45.95,-67.55,Canada,North America,CAN,8965590.0,orange
+89,Berduc,48975,Chondrite,L6,270.0,2008.0,-31.91,-58.32833,Argentina,South America,ARG,2736690.0,orange
+90,Béréba,5028,Achondrite,Eucrite-mmict,18000.0,1924.0,11.65,-3.65,Burkina Faso,Africa,BFA,273600.0,gray
+91,Berthoud,47355,Achondrite,Eucrite-mmict,960.0,2004.0,40.30583,-105.02325,United States,North America,USA,9147420.0,gray
+92,Bethlehem,5032,Chondrite,H,13.9,1859.0,42.53333,-73.83333,United States,North America,USA,9147420.0,orange
+93,Beuste,5034,Chondrite,L5,2000.0,1859.0,43.21667,-0.23333,France,Europe,FRA,547557.0,orange
+94,Beyrout,5035,Chondrite,LL3.8,1100.0,1921.0,33.88333,35.5,Lebanon,Asia,LBN,10230.0,orange
+95,Bhagur,5037,Chondrite,L6,18.0,1877.0,20.88333,74.83333,India,Asia,IND,2973190.0,orange
+96,Bhawad,36591,Chondrite,LL6,678.0,2002.0,26.50833,73.11528,India,Asia,IND,2973190.0,orange
+97,Bherai,5039,Chondrite,L6,100.0,1893.0,20.83333,71.46667,India,Asia,IND,2973190.0,orange
+98,Bhola,5040,Chondrite,LL3-6,1047.0,1940.0,22.68333,90.65,Bangladesh,Asia,BGD,130170.0,orange
+99,Bholghati,5041,Achondrite,Howardite,2500.0,1905.0,22.08333,86.9,India,Asia,IND,2973190.0,gray
+100,Bielokrynitschie,5043,Chondrite,H4,1900.0,1887.0,50.13333,27.16667,Ukraine,Europe,UKR,579320.0,orange
+101,Bilanga,5045,Achondrite,Diogenite,25000.0,1999.0,12.45,-0.08333,Burkina Faso,Africa,BFA,273600.0,gray
+102,Binningup,5051,Chondrite,H5,488.1,1984.0,-33.15639,115.67639,Australia,Oceania,AUS,7682300.0,orange
+103,Birni N'konni,5056,Chondrite,H4,560.0,1923.0,13.76667,5.3,Nigeria,Africa,NGA,910770.0,orange
+104,Bishopville,5059,Achondrite,Aubrite,6000.0,1843.0,34.16667,-80.28333,United States,North America,USA,9147420.0,gray
+105,Bishunpur,5060,Chondrite,LL3.15,1039.0,1895.0,25.38333,82.6,India,Asia,IND,2973190.0,orange
+106,Bjurböle,5064,Chondrite,L/LL4,330000.0,1899.0,60.4,25.8,Finland,Europe,FIN,303900.0,orange
+107,Black Moshannan Park,5065,Chondrite,L5,705.0,1941.0,40.91667,-78.08333,United States,North America,USA,9147420.0,orange
+108,Blackwell,5068,Chondrite,L5,2381.0,1906.0,36.83333,-97.33333,United States,North America,USA,9147420.0,orange
+109,Blanket,5071,Chondrite,L6,5100.0,1909.0,31.83333,-98.83333,United States,North America,USA,9147420.0,orange
+110,Blansko,5072,Chondrite,H6,470.0,1833.0,49.36667,16.63333,Czechia,Europe,CZE,77230.0,orange
+111,Bloomington,5076,Chondrite,LL6,67.8,1938.0,40.48,-89.00417,United States,North America,USA,9147420.0,orange
+112,Bo Xian,5090,Chondrite,LL3.9,7500.0,1977.0,33.83333,115.83333,China,Asia,CHN,9424700.7,orange
+113,Bogou,5097,Primitive Achondrite,"Iron, IAB-MG",8800.0,1962.0,12.5,0.7,Burkina Faso,Africa,BFA,273600.0,blue
+114,Boguslavka,5098,Achondrite,"Iron, IIAB",256000.0,1916.0,44.55,131.63333,Russian Federation,Europe,RUS,16376870.0,gray
+115,Bori,5111,Chondrite,L6,8600.0,1894.0,21.95,78.03333,India,Asia,IND,2973190.0,orange
+116,Boriskino,5112,Chondrite,CM2,1342.0,1930.0,54.23333,52.48333,Russian Federation,Europe,RUS,16376870.0,orange
+117,Borkut,5113,Chondrite,L5,7000.0,1852.0,48.15,24.28333,Ukraine,Europe,UKR,579320.0,orange
+118,Boumdeid (2003),57168,Chondrite,L6,190.0,2003.0,17.71067,-11.3715,Mauritania,Africa,MRT,1030700.0,orange
+119,Boumdeid (2011),57167,Chondrite,L6,3599.0,2011.0,17.17493,-11.34133,Mauritania,Africa,MRT,1030700.0,orange
+120,Bovedy,5121,Chondrite,L3,5460.0,1969.0,54.56667,-6.33333,United Kingdom,Europe,GBR,241930.0,orange
+121,Bradford Woods,5128,Chondrite,L,762.0,1886.0,40.5,-80.08333,United States,North America,USA,9147420.0,orange
+122,Braunau,5133,Achondrite,"Iron, IIAB",39000.0,1847.0,50.6,16.3,Czechia,Europe,CZE,77230.0,gray
+123,Breitscheid,5134,Chondrite,H5,1500.0,1956.0,50.66694,8.18361,Germany,Europe,DEU,348570.0,orange
+124,Bremervörde,5135,Chondrite,H/L3.9,7250.0,1855.0,53.4,9.1,Germany,Europe,DEU,348570.0,orange
+125,Brient,5140,Achondrite,Eucrite-pmict,219.0,1933.0,52.13333,59.31667,Russian Federation,Europe,RUS,16376870.0,gray
+126,Bruderheim,5156,Chondrite,L6,303000.0,1960.0,53.9,-112.88333,Canada,North America,CAN,8965590.0,orange
+127,Bukhara,30448,Chondrite,CV3,5300.0,2001.0,39.77978,64.60035,Uzbekistan,Asia,UZB,435892.0,orange
+128,Bulls Run,5163,Unclassified,Iron?,2250.0,1964.0,-29.09845,22.584989,South Africa,Africa,ZAF,1213090.0,darkred
+129,Bunburra Rockhole,48653,Achondrite,Eucrite,324.0,2007.0,-31.35,129.19,Australia,Oceania,AUS,7682300.0,gray
+130,Bununu,5165,Achondrite,Howardite,357.0,1942.0,10.01667,9.58333,Nigeria,Africa,NGA,910770.0,gray
+131,Bur-Gheluai,5169,Chondrite,H5,120000.0,1919.0,5.0,48.0,Somalia,Africa,SOM,627340.0,orange
+132,Burnwell,5175,Chondrite,H4-an,1504.0,1990.0,37.62194,-82.23722,United States,North America,USA,9147420.0,orange
+133,Bursa,5177,Chondrite,L6,25000.0,1946.0,40.2,29.23333,Turkey,Asia,,,orange
+134,Buschhof,5178,Chondrite,L6,5000.0,1863.0,46.45,25.78333,Romania,Europe,ROU,230050.0,orange
+135,Bustee,5181,Achondrite,Aubrite,1500.0,1852.0,26.78333,82.83333,India,Asia,IND,2973190.0,gray
+136,Butsura,5183,Chondrite,H6,29000.0,1861.0,27.08333,84.08333,India,Asia,IND,2973190.0,orange
+137,Buzzard Coulee,48654,Chondrite,H4,41000.0,2008.0,52.996,-109.84817,Canada,North America,CAN,8965590.0,orange
+138,Cabezo de Mayo,5185,Chondrite,L/LL6,25000.0,1870.0,37.98333,-1.16667,Spain,Europe,ESP,500010.0,orange
+139,Cabin Creek,5186,Achondrite,"Iron, IIIAB",48500.0,1886.0,35.5,-93.5,United States,North America,USA,9147420.0,gray
+140,Cacak,5187,Chondrite,OC,212.0,1919.0,43.83889,20.33333,Serbia,Europe,SRB,87460.0,orange
+141,Cali,45976,Chondrite,H/L4,478.0,2007.0,3.405,-76.51,Colombia,South America,COL,1109500.0,orange
+142,Calivo,5200,Unclassified,Stone-uncl,2400.0,1916.0,11.75,122.33333,Philippines,Asia,PHL,298170.0,darkred
+143,Campos Sales,5249,Chondrite,L5,23680.0,1991.0,-7.03333,-40.16667,Brazil,South America,BRA,8358140.0,orange
+144,Çanakkale,5250,Chondrite,L6,4000.0,1964.0,39.8,26.6,Turkey,Asia,,,orange
+145,Cañellas,5251,Chondrite,H4,945.0,1861.0,41.25,1.66667,Spain,Europe,ESP,500010.0,orange
+146,Cangas de Onis,5252,Chondrite,H5,34000.0,1866.0,43.38333,-5.15,Spain,Europe,ESP,500010.0,orange
+147,Canon City,5253,Chondrite,H6,1400.0,1973.0,38.47028,-105.24139,United States,North America,USA,9147420.0,orange
+148,Cape Girardeau,5260,Chondrite,H6,2300.0,1846.0,37.26667,-89.58333,United States,North America,USA,9147420.0,orange
+149,Capilla del Monte,5264,Chondrite,H6,750.0,1934.0,-30.88333,-64.55,Argentina,South America,ARG,2736690.0,orange
+150,Carancas,45817,Chondrite,H4-5,342.0,2007.0,-16.66444,-69.04389,Peru,South America,PER,1280000.0,orange
+151,Caratash,5265,Chondrite,LL6,8.0,1902.0,38.5,27.0,Turkey,Asia,,,orange
+152,Castalia,5291,Chondrite,H5,7300.0,1874.0,36.08333,-78.06667,United States,North America,USA,9147420.0,orange
+153,Castine,5293,Chondrite,L6,94.0,1848.0,44.38333,-68.75,United States,North America,USA,9147420.0,orange
+154,Ceniceros,5306,Chondrite,L3.7,1025.0,1988.0,26.46667,-105.23333,Mexico,North America,MEX,1943950.0,orange
+155,Centerville,5307,Chondrite,H5,45.6,1956.0,43.2,-96.91667,United States,North America,USA,9147420.0,orange
+156,Cereseto,5308,Chondrite,H5,6460.0,1840.0,45.08333,8.3,Italy,Europe,ITA,295718.0,orange
+157,Chadong,5313,Chondrite,L6,3700.0,1998.0,28.53333,109.31667,China,Asia,CHN,9424700.7,orange
+158,Chainpur,5315,Chondrite,LL3.4,8200.0,1907.0,25.85,83.48333,India,Asia,IND,2973190.0,orange
+159,Chajari,5316,Chondrite,L5,18300.0,1933.0,-30.78333,-58.05,Argentina,South America,ARG,2736690.0,orange
+160,Chandakapur,5320,Chondrite,L5,8800.0,1838.0,20.26667,76.01667,India,Asia,IND,2973190.0,orange
+161,Chandpur,5321,Chondrite,L6,1100.0,1885.0,27.28333,79.05,India,Asia,IND,2973190.0,orange
+162,Changde,5322,Chondrite,H5,1810.0,1977.0,29.08333,111.75,China,Asia,CHN,9424700.7,orange
+163,Charlotte,5328,Achondrite,"Iron, IVA",4300.0,1835.0,36.16667,-87.33333,United States,North America,USA,9147420.0,gray
+164,Charwallas,5330,Chondrite,H6,12000.0,1834.0,29.48333,75.5,India,Asia,IND,2973190.0,orange
+165,Château-Renard,5332,Chondrite,L6,30000.0,1841.0,47.93333,2.91667,France,Europe,FRA,547557.0,orange
+166,Chaves,5334,Achondrite,Howardite,2945.0,1925.0,41.93333,-7.46667,Spain,Europe,ESP,500010.0,gray
+167,Chela,5338,Chondrite,H4,2936.0,1988.0,-3.66667,32.5,"Tanzania, United Republic of",Africa,,,orange
+168,Chelyabinsk,57165,Chondrite,LL5,100000.0,2013.0,54.81667,61.11667,Russian Federation,Europe,RUS,16376870.0,orange
+169,Chergach ,47347,Chondrite,H5,100000.0,2007.0,23.69639,-5.01472,Mali,Africa,MLI,1220190.0,orange
+170,Chernyi Bor,5339,Chondrite,H4,6000.0,1964.0,53.7,30.1,Belarus,Europe,BLR,202902.0,orange
+171,Cherokee Springs,5340,Chondrite,LL6,8400.0,1933.0,35.03333,-81.88333,United States,North America,USA,9147420.0,orange
+172,Chervettaz,5341,Chondrite,L5,705.0,1901.0,46.55,6.81667,Switzerland,Europe,CHE,39516.0,orange
+173,Chervony Kut,5342,Achondrite,Eucrite-mmict,1700.0,1939.0,50.83333,34.0,Ukraine,Europe,UKR,579320.0,gray
+174,Chetrinahatti,5344,Unclassified,Stone-uncl,72.0,1880.0,14.5,76.5,India,Asia,IND,2973190.0,darkred
+175,Chiang Khan,5345,Chondrite,H6,367.0,1981.0,17.9,101.63333,Lao People's Democratic Republic,Asia,,,orange
+176,Chicora,5349,Chondrite,LL6,303.0,1938.0,40.93333,-79.73333,United States,North America,USA,9147420.0,orange
+177,Chisenga,5355,Achondrite,"Iron, IIIAB",3920.0,1988.0,-10.05944,33.395,Malawi,Africa,MWI,94280.0,gray
+178,Chitado,5356,Chondrite,L6,,1966.0,-17.35,13.96667,Angola,Africa,AGO,1246700.0,orange
+179,Chitenay,5357,Chondrite,L6,4000.0,1978.0,47.47083,0.97667,France,Europe,FRA,547557.0,orange
+180,Cilimus,5364,Chondrite,L5,1600.0,1979.0,-6.95,108.1,Indonesia,Asia,IDN,1877519.0,orange
+181,Claxton,5374,Chondrite,L6,1455.0,1984.0,32.1025,-81.87278,United States,North America,USA,9147420.0,orange
+182,Colby (Wisconsin),5395,Chondrite,L6,104000.0,1917.0,44.9,-90.28333,United States,North America,USA,9147420.0,orange
+183,Cold Bokkeveld,5397,Chondrite,CM2,5200.0,1838.0,-33.13333,19.38333,South Africa,Africa,ZAF,1213090.0,orange
+184,Coleman,5401,Chondrite,L6,469.0,1994.0,43.76111,-84.50778,United States,North America,USA,9147420.0,orange
+185,Collescipoli,5403,Chondrite,H5,5000.0,1890.0,42.53333,12.61667,Italy,Europe,ITA,295718.0,orange
+186,Conquista,5418,Chondrite,H4,20350.0,1965.0,-19.85,-47.55,Brazil,South America,BRA,8358140.0,orange
+187,Cosina,5451,Chondrite,H5,1200.0,1844.0,21.16667,-100.86667,Mexico,North America,MEX,1943950.0,orange
+188,Cranganore,5465,Chondrite,L6,1460.0,1917.0,10.2,76.26667,India,Asia,IND,2973190.0,orange
+189,Crescent,5470,Chondrite,CM2,78.4,1936.0,35.95,-97.58333,United States,North America,USA,9147420.0,orange
+190,Cronstad,5474,Chondrite,H5,3650.0,1877.0,-27.7,27.3,South Africa,Africa,ZAF,1213090.0,orange
+191,Cross Roads,5476,Chondrite,H5,167.0,1892.0,35.63333,-78.13333,United States,North America,USA,9147420.0,orange
+192,Crumlin,5477,Chondrite,L5,4255.0,1902.0,54.61667,-6.21667,United Kingdom,Europe,GBR,241930.0,orange
+193,Cumberland Falls,5496,Achondrite,Aubrite,17000.0,1919.0,36.83333,-84.35,United States,North America,USA,9147420.0,gray
+194,Cynthiana,5500,Chondrite,L/LL4,6000.0,1877.0,38.4,-84.25,United States,North America,USA,9147420.0,orange
+195,Dahmani,5504,Chondrite,LL6,18000.0,1981.0,35.61667,8.83333,Tunisia,Africa,TUN,155360.0,orange
+196,Dandapur,5511,Chondrite,L6,5650.0,1878.0,26.91667,83.96667,India,Asia,IND,2973190.0,orange
+197,Daniel's Kuil,5513,Chondrite,EL6,1064.0,1868.0,-28.2,24.56667,South Africa,Africa,ZAF,1213090.0,orange
+198,Danville,5514,Chondrite,L6,2000.0,1868.0,34.4,-87.06667,United States,North America,USA,9147420.0,orange
+199,Dashoguz,6604,Chondrite,H5,7000.0,1998.0,41.98444,59.685,Turkmenistan,Asia,TKM,469930.0,orange
+200,Daule,51559,Chondrite,L5,6580.0,2008.0,-1.87089,-79.95756,Ecuador,South America,ECU,248360.0,orange
+201,De Cewsville,6621,Chondrite,H6,340.0,1887.0,43.0,-80.0,Canada,North America,CAN,8965590.0,orange
+202,Delhi,6642,Chondrite,L5,0.8,1897.0,28.56667,77.25,India,Asia,IND,2973190.0,orange
+203,Demina,6649,Chondrite,L6,16400.0,1911.0,51.46667,84.76667,Russian Federation,Europe,RUS,16376870.0,orange
+204,Denver,6660,Chondrite,L6,230.0,1967.0,39.7825,-104.93056,United States,North America,USA,9147420.0,orange
+205,Dergaon,6664,Chondrite,H5,12500.0,2001.0,26.68333,93.86667,India,Asia,IND,2973190.0,orange
+206,Desuri,6693,Chondrite,H6,25400.0,1962.0,25.73333,73.61667,India,Asia,IND,2973190.0,orange
+207,Devgaon,6694,Chondrite,H3.8,12000.0,2001.0,19.0,81.0,India,Asia,IND,2973190.0,orange
+208,Devri-Khera,6696,Chondrite,L6,1140.0,1994.0,24.225,76.525,India,Asia,IND,2973190.0,orange
+209,Dhajala,6698,Chondrite,H3.8,45000.0,1976.0,22.37778,71.42722,India,Asia,IND,2973190.0,orange
+210,Dharwar,6699,Chondrite,OC,1800.0,1848.0,14.88333,75.6,India,Asia,IND,2973190.0,orange
+211,Dhurmsala,7640,Chondrite,LL6,32000.0,1860.0,32.23333,76.46667,India,Asia,IND,2973190.0,orange
+212,Didim,47350,Chondrite,H3-5,3396.0,2007.0,37.35172,27.32997,Turkey,Asia,,,orange
+213,Diep River,7642,Chondrite,L6,1000.0,1906.0,-33.75,18.56667,South Africa,Africa,ZAF,1213090.0,orange
+214,Distrito Quebracho,7649,Chondrite,H4,400.0,1957.0,-31.88333,-60.46667,Argentina,South America,ARG,2736690.0,orange
+215,Djati-Pengilon,7652,Chondrite,H6,166000.0,1884.0,-7.5,111.5,Indonesia,Asia,IDN,1877519.0,orange
+216,Djermaia,7656,Chondrite,H,3950.0,1961.0,12.73333,15.05,Chad,Africa,TCD,1259200.0,orange
+217,Djoumine,7657,Chondrite,H5-6,10000.0,1999.0,36.95,9.55,Tunisia,Africa,TUN,155360.0,orange
+218,Dokachi,7658,Chondrite,H5,3840.0,1903.0,23.5,90.33333,Bangladesh,Asia,BGD,130170.0,orange
+219,Dolgovoli,7659,Chondrite,L6,1600.0,1864.0,50.75,25.3,Ukraine,Europe,UKR,579320.0,orange
+220,Domanitch,7661,Chondrite,L5,438.0,1907.0,40.0,29.0,Turkey,Asia,,,orange
+221,Dong Ujimqin Qi,7706,Achondrite,Mesosiderite,128800.0,1995.0,45.5,119.03333,China,Asia,CHN,9424700.7,gray
+222,Donga Kohrod,7707,Chondrite,H6,230.0,1899.0,21.86667,82.45,India,Asia,IND,2973190.0,orange
+223,Dongtai,7708,Chondrite,LL6,5500.0,1970.0,32.91667,120.78333,China,Asia,CHN,9424700.7,orange
+224,Dosso,7722,Chondrite,L6,1250.0,1962.0,13.05,3.16667,Niger,Africa,NER,1266700.0,orange
+225,Douar Mghila,7723,Chondrite,LL6,1161.0,1932.0,32.33333,-6.3,Morocco,Africa,MAR,446300.0,orange
+226,Dowa,7725,Unclassified,Stone-uncl,642.0,1976.0,-13.66667,33.91667,Malawi,Africa,MWI,94280.0,darkred
+227,Dresden (Ontario),7731,Chondrite,H6,47700.0,1939.0,42.52,-82.26,Canada,North America,CAN,8965590.0,orange
+228,Dubrovnik,7736,Chondrite,L3-6,1900.0,1951.0,42.45833,18.44167,Croatia,Europe,HRV,55964.0,orange
+229,Dunbogan,7743,Chondrite,L6,30.0,1999.0,-31.66667,152.83333,Australia,Oceania,AUS,7682300.0,orange
+230,Dundrum,7745,Chondrite,H5,2270.0,1865.0,52.55,-8.03333,Ireland,Europe,IRL,68890.0,orange
+231,Dunhua,7749,Unclassified,Stone-uncl,,1976.0,43.33333,128.25,China,Asia,CHN,9424700.7,darkred
+232,Duruma,7752,Chondrite,L6,577.0,1853.0,-4.0,39.5,Kenya,Africa,KEN,569140.0,orange
+233,Duwun,7754,Chondrite,L6,2117.0,1943.0,33.43333,127.26667,Antarctica,Antarctica,,,orange
+234,Dwaleni,7755,Chondrite,H4-6,3230.0,1970.0,-27.2,31.31667,Eswatini,Africa,SWZ,17200.0,orange
+235,Dyalpur,7757,Primitive Achondrite,Ureilite,300.0,1872.0,26.25,82.0,India,Asia,IND,2973190.0,blue
+236,Dyarrl Island,7758,Achondrite,Mesosiderite-A1,188.0,1933.0,-3.0,151.0,Papua New Guinea,Oceania,PNG,452860.0,gray
+237,Eagle,7760,Chondrite,EL6,10000.0,1947.0,40.78167,-96.47167,United States,North America,USA,9147420.0,orange
+238,Ehole,7774,Chondrite,H5,2400.0,1961.0,-17.3,15.83333,Angola,Africa,AGO,1246700.0,orange
+239,Ekeby,7776,Chondrite,H4,3336.0,1939.0,56.03333,13.0,Sweden,Europe,SWE,407339.7,orange
+240,Ekh Khera,7777,Chondrite,H6,840.0,1916.0,28.26667,78.78333,India,Asia,IND,2973190.0,orange
+241,El Idrissia,7807,Chondrite,L6,10000.0,1989.0,34.41667,3.25,Algeria,Africa,DZA,2381740.0,orange
+242,El Paso de Aguila,45977,Chondrite,H5,17226.0,1977.0,25.37,-97.37,Mexico,North America,MEX,1943950.0,orange
+243,El Tigre,7819,Chondrite,L6,5000.0,1993.0,19.96722,-103.05167,Mexico,North America,MEX,1943950.0,orange
+244,Elbert,7822,Chondrite,LL6,680.5,1998.0,39.24667,-104.58817,United States,North America,USA,9147420.0,orange
+245,Elenovka,7824,Chondrite,L5,54640.0,1951.0,47.83333,37.66667,Ukraine,Europe,UKR,579320.0,orange
+246,Ellemeet,10019,Achondrite,Diogenite,1470.0,1925.0,51.75,4.0,Netherlands,Europe,NLD,33730.0,gray
+247,Emmaville,10033,Achondrite,Eucrite-mmict,127.0,1900.0,-29.46667,151.61667,Australia,Oceania,AUS,7682300.0,gray
+248,Enshi,10038,Chondrite,H5,8000.0,1974.0,30.3,109.5,China,Asia,CHN,9424700.7,orange
+249,Erakot,10042,Chondrite,CM2,113.0,1940.0,19.03333,81.89167,India,Asia,IND,2973190.0,orange
+250,Erevan,10043,Achondrite,Howardite,107.2,1911.0,40.3,44.5,Armenia,Asia,ARM,28470.0,gray
+251,Ergheo,10044,Chondrite,L5,20000.0,1889.0,1.16667,44.16667,Somalia,Africa,SOM,627340.0,orange
+252,Esnandes,10051,Chondrite,L6,1500.0,1837.0,46.25,-1.1,France,Europe,FRA,547557.0,orange
+253,Essebi,10055,Chondrite,C2-ung,500.0,1957.0,2.88333,30.83333,"Congo, The Democratic Republic of the",Africa,,,orange
+254,Estherville,10059,Achondrite,Mesosiderite-A3/4,320000.0,1879.0,43.41667,-94.83333,United States,North America,USA,9147420.0,gray
+255,Farmington,10074,Chondrite,L5,89400.0,1890.0,39.75,-97.03333,United States,North America,USA,9147420.0,orange
+256,Farmville,10075,Chondrite,H4,56000.0,1934.0,35.55,-77.53333,United States,North America,USA,9147420.0,orange
+257,Favars,10078,Chondrite,H5,1500.0,1844.0,44.38333,2.81667,France,Europe,FRA,547557.0,orange
+258,Fayetteville,10079,Chondrite,H4,2360.0,1934.0,36.05,-94.16667,United States,North America,USA,9147420.0,orange
+259,Feid Chair,10080,Chondrite,H4,380.0,1875.0,36.88333,8.45,Algeria,Africa,DZA,2381740.0,orange
+260,Felix,10081,Chondrite,CO3.3,3200.0,1900.0,32.53333,-87.16667,United States,North America,USA,9147420.0,orange
+261,Fenghsien-Ku,10086,Chondrite,H5,82.0,1924.0,34.6,116.75,China,Asia,CHN,9424700.7,orange
+262,Ferguson,10088,Chondrite,OC,220.0,1889.0,36.1,-81.41667,United States,North America,USA,9147420.0,orange
+263,Fermo,10091,Chondrite,H3-5,10200.0,1996.0,43.18111,13.75333,Italy,Europe,ITA,295718.0,orange
+264,Fisher,10107,Chondrite,L6,17600.0,1894.0,47.81667,-96.85,United States,North America,USA,9147420.0,orange
+265,Florence,10111,Chondrite,H3,3640.0,1922.0,30.83333,-97.76667,United States,North America,USA,9147420.0,orange
+266,Forest City,10119,Chondrite,H5,152000.0,1890.0,43.25,-93.66667,United States,North America,USA,9147420.0,orange
+267,Forest Vale,10120,Chondrite,H4,26000.0,1942.0,-33.35,146.85833,Australia,Oceania,AUS,7682300.0,orange
+268,Forksville,10123,Chondrite,L6,6067.0,1924.0,36.78333,-78.08333,United States,North America,USA,9147420.0,orange
+269,Forsbach,10163,Chondrite,H6,240.0,1900.0,50.95,7.31667,Germany,Europe,DEU,348570.0,orange
+270,Fort Flatters,10166,Unclassified,Stone-uncl,,1944.0,28.25,7.0,Algeria,Africa,DZA,2381740.0,darkred
+271,Frankfort (stone),10177,Achondrite,Howardite,650.0,1868.0,34.48333,-87.83333,United States,North America,USA,9147420.0,gray
+272,Fuhe,52412,Chondrite,L5,23000.0,1945.0,31.47556,113.56694,China,Asia,CHN,9424700.7,orange
+273,Fukutomi,10836,Chondrite,L5,11620.0,1882.0,33.18333,130.2,Japan,Asia,JPN,364500.0,orange
+274,Fuyang,10840,Unclassified,Stone-uncl,2500.0,1977.0,32.9,115.9,China,Asia,CHN,9424700.7,darkred
+275,Galim (a),10848,Chondrite,LL6,36.1,1952.0,7.05,12.43333,Cameroon,Africa,CMR,472710.0,orange
+276,Galim (b),10849,Chondrite,EH3/4-an,28.0,1952.0,7.05,12.43333,Cameroon,Africa,CMR,472710.0,orange
+277,Galkiv,10850,Chondrite,H4,5000.0,1995.0,51.68333,30.78333,Ukraine,Europe,UKR,579320.0,orange
+278,Gambat,10851,Chondrite,L6,6400.0,1897.0,27.35,68.53333,Pakistan,Asia,PAK,770880.0,orange
+279,Gao-Guenie,10854,Chondrite,H5,3600.0,1960.0,11.65,-2.18333,Burkina Faso,Africa,BFA,273600.0,orange
+280,Garhi Yasin,10860,Achondrite,"Iron, IIE",380.0,1917.0,27.88333,68.53333,Pakistan,Asia,PAK,770880.0,gray
+281,Garland,10861,Achondrite,Diogenite-pm,102.0,1950.0,41.68333,-112.13333,United States,North America,USA,9147420.0,gray
+282,Gashua,44882,Chondrite,L6,4162.0,1984.0,12.85,11.03333,Nigeria,Africa,NGA,910770.0,orange
+283,Gasseltepaoua,10866,Chondrite,H5,16.7,2000.0,14.15083,-2.04167,Burkina Faso,Africa,BFA,273600.0,orange
+284,Geidam,10870,Chondrite,H5,725.0,1950.0,12.91667,11.91667,Nigeria,Africa,NGA,910770.0,orange
+285,Gifu,10914,Chondrite,L6,14290.0,1909.0,35.53333,136.88333,Japan,Asia,JPN,364500.0,orange
+286,Girgenti,10917,Chondrite,L6,18000.0,1853.0,37.31667,13.56667,Italy,Europe,ITA,295718.0,orange
+287,Git-Git,10919,Chondrite,L6,480.0,1947.0,9.6,9.91667,Nigeria,Africa,NGA,910770.0,orange
+288,Glanerbrug,10923,Chondrite,L/LL5,670.0,1990.0,52.2,6.86667,Netherlands,Europe,NLD,33730.0,orange
+289,Glanggang,10924,Chondrite,H5-6,1303.0,1939.0,-7.25,107.7,Indonesia,Asia,IDN,1877519.0,orange
+290,Glasatovo,10926,Chondrite,H4,152000.0,1918.0,57.35,37.61667,Russian Federation,Europe,RUS,16376870.0,orange
+291,Glatton,10930,Chondrite,L6,767.0,1991.0,52.45972,-0.3,United Kingdom,Europe,GBR,241930.0,orange
+292,Gnadenfrei,10936,Chondrite,H5,1750.0,1879.0,50.66667,16.76667,Poland,Europe,POL,306280.0,orange
+293,Gopalpur,10948,Chondrite,H6,1600.0,1865.0,24.23333,89.05,Bangladesh,Asia,BGD,130170.0,orange
+294,Gorlovka,10949,Chondrite,H3.7,3618.0,1974.0,48.28333,38.08333,Ukraine,Europe,UKR,579320.0,orange
+295,Granes,10956,Chondrite,L6,9000.0,1964.0,42.9,2.25,France,Europe,FRA,547557.0,orange
+296,Grefsheim,11196,Chondrite,L5,45.5,1976.0,60.66667,11.0,Norway,Europe,NOR,365244.0,orange
+297,Grimsby,50911,Chondrite,H5,215.0,2009.0,43.2,-79.61667,Canada,North America,CAN,8965590.0,orange
+298,Grosnaja,11206,Chondrite,CV3,3500.0,1861.0,43.66667,45.38333,Russian Federation,Europe,RUS,16376870.0,orange
+299,Gross-Divina,11207,Chondrite,H5,10500.0,1837.0,49.26667,18.71667,Slovakia,Europe,,,orange
+300,Grossliebenthal,11208,Chondrite,L6,8000.0,1881.0,46.35,30.58333,Ukraine,Europe,UKR,579320.0,orange
+301,Grüneberg,11426,Chondrite,H4,1000.0,1841.0,51.93333,15.5,Poland,Europe,POL,306280.0,orange
+302,Grzempach,11429,Chondrite,H5,690.0,1910.0,52.86667,16.63333,Poland,Europe,POL,306280.0,orange
+303,Gualeguaychú,11432,Chondrite,H6,22000.0,1932.0,-33.0,-58.61667,Argentina,South America,ARG,2736690.0,orange
+304,Guangmingshan,11435,Chondrite,H5,2910.0,1996.0,39.80417,122.76389,China,Asia,CHN,9424700.7,orange
+305,Guangnan,11436,Chondrite,L6,,1983.0,24.1,105.0,China,Asia,CHN,9424700.7,orange
+306,Guangrao,11437,Chondrite,L6,1900.0,1980.0,37.1,118.4,China,Asia,CHN,9424700.7,orange
+307,Guareña,11439,Chondrite,H6,39000.0,1892.0,38.73333,-6.01667,Spain,Europe,ESP,500010.0,orange
+308,Guêa,11440,Unclassified,Stone-uncl,1915.0,1891.0,43.76667,20.23333,Serbia,Europe,SRB,87460.0,darkred
+309,Guibga,11442,Chondrite,L5,288.0,1972.0,13.5,-0.68333,Burkina Faso,Africa,BFA,273600.0,orange
+310,Guidder,11443,Chondrite,LL5,968.0,1949.0,9.91667,13.98333,Cameroon,Africa,CMR,472710.0,orange
+311,Gujargaon,11448,Chondrite,H5,2449.0,1982.0,22.98333,76.05,India,Asia,IND,2973190.0,orange
+312,Gujba,11449,Chondrite,CBa,100000.0,1984.0,11.49167,11.65833,Nigeria,Africa,NGA,910770.0,orange
+313,Gumoschnik,11450,Chondrite,H5,5700.0,1904.0,42.9,24.7,Bulgaria,Europe,BGR,108560.0,orange
+314,Gursum,11465,Chondrite,H4/5,34650.0,1981.0,9.36667,42.41667,Ethiopia,Africa,ETH,1128570.952,orange
+315,Gütersloh,11466,Chondrite,H3/4,1000.0,1851.0,51.91667,8.38333,Germany,Europe,DEU,348570.0,orange
+316,Gyokukei,11467,Chondrite,OC,1320.0,1930.0,35.0,127.5,"Korea, Republic of",Asia,,,orange
+317,Hainaut,11472,Chondrite,H3-6,9000.0,1934.0,50.31667,3.73333,France,Europe,FRA,547557.0,orange
+318,Hallingeberg,11479,Chondrite,L3.4,1456.0,1944.0,57.81667,16.23333,Sweden,Europe,SWE,407339.7,orange
+319,Hamlet,11485,Chondrite,LL4,3710.0,1959.0,41.38333,-86.6,United States,North America,USA,9147420.0,orange
+320,Haraiya,11824,Achondrite,Eucrite-mmict,1000.0,1878.0,26.8,82.53333,India,Asia,IND,2973190.0,gray
+321,Haripura,11829,Chondrite,CM2,315.0,1921.0,28.38333,75.78333,India,Asia,IND,2973190.0,orange
+322,Harleton,11830,Chondrite,L6,8360.0,1961.0,32.675,-94.51167,United States,North America,USA,9147420.0,orange
+323,Harrison County,11842,Chondrite,L6,680.0,1859.0,38.25,-86.16667,United States,North America,USA,9147420.0,orange
+324,Hashima,11848,Chondrite,H4,1110.6,1910.0,35.2945,136.70033,Japan,Asia,JPN,364500.0,orange
+325,Hassi-Jekna,11852,Primitive Achondrite,"Iron, IAB-sHL",1250.0,1890.0,28.95,0.81667,Algeria,Africa,DZA,2381740.0,blue
+326,Haverö,11859,Primitive Achondrite,Ureilite,1544.0,1971.0,60.24556,22.06194,Finland,Europe,FIN,303900.0,blue
+327,Hedeskoga,11869,Chondrite,H5,3500.0,1922.0,55.46667,13.78333,Sweden,Europe,SWE,407339.7,orange
+328,Hedjaz,11870,Chondrite,L3.7-6,6100.0,1910.0,27.33333,35.66667,Saudi Arabia,Asia,SAU,2149690.0,orange
+329,Heredia,11875,Chondrite,H5,1000.0,1857.0,10.0,-84.1,Costa Rica,North America,CRI,51060.0,orange
+330,Hessle,11878,Chondrite,H5,20000.0,1869.0,59.85,17.66667,Sweden,Europe,SWE,407339.7,orange
+331,Higashi-koen,11883,Chondrite,H5,750.0,1897.0,33.6,130.43333,Japan,Asia,JPN,364500.0,orange
+332,Hiroshima,11889,Chondrite,H5,414.0,2003.0,34.45,132.38333,Japan,Asia,JPN,364500.0,orange
+333,Hoima,44714,Chondrite,H6,167.7,2003.0,1.345,31.47278,Uganda,Africa,UGA,200520.0,orange
+334,Hökmark,11893,Chondrite,L4,305.5,1954.0,64.43333,21.2,Sweden,Europe,SWE,407339.7,orange
+335,Holbrook,11894,Chondrite,L/LL6,220000.0,1912.0,34.9,-110.18333,United States,North America,USA,9147420.0,orange
+336,Holetta,11895,Unclassified,Stone-uncl,1415.0,1923.0,9.06667,38.41667,Ethiopia,Africa,ETH,1128570.952,darkred
+337,Homestead,11901,Chondrite,L5,230000.0,1875.0,41.8,-91.86667,United States,North America,USA,9147420.0,orange
+338,Hotse,11913,Chondrite,L6,180.0,1956.0,35.66667,115.5,China,Asia,CHN,9424700.7,orange
+339,Hoxie,11915,Chondrite,OC,266.1,1963.0,39.35,-100.45,United States,North America,USA,9147420.0,orange
+340,Huaxi,54719,Chondrite,H5,1600.0,2010.0,26.46469,106.63241,China,Asia,CHN,9424700.7,orange
+341,Hungen,11986,Chondrite,H6,112.0,1877.0,50.3,8.91667,Germany,Europe,DEU,348570.0,orange
+342,Hvittis,11989,Chondrite,EL6,14000.0,1901.0,61.18333,22.68333,Finland,Europe,FIN,303900.0,orange
+343,Ibbenbüren,11992,Achondrite,Diogenite,2000.0,1870.0,52.28333,7.7,Germany,Europe,DEU,348570.0,gray
+344,Ibitira,11993,Achondrite,Eucrite-mmict,2500.0,1957.0,-20.0,-45.0,Brazil,South America,BRA,8358140.0,gray
+345,Ibrisim,11994,Chondrite,OC,,1949.0,38.0,35.0,Turkey,Asia,,,orange
+346,Ichkala,11995,Chondrite,H6,3973.0,1936.0,58.2,82.93333,Russian Federation,Europe,RUS,16376870.0,orange
+347,Idutywa,12000,Chondrite,H5,3457.0,1956.0,-32.1,28.33333,South Africa,Africa,ZAF,1213090.0,orange
+348,Iguaracu,12003,Chondrite,H5,1200.0,1977.0,-23.2,-51.83333,Brazil,South America,BRA,8358140.0,orange
+349,Ijopega,12004,Chondrite,H6,7330.0,1975.0,-6.03333,145.36667,Papua New Guinea,Oceania,PNG,452860.0,orange
+350,Indarch,12027,Chondrite,EH4,27000.0,1891.0,39.75,46.66667,Azerbaijan,Asia,AZE,82656.0,orange
+351,Independence,12028,Chondrite,L6,880.0,1917.0,39.08333,-94.4,United States,North America,USA,9147420.0,orange
+352,Inner Mongolia,12037,Chondrite,L6,3000.0,1963.0,41.0,112.0,China,Asia,CHN,9424700.7,orange
+353,Innisfree,12039,Chondrite,L5,4576.0,1977.0,53.415,-111.3375,Canada,North America,CAN,8965590.0,orange
+354,Ipiranga,12043,Chondrite,H6,7000.0,1972.0,-25.5,-54.5,Brazil,South America,BRA,8358140.0,orange
+355,Ishinga,12049,Chondrite,H,1300.0,1954.0,-8.93333,33.8,"Tanzania, United Republic of",Africa,,,orange
+356,Isthilart,12053,Chondrite,H5,3050.0,1928.0,-31.18333,-57.95,Argentina,South America,ARG,2736690.0,orange
+357,Itapicuru-Mirim,12056,Chondrite,H5,2024.0,1879.0,-3.4,-44.33333,Brazil,South America,BRA,8358140.0,orange
+358,Itqiy,12058,Chondrite,EH7-an,4720.0,1990.0,26.59083,-12.95217,Morocco,Africa,MAR,446300.0,orange
+359,Ivuna,12063,Chondrite,CI1,704.5,1938.0,-8.41667,32.43333,"Tanzania, United Republic of",Africa,,,orange
+360,Jackalsfontein,12065,Chondrite,L6,48000.0,1903.0,-32.5,21.9,South Africa,Africa,ZAF,1213090.0,orange
+361,Jajh deh Kot Lalu,12067,Chondrite,EL6,973.0,1926.0,26.75,68.41667,Pakistan,Asia,PAK,770880.0,orange
+362,Jalanash,12068,Primitive Achondrite,Ureilite,700.0,1990.0,48.3,89.5,Mongolia,Asia,MNG,1557292.418,blue
+363,Jamkheir,12072,Chondrite,H6,22.0,1866.0,18.75,75.33333,India,Asia,IND,2973190.0,orange
+364,Jartai,12074,Chondrite,L6,20500.0,1979.0,39.7,105.8,China,Asia,CHN,9424700.7,orange
+365,Jelica,12078,Chondrite,LL6,34000.0,1889.0,43.83333,20.44167,Serbia,Europe,SRB,87460.0,orange
+366,Jemlapur,12079,Chondrite,L6,450.0,1901.0,25.3,86.5,India,Asia,IND,2973190.0,orange
+367,Jesenice,51589,Chondrite,L6,3667.0,2009.0,46.42137,14.05217,Slovenia,Europe,SVN,20146.2,orange
+368,Jhung,12085,Chondrite,L5,5900.0,1873.0,31.3,72.38333,Pakistan,Asia,PAK,770880.0,orange
+369,Jiange,12086,Chondrite,H5,222.0,1964.0,31.91667,104.91667,China,Asia,CHN,9424700.7,orange
+370,Jianshi,12087,Achondrite,"Iron, IIIAB",600000.0,1890.0,30.80833,109.5,China,Asia,CHN,9424700.7,gray
+371,Jilin,12171,Chondrite,H5,4000000.0,1976.0,44.05,126.16667,China,Asia,CHN,9424700.7,orange
+372,Jodiya,47362,Chondrite,L5,100.0,2006.0,22.68,70.31333,India,Asia,IND,2973190.0,orange
+373,Jodzie,12173,Achondrite,Howardite,30.0,1877.0,55.7,24.4,Lithuania,Europe,LTU,62675.0,gray
+374,Johnstown,12198,Achondrite,Diogenite,40300.0,1924.0,40.35,-104.9,United States,North America,USA,9147420.0,gray
+375,Jolomba,12199,Chondrite,LL6,483.0,1974.0,-11.85,15.83333,Angola,Africa,AGO,1246700.0,orange
+376,Juancheng,12203,Chondrite,H5,100000.0,1997.0,35.5,115.41667,China,Asia,CHN,9424700.7,orange
+377,Judesegeri,12207,Chondrite,H6,680.0,1876.0,12.85,76.8,India,Asia,IND,2973190.0,orange
+378,Jumapalo,12209,Chondrite,L6,32490.0,1984.0,-7.71667,111.2,Indonesia,Asia,IDN,1877519.0,orange
+379,Junan,12210,Chondrite,L6,950.0,1976.0,35.2,118.8,China,Asia,CHN,9424700.7,orange
+380,Juromenha,12213,Achondrite,"Iron, IIIAB",25250.0,1968.0,38.74028,-7.27,Portugal,Europe,PRT,91590.0,gray
+381,Kaba,12218,Chondrite,CV3,3000.0,1857.0,47.35,21.3,Hungary,Europe,HUN,90530.0,orange
+382,Kabo,12220,Chondrite,H4,13400.0,1971.0,11.85,8.21667,Nigeria,Africa,NGA,910770.0,orange
+383,Kaee,12222,Chondrite,H5,230.0,1838.0,27.25,79.96667,India,Asia,IND,2973190.0,orange
+384,Kagarlyk,12227,Chondrite,L6,1900.0,1908.0,49.86667,30.83333,Ukraine,Europe,UKR,579320.0,orange
+385,Kaidun,12228,Chondrite,CR2,2000.0,1980.0,15.0,48.3,Yemen,Asia,,,orange
+386,Kainsaz,12229,Chondrite,CO3.2,200000.0,1937.0,55.43333,53.25,Russian Federation,Europe,RUS,16376870.0,orange
+387,Kakangari,12230,Chondrite,K3,350.0,1890.0,12.38333,78.51667,India,Asia,IND,2973190.0,orange
+388,Kakowa,12231,Chondrite,L6,577.0,1858.0,45.13333,21.66667,Romania,Europe,ROU,230050.0,orange
+389,Kalaba,12232,Chondrite,H4,950.0,1951.0,-6.83333,29.5,"Congo, The Democratic Republic of the",Africa,,,orange
+390,Kalumbi,12236,Chondrite,L6,4500.0,1879.0,17.83333,73.98333,India,Asia,IND,2973190.0,orange
+391,Kamalpur,12238,Chondrite,L6,2770.0,1942.0,26.03333,81.46667,India,Asia,IND,2973190.0,orange
+392,Kamiomi,12240,Chondrite,H5,448.0,1913.0,36.04167,139.95667,Japan,Asia,JPN,364500.0,orange
+393,Kamsagar,12241,Chondrite,L6,1293.0,1902.0,14.18333,75.8,India,Asia,IND,2973190.0,orange
+394,Kandahar (Afghanistan),12243,Chondrite,L6,299.0,1959.0,31.6,65.78333,Afghanistan,Asia,AFG,652230.0,orange
+395,Kangean,12245,Chondrite,H5,1630.0,1908.0,-7.0,115.5,Indonesia,Asia,IDN,1877519.0,orange
+396,Kangra Valley,12246,Chondrite,H5,400.0,1897.0,32.08333,76.3,India,Asia,IND,2973190.0,orange
+397,Kapoeta,12251,Achondrite,Howardite,11355.0,1942.0,4.7,33.63333,South Sudan,Africa,SSD,,gray
+398,Kaprada,47357,Chondrite,L5/6,1600.0,2004.0,20.33916,73.22329,India,Asia,IND,2973190.0,orange
+399,Kaptal-Aryk,12253,Chondrite,L6,3500.0,1937.0,42.45,73.36667,Kazakhstan,Asia,KAZ,2699700.0,orange
+400,Karakol,12256,Chondrite,LL6,3000.0,1840.0,47.21667,81.01667,Kazakhstan,Asia,KAZ,2699700.0,orange
+401,Karatu,12258,Chondrite,LL6,2220.0,1963.0,-3.5,35.58333,"Tanzania, United Republic of",Africa,,,orange
+402,Karewar,12260,Chondrite,L6,180.0,1949.0,12.9,7.15,Nigeria,Africa,NGA,910770.0,orange
+403,Karkh,12262,Chondrite,L6,22000.0,1905.0,27.8,67.16667,Pakistan,Asia,PAK,770880.0,orange
+404,Karloowala,12263,Chondrite,L6,2950.0,1955.0,31.58333,71.6,Pakistan,Asia,PAK,770880.0,orange
+405,Karoonda,12264,Chondrite,CK4,41730.0,1930.0,-35.08333,139.91667,Australia,Oceania,AUS,7682300.0,orange
+406,Kasamatsu,12266,Chondrite,H,710.0,1938.0,35.36667,136.76667,Japan,Asia,JPN,364500.0,orange
+407,Kasauli,30740,Chondrite,H4,16820.0,2003.0,29.58333,77.58333,India,Asia,IND,2973190.0,orange
+408,Katagum,35465,Chondrite,L6,1500.0,1999.0,11.33333,10.08333,Nigeria,Africa,NGA,910770.0,orange
+409,Kavarpura,47351,Achondrite,"Iron, IIE-an",6800.0,2006.0,25.14333,75.81333,India,Asia,IND,2973190.0,gray
+410,Kayakent,12268,Achondrite,"Iron, IIIAB",85000.0,1961.0,39.26333,31.78,Turkey,Asia,,,gray
+411,Kediri,12270,Chondrite,L4,3300.0,1940.0,-7.75,112.01667,Indonesia,Asia,IDN,1877519.0,orange
+412,Kemer,53654,Chondrite,L4,5760.0,2008.0,36.54194,29.41822,Turkey,Asia,,,orange
+413,Kendleton,12275,Chondrite,L4,6937.0,1939.0,29.45,-96.0,United States,North America,USA,9147420.0,orange
+414,Kendrapara,12276,Chondrite,H4-5,6669.2,2003.0,20.4625,86.70278,India,Asia,IND,2973190.0,orange
+415,Kerilis,12282,Chondrite,H5,5000.0,1874.0,48.4,-3.3,France,Europe,FRA,547557.0,orange
+416,Kernouve,12284,Chondrite,H6,80000.0,1869.0,48.11667,-3.08333,France,Europe,FRA,547557.0,orange
+417,Kesen,12286,Chondrite,H4,135000.0,1850.0,38.98333,141.61667,Japan,Asia,JPN,364500.0,orange
+418,Khairpur,12288,Chondrite,EL6,13600.0,1873.0,29.53333,72.3,Pakistan,Asia,PAK,770880.0,orange
+419,Khanpur,12289,Chondrite,LL5,3698.0,1932.0,25.55,83.11667,India,Asia,IND,2973190.0,orange
+420,Kheragur,12294,Chondrite,L6,450.0,1860.0,26.95,77.88333,India,Asia,IND,2973190.0,orange
+421,Khetri,12296,Chondrite,H6,100.0,1867.0,28.01667,75.81667,India,Asia,IND,2973190.0,orange
+422,Khmelevka,12297,Chondrite,L5,6109.0,1929.0,56.75,75.33333,Russian Federation,Europe,RUS,16376870.0,orange
+423,Khohar,12298,Chondrite,L3.6,9700.0,1910.0,25.1,81.53333,India,Asia,IND,2973190.0,orange
+424,Khor Temiki,12299,Achondrite,Aubrite,3200.0,1932.0,16.0,36.0,Sudan,Africa,SDN,2376000.0,gray
+425,Kidairat,12300,Chondrite,H6,100000.0,1983.0,14.0,28.0,Sudan,Africa,SDN,2376000.0,orange
+426,Kiel,12301,Chondrite,L6,737.6,1962.0,54.4,10.15,Germany,Europe,DEU,348570.0,orange
+427,Kiffa,12303,Chondrite,H5,1500.0,1970.0,16.58333,-11.33333,Mauritania,Africa,MRT,1030700.0,orange
+428,Kijima (1906),12305,Unclassified,Stone-uncl,331.0,1906.0,36.85,138.38333,Japan,Asia,JPN,364500.0,darkred
+429,Kilabo,12307,Chondrite,LL6,19000.0,2002.0,12.76667,9.8,Nigeria,Africa,NGA,910770.0,orange
+430,Kilbourn,12308,Chondrite,H5,772.0,1911.0,43.58333,-89.6,United States,North America,USA,9147420.0,orange
+431,Killeter,12309,Chondrite,H6,140.0,1844.0,54.66667,-7.66667,United Kingdom,Europe,GBR,241930.0,orange
+432,Kingai,12316,Chondrite,H6,67.4,1967.0,11.63333,24.68333,Sudan,Africa,SDN,2376000.0,orange
+433,Kirbyville,12321,Achondrite,Eucrite-mmict,97.7,1906.0,30.75,-95.95,United States,North America,USA,9147420.0,gray
+434,Kisvarsány,12325,Chondrite,L6,1550.0,1914.0,48.16667,22.30833,Hungary,Europe,HUN,90530.0,orange
+435,Kitchener,12326,Chondrite,L6,202.6,1998.0,43.38333,-80.38333,Canada,North America,CAN,8965590.0,orange
+436,Klein-Wenden,12332,Chondrite,H6,3250.0,1843.0,51.6,10.8,Germany,Europe,DEU,348570.0,orange
+437,Knyahinya,12335,Chondrite,L/LL5,500000.0,1866.0,48.9,22.4,Slovakia,Europe,,,orange
+438,Kobe,12336,Chondrite,CK4,136.0,1999.0,34.73333,135.16667,Japan,Asia,JPN,364500.0,orange
+439,Kokubunji,12342,Chondrite,L6,11510.0,1986.0,34.3,133.95,Japan,Asia,JPN,364500.0,orange
+440,Komagome,12343,Unclassified,Iron,238.0,1926.0,35.73333,139.75,Japan,Asia,JPN,364500.0,darkred
+441,Konovo,12344,Chondrite,LL5,90.0,1931.0,42.51667,26.16667,Bulgaria,Europe,BGR,108560.0,orange
+442,Košice,53810,Chondrite,H5,4300.0,2010.0,48.76367,21.17633,Slovakia,Europe,,,orange
+443,Krähenberg,12353,Chondrite,LL5,16500.0,1869.0,49.32694,7.46472,Germany,Europe,DEU,348570.0,orange
+444,Krasnyi Klyuch,12357,Chondrite,H5,4000.0,1946.0,54.33333,56.08333,Russian Federation,Europe,RUS,16376870.0,orange
+445,Krutikha,12363,Chondrite,OC,845.2,1906.0,56.8,77.0,Russian Federation,Europe,RUS,16376870.0,orange
+446,Krymka,12364,Chondrite,LL3.2,50000.0,1946.0,47.83333,30.76667,Ukraine,Europe,UKR,579320.0,orange
+447,Kukschin,12368,Chondrite,L6,2250.0,1938.0,51.15,31.7,Ukraine,Europe,UKR,579320.0,orange
+448,Kulak,12369,Chondrite,L5,453.6,1961.0,30.73111,66.80222,Pakistan,Asia,PAK,770880.0,orange
+449,Kulp,12373,Chondrite,H6,3719.0,1906.0,41.11667,45.0,Armenia,Asia,ARM,28470.0,orange
+450,Kunashak,12377,Chondrite,L6,200000.0,1949.0,55.78333,61.36667,Russian Federation,Europe,RUS,16376870.0,orange
+451,Kunya-Urgench,12379,Chondrite,H5,1100000.0,1998.0,42.25,59.2,Turkmenistan,Asia,TKM,469930.0,orange
+452,Kushiike,12381,Chondrite,OC,4460.0,1920.0,37.05,138.38333,Japan,Asia,JPN,364500.0,orange
+453,Kusiali,12382,Chondrite,L6,5.0,1860.0,29.68333,78.38333,India,Asia,IND,2973190.0,orange
+454,Kutais,12383,Chondrite,H5,23.0,1977.0,44.51667,39.3,Russian Federation,Europe,RUS,16376870.0,orange
+455,Kuttippuram,12384,Chondrite,L6,45000.0,1914.0,10.83333,76.03333,India,Asia,IND,2973190.0,orange
+456,Kuznetzovo,12385,Chondrite,L6,4047.0,1932.0,55.2,75.33333,Russian Federation,Europe,RUS,16376870.0,orange
+457,Kyushu,12390,Chondrite,L6,45000.0,1886.0,32.03333,130.63333,Japan,Asia,JPN,364500.0,orange
+458,La Bécasse,12392,Chondrite,L6,2800.0,1879.0,47.08333,1.75,France,Europe,FRA,547557.0,orange
+459,La Charca,12394,Chondrite,OC,399.0,1878.0,20.66667,-101.28333,Mexico,North America,MEX,1943950.0,orange
+460,La Colina,12395,Chondrite,H5,2000.0,1924.0,-37.33333,-61.53333,Argentina,South America,ARG,2736690.0,orange
+461,La Criolla,12396,Chondrite,L6,45000.0,1985.0,-31.23333,-58.16667,Argentina,South America,ARG,2736690.0,orange
+462,Laborel,12408,Chondrite,H5,3833.0,1871.0,44.28333,5.58333,France,Europe,FRA,547557.0,orange
+463,Lahrauli,12433,Primitive Achondrite,Ureilite,900.0,1955.0,26.78333,82.71667,India,Asia,IND,2973190.0,blue
+464,Lakangaon,12435,Achondrite,Eucrite-mmict,212.5,1910.0,21.86667,76.03333,India,Asia,IND,2973190.0,gray
+465,Lalitpur,12451,Chondrite,L6,372.0,1887.0,24.45,78.56667,India,Asia,IND,2973190.0,orange
+466,Lancé,12455,Chondrite,CO3.5,51700.0,1872.0,47.7,1.06667,France,Europe,FRA,547557.0,orange
+467,Lancon,12456,Chondrite,H6,7000.0,1897.0,43.75,5.11667,France,Europe,FRA,547557.0,orange
+468,Långhalsen,12461,Chondrite,L6,2300.0,1947.0,58.85,16.73333,Sweden,Europe,SWE,407339.7,orange
+469,Lanxi,12464,Chondrite,L6,1282.0,1986.0,46.24167,126.19611,China,Asia,CHN,9424700.7,orange
+470,Lanzenkirchen,12465,Chondrite,L4,7000.0,1925.0,47.75,16.23333,Austria,Europe,AUT,82520.0,orange
+471,Laochenzhen,12466,Chondrite,H5,14250.0,1987.0,33.13333,115.16667,China,Asia,CHN,9424700.7,orange
+472,Launton,12740,Chondrite,L6,1060.0,1830.0,51.9,-1.11667,United Kingdom,Europe,GBR,241930.0,orange
+473,Lavrentievka,12743,Chondrite,L6,800.0,1938.0,52.45,51.56667,Russian Federation,Europe,RUS,16376870.0,orange
+474,Le Pressoir,12748,Chondrite,H5,3000.0,1845.0,47.16667,0.43333,France,Europe,FRA,547557.0,orange
+475,Le Teilleul,12749,Achondrite,Howardite,780.0,1845.0,48.53333,-0.86667,France,Europe,FRA,547557.0,gray
+476,Leedey,12755,Chondrite,L6,51500.0,1943.0,35.88333,-99.33333,United States,North America,USA,9147420.0,orange
+477,Leeuwfontein,12756,Chondrite,L6,460.0,1912.0,-25.66667,28.36667,South Africa,Africa,ZAF,1213090.0,orange
+478,Leighlinbridge,12759,Chondrite,L6,271.4,1999.0,52.66667,-6.96667,Ireland,Europe,IRL,68890.0,orange
+479,Leighton,12760,Chondrite,H5,877.0,1907.0,34.58333,-87.5,United States,North America,USA,9147420.0,orange
+480,Leonovka,12765,Chondrite,L6,700.0,1900.0,52.26667,32.85,Ukraine,Europe,UKR,579320.0,orange
+481,Les Ormes,12769,Chondrite,L6,125.0,1857.0,48.35,3.25,France,Europe,FRA,547557.0,orange
+482,Lesves,12772,Chondrite,L6,2000.0,1896.0,50.36667,4.73333,Belgium,Europe,BEL,30280.0,orange
+483,Lichtenberg,14646,Chondrite,H6,4000.0,1973.0,-26.15,26.18333,South Africa,Africa,ZAF,1213090.0,orange
+484,Lillaverke,14650,Chondrite,H5,6862.0,1930.0,56.65,15.86667,Sweden,Europe,SWE,407339.7,orange
+485,Linum,14655,Chondrite,L6,1862.0,1854.0,52.75,12.9,Germany,Europe,DEU,348570.0,orange
+486,Lishui,14659,Chondrite,L5,498.0,1978.0,31.63333,118.98333,China,Asia,CHN,9424700.7,orange
+487,Little Piney,14664,Chondrite,L5,491.0,1839.0,37.91667,-92.08333,United States,North America,USA,9147420.0,orange
+488,Lodran,14675,Primitive Achondrite,Lodranite,1000.0,1868.0,29.53333,71.8,Pakistan,Asia,PAK,770880.0,blue
+489,Lohawat,14678,Achondrite,Howardite,40000.0,1994.0,26.96556,72.62667,India,Asia,IND,2973190.0,gray
+490,Lorton,52843,Chondrite,L6,329.7,2010.0,38.70066,-77.21163,United States,North America,USA,9147420.0,orange
+491,Los Martinez,14708,Chondrite,L6,25.0,1894.0,38.0,-0.83333,Spain,Europe,ESP,500010.0,orange
+492,Lost City,14711,Chondrite,H5,17000.0,1970.0,36.00833,-95.15,United States,North America,USA,9147420.0,orange
+493,Louisville,14716,Chondrite,L6,1300.0,1977.0,38.25,-85.75,United States,North America,USA,9147420.0,orange
+494,Łowicz,14718,Achondrite,Mesosiderite-A3,59000.0,1935.0,52.0,19.91667,Poland,Europe,POL,306280.0,gray
+495,Lua,14721,Chondrite,L5,9241.0,1926.0,24.95,75.15,India,Asia,IND,2973190.0,orange
+496,Lumpkin,14753,Chondrite,L6,340.0,1869.0,32.03333,-84.76667,United States,North America,USA,9147420.0,orange
+497,Lunan,14754,Chondrite,H6,2520.0,1980.0,24.8,103.3,China,Asia,CHN,9424700.7,orange
+498,Lundsgård,14755,Chondrite,L6,11000.0,1889.0,56.21667,13.03333,Sweden,Europe,SWE,407339.7,orange
+499,Lusaka,14759,Unclassified,Unknown,,1951.0,-7.21667,29.43333,"Congo, The Democratic Republic of the",Africa,,,darkred
+500,Mabwe-Khoywa,14764,Chondrite,L5,540.0,1937.0,19.0,97.0,Myanmar,Asia,MMR,653260.0,orange
+501,Macau,15370,Chondrite,H5,1500.0,1836.0,-5.2,-36.66667,Brazil,South America,BRA,8358140.0,orange
+502,Machinga,15371,Chondrite,L6,93200.0,1981.0,-15.21222,35.24222,Malawi,Africa,MWI,94280.0,orange
+503,Macibini,15372,Achondrite,Eucrite-pmict,1995.0,1936.0,-28.83333,31.95,South Africa,Africa,ZAF,1213090.0,gray
+504,Madhipura,15379,Chondrite,L,1000.0,1950.0,25.91667,86.36667,India,Asia,IND,2973190.0,orange
+505,Madiun,15380,Chondrite,L6,400.0,1935.0,-7.75,111.53333,Indonesia,Asia,IDN,1877519.0,orange
+506,Madrid,15382,Chondrite,L6,400.0,1896.0,40.41667,-3.71667,Spain,Europe,ESP,500010.0,orange
+507,Mafra,15383,Chondrite,L3-4,600.0,1941.0,-26.16667,-49.93333,Brazil,South America,BRA,8358140.0,orange
+508,Magnesia,15386,Primitive Achondrite,"Iron, IAB-sHL",5000.0,1899.0,37.86667,27.51667,Turkey,Asia,,,blue
+509,Magombedze,15387,Chondrite,H3-5,666.6,1990.0,-19.48333,31.65,Zimbabwe,Africa,ZWE,386850.0,orange
+510,Mahadevpur,47361,Chondrite,H4/5,70500.0,2007.0,27.66667,95.78333,India,Asia,IND,2973190.0,orange
+511,Maigatari-Danduma,30751,Chondrite,H5/6,4629.0,2004.0,12.83333,9.38333,Niger,Africa,NER,1266700.0,orange
+512,Malaga,15393,Chondrite,OC,150.0,1933.0,32.21667,-104.0,United States,North America,USA,9147420.0,orange
+513,Malakal,15394,Chondrite,L5,2000.0,1970.0,9.5,31.75,South Sudan,Africa,SSD,,orange
+514,Malampaka,15395,Chondrite,H,470.0,1930.0,-3.13333,33.51667,"Tanzania, United Republic of",Africa,,,orange
+515,Malotas,15397,Chondrite,H5,,1931.0,-28.93333,-63.23333,Argentina,South America,ARG,2736690.0,orange
+516,Malvern,15400,Achondrite,Eucrite-pmict,807.0,1933.0,-29.45,26.76667,South Africa,Africa,ZAF,1213090.0,gray
+517,Mamra Springs,15401,Chondrite,L6,1000.0,1927.0,45.21667,62.08333,Kazakhstan,Asia,KAZ,2699700.0,orange
+518,Manbhoom,15402,Chondrite,LL6,1700.0,1863.0,23.05,86.7,India,Asia,IND,2973190.0,orange
+519,Manegaon,15403,Achondrite,Diogenite,50.0,1843.0,20.96667,76.1,India,Asia,IND,2973190.0,gray
+520,Mangwendi,15405,Chondrite,LL6,22300.0,1934.0,-17.65,31.6,Zimbabwe,Africa,ZWE,386850.0,orange
+521,Manych,15409,Chondrite,LL3.4,3555.0,1951.0,45.81667,44.63333,Russian Federation,Europe,RUS,16376870.0,orange
+522,Mardan,15414,Chondrite,H5,4500.0,1948.0,34.23333,72.08333,Pakistan,Asia,PAK,770880.0,orange
+523,Maria Linden,15418,Chondrite,L4,114.0,1925.0,-30.25,28.483333,South Africa,Africa,ZAF,1213090.0,orange
+524,Mariaville,15419,Unclassified,Iron,340.0,1898.0,42.71667,-99.38333,United States,North America,USA,9147420.0,darkred
+525,Maribo,48973,Chondrite,CM2,25.81,2009.0,54.76183,11.46745,Denmark,Europe,DNK,40000.0,orange
+526,Maridi,15421,Chondrite,H6,3200.0,1941.0,4.66667,29.25,South Sudan,Africa,SSD,,orange
+527,Marilia,15422,Chondrite,H4,2500.0,1971.0,-22.25,-49.93333,Brazil,South America,BRA,8358140.0,orange
+528,Marion (Iowa),15424,Chondrite,L6,28400.0,1847.0,41.9,-91.6,United States,North America,USA,9147420.0,orange
+529,Marjalahti,15426,Achondrite,"Pallasite, PMG",45000.0,1902.0,61.5,30.5,Russian Federation,Europe,RUS,16376870.0,gray
+530,Marmande,15429,Chondrite,L5,3000.0,1848.0,44.5,0.15,France,Europe,FRA,547557.0,orange
+531,Maromandia,15430,Chondrite,L6,6000.0,2002.0,-14.2,48.1,Madagascar,Africa,MDG,581540.0,orange
+532,Maryville,15436,Chondrite,L6,1443.0,1983.0,35.8,-84.1,United States,North America,USA,9147420.0,orange
+533,Mascombes,15438,Chondrite,L6,1000.0,1836.0,45.36667,1.86667,France,Europe,FRA,547557.0,orange
+534,Mason Gully,53653,Chondrite,H5,24.54,2010.0,-30.453609466,127.647201538,Australia,Oceania,AUS,7682300.0,orange
+535,Mayo Belwa,15451,Achondrite,Aubrite,4850.0,1974.0,8.96667,12.08333,Nigeria,Africa,NGA,910770.0,gray
+536,Mazapil,15453,Primitive Achondrite,"Iron, IAB-sLL",4000.0,1885.0,24.68333,-101.68333,Mexico,North America,MEX,1943950.0,blue
+537,Maziba,15454,Chondrite,L6,4975.0,1942.0,-1.21667,30.0,Uganda,Africa,UGA,200520.0,orange
+538,Mbale,15455,Chondrite,L5/6,150000.0,1992.0,1.06667,34.16667,Uganda,Africa,UGA,200520.0,orange
+539,Medanitos,15467,Achondrite,Eucrite-cm,31.0,1953.0,-27.25,-67.5,Argentina,South America,ARG,2736690.0,gray
+540,Meerut,15469,Chondrite,H5,22.0,1861.0,29.01667,77.8,India,Asia,IND,2973190.0,orange
+541,Meester-Cornelis,15470,Chondrite,H5,24750.0,1915.0,-6.23333,106.88333,Indonesia,Asia,IDN,1877519.0,orange
+542,Menow,15485,Chondrite,H4,10500.0,1862.0,53.18333,13.15,Germany,Europe,DEU,348570.0,orange
+543,Menziswyl,15486,Chondrite,L5,28.9,1903.0,46.81867,7.21817,Switzerland,Europe,CHE,39516.0,orange
+544,Mern,15489,Chondrite,L6,4000.0,1878.0,55.05,12.06667,Denmark,Europe,DNK,40000.0,orange
+545,Meru,15491,Chondrite,LL6,6000.0,1945.0,0.0,37.66667,Kenya,Africa,KEN,569140.0,orange
+546,Merua,15492,Chondrite,H5,71400.0,1920.0,25.48333,81.98333,India,Asia,IND,2973190.0,orange
+547,Messina,15495,Chondrite,L5,2405.0,1955.0,38.18333,15.56667,Italy,Europe,ITA,295718.0,orange
+548,Meuselbach,16626,Chondrite,L6,870.0,1897.0,50.58333,11.1,Germany,Europe,DEU,348570.0,orange
+549,Mezel,16627,Chondrite,L6,1300.0,1949.0,45.76667,3.25,France,Europe,FRA,547557.0,orange
+550,Mezö-Madaras,16628,Chondrite,L3.7,22700.0,1852.0,46.5,25.73333,Romania,Europe,ROU,230050.0,orange
+551,Mianchi,16631,Chondrite,H5,1100.0,1980.0,34.8,111.7,China,Asia,CHN,9424700.7,orange
+552,Middlesbrough,16632,Chondrite,L6,1600.0,1881.0,54.56667,-1.16667,United Kingdom,Europe,GBR,241930.0,orange
+553,Mifflin,52090,Chondrite,L5,3584.0,2010.0,42.9075,-90.36556,United States,North America,USA,9147420.0,orange
+554,Mighei,16634,Chondrite,CM2,8000.0,1889.0,48.06667,30.96667,Ukraine,Europe,UKR,579320.0,orange
+555,Mihonoseki,16635,Chondrite,L6,6380.0,1992.0,35.56833,133.22,Japan,Asia,JPN,364500.0,orange
+556,Mike,16636,Chondrite,L6,224.2,1944.0,46.23333,17.53333,Hungary,Europe,HUN,90530.0,orange
+557,Milena,16640,Chondrite,L6,10000.0,1842.0,46.18333,16.1,Croatia,Europe,HRV,55964.0,orange
+558,Millbillillie,16643,Achondrite,Eucrite-mmict,330000.0,1960.0,-26.45,120.36667,Australia,Oceania,AUS,7682300.0,gray
+559,Miller (Arkansas),16645,Chondrite,H5,16700.0,1930.0,35.4,-92.05,United States,North America,USA,9147420.0,orange
+560,Min-Fan-Zhun,16697,Chondrite,LL6,5500.0,1952.0,32.33333,120.66667,China,Asia,CHN,9424700.7,orange
+561,Minnichhof,16700,Chondrite,OC,550.0,1905.0,47.7,16.6,Hungary,Europe,HUN,90530.0,orange
+562,Mirzapur,16701,Chondrite,L5,8510.0,1910.0,25.68333,83.25,India,Asia,IND,2973190.0,orange
+563,Misshof,16703,Chondrite,H5,5800.0,1890.0,56.66667,23.0,Latvia,Europe,LVA,62227.0,orange
+564,Mjelleim,16707,Chondrite,H,100.7,1898.0,61.73333,5.93333,Norway,Europe,NOR,365244.0,orange
+565,Mocs,16709,Chondrite,L5-6,300000.0,1882.0,46.8,24.03333,Romania,Europe,ROU,230050.0,orange
+566,Modoc (1905),16711,Chondrite,L6,35000.0,1905.0,38.5,-101.1,United States,North America,USA,9147420.0,orange
+567,Mokoia,16713,Chondrite,CV3,4500.0,1908.0,-39.63333,174.4,New Zealand,Oceania,NZL,263310.0,orange
+568,Molina,16715,Chondrite,H5,144000.0,1858.0,38.11667,-1.16667,Spain,Europe,ESP,500010.0,orange
+569,Molteno,16717,Achondrite,Howardite,150.0,1953.0,-31.25,26.46667,South Africa,Africa,ZAF,1213090.0,gray
+570,Monahans (1998),16719,Chondrite,H5,2587.0,1998.0,31.60833,-102.85833,United States,North America,USA,9147420.0,orange
+571,Monroe,16720,Chondrite,H4,8600.0,1849.0,35.25,-80.5,United States,North America,USA,9147420.0,orange
+572,Monte das Fortes,16725,Chondrite,L5,4885.0,1950.0,38.01667,-8.25,Portugal,Europe,PRT,91590.0,orange
+573,Monte Milone,16726,Chondrite,L5,3130.0,1846.0,43.26667,13.35,Italy,Europe,ITA,295718.0,orange
+574,Montferré,16727,Chondrite,H5,149000.0,1923.0,43.39056,1.9625,France,Europe,FRA,547557.0,orange
+575,Montlivault,16729,Chondrite,L6,500.0,1838.0,47.63333,1.58333,France,Europe,FRA,547557.0,orange
+576,Monze,16733,Chondrite,L6,,1950.0,-15.96667,27.35,Zambia,Africa,ZMB,743390.0,orange
+577,Moore County,16736,Achondrite,Eucrite-cm,1880.0,1913.0,35.41667,-79.38333,United States,North America,USA,9147420.0,gray
+578,Moorleah,16738,Chondrite,L6,8887.5,1930.0,-40.975,145.6,Australia,Oceania,AUS,7682300.0,orange
+579,Morávka,16742,Chondrite,H5,633.0,2000.0,49.6,18.53333,Czechia,Europe,CZE,77230.0,orange
+580,Mornans,16747,Chondrite,H5,1300.0,1875.0,44.6,5.13333,France,Europe,FRA,547557.0,orange
+581,Moss,36592,Chondrite,CO3.6,3763.0,2006.0,59.43333,10.7,Norway,Europe,NOR,365244.0,orange
+582,Moti-ka-nagla,16759,Chondrite,H6,1500.0,1868.0,26.83333,77.33333,India,Asia,IND,2973190.0,orange
+583,Motta di Conti,16762,Chondrite,H4,9150.0,1868.0,45.2,8.5,Italy,Europe,ITA,295718.0,orange
+584,Mount Browne,16766,Chondrite,H6,11300.0,1902.0,-29.8,141.7,Australia,Oceania,AUS,7682300.0,orange
+585,Mount Tazerzait,16804,Chondrite,L5,110000.0,1991.0,18.7,4.8,Niger,Africa,NER,1266700.0,orange
+586,Mtola,16820,Unclassified,Stone-uncl,1100.0,1944.0,-11.5,33.5,Malawi,Africa,MWI,94280.0,darkred
+587,Muddoor,16841,Chondrite,L5,4400.0,1865.0,12.63333,77.01667,India,Asia,IND,2973190.0,orange
+588,Muraid,16874,Chondrite,L6,4703.0,1924.0,24.5,90.21667,Bangladesh,Asia,BGD,130170.0,orange
+589,Murchison,16875,Chondrite,CM2,100000.0,1969.0,-36.61667,145.2,Australia,Oceania,AUS,7682300.0,orange
+590,Murray,16882,Chondrite,CM2,12600.0,1950.0,36.6,-88.1,United States,North America,USA,9147420.0,orange
+591,Muzaffarpur,16885,Primitive Achondrite,"Iron, IAB-sHL",1245.0,1964.0,26.13333,85.53333,India,Asia,IND,2973190.0,blue
+592,Myhee Caunta,16887,Chondrite,OC,,1842.0,23.05,72.63333,India,Asia,IND,2973190.0,orange
+593,Nadiabondi,16889,Chondrite,H5,8165.0,1956.0,12.0,1.0,Burkina Faso,Africa,BFA,273600.0,orange
+594,Nagai,16890,Chondrite,L6,1810.0,1922.0,38.12167,140.06167,Japan,Asia,JPN,364500.0,orange
+595,Nagaria,16892,Achondrite,Eucrite-cm,20.0,1875.0,26.98333,78.21667,India,Asia,IND,2973190.0,gray
+596,Nagy-Borové,16893,Chondrite,L5,6100.0,1895.0,49.16667,19.5,Slovakia,Europe,,,orange
+597,Nakhla,16898,Achondrite,Martian (nakhlite),10000.0,1911.0,31.31667,30.35,Egypt,Africa,,,gray
+598,Nakhon Pathom,16899,Chondrite,L6,23200.0,1923.0,13.73333,100.08333,Thailand,Asia,THA,510890.0,orange
+599,Nammianthal,16902,Chondrite,H5,4500.0,1886.0,12.28333,79.2,India,Asia,IND,2973190.0,orange
+600,Nan Yang Pao,16903,Chondrite,L6,52900.0,1917.0,35.66667,103.5,China,Asia,CHN,9424700.7,orange
+601,Nantong,16907,Chondrite,H6,529.0,1984.0,32.11667,121.8,China,Asia,CHN,9424700.7,orange
+602,Naoki,16908,Chondrite,H6,17000.0,1928.0,19.25,77.0,India,Asia,IND,2973190.0,orange
+603,Naragh,16909,Chondrite,H6,2700.0,1974.0,33.75,51.5,"Iran, Islamic Republic of",Asia,,,orange
+604,Narellan,16912,Chondrite,L6,367.5,1928.0,-34.05,150.68889,Australia,Oceania,AUS,7682300.0,orange
+605,Nassirah,16922,Chondrite,H4,347.0,1936.0,-21.73333,165.9,France,Europe,FRA,547557.0,orange
+606,Natal,16923,Unclassified,Stone-uncl,1.4,1973.0,-30.57249771,30.57249771,South Africa,Africa,ZAF,1213090.0,darkred
+607,Nawapali,16927,Chondrite,CM2,105.0,1890.0,21.25,83.66667,India,Asia,IND,2973190.0,orange
+608,Neagari,16934,Chondrite,L6,420.0,1995.0,36.44917,136.46528,Japan,Asia,JPN,364500.0,orange
+609,Nedagolla,16935,Unclassified,"Iron, ungrouped",4500.0,1870.0,18.68333,83.48333,India,Asia,IND,2973190.0,darkred
+610,Nejo,16941,Chondrite,L6,2450.0,1970.0,9.5,35.33333,Ethiopia,Africa,ETH,1128570.952,orange
+611,Nerft,16945,Chondrite,L6,10250.0,1864.0,56.5,21.5,Latvia,Europe,LVA,62227.0,orange
+612,Neuschwanstein,16950,Chondrite,EL6,6189.0,2002.0,47.525,10.80833,Germany,Europe,DEU,348570.0,orange
+613,New Concord,16953,Chondrite,L6,230000.0,1860.0,40.0,-81.76667,United States,North America,USA,9147420.0,orange
+614,New Halfa,16954,Chondrite,L4,12000.0,1994.0,15.36667,35.68333,Sudan,Africa,SDN,2376000.0,orange
+615,New Orleans,16960,Chondrite,H5,19256.0,2003.0,29.94718,-90.10976,United States,North America,USA,9147420.0,orange
+616,Ngawi,16966,Chondrite,LL3.6,1393.0,1883.0,-7.45,111.41667,Indonesia,Asia,IDN,1877519.0,orange
+617,N'Goureyma,16968,Unclassified,"Iron, ungrouped",37500.0,1900.0,13.85,-4.38333,Mali,Africa,MLI,1220190.0,darkred
+618,Niger (L6),16974,Chondrite,L6,3.3,1967.0,13.71455,9.15856,Niger,Africa,NER,1266700.0,orange
+619,Niger (LL6),16975,Chondrite,LL6,3.3,1967.0,13.71455,9.15856,Niger,Africa,NER,1266700.0,orange
+620,Nikolaevka,16976,Chondrite,H4,3996.0,1935.0,52.45,78.63333,Kazakhstan,Asia,KAZ,2699700.0,orange
+621,Nikolskoe,16977,Chondrite,L4,6000.0,1954.0,56.11667,37.33333,Russian Federation,Europe,RUS,16376870.0,orange
+622,Ningbo,16980,Achondrite,"Iron, IVA",14250.0,1975.0,29.86667,121.48333,China,Asia,CHN,9424700.7,gray
+623,Ningqiang,16981,Chondrite,C3-ung,4610.0,1983.0,32.925,105.90667,China,Asia,CHN,9424700.7,orange
+624,Nio,16982,Chondrite,H3-4,467.0,1897.0,34.2,131.56667,Japan,Asia,JPN,364500.0,orange
+625,N'Kandhla,16983,Achondrite,"Iron, IID",17200.0,1912.0,-28.56667,30.7,South Africa,Africa,ZAF,1213090.0,gray
+626,Noblesville,16985,Chondrite,H4-6,483.7,1991.0,40.08528,-86.055,United States,North America,USA,9147420.0,orange
+627,Nogoya,16989,Chondrite,CM2,4000.0,1879.0,-32.36667,-59.83333,Argentina,South America,ARG,2736690.0,orange
+628,Norfork,16994,Achondrite,"Iron, IIIAB",1050.0,1918.0,36.21667,-92.26667,United States,North America,USA,9147420.0,gray
+629,Norton County,17922,Achondrite,Aubrite,1100000.0,1948.0,39.68333,-99.86667,United States,North America,USA,9147420.0,gray
+630,Noventa Vicentina,17930,Chondrite,H4,177.0,1971.0,45.29167,11.52722,Italy,Europe,ITA,295718.0,orange
+631,Novo-Urei,17933,Primitive Achondrite,Ureilite,1900.0,1886.0,54.81667,46.0,Russian Federation,Europe,RUS,16376870.0,blue
+632,Novy-Projekt,17935,Chondrite,OC,1001.0,1908.0,56.0,22.0,Lithuania,Europe,LTU,62675.0,orange
+633,Noyan-Bogdo,17936,Chondrite,L6,250.0,1933.0,42.91667,102.46667,Mongolia,Asia,MNG,1557292.418,orange
+634,Nuevo Mercurio,17938,Chondrite,H5,50000.0,1978.0,24.3,-102.13333,Mexico,North America,MEX,1943950.0,orange
+635,Nulles,17959,Chondrite,H6,5000.0,1851.0,41.63333,0.75,Spain,Europe,ESP,500010.0,orange
+636,Numakai,17960,Chondrite,H4,363.0,1925.0,43.33333,141.86667,Japan,Asia,JPN,364500.0,orange
+637,Nyaung,17969,Achondrite,"Iron, IIIAB",737.6,1939.0,21.20833,94.91667,Myanmar,Asia,MMR,653260.0,gray
+638,Nyirábrany,17970,Chondrite,LL5,1100.0,1914.0,47.55,22.025,Hungary,Europe,HUN,90530.0,orange
+639,Ochansk,17979,Chondrite,H4,500000.0,1887.0,57.78333,55.26667,Russian Federation,Europe,RUS,16376870.0,orange
+640,Oesede,17988,Chondrite,H5,1400.0,1927.0,52.28333,8.05,Germany,Europe,DEU,348570.0,orange
+641,Oesel,17989,Chondrite,L6,6000.0,1855.0,58.5,23.0,Estonia,Europe,EST,42390.0,orange
+642,Ofehértó,17990,Chondrite,L6,3750.0,1900.0,47.88333,22.03333,Hungary,Europe,HUN,90530.0,orange
+643,Ohaba,17995,Chondrite,H5,16250.0,1857.0,46.06667,23.58333,Romania,Europe,ROU,230050.0,orange
+644,Ohuma,17996,Chondrite,L5,7700.0,1963.0,6.75,8.5,Nigeria,Africa,NGA,910770.0,orange
+645,Ojuelos Altos,17997,Chondrite,L6,5850.0,1926.0,38.18333,-5.4,Spain,Europe,ESP,500010.0,orange
+646,Okabe,17998,Chondrite,H5,194.0,1958.0,36.18333,139.21667,Japan,Asia,JPN,364500.0,orange
+647,Okano,18000,Achondrite,"Iron, IIAB",4742.0,1904.0,35.08333,135.2,Japan,Asia,JPN,364500.0,gray
+648,Okniny,18002,Chondrite,LL6,12000.0,1834.0,50.83333,25.5,Ukraine,Europe,UKR,579320.0,orange
+649,Oldenburg (1930),18009,Chondrite,L6,16570.0,1930.0,52.95,8.16667,Germany,Europe,DEU,348570.0,orange
+650,Olivenza,18013,Chondrite,LL5,150000.0,1924.0,38.71667,-7.06667,Spain,Europe,ESP,500010.0,orange
+651,Olmedilla de Alarcón,18015,Chondrite,H5,40000.0,1929.0,39.56667,-2.1,Spain,Europe,ESP,500010.0,orange
+652,Omolon,18019,Achondrite,"Pallasite, PMG",250000.0,1981.0,64.02,161.80833,Russian Federation,Europe,RUS,16376870.0,gray
+653,Orgueil,18026,Chondrite,CI1,14000.0,1864.0,43.88333,1.38333,France,Europe,FRA,547557.0,orange
+654,Orlando,34489,Achondrite,Eucrite,180.0,2004.0,28.5475,-81.36222,United States,North America,USA,9147420.0,gray
+655,Ornans,18030,Chondrite,CO3.4,6000.0,1868.0,47.11667,6.15,France,Europe,FRA,547557.0,orange
+656,Orvinio,18034,Chondrite,H6,3400.0,1872.0,42.13333,12.93333,Italy,Europe,ITA,295718.0,orange
+657,Oterøy,18042,Chondrite,L6,246.0,1928.0,58.88333,9.4,Norway,Europe,NOR,365244.0,orange
+658,Otomi,18045,Chondrite,H,6510.0,1867.0,38.4,140.35,Japan,Asia,JPN,364500.0,orange
+659,Ottawa,18046,Chondrite,LL6,840.0,1896.0,38.6,-95.21667,United States,North America,USA,9147420.0,orange
+660,Ouadangou,56729,Chondrite,L5,4440.0,2003.0,12.9,0.08,Burkina Faso,Africa,BFA,273600.0,orange
+661,Oued el Hadjar,18050,Chondrite,LL6,1215.5,1986.0,30.18,-6.57717,Morocco,Africa,MAR,446300.0,orange
+662,Oum Dreyga,31282,Chondrite,H3-5,17000.0,2003.0,24.3,-13.1,Morocco,Africa,MAR,446300.0,orange
+663,Ourique,18052,Chondrite,H4,20000.0,1998.0,37.60833,-8.28,Portugal,Europe,PRT,91590.0,orange
+664,Ovambo,18055,Chondrite,L6,121.5,1900.0,-18.0,16.0,Namibia,Africa,NAM,823290.0,orange
+665,Oviedo,18058,Chondrite,H5,205.0,1856.0,43.4,-5.86667,Spain,Europe,ESP,500010.0,orange
+666,Pacula,18068,Chondrite,L6,3400.0,1881.0,21.05,-99.3,Mexico,North America,MEX,1943950.0,orange
+667,Padvarninkai,18069,Achondrite,Eucrite-mmict,3858.0,1929.0,55.66667,25.0,Lithuania,Europe,LTU,62675.0,gray
+668,Paitan,18072,Chondrite,H6,515.0,1910.0,17.74333,120.45583,Philippines,Asia,PHL,298170.0,orange
+669,Palahatchie,18073,Chondrite,OC,,1910.0,32.31667,-89.71667,United States,North America,USA,9147420.0,orange
+670,Palca de Aparzo,18074,Chondrite,L5,1430.0,1988.0,-23.11667,-65.1,Argentina,South America,ARG,2736690.0,orange
+671,Palinshih,18077,Unclassified,Iron,18000.0,1914.0,43.48333,118.61667,China,Asia,CHN,9424700.7,darkred
+672,Palmyra,18079,Chondrite,L3,135.0,1926.0,39.8,-91.5,United States,North America,USA,9147420.0,orange
+673,Palolo Valley,18082,Chondrite,H5,682.0,1949.0,21.3,-157.78333,United States,North America,USA,9147420.0,orange
+674,Pampanga,18093,Chondrite,L5,10500.0,1859.0,15.08333,120.7,Philippines,Asia,PHL,298170.0,orange
+675,Pantar,18098,Chondrite,H5,2130.0,1938.0,8.06667,124.28333,Philippines,Asia,PHL,298170.0,orange
+676,Paragould,18101,Chondrite,LL5,408000.0,1930.0,36.06667,-90.5,United States,North America,USA,9147420.0,orange
+677,Parambu,18102,Chondrite,LL5,2000.0,1967.0,-6.23333,-40.7,Brazil,South America,BRA,8358140.0,orange
+678,Paranaiba,18103,Chondrite,L6,100000.0,1956.0,-19.13333,-51.66667,Brazil,South America,BRA,8358140.0,orange
+679,Park Forest,18106,Chondrite,L5,18000.0,2003.0,41.48472,-87.67917,United States,North America,USA,9147420.0,orange
+680,Parnallee,18108,Chondrite,LL3.6,77600.0,1857.0,9.23333,78.35,India,Asia,IND,2973190.0,orange
+681,Parsa,18109,Chondrite,EH3,800.0,1942.0,26.2,85.4,India,Asia,IND,2973190.0,orange
+682,Pasamonte,18110,Achondrite,Eucrite-pmict,5100.0,1933.0,36.21667,-103.4,United States,North America,USA,9147420.0,gray
+683,Patora,18112,Chondrite,H6,4375.0,1969.0,20.93694,82.05,India,Asia,IND,2973190.0,orange
+684,Patrimonio,18116,Chondrite,L6,2121.0,1950.0,-19.53333,-48.56667,Brazil,South America,BRA,8358140.0,orange
+685,Patti,18118,Unclassified,Iron,12.0,1922.0,38.13333,14.96667,Italy,Europe,ITA,295718.0,darkred
+686,Patwar,18171,Achondrite,Mesosiderite-A1,37350.0,1935.0,23.15,91.18333,Bangladesh,Asia,BGD,130170.0,gray
+687,Pavel,18173,Chondrite,H5,2968.0,1966.0,43.46667,25.51667,Bulgaria,Europe,BGR,108560.0,orange
+688,Pavlodar (stone),18175,Chondrite,H5,142.5,1938.0,52.3,77.03333,Kazakhstan,Asia,KAZ,2699700.0,orange
+689,Pavlovka,18177,Achondrite,Howardite,2000.0,1882.0,52.03333,43.0,Russian Federation,Europe,RUS,16376870.0,gray
+690,Pê,18179,Chondrite,L6,,1989.0,11.33367,-3.54217,Burkina Faso,Africa,BFA,273600.0,orange
+691,Peace River,18180,Chondrite,L6,45760.0,1963.0,56.13333,-117.93333,Canada,North America,CAN,8965590.0,orange
+692,Peckelsheim,18181,Achondrite,Diogenite-pm,117.8,1953.0,51.66667,9.25,Germany,Europe,DEU,348570.0,gray
+693,Peekskill,18782,Chondrite,H6,12570.0,1992.0,41.28333,-73.91667,United States,North America,USA,9147420.0,orange
+694,Peña Blanca Spring,18786,Achondrite,Aubrite,70000.0,1946.0,30.125,-103.11667,United States,North America,USA,9147420.0,gray
+695,Peramiho,18792,Achondrite,Eucrite-mmict,165.0,1899.0,-10.66667,35.5,"Tanzania, United Republic of",Africa,,,gray
+696,Perpeti,18793,Chondrite,L6,23474.0,1935.0,23.325,91.0,Bangladesh,Asia,BGD,130170.0,orange
+697,Perth,18797,Chondrite,LL5,2.0,1830.0,56.4,-3.43333,United Kingdom,Europe,GBR,241930.0,orange
+698,Pervomaisky,18798,Chondrite,L6,66000.0,1933.0,56.63333,39.43333,Russian Federation,Europe,RUS,16376870.0,orange
+699,Pesyanoe,18799,Achondrite,Aubrite,3393.0,1933.0,55.5,66.08333,Russian Federation,Europe,RUS,16376870.0,gray
+700,Pétèlkolé,18800,Chondrite,H5,189.0,1995.0,14.052,0.42,Niger,Africa,NER,1266700.0,orange
+701,Petersburg,18801,Achondrite,Eucrite-pmict,1800.0,1855.0,35.3,-86.63333,United States,North America,USA,9147420.0,gray
+702,Phillips County (stone),18808,Chondrite,L6,57900.0,1901.0,40.0,-99.25,United States,North America,USA,9147420.0,orange
+703,Phu Hong,18809,Chondrite,H4,500.0,1887.0,11.25,108.58333,Viet Nam,Asia,,,orange
+704,Phum Sambo,18811,Chondrite,H4,7800.0,1933.0,12.0,105.48333,Cambodia,Asia,KHM,176520.0,orange
+705,Phuoc-Binh,18812,Chondrite,L5,11000.0,1941.0,15.71667,108.1,Viet Nam,Asia,,,orange
+706,Piancaldoli,18813,Chondrite,LL3.4,13.1,1968.0,44.24417,11.50222,Italy,Europe,ITA,295718.0,orange
+707,Picote,18816,Unclassified,Stone-uncl,,1843.0,41.36667,-6.23333,Spain,Europe,ESP,500010.0,darkred
+708,Pillistfer,18822,Chondrite,EL6,23250.0,1863.0,58.66667,25.73333,Estonia,Europe,EST,42390.0,orange
+709,Piplia Kalan,18831,Achondrite,Eucrite-mmict,42000.0,1996.0,26.03472,73.94167,India,Asia,IND,2973190.0,gray
+710,Piquetberg,18832,Chondrite,H,37.0,1881.0,-32.86667,18.71667,South Africa,Africa,ZAF,1213090.0,orange
+711,Pirgunje,18834,Chondrite,L6,842.0,1882.0,25.8,88.45,Bangladesh,Asia,BGD,130170.0,orange
+712,Pirthalla,18835,Chondrite,H6,1161.0,1884.0,29.58333,76.0,India,Asia,IND,2973190.0,orange
+713,Pitts,18837,Primitive Achondrite,"Iron, IAB-ung",3760.0,1921.0,31.95,-83.51667,United States,North America,USA,9147420.0,blue
+714,Plantersville,18846,Chondrite,H6,2085.0,1930.0,30.7,-96.11667,United States,North America,USA,9147420.0,orange
+715,Pleşcoi,51706,Chondrite,L5-6,6913.0,2008.0,45.275,26.70972,Romania,Europe,ROU,230050.0,orange
+716,Pnompehn,18851,Chondrite,L6,96.0,1868.0,11.58333,104.91667,Cambodia,Asia,KHM,176520.0,orange
+717,Pokhra,18858,Chondrite,H5,350.0,1866.0,26.71667,82.66667,India,Asia,IND,2973190.0,orange
+718,Pollen,18860,Chondrite,CM2,253.6,1942.0,66.34833,14.015,Norway,Europe,NOR,365244.0,orange
+719,Pontlyfni,18865,Primitive Achondrite,Winonaite,157.0,1931.0,53.03639,-4.31944,United Kingdom,Europe,GBR,241930.0,blue
+720,Portales Valley,18874,Chondrite,H6,71400.0,1998.0,34.175,-103.295,United States,North America,USA,9147420.0,orange
+721,Po-wang Chen,18879,Chondrite,LL,665.0,1933.0,31.41667,118.5,China,Asia,CHN,9424700.7,orange
+722,Prambachkirchen,18883,Chondrite,L6,2125.0,1932.0,48.3025,13.94083,Austria,Europe,AUT,82520.0,orange
+723,Pribram,18887,Chondrite,H5,5555.0,1959.0,49.66667,14.03333,Czechia,Europe,CZE,77230.0,orange
+724,Pricetown,18888,Chondrite,L6,900.0,1893.0,39.11667,-83.85,United States,North America,USA,9147420.0,orange
+725,Puerto Lápice,45984,Achondrite,Eucrite-br,500.0,2007.0,39.35,-3.51667,Spain,Europe,ESP,500010.0,gray
+726,Pulsora,18899,Chondrite,H5,560.0,1863.0,23.36667,75.18333,India,Asia,IND,2973190.0,orange
+727,Pultusk,18901,Chondrite,H5,250000.0,1868.0,52.76667,21.26667,Poland,Europe,POL,306280.0,orange
+728,Putinga,18905,Chondrite,L6,300000.0,1937.0,-29.03333,-53.05,Brazil,South America,BRA,8358140.0,orange
+729,Qidong,18907,Chondrite,L/LL5,1275.0,1982.0,32.08333,121.5,China,Asia,CHN,9424700.7,orange
+730,Qingzhen,18908,Chondrite,EH3,2600.0,1976.0,26.53333,106.46667,China,Asia,CHN,9424700.7,orange
+731,Queen's Mercy,22357,Chondrite,H6,7000.0,1925.0,-30.11667,28.7,Lesotho,Africa,LSO,30360.0,orange
+732,Quenggouk,22358,Chondrite,H4,6045.0,1857.0,17.76667,95.18333,Myanmar,Asia,MMR,653260.0,orange
+733,Quesa,22360,Primitive Achondrite,"Iron, IAB-ung",10750.0,1898.0,39.0,-0.66667,Spain,Europe,ESP,500010.0,blue
+734,Quija,22361,Chondrite,H,17450.0,1990.0,44.61667,126.13333,China,Asia,CHN,9424700.7,orange
+735,Quincay,22363,Chondrite,L6,65.0,1851.0,46.6,0.25,France,Europe,FRA,547557.0,orange
+736,Raco,22368,Chondrite,H5,5000.0,1957.0,-26.66667,-65.45,Argentina,South America,ARG,2736690.0,orange
+737,Raghunathpura,22371,Achondrite,"Iron, IIAB",10200.0,1986.0,27.72528,76.465,India,Asia,IND,2973190.0,gray
+738,Rahimyar Khan,31302,Chondrite,L5,67225.0,1983.0,28.225,70.2,Pakistan,Asia,PAK,770880.0,orange
+739,Rakovka,22376,Chondrite,L6,9000.0,1878.0,52.98333,37.03333,Russian Federation,Europe,RUS,16376870.0,orange
+740,Ramnagar,22384,Chondrite,L6,3766.0,1940.0,26.45,82.9,India,Asia,IND,2973190.0,orange
+741,Rampurhat,22385,Chondrite,LL,100.0,1916.0,24.16667,87.76667,India,Asia,IND,2973190.0,orange
+742,Ramsdorf,22386,Chondrite,L6,4682.0,1958.0,51.88333,6.93333,Germany,Europe,DEU,348570.0,orange
+743,Ranchapur,22387,Chondrite,H4,290.4,1917.0,23.98333,87.08333,India,Asia,IND,2973190.0,orange
+744,Rancho de la Presa,22390,Chondrite,H5,300.0,1899.0,19.86667,-100.81667,Mexico,North America,MEX,1943950.0,orange
+745,Rangala,22392,Chondrite,L6,3224.5,1937.0,25.38333,72.01667,India,Asia,IND,2973190.0,orange
+746,Raoyang,22394,Chondrite,L6,4910.0,1919.0,38.2,115.7,China,Asia,CHN,9424700.7,orange
+747,Ras Tanura,22395,Chondrite,H6,6.1,1961.0,26.66667,50.15,Saudi Arabia,Asia,SAU,2149690.0,orange
+748,Ratyn,22398,Unclassified,Stone-uncl,910.0,1880.0,52.2,17.98333,Poland,Europe,POL,306280.0,darkred
+749,Red Canyon Lake,53502,Chondrite,H5,18.41,2007.0,38.13742,-119.75812,United States,North America,USA,9147420.0,orange
+750,Reliegos,22584,Chondrite,L5,17300.0,1947.0,42.475,-5.33333,Spain,Europe,ESP,500010.0,orange
+751,Rembang,22585,Achondrite,"Iron, IVA",10000.0,1919.0,-6.73333,111.36667,Indonesia,Asia,IDN,1877519.0,gray
+752,Renca,22587,Chondrite,L5,300.0,1925.0,-32.75,-65.28333,Argentina,South America,ARG,2736690.0,orange
+753,Renqiu,22589,Chondrite,L6,355.0,1916.0,38.66667,116.13333,China,Asia,CHN,9424700.7,orange
+754,Repeev Khutor,22590,Achondrite,"Iron, IIF",7000.0,1933.0,48.6,45.66667,Russian Federation,Europe,RUS,16376870.0,gray
+755,Revelstoke,22592,Chondrite,CI1,1.0,1965.0,51.33333,-118.95,Canada,North America,CAN,8965590.0,orange
+756,Rewari,22593,Chondrite,L6,3332.0,1929.0,28.2,76.66667,India,Asia,IND,2973190.0,orange
+757,Rich Mountain,22597,Chondrite,L6,668.0,1903.0,35.03333,-83.03333,United States,North America,USA,9147420.0,orange
+758,Uzcudun,24140,Chondrite,L,20000.0,1948.0,-44.11667,-66.15,Argentina,South America,ARG,2736690.0,orange
+759,Richardton,22599,Chondrite,H5,90000.0,1918.0,46.88333,-102.31667,United States,North America,USA,9147420.0,orange
+760,Richland Springs,22602,Chondrite,OC,1900.0,1980.0,31.25,-99.03333,United States,North America,USA,9147420.0,orange
+761,Rio Negro,22611,Chondrite,L4,1310.0,1934.0,-26.1,-49.8,Brazil,South America,BRA,8358140.0,orange
+762,Rochester,22637,Chondrite,H6,340.0,1876.0,41.08333,-86.28333,United States,North America,USA,9147420.0,orange
+763,Rockhampton,22640,Unclassified,Stone-uncl,1641.0,1895.0,-23.38333,150.51667,Australia,Oceania,AUS,7682300.0,darkred
+764,Roda,22641,Achondrite,Diogenite,400.0,1871.0,42.3,0.55,Spain,Europe,ESP,500010.0,gray
+765,Rose City,22766,Chondrite,H5,10600.0,1921.0,44.51667,-83.95,United States,North America,USA,9147420.0,orange
+766,Rowton,22773,Achondrite,"Iron, IIIAB",3500.0,1876.0,52.76667,-2.51667,United Kingdom,Europe,GBR,241930.0,gray
+767,Ruhobobo,22780,Chondrite,L6,465.5,1976.0,-1.45,29.83333,Rwanda,Africa,RWA,24670.0,orange
+768,Rumuruti,22782,Chondrite,R3.8-6,67.0,1934.0,0.26667,36.53333,Kenya,Africa,KEN,569140.0,orange
+769,Rupota,22783,Chondrite,L4-6,6000.0,1949.0,-10.26667,38.76667,"Tanzania, United Republic of",Africa,,,orange
+770,Ryechki,22791,Chondrite,L5,13000.0,1914.0,51.13333,34.5,Ukraine,Europe,UKR,579320.0,orange
+771,Sabetmahet,22792,Chondrite,H5,1250.0,1855.0,27.43333,82.08333,India,Asia,IND,2973190.0,orange
+772,Sabrum,22793,Chondrite,LL6,478.0,1999.0,23.08333,91.66667,India,Asia,IND,2973190.0,orange
+773,Saint-Sauveur,23101,Chondrite,EH5,14000.0,1914.0,43.73333,1.38333,France,Europe,FRA,547557.0,orange
+774,Saint-Séverin,23102,Chondrite,LL6,271000.0,1966.0,45.3,0.23333,France,Europe,FRA,547557.0,orange
+775,Sakauchi,23103,Unclassified,Iron,4180.0,1913.0,35.66667,136.3,Japan,Asia,JPN,364500.0,darkred
+776,Salem,23107,Chondrite,L6,61.4,1981.0,44.97917,-122.96944,United States,North America,USA,9147420.0,orange
+777,Salzwedel,23114,Chondrite,LL5,43.0,1985.0,52.75,11.05,Germany,Europe,DEU,348570.0,orange
+778,Samelia,23115,Achondrite,"Iron, IIIAB",2462.0,1921.0,25.66667,74.86667,India,Asia,IND,2973190.0,gray
+779,San Juan Capistrano,23128,Chondrite,H6,56.0,1973.0,33.48472,-117.6625,United States,North America,USA,9147420.0,orange
+780,San Michele,31315,Chondrite,L6,237.0,2002.0,43.66667,13.0,Italy,Europe,ITA,295718.0,orange
+781,San Pedro de Quiles,23130,Chondrite,L6,282.0,1956.0,-31.01667,-71.4,Chile,South America,CHL,743532.0,orange
+782,San Pedro Jacuaro,34063,Chondrite,LL6,460.0,1968.0,19.76667,-100.65,Mexico,North America,MEX,1943950.0,orange
+783,Santa Barbara,23161,Chondrite,L4,400.0,1873.0,-29.2,-51.86667,Brazil,South America,BRA,8358140.0,orange
+784,Santa Cruz,23164,Chondrite,CM2,60.0,1939.0,24.16667,-99.33333,Mexico,North America,MEX,1943950.0,orange
+785,Santa Isabel,23165,Chondrite,L6,5500.0,1924.0,-33.9,-61.7,Argentina,South America,ARG,2736690.0,orange
+786,Santa Lucia (2008),50909,Chondrite,L6,4000.0,2008.0,-31.535556,-68.489444,Argentina,South America,ARG,2736690.0,orange
+787,São Jose do Rio Preto,23171,Chondrite,H4,927.0,1962.0,-20.81,-49.38056,Brazil,South America,BRA,8358140.0,orange
+788,Saratov,23176,Chondrite,L4,200000.0,1918.0,52.55,46.55,Russian Federation,Europe,RUS,16376870.0,orange
+789,Sauguis,23188,Chondrite,L6,4000.0,1868.0,43.15,-0.85,France,Europe,FRA,547557.0,orange
+790,Savtschenskoje,23190,Chondrite,LL4,2500.0,1894.0,47.21667,29.86667,Ukraine,Europe,UKR,579320.0,orange
+791,Sayama,23192,Chondrite,CM2,430.0,1986.0,35.86667,139.4,Japan,Asia,JPN,364500.0,orange
+792,Sazovice,23455,Chondrite,L5,412.0,1934.0,49.23333,17.56667,Czechia,Europe,CZE,77230.0,orange
+793,Schenectady,23458,Chondrite,H5,283.3,1968.0,42.86083,-73.95028,United States,North America,USA,9147420.0,orange
+794,Schönenberg,23460,Chondrite,L6,8000.0,1846.0,48.11667,10.46667,Germany,Europe,DEU,348570.0,orange
+795,Searsmont,23472,Chondrite,H5,5400.0,1871.0,44.36667,-69.2,United States,North America,USA,9147420.0,orange
+796,Sediköy,23473,Chondrite,L6,240.0,1917.0,38.3,27.13333,Turkey,Asia,,,orange
+797,Segowlie,23476,Chondrite,LL6,6930.0,1853.0,26.75,84.78333,India,Asia,IND,2973190.0,orange
+798,Selakopi,23481,Chondrite,H5,1590.0,1939.0,-7.23333,107.33333,Indonesia,Asia,IDN,1877519.0,orange
+799,Seldebourak,23483,Chondrite,H5,150.0,1947.0,22.83333,4.98333,Algeria,Africa,DZA,2381740.0,orange
+800,Semarkona,23487,Chondrite,LL3.00,691.0,1940.0,22.25,79.0,India,Asia,IND,2973190.0,orange
+801,Senboku,23496,Chondrite,H6,866.0,1993.0,39.43833,140.51167,Japan,Asia,JPN,364500.0,orange
+802,Seoni,23500,Chondrite,H6,20000.0,1966.0,21.68389,79.50083,India,Asia,IND,2973190.0,orange
+803,Serra de Magé,23502,Achondrite,Eucrite-cm,1800.0,1923.0,-8.38333,-36.76667,Brazil,South America,BRA,8358140.0,gray
+804,Sete Lagoas,23504,Chondrite,H4,350.0,1908.0,-19.46667,-44.21667,Brazil,South America,BRA,8358140.0,orange
+805,Sevilla,23508,Chondrite,LL4,180.0,1862.0,37.41667,-6.0,Spain,Europe,ESP,500010.0,orange
+806,Sevrukovo,23509,Chondrite,L5,101000.0,1874.0,50.61667,36.6,Russian Federation,Europe,RUS,16376870.0,orange
+807,Sfax,23512,Chondrite,L6,7000.0,1989.0,34.75,10.71667,Tunisia,Africa,TUN,155360.0,orange
+808,Shalka,23521,Achondrite,Diogenite,4000.0,1850.0,23.1,87.3,India,Asia,IND,2973190.0,gray
+809,Sharps,23525,Chondrite,H3.4,1265.0,1921.0,37.83333,-76.7,United States,North America,USA,9147420.0,orange
+810,Shelburne,23529,Chondrite,L5,18600.0,1904.0,44.05,-80.16667,Canada,North America,CAN,8965590.0,orange
+811,Shergotty,23530,Achondrite,Martian (shergottite),5000.0,1865.0,24.55,84.83333,India,Asia,IND,2973190.0,gray
+812,Sheyang,23531,Chondrite,L6,605.0,1976.0,33.65,120.06667,China,Asia,CHN,9424700.7,orange
+813,Shikarpur,23534,Chondrite,L6,3679.7,1921.0,25.85,87.5775,India,Asia,IND,2973190.0,orange
+814,Shuangyang,23582,Chondrite,H5,3900.0,1971.0,43.5,125.66667,China,Asia,CHN,9424700.7,orange
+815,Shupiyan,23583,Chondrite,H6,5000.0,1912.0,33.71667,74.83333,India,Asia,IND,2973190.0,orange
+816,Shytal,23584,Chondrite,L6,3200.0,1863.0,24.33333,90.16667,Bangladesh,Asia,BGD,130170.0,orange
+817,Sikhote-Alin,23593,Achondrite,"Iron, IIAB",23000000.0,1947.0,46.16,134.65333,Russian Federation,Europe,RUS,16376870.0,gray
+818,Silao,23594,Chondrite,H5,1710.0,1995.0,20.93333,-101.38333,Mexico,North America,MEX,1943950.0,orange
+819,Silistra,55584,Achondrite,Achondrite-ung,0.15,1917.0,44.11667,27.26667,Bulgaria,Europe,BGR,108560.0,gray
+820,Simmern,23603,Chondrite,H5,1222.0,1920.0,49.98333,7.53333,Germany,Europe,DEU,348570.0,orange
+821,Sinai,23606,Chondrite,L6,1455.0,1916.0,30.9,32.48333,Egypt,Africa,,,orange
+822,Sindhri,23611,Chondrite,H5,8400.0,1901.0,26.21667,69.55,Pakistan,Asia,PAK,770880.0,orange
+823,Sinnai,23613,Chondrite,H6,2000.0,1956.0,39.3,9.2,Italy,Europe,ITA,295718.0,orange
+824,Sioux County,23614,Achondrite,Eucrite-mmict,4100.0,1933.0,42.58333,-103.66667,United States,North America,USA,9147420.0,gray
+825,Sitathali,23616,Chondrite,H5,1600.0,1875.0,20.91667,82.58333,India,Asia,IND,2973190.0,orange
+826,Sivas,23617,Chondrite,H6,40000.0,1989.0,39.82467,36.13583,Turkey,Asia,,,orange
+827,Sixiangkou,23619,Chondrite,L5,630.0,1989.0,32.43333,119.86667,China,Asia,CHN,9424700.7,orange
+828,Ski,23621,Chondrite,L6,850.0,1848.0,59.73333,10.86667,Norway,Europe,NOR,365244.0,orange
+829,Slavetic,23626,Chondrite,H5,1708.0,1868.0,45.68333,15.6,Croatia,Europe,HRV,55964.0,orange
+830,Soheria,23660,Chondrite,OC,72.9,1960.0,27.13333,84.06667,India,Asia,IND,2973190.0,orange
+831,Soko-Banja,23661,Chondrite,LL4,80000.0,1877.0,43.66667,21.86667,Serbia,Europe,SRB,87460.0,orange
+832,Sologne,23663,Chondrite,H5,54.0,1860.0,47.36667,1.73333,France,Europe,FRA,547557.0,orange
+833,Sołtmany,53829,Chondrite,L6,1066.0,2011.0,54.00883,22.005,Poland,Europe,POL,306280.0,orange
+834,Sone,23667,Chondrite,H5,17100.0,1866.0,35.16667,135.33333,Japan,Asia,JPN,364500.0,orange
+835,Songyuan,23668,Chondrite,L6,36900.0,1993.0,45.25,125.0,China,Asia,CHN,9424700.7,orange
+836,Sopot,23670,Chondrite,OC,958.0,1927.0,44.41667,23.5,Romania,Europe,ROU,230050.0,orange
+837,Soroti,23671,Unclassified,"Iron, ungrouped",2050.0,1945.0,1.7,33.63333,Uganda,Africa,UGA,200520.0,darkred
+838,St. Caprais-de-Quinsac,23081,Chondrite,L6,360.0,1883.0,44.75,0.05,France,Europe,FRA,547557.0,orange
+839,St. Christophe-la-Chartreuse,23082,Chondrite,L6,5500.0,1841.0,46.95,-1.5,France,Europe,FRA,547557.0,orange
+840,St. Denis Westrem,23083,Chondrite,L6,700.0,1855.0,51.05,3.75,Belgium,Europe,BEL,30280.0,orange
+841,St. Germain-du-Pinel,23087,Chondrite,H6,4000.0,1890.0,48.01667,-1.15,France,Europe,FRA,547557.0,orange
+842,St. Louis,23089,Chondrite,H4,1000.0,1950.0,38.7,-90.23333,United States,North America,USA,9147420.0,orange
+843,St. Mark's,23090,Chondrite,EH5,13780.0,1903.0,-32.01667,27.41667,South Africa,Africa,ZAF,1213090.0,orange
+844,St. Mary's County,23091,Chondrite,LL3.3,24.3,1919.0,38.16667,-76.38333,United States,North America,USA,9147420.0,orange
+845,St. Mesmin,23092,Chondrite,LL6,8300.0,1866.0,48.45,3.93333,France,Europe,FRA,547557.0,orange
+846,St. Michel,23093,Chondrite,L6,17000.0,1910.0,61.65,27.2,Finland,Europe,FIN,303900.0,orange
+847,St.-Chinian,23097,Chondrite,L6,134.3,1959.0,43.43333,2.95,France,Europe,FRA,547557.0,orange
+848,Ställdalen,23712,Chondrite,H5,34000.0,1876.0,59.93333,14.95,Sweden,Europe,SWE,407339.7,orange
+849,Stavropol,23717,Chondrite,L6,1500.0,1857.0,45.05,41.98333,Russian Federation,Europe,RUS,16376870.0,orange
+850,Ste. Marguerite,23099,Chondrite,H4,4960.0,1962.0,50.76667,3.0,Belgium,Europe,BEL,30280.0,orange
+851,Sterlitamak,23724,Achondrite,"Iron, IIIAB",325000.0,1990.0,53.66667,55.98333,Russian Federation,Europe,RUS,16376870.0,gray
+852,Stratford,23728,Chondrite,L6,50.0,1974.0,41.2,-73.13333,United States,North America,USA,9147420.0,orange
+853,Strathmore,23729,Chondrite,L6,13400.0,1917.0,56.58333,-3.25,United Kingdom,Europe,GBR,241930.0,orange
+854,St-Robert,23733,Chondrite,H5,25400.0,1994.0,45.96861,-72.97806,Canada,North America,CAN,8965590.0,orange
+855,Success,23736,Chondrite,L6,3500.0,1924.0,36.48333,-90.66667,United States,North America,USA,9147420.0,orange
+856,Suchy Dul,23737,Chondrite,L6,815.3,1969.0,50.53806,16.26333,Czechia,Europe,CZE,77230.0,orange
+857,Suizhou,23738,Chondrite,L6,260000.0,1986.0,31.61667,113.46667,China,Asia,CHN,9424700.7,orange
+858,Sulagiri,48951,Chondrite,LL6,110000.0,2008.0,12.66667,78.03333,India,Asia,IND,2973190.0,orange
+859,Sultanpur,23741,Chondrite,L/LL6,1710.5,1916.0,25.93333,84.28333,India,Asia,IND,2973190.0,orange
+860,Sungach,23745,Chondrite,H5,637.0,1935.0,44.86667,133.16667,Russian Federation,Europe,RUS,16376870.0,orange
+861,Supuhee,23760,Chondrite,H6,7235.0,1865.0,26.71667,84.21667,India,Asia,IND,2973190.0,orange
+862,Sutter's Mill,55529,Chondrite,C,992.5,2012.0,38.80389,-120.90806,United States,North America,USA,9147420.0,orange
+863,Sylacauga,23773,Chondrite,H4,5560.0,1954.0,33.18836,-86.2945,United States,North America,USA,9147420.0,orange
+864,Tadjera,23778,Chondrite,L5,9000.0,1867.0,36.18333,5.41667,Algeria,Africa,DZA,2381740.0,orange
+865,Tagish Lake,23782,Chondrite,C2-ung,10000.0,2000.0,59.70444,-134.20139,Canada,North America,CAN,8965590.0,orange
+866,Tahara,23784,Chondrite,H4/5,1000.0,1991.0,34.72,137.305,Japan,Asia,JPN,364500.0,orange
+867,Takenouchi,23789,Chondrite,H5,720.0,1880.0,35.38333,134.9,Japan,Asia,JPN,364500.0,orange
+868,Talampaya,23791,Achondrite,Eucrite-cm,1421.0,1995.0,-29.76811,-67.93886,Argentina,South America,ARG,2736690.0,gray
+869,Tambakwatu,23795,Chondrite,L6,10500.0,1975.0,-7.75,112.76667,Indonesia,Asia,IDN,1877519.0,orange
+870,Tamdakht,48691,Chondrite,H5,100000.0,2008.0,31.16333,-7.015,Morocco,Africa,MAR,446300.0,orange
+871,Tané,23801,Chondrite,L5,905.0,1918.0,35.43333,136.23333,Japan,Asia,JPN,364500.0,orange
+872,Taonan,23873,Chondrite,L5,3850.0,1965.0,45.4,122.9,China,Asia,CHN,9424700.7,orange
+873,Tatahouine,23884,Achondrite,Diogenite,12000.0,1931.0,32.95,10.41667,Tunisia,Africa,TUN,155360.0,gray
+874,Tathlith,23885,Chondrite,L6,2500.0,1967.0,19.38333,43.73333,Saudi Arabia,Asia,SAU,2149690.0,orange
+875,Tauk,23887,Chondrite,L6,6000.0,1929.0,35.13333,44.45,Iraq,Asia,IRQ,434320.0,orange
+876,Tauti,23888,Chondrite,L6,21000.0,1937.0,46.71667,23.5,Romania,Europe,ROU,230050.0,orange
+877,Tenham,23897,Chondrite,L6,160000.0,1879.0,-25.73333,142.95,Australia,Oceania,AUS,7682300.0,orange
+878,Tennasilm,23898,Chondrite,L4,28500.0,1872.0,58.03333,26.95,Estonia,Europe,EST,42390.0,orange
+879,Thal,23908,Chondrite,H6,342.0,1950.0,33.4,70.6,Pakistan,Asia,PAK,770880.0,orange
+880,Thika,54493,Chondrite,L6,14200.0,2011.0,-1.00278,37.15028,Kenya,Africa,KEN,569140.0,orange
+881,Thuathe,23976,Chondrite,H4/5,45300.0,2002.0,-29.33333,27.58333,Lesotho,Africa,LSO,30360.0,orange
+882,Tianzhang,23984,Chondrite,H5,2232.0,1986.0,32.94667,118.99,China,Asia,CHN,9424700.7,orange
+883,Tieschitz,23989,Chondrite,H/L3.6,28000.0,1878.0,49.6,17.11667,Czechia,Europe,CZE,77230.0,orange
+884,Tilden,23998,Chondrite,L6,74800.0,1927.0,38.2,-89.68333,United States,North America,USA,9147420.0,orange
+885,Tillaberi,23999,Chondrite,L6,3000.0,1970.0,14.25,1.53333,Niger,Africa,NER,1266700.0,orange
+886,Tirupati,24009,Chondrite,H6,230.0,1934.0,13.63333,79.41667,India,Asia,IND,2973190.0,orange
+887,Tissint,54823,Achondrite,Martian (shergottite),7000.0,2011.0,29.48195,-7.61123,Morocco,Africa,MAR,446300.0,gray
+888,Tjabe,24011,Chondrite,H6,20000.0,1869.0,-7.08333,111.53333,Indonesia,Asia,IDN,1877519.0,orange
+889,Tjerebon,24012,Chondrite,L5,16500.0,1922.0,-6.66667,106.58333,Indonesia,Asia,IDN,1877519.0,orange
+890,Tomakovka,24019,Chondrite,LL6,600.0,1905.0,47.85,34.76667,Ukraine,Europe,UKR,579320.0,orange
+891,Tomatlan,24020,Chondrite,H6,900.0,1879.0,20.16667,-105.21667,Mexico,North America,MEX,1943950.0,orange
+892,Tomita,24023,Chondrite,L,600.0,1916.0,34.5,133.75,Japan,Asia,JPN,364500.0,orange
+893,Tomiya,24024,Chondrite,H4/5,27.5,1984.0,38.36667,140.86556,Japan,Asia,JPN,364500.0,orange
+894,Tonk,24026,Chondrite,CI1,7.7,1911.0,24.65,76.86667,India,Asia,IND,2973190.0,orange
+895,Torino,24029,Chondrite,H6,977.0,1988.0,45.06667,7.66667,Italy,Europe,ITA,295718.0,orange
+896,Torrington,24032,Chondrite,H6,259.1,1944.0,42.06667,-104.16667,United States,North America,USA,9147420.0,orange
+897,Tourinnes-la-Grosse,24038,Chondrite,L6,14500.0,1863.0,50.78333,4.76667,Belgium,Europe,BEL,30280.0,orange
+898,Trebbin,24042,Chondrite,LL6,1250.0,1988.0,52.21667,13.16667,Germany,Europe,DEU,348570.0,orange
+899,Trenzano,24046,Chondrite,H3/4,11800.0,1856.0,45.46667,10.0,Italy,Europe,ITA,295718.0,orange
+900,Treysa,24050,Achondrite,"Iron, IIIAB-an",63000.0,1916.0,50.91667,9.18333,Germany,Europe,DEU,348570.0,gray
+901,Tromøy,24053,Chondrite,H,357.4,1950.0,58.47333,8.86667,Norway,Europe,NOR,365244.0,orange
+902,Troup,24054,Chondrite,L6,1020.0,1917.0,32.16667,-95.1,United States,North America,USA,9147420.0,orange
+903,Trysil,24057,Chondrite,L/LL6,640.0,1927.0,61.3,12.3,Norway,Europe,NOR,365244.0,orange
+904,Tsukuba,24059,Chondrite,H5-6,800.0,1996.0,36.06333,140.145,Japan,Asia,JPN,364500.0,orange
+905,Tuan Tuc,24060,Chondrite,L6,13100.0,1921.0,9.66667,105.66667,Viet Nam,Asia,,,orange
+906,Tugalin-Bulen,24062,Chondrite,H6,10000.0,1967.0,45.46667,105.38333,Mongolia,Asia,MNG,1557292.418,orange
+907,Tulung Dzong,24071,Unclassified,Stone-uncl,,1944.0,30.0,90.75,China,Asia,CHN,9424700.7,darkred
+908,Turtle Lake,47343,Chondrite,L5,89.3,1996.0,45.34583,-92.05167,United States,North America,USA,9147420.0,orange
+909,Tuxtuac,24086,Chondrite,LL5,30000.0,1975.0,21.66667,-103.36667,Mexico,North America,MEX,1943950.0,orange
+910,Tysnes Island,24094,Chondrite,H4,19860.0,1884.0,60.0,5.61667,Norway,Europe,NOR,365244.0,orange
+911,Tyumen,24095,Unclassified,Iron,750.0,1903.0,57.16667,65.53333,Russian Federation,Europe,RUS,16376870.0,darkred
+912,Uberaba,24096,Chondrite,H5,40000.0,1903.0,-19.81667,-48.78333,Brazil,South America,BRA,8358140.0,orange
+913,Ucera,24097,Chondrite,H5,4590.0,1970.0,11.05,-69.85,"Venezuela, Bolivarian Republic of",South America,,,orange
+914,Uchkuduk,24098,Chondrite,L6,1000.0,1989.0,41.76667,62.51667,Uzbekistan,Asia,UZB,435892.0,orange
+915,Udaipur,24099,Chondrite,H3,2000.0,1976.0,24.57872,73.68626,India,Asia,IND,2973190.0,orange
+916,Udei Station,24101,Primitive Achondrite,"Iron, IAB-ung",103000.0,1927.0,7.95,8.08333,Nigeria,Africa,NGA,910770.0,blue
+917,Uden,24103,Chondrite,LL7,710.0,1840.0,51.65,5.61667,Netherlands,Europe,NLD,33730.0,orange
+918,Udipi,24104,Chondrite,H5,3600.0,1866.0,13.48333,74.78333,India,Asia,IND,2973190.0,orange
+919,Ufana,24106,Chondrite,EL6,189.2,1957.0,-4.26667,35.35,"Tanzania, United Republic of",Africa,,,orange
+920,Ulmiz,24108,Chondrite,L,76.5,1926.0,46.93333,7.21667,Switzerland,Europe,CHE,39516.0,orange
+921,Umm Ruaba,24118,Chondrite,L5,1700.0,1966.0,13.46667,31.21667,Sudan,Africa,SDN,2376000.0,orange
+922,Undulung,24121,Chondrite,L4,113.4,1986.0,66.13889,124.76667,Russian Federation,Europe,RUS,16376870.0,orange
+923,Unkoku,24123,Chondrite,OC,1000.0,1924.0,34.8,127.0,"Korea, Republic of",Asia,,,orange
+924,Urasaki,24129,Unclassified,Stone-uncl,1500.0,1926.0,34.48333,133.28333,Japan,Asia,JPN,364500.0,darkred
+925,Usti Nad Orlici,24132,Chondrite,L6,1269.0,1963.0,49.975,16.375,Czechia,Europe,CZE,77230.0,orange
+926,Utrecht,24135,Chondrite,L6,9700.0,1843.0,52.11667,5.18333,Netherlands,Europe,NLD,33730.0,orange
+927,Utzenstorf,24136,Chondrite,H5,3422.0,1928.0,47.11667,7.55,Switzerland,Europe,CHE,39516.0,orange
+928,Valdavur,24144,Chondrite,H6,2799.0,1944.0,11.98333,79.75,India,Asia,IND,2973190.0,orange
+929,Valdinizza,24145,Chondrite,L6,1004.0,1903.0,44.86667,9.15,Italy,Europe,ITA,295718.0,orange
+930,Valera,24149,Chondrite,L5,50000.0,1972.0,9.31667,-70.62833,"Venezuela, Bolivarian Republic of",South America,,,orange
+931,Varre-Sai,53633,Chondrite,L5,2500.0,2010.0,-20.85001,-41.73356,Brazil,South America,BRA,8358140.0,orange
+932,Vavilovka,24154,Chondrite,LL6,1932.0,1876.0,46.15,32.83333,Ukraine,Europe,UKR,579320.0,orange
+933,Vengerovo,24158,Chondrite,H5,10800.0,1950.0,56.13333,77.26667,Russian Federation,Europe,RUS,16376870.0,orange
+934,Veramin,24162,Achondrite,Mesosiderite-B2,54000.0,1880.0,35.33333,51.63333,"Iran, Islamic Republic of",Asia,,,gray
+935,Verkhne Tschirskaia,24165,Chondrite,H5,8000.0,1843.0,48.41667,43.2,Russian Federation,Europe,RUS,16376870.0,orange
+936,Vernon County,24168,Chondrite,H6,1500.0,1865.0,43.5,-91.16667,United States,North America,USA,9147420.0,orange
+937,Vetluga,24169,Achondrite,Eucrite-mmict,750.0,1949.0,57.8,45.8,Russian Federation,Europe,RUS,16376870.0,gray
+938,Vigarano,24174,Chondrite,CV3,15000.0,1910.0,44.85,11.4,Italy,Europe,ITA,295718.0,orange
+939,Villalbeto de la Peña,24179,Chondrite,L6,3500.0,2004.0,42.8,-4.66667,Spain,Europe,ESP,500010.0,orange
+940,Villarrica,24181,Unclassified,Stone-uncl,,1925.0,-25.83333,-56.5,Paraguay,South America,PRY,397300.0,darkred
+941,Vilna,24183,Chondrite,L5,0.1,1967.0,54.225,-111.69167,Canada,North America,CAN,8965590.0,orange
+942,Virba,24185,Chondrite,L6,3600.0,1873.0,43.53333,22.63333,Bulgaria,Europe,BGR,108560.0,orange
+943,Vishnupur,24187,Chondrite,LL4-6,2437.0,1906.0,23.1,87.43333,India,Asia,IND,2973190.0,orange
+944,Vissannapeta,24188,Achondrite,Eucrite-cm,1303.8,1997.0,16.83333,80.75,India,Asia,IND,2973190.0,gray
+945,Visuni,24189,Chondrite,H6,594.0,1915.0,25.45,70.0,Pakistan,Asia,PAK,770880.0,orange
+946,Vouillé,24191,Chondrite,L6,20000.0,1831.0,46.63333,0.16667,France,Europe,FRA,547557.0,orange
+947,Walters,24210,Chondrite,L6,28100.0,1946.0,34.33333,-98.3,United States,North America,USA,9147420.0,orange
+948,Warrenton,24215,Chondrite,CO3.7,1600.0,1877.0,38.68333,-91.15,United States,North America,USA,9147420.0,orange
+949,Washougal,24218,Achondrite,Howardite,225.0,1939.0,45.58333,-122.35,United States,North America,USA,9147420.0,gray
+950,Werdama,47344,Chondrite,H5,4000.0,2006.0,32.79732,21.78713,Libya,Africa,LBY,1759540.0,orange
+951,Wessely,24244,Chondrite,H5,3750.0,1831.0,48.95,17.38333,Czechia,Europe,CZE,77230.0,orange
+952,Wethersfield (1971),24250,Chondrite,L6,350.0,1971.0,41.7,-72.65,United States,North America,USA,9147420.0,orange
+953,Wethersfield (1982),24251,Chondrite,L6,2756.0,1982.0,41.71056,-72.67361,United States,North America,USA,9147420.0,orange
+954,Whetstone Mountains,49514,Chondrite,H5,2138.74,2009.0,31.96185,-110.434183,United States,North America,USA,9147420.0,orange
+955,Wiluna,24281,Chondrite,H5,150000.0,1967.0,-26.59278,120.32833,Australia,Oceania,AUS,7682300.0,orange
+956,Witklip Farm,24321,Chondrite,H5,22.0,1918.0,-26.0,30.0,South Africa,Africa,ZAF,1213090.0,orange
+957,Witsand Farm,24322,Chondrite,LL4,66.0,1932.0,-28.66667,18.91667,Namibia,Africa,NAM,823290.0,orange
+958,Wittekrantz,24323,Chondrite,L5,2200.0,1880.0,-32.5,23.0,South Africa,Africa,ZAF,1213090.0,orange
+959,Wolamo,24324,Chondrite,OC,166.4,1964.0,9.0,39.0,Ethiopia,Africa,ETH,1128570.952,orange
+960,Woolgorong,24334,Chondrite,L6,36000.0,1960.0,-27.75,115.83333,Australia,Oceania,AUS,7682300.0,orange
+961,Worden,24337,Chondrite,L5,1551.0,1997.0,42.38467,-83.6115,United States,North America,USA,9147420.0,orange
+962,Wuan,24340,Chondrite,H6,50000.0,1986.0,36.75,114.25,China,Asia,CHN,9424700.7,orange
+963,Wuzhi,24342,Unclassified,Stone-uncl,,1931.0,35.13333,113.33333,China,Asia,CHN,9424700.7,darkred
+964,Xi Ujimgin,24345,Chondrite,L/LL6-an,5900.0,1980.0,44.66667,117.5,China,Asia,CHN,9424700.7,orange
+965,Xingyang,24346,Chondrite,H6,75500.0,1977.0,32.33333,114.31667,China,Asia,CHN,9424700.7,orange
+966,Yafa,24351,Chondrite,H5,5700.0,2000.0,13.71111,45.17,Yemen,Asia,,,orange
+967,Yambo,30345,Chondrite,H5,4.0,1951.0,1.0,22.5,"Congo, The Democratic Republic of the",Africa,,,orange
+968,Yangchiang,30348,Chondrite,H5,20000.0,1954.0,21.83333,111.83333,China,Asia,CHN,9424700.7,orange
+969,Yanzhuang,30350,Chondrite,H6,3500.0,1990.0,24.56667,114.16667,China,Asia,CHN,9424700.7,orange
+970,Yardymly,30352,Primitive Achondrite,"Iron, IAB complex",150200.0,1959.0,38.93333,48.25,Azerbaijan,Asia,AZE,82656.0,blue
+971,Yatoor,30358,Chondrite,H5,13600.0,1852.0,14.3,79.76667,India,Asia,IND,2973190.0,orange
+972,Yonozu,30366,Chondrite,H4/5,31650.0,1837.0,37.75,139.0,Japan,Asia,JPN,364500.0,orange
+973,Yorktown (New York),30370,Chondrite,L5,250.0,1869.0,41.28333,-73.81667,United States,North America,USA,9147420.0,orange
+974,Yoshiki,30372,Unclassified,Stone-uncl,0.1,1928.0,34.16667,131.45,Japan,Asia,JPN,364500.0,darkred
+975,Yukan,30377,Chondrite,LL6,4800.0,1931.0,28.71667,116.61667,China,Asia,CHN,9424700.7,orange
+976,Yurtuk,30378,Achondrite,Howardite,1472.0,1936.0,47.31667,35.36667,Ukraine,Europe,UKR,579320.0,gray
+977,Zabrodje,30380,Chondrite,L6,3000.0,1893.0,55.18333,27.91667,Belarus,Europe,BLR,202902.0,orange
+978,Zag,30384,Chondrite,H3-6,175000.0,1998.0,27.33333,-9.33333,Morocco,Africa,MAR,446300.0,orange
+979,Zagami,30386,Achondrite,Martian (shergottite),18000.0,1962.0,11.73333,7.08333,Nigeria,Africa,NGA,910770.0,gray
+980,Zaisan,30388,Chondrite,H5,463.0,1963.0,47.5,83.0,Kazakhstan,Asia,KAZ,2699700.0,orange
+981,Zaisho,30389,Achondrite,"Pallasite, PMG-an",330.0,1898.0,33.7,133.8,Japan,Asia,JPN,364500.0,gray
+982,Zaoyang,30391,Chondrite,H5,14250.0,1984.0,32.3,112.75,China,Asia,CHN,9424700.7,orange
+983,Zavetnoe,30395,Chondrite,L6,800.0,1952.0,47.13333,43.9,Russian Federation,Europe,RUS,16376870.0,orange
+984,Zavid,30396,Chondrite,L6,95000.0,1897.0,44.4,19.11667,Serbia,Europe,SRB,87460.0,orange
+985,Zemaitkiemis,30399,Chondrite,L6,44100.0,1933.0,55.3,25.0,Lithuania,Europe,LTU,62675.0,orange
+986,Zhaodong,30404,Chondrite,L4,42000.0,1984.0,45.81667,125.91667,China,Asia,CHN,9424700.7,orange
+987,Zhovtnevyi,30407,Chondrite,H6,107000.0,1938.0,47.58333,37.25,Ukraine,Europe,UKR,579320.0,orange
+988,Zhuanghe,30408,Chondrite,H5,2900.0,1976.0,39.66667,122.98333,China,Asia,CHN,9424700.7,orange
+989,Zmenj,30411,Achondrite,Howardite,246.0,1858.0,51.83333,26.83333,Belarus,Europe,BLR,202902.0,gray
+990,Zomba,30412,Chondrite,L6,7500.0,1899.0,-15.18333,35.28333,Malawi,Africa,MWI,94280.0,orange
+991,Zsadany,30413,Chondrite,H5,552.0,1875.0,46.93333,21.5,Hungary,Europe,HUN,90530.0,orange
+992,Zvonkov,30415,Chondrite,H6,2568.0,1955.0,50.2,30.25,Ukraine,Europe,UKR,579320.0,orange

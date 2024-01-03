@@ -111,16 +111,21 @@ with col1:
         lon='longitude',
         lat='latitude',
         color='Type',
-        color_continuous_scale=color_scale,
-        #size='mass (g)',
-        size_max = 27,  # Adjust as needed to control the maximum marker size
-        labels={'Type': 'Type', 'mass (g)': 'Mass (g)'},
-        #title='Global Meteorite Landings',
+        color_continuous_scale=color_scale,        
+        size_max = 27,  # Adjust as needed to control the maximum marker size        
         template='plotly_dark',
         projection=p,
         scope='world',
-        hover_data={'Type': True, 'mass (g)': ':,.2f'},  # Include 'Type' and 'mass (g)' in the hover box
+        custom_data = [filtered_df['name'], filtered_df['country'], filtered_df['mass (g)']],
     )
+
+    fig.update_traces(hoverinfo = "text",                          
+                          opacity = 0.8,
+                         hovertemplate = "<br>".join([                             
+                             "Name: %{customdata[0]}",
+                             "Country: %{customdata[1]}",                             
+                             "Mass in grams: %{customdata[2]}"
+            ]))
 
     # update layout
     fig.update_layout(margin={'r':0, 't':0, 'b':0, 'l':0})  # maximize the figure size

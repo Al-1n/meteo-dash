@@ -25,6 +25,7 @@ title_color = (89, 89, 89)
 # write text with the specified color
 st.write(f'<span style="color:rgb{title_color};font-size:36px">Observed Meteorite Landings between 1830 and 2013</span>', unsafe_allow_html=True)
 
+#create a function that generates custom KPI style info cards 
 def info_card(title, value, icon):
     wch_colour_box = (239, 248, 247)
     wch_colour_font = (0,0,0)

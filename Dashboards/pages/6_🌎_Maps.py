@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import numpy as np
 
 ##Page setup
 #Set layout
@@ -55,109 +56,283 @@ def info_card(title, value, icon):
 #Load the data
 @st.cache_data
 def get_data():
-    df_183 = pd.read_csv('../Data/fell_df_known_mass_after_1830.csv', index_col = [0])    
-    return df_183
+    df_183 = pd.read_csv('../Data/fell.csv', index_col = [0])
+    df_183.rename(columns = {'recclass': 'class', 'reclat': 'latitude', 'reclong': 'longitude'}, inplace = True)
+    # create a list of our conditions
+    conditions = [
+        (df_183['class'].isin(['L6', 'H6', 'LL6', 'CM2', 'OC',
+                   'L5', 'H4', 'H5-6', 'H3-6','CI1', 
+                   'CO3.2', 'CK4', 'H', 'L4', 'LL5',
+                  'H5', 'LL', 'R3.8-6', 'LL4'])),
+        (df_183['class'].isin(['Howardite', 'Aubrite', 'Eucrite-pmict', 
+                     'Eucrite-mmict', 'Mesosiderite-A1',
+                    'Mesosiderite-A3', 'Diogenite', 'Iron, IAB-sLL',
+                    'Iron, IIIAB', 'Iron, IIF'])),
+        (df_183['class'] == 'Winonaite'),
+        (df_183['class'] == 'Stone-uncl'),]
 
-df_183 = get_data()
+    # create a list of the values we want to assign for each condition
+    values = ['Chondrite', 'Achondrite', 'Primitive Achondrite', 'Stony-unclassified']
 
-# initialise the year if not already set
-if 'year' not in st.session_state:
-    st.session_state['year'] = 1830
+    # create a new column and use np.select to assign values to it using our lists as arguments
+    df_183['Type'] = np.select(conditions, values)
 
-##First Row - Header Section
+    df_183 = df_183[df_183["year"] >= 1830]
 
-#Define year range
-min_year = int(df_183['year'].min())
-max_year = int(df_183['year'].max())
+    fireball_df = pd.read_csv("../Data/fireball_data.csv")  
+  
+    return df_183, fireball_df
 
-#Define columns
-colh1, colh2 = st.columns((4,2), gap = "large")
+df_183, fireball_df = get_data()
 
-with colh1:
-    st.markdown("## Global Meteorite Landings")
 
-    # get the year with a slider
-    st.session_state['year'] = st.slider('Select year', min_year, max_year, key="year_slider")
+#sidebar map selector
+st.sidebar.subheader('Meteorite and Fireball Maps')
+choice = st.sidebar.selectbox('Choose map', ('Observed Landings', 'Fireball Events'), index = 0)
 
-with colh2:
-    st.markdown("")  # this will be overwritten in the app
+###########################
+   # Observed Landings #
+###########################
+        
+if choice == 'Observed Landings':
 
-##Second Row - Map and Data
+    # initialise the year if not already set
+    if 'year' not in st.session_state:
+        st.session_state['year'] = 1830
 
-#Define columns
-col1, col2 = st.columns ((8,4), gap = "large")
+    ##First Row - Header Section
 
-#Footer
-footer = st.container()
-footer.write("Meteorite Landings from 1830 to 2013")
+    #Define year range
+    min_year = int(df_183['year'].min())
+    max_year = int(df_183['year'].max())
 
-# The first column contains the map
-import plotly.graph_objs as go
+    #Define columns
+    colh1, colh2 = st.columns((4,2), gap = "large")
 
-# The first column contains the map
-with col1:    
-    # set projection
-    p = 'equirectangular'   # default projection
+    with colh1:
+        st.markdown("## Global Meteorite Landings")
 
-    # Filter data based on the selected year
-    filtered_df = df_183[df_183['year'] == st.session_state['year']]
+        # get the year with a slider
+        st.session_state['year'] = st.slider('Select year', min_year, max_year, key="year_slider")
 
-    # Create a color scale for mass
-    color_scale = px.colors.sequential.Plasma  # Choose a suitable color scale
+    with colh2:
+        st.markdown("")  # this will be overwritten in the app
 
-    # Create scatter_geo trace with color scale and hover data
-    fig = px.scatter_geo(
-        filtered_df,
-        lon='longitude',
-        lat='latitude',
-        color='Type',
-        color_continuous_scale=color_scale,        
-        size_max = 27,  # Adjust as needed to control the maximum marker size        
-        template='plotly_dark',
-        projection=p,
-        scope='world',
-        custom_data = [filtered_df['name'], filtered_df['country'], filtered_df['mass (g)']],
-    )
+    ##Second Row - Map and Data
 
-    fig.update_traces(hoverinfo = "text",                          
-                          opacity = 0.8,
-                         hovertemplate = "<br>".join([                             
-                             "Name: %{customdata[0]}",
-                             "Country: %{customdata[1]}",                             
-                             "Mass in grams: %{customdata[2]}"
-            ]))
+    #Define columns
+    col1, col2 = st.columns ((8,4), gap = "large")
 
-    # update layout
-    fig.update_layout(margin={'r':0, 't':0, 'b':0, 'l':0})  # maximize the figure size
+    # The first column contains the map
+    import plotly.graph_objs as go
 
-    # plot the map
-    st.plotly_chart(fig, use_container_width=True)
+    # The first column contains the map
+    with col1:    
+        # set projection
+        p = 'equirectangular'   # default projection
 
-countries = df_183['country'].unique()
+        # Filter data based on the selected year
+        filtered_df = df_183[df_183['year'] == st.session_state['year']]
 
-# The second column contains a selector for countries and a data table
-# set the header with the new year data
-landings = df_183[df_183['year']==st.session_state['year']]['name'].count()
-#colh2.metric(label=f"__Total landings for {st.session_state['year']}__", value=landings)
-with colh2:
-    info_card(f"Total landings for {st.session_state['year']}", landings, "fa fa-globe")
+        # Create a color scale for mass
+        color_scale = px.colors.sequential.Plasma  # Choose a suitable color scale
 
-with col2:
-    # add/subtract from the selected countries
-    st.markdown(" ")
-    st.markdown(" ")
-    selected_countries = st.multiselect('Add a country:', countries)
+        # Create scatter_geo trace with color scale and hover data
+        fig = px.scatter_geo(
+            filtered_df,
+            lon='longitude',
+            lat='latitude',
+            color='Type',
+            color_continuous_scale=color_scale,        
+            size_max = 27,  # Adjust as needed to control the maximum marker size        
+            template='plotly_dark',
+            projection=p,
+            scope='world',
+            custom_data = [filtered_df['name'], filtered_df['country'], filtered_df['mass (g)']],
+        )
 
-    if not selected_countries:
-        # If no country is selected, find the first country with non-null entries for the given year
-        default_country = df_183[df_183['year'] == st.session_state['year']]['country'].dropna().iloc[0]
-        selected_countries = [default_country]
+        fig.update_traces(hoverinfo = "text",                          
+                              opacity = 0.8,
+                             hovertemplate = "<br>".join([                             
+                                 "Name: %{customdata[0]}",
+                                 "Country: %{customdata[1]}",                             
+                                 "Mass in grams: %{customdata[2]}"
+                ]))
 
-    with st.container():
-        st.markdown("### Data")
-        table = df_183[df_183['year'] == st.session_state['year']]
-        st.dataframe(table[table['country'].isin(selected_countries)], use_container_width=True)
+        # update layout
+        fig.update_layout(margin={'r':0, 't':0, 'b':0, 'l':0})  # maximize the figure size
 
+        # plot the map
+        st.plotly_chart(fig, use_container_width=True)
+
+        #add explanations
+        with st.expander("See explanation"):
+
+                    st.markdown("*  \
+                                    .")                                           
+                    st.markdown("* .")
+
+    countries = df_183['country'].unique()
+
+    # The second column contains a selector for countries and a data table
+    # set the header with the new year data
+    landings = df_183[df_183['year']==st.session_state['year']]['name'].count()
+    #colh2.metric(label=f"__Total landings for {st.session_state['year']}__", value=landings)
+    with colh2:
+        info_card(f"Total landings for {st.session_state['year']}", landings, "fa fa-globe")
+
+    with col2:
+        # add/subtract from the selected countries
+        st.markdown(" ")
+        st.markdown(" ")
+        selected_countries = st.multiselect('Add a country:', countries)
+
+        if not selected_countries:
+            # If no country is selected, find the first country with non-null entries for the given year
+            filtered_df = df_183[df_183['year'] == st.session_state['year']]
+            non_null_countries = filtered_df['country'].dropna()
+            
+            if not non_null_countries.empty:
+                default_country = non_null_countries.iloc[0]
+                selected_countries = [default_country]
+            else:
+                selected_countries = []  # No non-null entries found
+
+        with st.container():
+            st.markdown("### Landing Data")
+            table = df_183[df_183['year'] == st.session_state['year']]
+            st.dataframe(table[table['country'].isin(selected_countries)], use_container_width=True)
+
+            #add explanations
+            with st.expander("See explanation"):
+
+                    st.markdown("*  \
+                                    .")                                           
+                    st.markdown("* .")
+
+
+
+###########################
+    # Fireball Maps #
+###########################
+
+elif choice == 'Fireball Events':
+
+    
+    # initialise the year if not already set
+    if 'year' not in st.session_state:
+        st.session_state['year'] = 1988
+
+    ##First Row - Header Section
+
+    #Define year range
+    min_year = int(fireball_df['year'].min())
+    max_year = int(fireball_df['year'].max())
+
+    #Define columns
+    colh1, colh2 = st.columns((4,2), gap = "large")
+
+    with colh1:
+        st.markdown("## Fireball Events")
+
+        # get the year with a slider
+        st.session_state['year'] = st.slider('Select year', min_year, max_year, key="year_slider")
+
+    with colh2:
+        st.markdown("")  # this will be overwritten in the app
+
+    ##Second Row - Map and Data
+
+    #Define columns
+    col1, col2 = st.columns ((8,4), gap = "large")
+
+    # The first column contains the map
+    import plotly.graph_objs as go
+
+    # The first column contains the map
+    with col1:    
+        # set projection
+        p = 'equirectangular'   # default projection
+
+        # Filter data based on the selected year
+        filtered_fireball_df = fireball_df[fireball_df['year'] == st.session_state['year']]
+
+        # Create a color scale for mass
+        color_scale = px.colors.sequential.Plasma  # Choose a suitable color scale
+
+        # Create scatter_geo trace with color scale and hover data
+        fig = px.scatter_geo(
+            filtered_fireball_df,
+            lon='longitude_decimal',
+            lat='latitude_decimal',
+            color='Calculated Total Impact Energy (kt)',
+            color_continuous_scale=color_scale,        
+            size_max = 27,  # Adjust as needed to control the maximum marker size        
+            template='plotly_dark',
+            projection=p,
+            scope='world',
+            custom_data = [filtered_fireball_df['Calculated Total Impact Energy (kt)']],
+        )
+
+        fig.update_traces(hoverinfo = "text",                          
+                              opacity = 0.8,
+                             hovertemplate = "<br>".join([                             
+                                 "Impact Energy: %{customdata[0]}"
+                ]))
+
+        # update layout
+        fig.update_layout(margin={'r':0, 't':0, 'b':0, 'l':0})  # maximize the figure size
+
+        # plot the map
+        st.plotly_chart(fig, use_container_width=True)
+
+        #add explanations
+        with st.expander("See explanation"):
+
+                    st.markdown("*  \
+                                    .")                                           
+                    st.markdown("* .")
+
+    countries = fireball_df['country'].unique()
+
+    # The second column contains a selector for countries and a data table
+    # set the header with the new year data
+    landings = fireball_df[fireball_df['year']==st.session_state['year']]['Latitude (deg.)'].count()
+    #colh2.metric(label=f"__Total landings for {st.session_state['year']}__", value=landings)
+    with colh2:
+        info_card(f"Total fireballs for {st.session_state['year']}", landings, "fa fa-globe")
+
+    with col2:
+        # add/subtract from the selected countries
+        st.markdown(" ")
+        st.markdown(" ")
+        selected_countries = st.multiselect('Add a country:', countries)
+
+        if not selected_countries:
+            # If no country is selected, find the first country with non-null entries for the given year
+            filtered_fireball_df = fireball_df[fireball_df['year'] == st.session_state['year']]
+            non_null_countries = filtered_fireball_df['country'].dropna()
+            
+            if not non_null_countries.empty:
+                default_country = non_null_countries.iloc[0]
+                selected_countries = [default_country]
+            else:
+                selected_countries = []  # No non-null entries found
+
+        with st.container():
+            st.markdown("### Fireball Data")
+            table = fireball_df[fireball_df['year'] == st.session_state['year']]
+            st.dataframe(table[table['country'].isin(selected_countries)], use_container_width=True)
+
+            #add explanations
+            with st.expander("See explanation"):
+
+                    st.markdown("*  \
+                                    .")                                           
+                    st.markdown("* .")
+
+                
+#____________________________________________________________________________________________________________
 
 #DEFINE A SIDEBAR MASS UNIT CONVERTER
 

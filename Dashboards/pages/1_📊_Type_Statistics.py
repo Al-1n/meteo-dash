@@ -154,6 +154,7 @@ if choice == 'Chondrites':
             #display the plot
             st.plotly_chart(fig, theme='streamlit', use_container_width = True)
 
+            #add explanations
             with st.expander("See explanation"):
 
                 st.markdown("* The ordinary chondrites comprising the H, L and LL groups, also known collectively as the H-L-LL clan, unlike other chondrites, have been observed \

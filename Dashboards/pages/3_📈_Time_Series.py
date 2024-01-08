@@ -4,20 +4,34 @@ import plotly.graph_objects as go
 import plotly.express as px
 import hydralit_components as hc
 
+#Page setup
 st.set_page_config(layout='wide',
                    page_title = "Historical Summaries",
                    page_icon = "📈📈"
                    )
-st.markdown("""
-        <style>
-               .block-container {
-                    padding-top: 1rem;
-                    padding-bottom: 0rem;
-                    padding-left: 5rem;
-                    padding-right: 5rem;
-                }
-        </style>
-        """, unsafe_allow_html=True)
+#Remove blank space
+st.markdown(
+        """
+            <style>
+                .appview-container .main .block-container {{
+                    padding-top: {padding_top}rem;
+                    padding-bottom: {padding_bottom}rem;
+                    }}
+
+            </style>""".format(
+            padding_top=1, padding_bottom=1
+        ),
+        unsafe_allow_html=True,
+    )
+
+#Remove underlining from links
+st.markdown(
+        """
+            <style type="text/css">
+             a {text-decoration:none;}
+            </style>""",
+        unsafe_allow_html=True,
+    )
   
 # define an RGB color
 title_color = (89, 89, 89)

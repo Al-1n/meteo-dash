@@ -5,10 +5,12 @@ import plotly.graph_objs as go
 import numpy as np
 from plotly.validators.scatter.marker import SymbolValidator
 
+#Page setup
 st.set_page_config(layout='wide',
                    page_title = "Type Statistics",
                    page_icon = "📈📈"
                    )
+#Remove blank space
 st.markdown(
         """
             <style>
@@ -20,6 +22,15 @@ st.markdown(
             </style>""".format(
             padding_top=1, padding_bottom=1
         ),
+        unsafe_allow_html=True,
+    )
+
+#Remove underlining from links
+st.markdown(
+        """
+            <style type="text/css">
+             a {text-decoration:none;}
+            </style>""",
         unsafe_allow_html=True,
     )
 

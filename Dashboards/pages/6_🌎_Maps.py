@@ -23,6 +23,15 @@ st.markdown(
         unsafe_allow_html=True,
     )
 
+#Remove underlining from links
+st.markdown(
+        """
+            <style type="text/css">
+             a {text-decoration:none;}
+            </style>""",
+        unsafe_allow_html=True,
+    )
+
 
 #create a function that generates custom KPI style info cards 
 def info_card(title, value, icon):
@@ -173,11 +182,16 @@ if choice == 'Observed Landings':
         st.plotly_chart(fig, use_container_width=True)
 
         #add explanations
-        with st.expander("See explanation"):
+        with st.expander("See explanation", expanded = True):
 
-                    st.markdown("*  \
-                                    .")                                           
-                    st.markdown("* .")
+                    st.markdown("* Move the slider to select a year and display the map of observed impacts for the selected year.")                                           
+                    st.markdown("* The yearly landing locations are sourced from the NASA meteorite landing :green[[dataset](https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh/about_data)] \
+                                based on The Meteoritical Society catalogue of meteorites.", unsafe_allow_html=True)
+                    st.markdown("* No map will be displayed for the years with no catalogued landings and the metric box in the top right corner will \
+                                display a total of zero landings.")
+                    st.markdown("* If the number of markers on the map and the total count displayed in the metric box do not coincide it may be that \
+                                the default zoom level is causing markers that are close to each other to overlap (e.g. for the year 1925). Use the\
+                                zoom in function to identify the overlaping markers.")                   
 
     countries = df_183['country'].unique()
 

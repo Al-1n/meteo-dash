@@ -1,11 +1,13 @@
 import streamlit as st
 from PIL import Image
 
+#Page setup
 st.set_page_config(layout = "wide",
     page_title="Meteo Dash",
     page_icon="☄️"
 )
 
+#Remove blank space
 st.markdown(
         """
             <style>
@@ -17,6 +19,15 @@ st.markdown(
             </style>""".format(
             padding_top=1, padding_bottom=1
         ),
+        unsafe_allow_html=True,
+    )
+
+#Remove underlining from links
+st.markdown(
+        """
+            <style type="text/css">
+             a {text-decoration:none;}
+            </style>""",
         unsafe_allow_html=True,
     )
 
@@ -75,13 +86,13 @@ def create_image_link(column, page_name, image_path):
 
 # Main content layout
 with st.container():
-    create_image_link(col1, "Type_Statistics", image_paths["Type_Statistics"])
-    create_image_link(col2, "Mass_Statistics", image_paths["Mass_Statistics"])
-    create_image_link(col3, "Time_Series", image_paths["Time_Series"])
+    create_image_link(col1, "Type Statistics", image_paths["Type_Statistics"])
+    create_image_link(col2, "Mass Statistics", image_paths["Mass_Statistics"])
+    create_image_link(col3, "Time Series", image_paths["Time_Series"])
     col4.empty()
 
 with st.container():
-    create_image_link(col5, "Flux_Analysis", image_paths["Flux_Analysis"])
-    create_image_link(col6, "World_Data", image_paths["World_Data"])
+    create_image_link(col5, "Flux Analysis", image_paths["Flux_Analysis"])
+    create_image_link(col6, "World Data", image_paths["World_Data"])
     create_image_link(col7, "Maps", image_paths["Maps"])
     col8.empty()

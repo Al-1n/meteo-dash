@@ -7,6 +7,7 @@ st.set_page_config(layout='wide',
                    page_title = "Type Statistics",
                    page_icon = "📈📈"
                    )
+#Remove blank space
 st.markdown(
         """
             <style>
@@ -21,6 +22,14 @@ st.markdown(
         unsafe_allow_html=True,
     )
 
+#Remove underlining from links
+st.markdown(
+        """
+            <style type="text/css">
+             a {text-decoration:none;}
+            </style>""",
+        unsafe_allow_html=True,
+    )
 
 # define an RGB color
 title_color = (126, 126, 126)

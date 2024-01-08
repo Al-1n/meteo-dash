@@ -5,8 +5,10 @@ import plotly.express as px
 import plotly.graph_objects as go
 import scipy.stats
 
+#Page setup
 st.set_page_config(layout="wide")
 
+#Remove blank space
 st.markdown(
         """
             <style>
@@ -18,6 +20,15 @@ st.markdown(
             </style>""".format(
             padding_top=1, padding_bottom=1
         ),
+        unsafe_allow_html=True,
+    )
+
+#Remove underlining from links
+st.markdown(
+        """
+            <style type="text/css">
+             a {text-decoration:none;}
+            </style>""",
         unsafe_allow_html=True,
     )
 

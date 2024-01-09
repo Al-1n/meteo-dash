@@ -179,7 +179,7 @@ if choice == 'Observed Landings':
                     st.markdown("* The fact that there are years with few to no observations it does not indicate \
                                 a decrease of the influx of material from space. For example, while there are no recorded\
                                 meteorite landings for the year 2005, the fireball data from the US Government Sensors\
-                                reveals the highest recorded activity for the same year. For more information choose\
+                                reveals peak activity for the same year. For more information choose\
                                 **Fireball Events** from the sidebar to explore the fireball data.")
 
     countries = df_183['country'].unique()
@@ -309,7 +309,7 @@ elif choice == 'Fireball Events':
                                 made publicaly available through NASA's Center for Near Earth Object Studies\
                                 (:green[[cneos](https://cneos.jpl.nasa.gov/fireballs/)])\
                                 .", unsafe_allow_html=True)
-                    st.markdown("* The frequency of the recorded events has been increasing over the years with 2005\
+                    st.markdown("* The frequency of the recorded events has been increasing over the years with 2015\
                                 having the highest number of events.")
                     with st.container():
 
@@ -332,12 +332,12 @@ elif choice == 'Fireball Events':
                                               title_font_color = 'green',
                                               title_font_size = 16,
                                               title_x = 0.1,
-                                              title_y = 0.8,
+                                              title_y = 0.85,
                                               font=dict(size=16),
                                               xaxis_title='Year',
                                               yaxis_title='Count',
                                               margin=dict(l=0, r=0, b=20, t = 30),
-                                              height = 250,
+                                              height = 256,
                                               #width = 400,
                                               shapes=[go.layout.Shape(
                                                     type='rect',
@@ -357,7 +357,27 @@ elif choice == 'Fireball Events':
 
                             st.plotly_chart(fig, use_container_width = True)
 
-                    st.markdown("* ")
+                    st.markdown("* The much higher density of fireball events compared to the ground observations should not\
+                                automatically lead to the conclusion that there are an enormous amount of unaccounted\
+                                meteorite landings even though it may often be the case.")
+                    st.markdown("* The survivability of meteorites from preatmospheric masses depends on a number of factors such as\
+                                material strength, angle of entry and velocity. While objects with a variety of combinations\
+                                of this factors can produce fireballs, many will only land as micrometeorites and spherules.")
+                    st.markdown("* Furthermore, as the NASA cneos website specifies, the dataset is not a complete list of fireballs\
+                                and includes only some of the brighter events. Other sources such as the Geostationary Lightning\
+                                Mapper (GLM) might show more events but don't cover such an extensive area.")
+                    st.markdown("* Other sources of fireball data such as ground based camera networks go back to the 1960's but also\
+                                do not cover such an extensive area as the USG Sensors and the GLM data.")
+                    st.markdown("* The cneos dataset from USG Sensors has made the headlines as it was the basis for detecting the\
+                                first known interstellar object(IM1) to have crashed into the Earth which led to the expedition by\
+                                the Galileo Project in search for spherules around the impact region.")
+                    st.markdown("* To find IM1 on the maps move the slider to the year 2014 and zoom in on the off the coast region\
+                                on the right side of Papua New Guinea. One of the fireballs in the region has a calculated impact\
+                                energy of 0.11kt. If you identify the same object in the data table on the right, you will notice\
+                                that it had a velocity of 44.8 km/s at an altitude of 18.7 km, which is faster than any other object\
+                                at similar altitudes with most of the velocity in the vertical direction, which makes for an unusual\
+                                angle of entry hinting at its interstellar origin. Congratulations, you detected the impact\
+                                of an object that originated outside the solar system!")
 
     countries = fireball_df['country'].unique()
 
@@ -396,7 +416,8 @@ elif choice == 'Fireball Events':
                     st.markdown("* The country selector above will default to the first entry with non-null values.")                                           
                     st.markdown("* To display data for additional regions or specific events add the coresponding country.")
                     st.markdown("* Country names are included in the hover info displayed on the map.")
-                    st.markdown("* Unclaimed regions such as terra nullis and international waters are jointly labeled as *International*.")
+                    st.markdown("* Unclaimed regions such as terra nullis and international waters are jointly labeled as\
+                                *International*.")
                 
 #____________________________________________________________________________________________________________
 

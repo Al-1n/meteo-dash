@@ -67,27 +67,6 @@ def info_card(title, value, icon):
 @st.cache_data
 def get_data():
     df_183 = pd.read_csv('../Data/df183.csv', index_col = [0])
-##    df_183.rename(columns = {'recclass': 'class', 'reclat': 'latitude', 'reclong': 'longitude'}, inplace = True)
-##    # create a list of our conditions
-##    conditions = [
-##        (df_183['class'].isin(['L6', 'H6', 'LL6', 'CM2', 'OC',
-##                   'L5', 'H4', 'H5-6', 'H3-6','CI1', 
-##                   'CO3.2', 'CK4', 'H', 'L4', 'LL5',
-##                  'H5', 'LL', 'R3.8-6', 'LL4'])),
-##        (df_183['class'].isin(['Howardite', 'Aubrite', 'Eucrite-pmict', 
-##                     'Eucrite-mmict', 'Mesosiderite-A1',
-##                    'Mesosiderite-A3', 'Diogenite', 'Iron, IAB-sLL',
-##                    'Iron, IIIAB', 'Iron, IIF'])),
-##        (df_183['class'] == 'Winonaite'),
-##        (df_183['class'] == 'Stone-uncl'),]
-##
-##    # create a list of the values we want to assign for each condition
-##    values = ['Chondrite', 'Achondrite', 'Primitive Achondrite', 'Stony-unclassified']
-##
-##    # create a new column and use np.select to assign values to it using our lists as arguments
-##    df_183['Type'] = np.select(conditions, values)
-##
-##    df_183 = df_183[df_183["year"] >= 1830]    
 
     fireball_df = pd.read_csv("../Data/fireball_data.csv", index_col = [0])  
   
@@ -184,14 +163,24 @@ if choice == 'Observed Landings':
         #add explanations
         with st.expander("See explanation", expanded = True):
 
-                    st.markdown("* Move the slider to select a year and display the map of observed impacts for the selected year.")                                           
-                    st.markdown("* The yearly landing locations are sourced from the NASA meteorite landing :green[[dataset](https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh/about_data)] \
+                    st.markdown("* Move the slider to select a year and display the map of observed impacts for the \
+                                selected year.")                                           
+                    st.markdown("* The yearly landing locations are sourced from the NASA meteorite landing \
+                                :green[[dataset](https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh/about_data)] \
                                 based on The Meteoritical Society catalogue of meteorites.", unsafe_allow_html=True)
-                    st.markdown("* No map will be displayed for the years with no catalogued landings and the metric box in the top right corner will \
-                                display a total of zero landings.")
-                    st.markdown("* If the number of markers on the map and the total count displayed in the metric box do not coincide it may be that \
-                                the default zoom level is causing markers that are close to each other to overlap (e.g. for the year 1925). Use the\
-                                zoom in function to identify the overlaping markers.")                   
+                    st.markdown("* No map will be displayed for the years with no catalogued landings and the metric box \
+                                in the top right corner will display a total of zero landings (e.g. there are zero \
+                                recorded landings for the year 2005).")
+                    st.markdown("* If the number of markers on the map and the total count displayed in the metric box do \
+                                not coincide it may be that \
+                                the default zoom level is causing markers that are close to each other to overlap \
+                                (e.g. see the map for the year 1925). Use the zoom in function to identify the overlaping \
+                                markers.")
+                    st.markdown("* The fact that there are years with few to no observations it does not indicate \
+                                a decrease of the influx of material from space. For example, while there are no recorded\
+                                meteorite landings for the year 2005, the fireball data from the US Government Sensors\
+                                reveals the highest recorded activity for the same year. For more information choose\
+                                **Fireball Events** from the sidebar to explore the fireball data.")
 
     countries = df_183['country'].unique()
 
@@ -314,14 +303,17 @@ elif choice == 'Fireball Events':
         st.plotly_chart(fig, use_container_width=True)        
 
         #add explanations
-        with st.expander("See explanation"):
-
-                    st.markdown("*  \
-                                    .")                                           
-                    st.markdown("* .")
+        with st.expander("See explanation", expanded = True):
+                                                            
+                    st.markdown("* The fireball data was collected by the United States Department of Defense and \
+                                made publicaly available through NASA's Center for Near Earth Object Studies\
+                                (:green[[cneos](https://cneos.jpl.nasa.gov/fireballs/)])\
+                                .", unsafe_allow_html=True)
+                    st.markdown("* The frequency of the recorded events has been increasing over the years with 2005\
+                                having the highest number of events.")
                     with st.container():
 
-                        col_graph1, col_graph12 = st.columns([5, 30])
+                        col_graph1, col_graph12 = st.columns([34, 1])
 
                         with col_graph1:
                             
@@ -344,16 +336,16 @@ elif choice == 'Fireball Events':
                                               font=dict(size=16),
                                               xaxis_title='Year',
                                               yaxis_title='Count',
-                                              margin=dict(l=20, r=0, b=20, t = 30),
+                                              margin=dict(l=0, r=0, b=20, t = 30),
                                               height = 250,
                                               #width = 400,
                                               shapes=[go.layout.Shape(
                                                     type='rect',
                                                     xref='paper',
                                                     yref='paper',
-                                                    x0=-0.03,
+                                                    x0=-0.05,
                                                     y0=-0.3,
-                                                    x1=1.01,
+                                                    x1=1.0,
                                                     y1=1.02,
                                                     line={'width': 1, 'color': 'rgb(89, 89, 89)'}
                                                     )]
@@ -363,9 +355,9 @@ elif choice == 'Fireball Events':
                             fig.update_xaxes(tickmode='linear', tick0=1830, dtick=10)
                             fig.update_xaxes(tickangle=45)
 
-                            st.plotly_chart(fig, use_container_width = False)
+                            st.plotly_chart(fig, use_container_width = True)
 
-                    
+                    st.markdown("* ")
 
     countries = fireball_df['country'].unique()
 

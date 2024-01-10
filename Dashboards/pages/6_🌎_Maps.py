@@ -364,19 +364,22 @@ elif choice == 'Fireball Events':
                                 material strength, angle of entry and velocity. While objects with a variety of combinations\
                                 of this factors can produce fireballs, many will only land as micrometeorites and spherules.")
                     st.markdown("* Furthermore, as the NASA cneos website specifies, the dataset is not a complete list of fireballs\
-                                and includes only some of the brighter events. Other sources such as the Geostationary Lightning\
-                                Mapper (GLM) might show more events but don't cover such an extensive area.")
+                                and includes only some of the brightest events. Other sources such as the\
+                                :green[[Geostationary Lightning Mapper](https://neo-bolide.ndc.nasa.gov/#/)] (GLM) might show more\
+                                events but don't cover as an extensive an area.", unsafe_allow_html=True)
                     st.markdown("* Other sources of fireball data such as ground based camera networks go back to the 1960's but also\
                                 do not cover such an extensive area as the USG Sensors and the GLM data.")
                     st.markdown("* The cneos dataset from USG Sensors has made the headlines as it was the basis for detecting the\
-                                first known interstellar object(IM1) to have crashed into the Earth which led to the expedition by\
-                                the Galileo Project in search for spherules around the impact region.")
+                                first known interstellar object(:green[[IM1](https://iopscience.iop.org/article/10.3847/1538-4357/ac8eac/pdf)])\
+                                to have crashed into the Earth which led to\
+                                :green[[the expedition](https://avi-loeb.medium.com/the-im1-spherules-from-the-pacific-ocean-have-extrasolar-composition-f025cb03dec6)] by\
+                                :green[[Galileo Project](https://projects.iq.harvard.edu/galileo/)] in search\
+                                for spherules around the impact region.", unsafe_allow_html=True)
                     st.markdown("* To find IM1 on the maps move the slider to the year 2014 and zoom in on the off the coast region\
                                 on the right side of Papua New Guinea. One of the fireballs in the region has a calculated impact\
                                 energy of 0.11kt. If you identify the same object in the data table on the right, you will notice\
                                 that it had a velocity of 44.8 km/s at an altitude of 18.7 km, which is faster than any other object\
-                                at similar altitudes with most of the velocity in the vertical direction, which makes for an unusual\
-                                angle of entry hinting at its interstellar origin. Congratulations, you detected the impact\
+                                at similar altitudes with most of the velocity in the vertical direction. Congratulations, you detected the impact\
                                 of an object that originated outside the solar system!")
 
     countries = fireball_df['country'].unique()

@@ -168,10 +168,10 @@ colorscale1 = generate_colorscale((176, 242, 188), (37, 125, 152), 50, alpha=1)
 colorscale2 = generate_colorscale((226, 114, 91), (217, 206, 193), 50, alpha=1)
 
 # define an RGB color
-title_color = (89, 89, 89)
+title_color = (126, 126, 126)
 
 # write text with the specified color
-st.write(f'<span style="color:rgb{title_color};font-size:36px">Global Insights: Number of Observations across Countries and Regions</span>', unsafe_allow_html=True)
+st.write(f'<span style="color:rgb{(255, 255, 255)};font-size:36px">Global Insights: Number of Observations across Countries and Regions</span>', unsafe_allow_html=True)
 st.write(f'<span style="color:rgb{title_color};font-size:16px">Choose a continent from the sidebar to view analysis</span>', unsafe_allow_html=True)
 
 #Page I --------------------------------------------------------------------
@@ -191,8 +191,8 @@ if select == 'Europe':
             
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>Top Countries with Confirmed Observations in Europe</b>'),
-                title_font_color = 'rgb(89, 89, 89)',
+                title=dict(text='Top Countries with Confirmed Observations in Europe'),
+                title_font_color = 'rgb(126, 126, 126)',
                 xaxis_title='Count',
                 yaxis_title='Country',
                 yaxis=dict(autorange="reversed"),
@@ -214,8 +214,8 @@ if select == 'Europe':
                     
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>European countries sorted by area</b>'),
-                title_font_color = 'rgb(89, 89, 89)',
+                title=dict(text='European countries sorted by area'),
+                title_font_color = 'rgb(126, 126, 126)',
                 xaxis_title='Area(sq Km)',
                 yaxis_title='Country',
                 yaxis=dict(autorange="reversed"),
@@ -256,8 +256,8 @@ if select == 'Europe':
 
         fig.update_layout(
                         {'plot_bgcolor': 'rgba(174, 202, 220, 0.8)'},
-                        title=dict(text='<b>Correlation between country area and number of observations in Europe</b>'),
-                        title_font_color = 'rgb(89, 89, 89)',
+                        title=dict(text='Correlation between country area and number of observations in Europe'),
+                        title_font_color = 'rgb(126, 126, 126)',
                         title_font_size=18,
                         title_x=0.02,
                         xaxis_title='Area(sq Km)',
@@ -278,9 +278,7 @@ if select == 'Europe':
         else:
             f_value = np.inf
 
-        statistical_summaries = {
-            "p-value": p_value,
-            "f-value": f_value,
+        statistical_summaries = {                       
             "r-squared": r_value**2,
             "pearson-r": r_value
         }
@@ -294,7 +292,7 @@ if select == 'Europe':
                 cce = st.columns([60, 15, 25])
 
                 with cce[0]:
-                        st.markdown("* In Europe, a strong positive correlation exists between a country's size and\
+                        st.markdown("* In Europe, a relatively strong positive correlation exists between a country's size and\
                                 the number of observed meteorite falls, with countries having larger areas generally reporting higher frequencies of landings.")
                         st.markdown("")
                         st.dataframe(european_countries, hide_index = True, use_container_width = False)
@@ -328,8 +326,8 @@ elif select == 'Asia':
             
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>Top Countries with Confirmed Observations in Asia</b>'),
-                title_font_color = 'rgb(89, 89, 89)',
+                title=dict(text='Top Countries with Confirmed Observations in Asia'),
+                title_font_color = 'rgb(126, 126, 126)',
                 title_x=0.01,
                 xaxis_title='Count',
                 yaxis_title='Country',
@@ -353,8 +351,8 @@ elif select == 'Asia':
                     
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>Asian countries sorted by area</b>'),
-                title_font_color = 'rgb(89, 89, 89)',
+                title=dict(text='Asian countries sorted by area'),
+                title_font_color = 'rgb(126, 126, 126)',
                 title_x=0.01,
                 xaxis_title='Area(sq Km)',
                 yaxis_title='Country',
@@ -395,8 +393,8 @@ elif select == 'Asia':
 
         fig.update_layout(
                         {'plot_bgcolor': 'rgba(174, 202, 220, 0.8)'},
-                        title=dict(text='<b>Correlation between country area and number of observations in Asia</b>'),
-                        title_font_color = 'rgb(89, 89, 89)',
+                        title=dict(text='Correlation between country area and number of observations in Asia'),
+                        title_font_color = 'rgb(126, 126, 126)',
                         title_font_size=18,
                         title_x=0.02,
                         xaxis_title='Area(sq Km)',
@@ -417,9 +415,7 @@ elif select == 'Asia':
         else:
             f_value = np.inf
 
-        statistical_summaries = {
-            "p-value": p_value,
-            "f-value": f_value,
+        statistical_summaries = {             
             "r-squared": r_value**2,
             "pearson-r": r_value
         }
@@ -469,8 +465,8 @@ elif select == 'North America':
             
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>Top Countries with Confirmed Observations in North America</b>'),
-                title_font_color = 'rgb(89, 89, 89)',
+                title=dict(text='Top Countries with Confirmed Observations in North America'),
+                title_font_color = 'rgb(126, 126, 126)',
                 title_x=0.01,
                 xaxis_title='Count',
                 yaxis_title='Country',
@@ -494,8 +490,8 @@ elif select == 'North America':
                     
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>North American countries sorted by area</b>'),
-                title_font_color = 'rgb(89, 89, 89)',
+                title=dict(text='North American countries sorted by area'),
+                title_font_color = 'rgb(126, 126, 126)',
                 title_x=0.01,
                 xaxis_title='Area(sq Km)',
                 yaxis_title='Country',
@@ -537,8 +533,8 @@ elif select == 'North America':
 
         fig.update_layout(
                         {'plot_bgcolor': 'rgba(174, 202, 220, 0.8)'},
-                        title=dict(text='<b>Correlation between country area and number of observations in North America</b>'),
-                        title_font_color = 'rgb(89, 89, 89)',
+                        title=dict(text='Correlation between country area and number of observations in North America'),
+                        title_font_color = 'rgb(126, 126, 126)',
                         title_font_size=18,
                         title_x=0.02,
                         xaxis_title='Area(sq Km)',
@@ -559,9 +555,7 @@ elif select == 'North America':
         else:
             f_value = np.inf
 
-        statistical_summaries = {
-            "p-value": p_value,
-            "f-value": f_value,
+        statistical_summaries = {            
             "r-squared": r_value**2,
             "pearson-r": r_value
         }
@@ -578,9 +572,10 @@ elif select == 'North America':
                 
                 cce = st.columns([60, 15, 25])
                 with cce[0]:
-                        st.markdown("* There seems to be no correlation between country size and number of observations in North America.")
-                        st.markdown("* One of the reasons for this result is the small number of countries with reported events, which amounts to only 4 out of 23, despite their significant size.")
-                        st.markdown("")
+                        st.markdown("* The correlation strength between country size and number of observations in North America is weak.")
+                        st.markdown("* A significant amount of teritory is represented by the 4 out of 23 countries included but there are still 19 countries with no reported falls.")
+                        st.markdown("* This makes the results difficult to interpret which prompts for further investigations.")
+                        st.markdown(" ")
                         st.dataframe(north_american_countries, hide_index = True)
                         st.markdown("* In this case, population density is clearly a factor in determining the lack of correlation, as Mexico has approximately three times the population \
                                 of Canada. Similar to the situation in Russia, the low population density in Canada leads to a lower frequency of observations, despite its vast territory.")
@@ -608,8 +603,8 @@ elif select == 'Africa':
                 
                 fig.update_layout(
                     {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                    title=dict(text='<b>Top Countries with Confirmed Observations in Africa</b>'),
-                    title_font_color = 'rgb(89, 89, 89)',
+                    title=dict(text='Top Countries with Confirmed Observations in Africa'),
+                    title_font_color = 'rgb(126, 126, 126)',
                     xaxis_title='Count',
                     yaxis_title='Country',
                     yaxis=dict(autorange="reversed"),
@@ -632,8 +627,8 @@ elif select == 'Africa':
                         
                 fig.update_layout(
                     {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                    title=dict(text='<b>African countries sorted by area</b>'),
-                    title_font_color = 'rgb(89, 89, 89)',
+                    title=dict(text='African countries sorted by area'),
+                    title_font_color = 'rgb(126, 126, 126)',
                     xaxis_title='Area(sq Km)',
                     yaxis_title='Country',
                     yaxis=dict(autorange="reversed"),
@@ -674,8 +669,8 @@ elif select == 'Africa':
 
             fig.update_layout(
                             {'plot_bgcolor': 'rgba(174, 202, 220, 0.8)'},
-                            title=dict(text='<b>Correlation between country area and number of observations in Africa</b>'),
-                            title_font_color = 'rgb(89, 89, 89)',
+                            title=dict(text='Correlation between country area and number of observations in Africa'),
+                            title_font_color = 'rgb(126, 126, 126)',
                             title_font_size=18,
                             title_x=0.02,
                             xaxis_title='Area(sq Km)',
@@ -697,9 +692,7 @@ elif select == 'Africa':
             else:
                     f_value = np.inf
 
-            statistical_summaries = {
-                    "p-value": p_value,
-                    "f-value": f_value,
+            statistical_summaries = {                    
                     "r-squared": r_value**2,
                     "pearson-r": r_value
                 }
@@ -749,8 +742,8 @@ elif select == 'South America':
             
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>Top Countries with Confirmed Observations in South America</b>'),
-                title_font_color = 'rgb(89, 89, 89)',
+                title=dict(text='Top Countries with Confirmed Observations in South America'),
+                title_font_color = 'rgb(126, 126, 126)',
                 title_x=0.01,
                 xaxis_title='Count',
                 yaxis_title='Country',
@@ -774,8 +767,8 @@ elif select == 'South America':
                     
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>South American countries sorted by area</b>'),
-                title_font_color = 'rgb(89, 89, 89)',
+                title=dict(text='South American countries sorted by area'),
+                title_font_color = 'rgb(126, 126, 126)',
                 title_x=0.01,
                 xaxis_title='Area(sq Km)',
                 yaxis_title='Country',
@@ -816,8 +809,8 @@ elif select == 'South America':
 
         fig.update_layout(
                         {'plot_bgcolor': 'rgba(174, 202, 220, 0.8)'},
-                        title=dict(text='<b>Correlation between country area and number of observations in South America</b>'),
-                        title_font_color = 'rgb(89, 89, 89)',
+                        title=dict(text='Correlation between country area and number of observations in South America'),
+                        title_font_color = 'rgb(126, 126, 126)',
                         title_font_size=18,
                         title_x=0.02,
                         xaxis_title='Area(sq Km)',
@@ -838,9 +831,7 @@ elif select == 'South America':
         else:
             f_value = np.inf
 
-        statistical_summaries = {
-            "p-value": p_value,
-            "f-value": f_value,
+        statistical_summaries = {            
             "r-squared": r_value**2,
             "pearson-r": r_value
         }
@@ -883,8 +874,8 @@ elif select == 'Oceania':
             
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>Top Countries with Confirmed Observations in Oceania</b>'),
-                title_font_color = 'rgb(89, 89, 89)',
+                title=dict(text='Top Countries with Confirmed Observations in Oceania'),
+                title_font_color = 'rgb(126, 126, 126)',
                 title_x=0.01,
                 xaxis_title='Count',
                 yaxis_title='Country',
@@ -908,8 +899,8 @@ elif select == 'Oceania':
                     
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>Oceanic countries sorted by area</b>'),
-                title_font_color = 'rgb(89, 89, 89)',
+                title=dict(text='Oceanic countries sorted by area'),
+                title_font_color = 'rgb(126, 126, 126)',
                 title_x=0.01,
                 xaxis_title='Area(sq Km)',
                 yaxis_title='Country',
@@ -950,8 +941,8 @@ elif select == 'Oceania':
 
         fig.update_layout(
                         {'plot_bgcolor': 'rgba(174, 202, 220, 0.8)'},
-                        title=dict(text='<b>Correlation between country area and number of observations in Oceania</b>'),
-                        title_font_color = 'rgb(89, 89, 89)',
+                        title=dict(text='Correlation between country area and number of observations in Oceania'),
+                        title_font_color = 'rgb(126, 126, 126)',
                         title_font_size=18,
                         title_x=0.02,
                         xaxis_title='Area(sq Km)',
@@ -972,9 +963,7 @@ elif select == 'Oceania':
         else:
             f_value = np.inf
 
-        statistical_summaries = {
-            "p-value": p_value,
-            "f-value": f_value,
+        statistical_summaries = {            
             "r-squared": r_value**2,
             "pearson-r": r_value
         }
@@ -1085,8 +1074,8 @@ elif select == "Worldwide":
 
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>Number of confirmed observations by continent</b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title=dict(text='Number of confirmed observations by continent'),
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=18,
                 xaxis_title='Count',
                 yaxis_title='Continent',
@@ -1109,8 +1098,8 @@ elif select == "Worldwide":
 
             fig.update_layout(
             {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-            title=dict(text='<b>Top 10 countries with confirmed observations</b>'),
-            title_font_color = 'rgb(89, 89, 89)',
+            title=dict(text='Top 10 countries with confirmed observations'),
+            title_font_color = 'rgb(126, 126, 126)',
             title_font_size = 18, 
             xaxis_title='Count',
             yaxis_title='Country',
@@ -1158,8 +1147,8 @@ elif select == "Worldwide":
 
         fig.update_layout(
                         {'plot_bgcolor': '#aecadc'},
-                        title=dict(text='<b>Worldwide correlation between country area and number of observations</b>'),
-                        title_font_color = 'rgb(89, 89, 89)',
+                        title=dict(text='Worldwide correlation between country area and number of observations'),
+                        title_font_color = 'rgb(126, 126, 126)',
                         title_font_size=18,
                         title_x=0.02,
                         xaxis_title='Area(sq Km)',
@@ -1179,9 +1168,7 @@ elif select == "Worldwide":
         else:
             f_value = np.inf
 
-        statistical_summaries = {
-            "p-value": p_value,
-            "f-value": f_value,
+        statistical_summaries = {            
             "r-squared": r_value**2,
             "pearson-r": r_value
         }

@@ -38,10 +38,10 @@ st.markdown(
 
 
 # define an RGB color
-title_color = (89, 89, 89)
+title_color = (126, 126, 126)
 
 # write text with the specified color
-st.write(f'<span style="color:rgb{title_color};font-size:36px">Understanding the Distribution of Observed and Recovered Meteorite Masses</span>', unsafe_allow_html=True)
+st.write(f'<span style="color:rgb{(255, 255, 255)};font-size:36px">Understanding the Distribution of Observed and Recovered Meteorite Masses</span>', unsafe_allow_html=True)
 st.write(f'<span style="color:rgb{title_color};font-size:16px">Choose a page from the sidebar to view analysis</span>', unsafe_allow_html=True)
 
 
@@ -242,8 +242,8 @@ if choice == 'Overall Distribution':
 
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>ECDF of Meteorite masses for falls observed after 1830</b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title=dict(text='ECDF of Meteorite masses for falls observed after 1830'),
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,
                 xaxis_title='log(mass) (g)',
@@ -275,8 +275,8 @@ if choice == 'Overall Distribution':
                 'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                 height=500,
                 width=500,          
-                title=dict(text='<b>Distribution of recovered meteorite masses</b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title=dict(text='Distribution of recovered meteorite masses'),
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,                              
                 margin=dict(t=35, b=20, l=20, r=20),)
@@ -290,10 +290,7 @@ if choice == 'Overall Distribution':
                 a particular value or less within the given time period (183 years).")
             st.markdown("* The x-axis of the plot above uses a logarithmic scale to facilitate the visualization of the data points.")
             st.markdown("* The logarithmic scale does not convey the actual skewness of the data as it can be seen below.")
-            st.markdown("*  In the non-logarithmic ECDF below it can be clearly seen that most of the values fit almost on a straight vertical line, \
-                        almost up to the 97.5 percentile.")
-            st.markdown("* This suggests that very large mass values are basically outliers and have been much less frequent than the smaller mass values within \
-                        the given time period.")
+            
             st.markdown("")
                         
             with st.container():
@@ -321,8 +318,8 @@ if choice == 'Overall Distribution':
 
                         fig.update_layout(
                             {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                            title=dict(text='<b>ECDF of Meteorite masses for falls observed after 1830</b>'),
-                            title_font_color='rgb(89, 89, 89)',
+                            title=dict(text='ECDF of Meteorite masses for falls observed after 1830'),
+                            title_font_color='rgb(126, 126, 126)',
                             title_font_size=16,
                             title_x = 0.01,
                             xaxis_title='mass (g)',
@@ -353,11 +350,16 @@ if choice == 'Overall Distribution':
                                     
                         #display the plot
                         st.plotly_chart(fig, theme='streamlit', use_container_width = True)
+                        
+            st.markdown("*  In the non-logarithmic ECDF it can be clearly seen that most of the values fit almost on a straight vertical line, \
+                        almost up to the 97.5 percentile.")
+            st.markdown("* This suggests that very large mass values are basically outliers and have been significantly less frequent than the smaller mass values within \
+                        the given time period.")
 
             st.write("""
-                    **Note** The amount of mass that survives a fall is not an indication of the initial meteoric mass or the destructive capacity of an impact. \
+                    **Note:** The amount of mass that survives a fall is not an indication of the initial meteoric mass or the destructive capacity of an impact. \
                     The Sikhote-Alin meteorite has the largest recovered mass from an observed impact yet its estimated entry mass (about 500 tons) was less  than that of the 2013 \
-                    Celyabinsk bolide which had an estimated entry mass of 11000 to 13000 tons but its recovered mass was significantly smaller (at least 500 Kg). Out of the estimated 500 tons \
+                    Celyabinsk bolide which had an estimated entry mass of 11000 to 13000 tons but its recovered mass was significantly smaller (about 1000Kg). Out of the estimated 500 tons \
                     of meteoric mass that entered the atmosphere at Sikhote-Alin at least 23 tons made it to the ground as meteorites. Other factors, such as entry angle, velocity, and type \
                     (and implicitly density) can play an important role in the final fragmentation and the amount of mass that survives :green[<sup>[1](https://iopscience.iop.org/article/10.1088/1757-899X/468/1/012025)</sup>].                           
                          """, unsafe_allow_html=True)                             
@@ -365,11 +367,13 @@ if choice == 'Overall Distribution':
                            
 #Row B
 
-
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
     with st.container():
 
         # write text with the specified color
-        st.write(f'<span style="color:rgb{title_color};font-size:24px">Estimating the probability of recovering a mass within the studied interval (1830-2013)</span>', unsafe_allow_html=True)
+        st.write(f'<span style="color:rgb{(255, 255, 255)};font-size:24px">Estimating the probability of recovering a mass within the studied interval (1830-2013)</span>', unsafe_allow_html=True)
         st.write(f'<span style="color:rgb{title_color};font-size:16px">Move the slider ends to choose a mass range in grams</span>', unsafe_allow_html=True)
                 
 
@@ -408,11 +412,13 @@ if choice == 'Overall Distribution':
             st.markdown("* The large gaps between the very large masses would have made the range selector difficult to use for the lower values if the maximum value was the largest mass.")
             st.markdown("* An additional estimator is included below to explore the distribution of all the masses included in the data.")
             st.markdown("* As the estimator uses a theoretical model, the estimated values might be slightly different than those predicted by the emipirical distribution function above. ")
-
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
     with st.container():
 
         # write text with the specified color
-        st.write(f'<span style="color:rgb{title_color};font-size:24px">Large mass estimator</span>', unsafe_allow_html=True)
+        st.write(f'<span style="color:rgb{(255, 255, 255)};font-size:24px">Large mass estimator</span>', unsafe_allow_html=True)
         st.write(f'<span style="color:rgb{title_color};font-size:16px">Move the slider ends to choose a mass range in grams</span>', unsafe_allow_html=True)
                 
 
@@ -535,7 +541,7 @@ if choice == 'Mass Ranges':
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                 title=dict(text='<b>Meteorite Mass Range: 0.1 - 22 grams (Recovered 1830-2013) </b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,                
                 xaxis_title='Year',
@@ -578,7 +584,7 @@ if choice == 'Mass Ranges':
             fig.update_layout(   
                     {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                     title=dict(text='<b>Distribution of meteorites between 0.1 and 22 grams grouped by type and sorted by frequency </b>'),
-                    title_font_color='rgb(89, 89, 89)',
+                    title_font_color='rgb(126, 126, 126)',
                     title_font_size=16,
                     title_x = 0.01,     
                     xaxis_title='Group',
@@ -622,7 +628,7 @@ if choice == 'Mass Ranges':
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                 title=dict(text='<b>Meteorite Mass Range: 22➝682 grams (Recovered 1830-2013) </b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,     
                 xaxis_title='Year',
@@ -659,7 +665,7 @@ if choice == 'Mass Ranges':
             fig.update_layout(   
                     {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                     title=dict(text='<b>Distribution of meteorites between 22 and 682 grams grouped by type and sorted by frequency </b>'),
-                    title_font_color='rgb(89, 89, 89)',
+                    title_font_color='rgb(126, 126, 126)',
                     title_font_size=16,
                     title_x = 0.01,     
                     xaxis_title='Group',
@@ -700,7 +706,7 @@ if choice == 'Mass Ranges':
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                 title=dict(text='<b>Meteorite Mass Range: 682➝2700 grams (Recovered 1830-2013) </b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,     
                 xaxis_title='Year',
@@ -735,7 +741,7 @@ if choice == 'Mass Ranges':
             fig.update_layout(   
                     {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                     title=dict(text='<b>Distribution of meteorites between 0.1 and 22 grams grouped by type and sorted by frequency </b>'),
-                    title_font_color='rgb(89, 89, 89)',
+                    title_font_color='rgb(126, 126, 126)',
                     title_font_size=16,
                     title_x = 0.01,     
                     xaxis_title='Group',
@@ -776,7 +782,7 @@ if choice == 'Mass Ranges':
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                 title=dict(text='<b>Meteorite Mass Range: 2700➝10322 grams (Recovered 1830-2013) </b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,     
                 xaxis_title='Year',
@@ -811,7 +817,7 @@ if choice == 'Mass Ranges':
             fig.update_layout(   
                     {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                     title=dict(text='<b>Distribution of meteorites between 2700 and 10322 grams grouped by type and sorted by frequency </b>'),
-                    title_font_color='rgb(89, 89, 89)',
+                    title_font_color='rgb(126, 126, 126)',
                     title_font_size=16,
                     title_x = 0.01,     
                     xaxis_title='Group',
@@ -854,7 +860,7 @@ if choice == 'Mass Ranges':
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                 title=dict(text='<b>Meteorite Mass Range: 10322➝212000 grams (Recovered 1830-2013) </b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,     
                 xaxis_title='Year',
@@ -889,7 +895,7 @@ if choice == 'Mass Ranges':
             fig.update_layout(   
                     {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                     title=dict(text='<b>Distribution of meteorites between 10322 and 212000 grams grouped by type and sorted by frequency </b>'),
-                    title_font_color='rgb(89, 89, 89)',
+                    title_font_color='rgb(126, 126, 126)',
                     title_font_size=16,
                     title_x = 0.01,     
                     xaxis_title='Group',
@@ -931,7 +937,7 @@ if choice == 'Mass Ranges':
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                 title=dict(text='<b>Meteorite Mass Range: 212000➝23000000 grams (Recovered 1830-2013) </b>'),
-                title_font_color='rgb(89, 89, 89)',
+                title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,     
                 xaxis_title='Year',
@@ -965,7 +971,7 @@ if choice == 'Mass Ranges':
             fig.update_layout(   
                     {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
                     title=dict(text='<b>Distribution of meteorites between 212000 and 23000000 grams grouped by type and sorted by frequency </b>'),
-                    title_font_color='rgb(89, 89, 89)',
+                    title_font_color='rgb(126, 126, 126)',
                     title_font_size=16,
                     title_x = 0.01,     
                     xaxis_title='Group',

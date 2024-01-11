@@ -35,7 +35,7 @@ st.markdown(
 title_color = (126, 126, 126)
 
 # write text with the specified color
-st.write(f'<span style="color:rgb{title_color};font-size:36px">Classifying Falls: Meteorite Type Analysis</span>', unsafe_allow_html=True)
+st.write(f'<span style="color:rgb{(255, 255, 255)};font-size:36px">Classifying Falls: Meteorite Type Analysis</span>', unsafe_allow_html=True)
 st.write(f'<span style="color:rgb{title_color};font-size:16px">Choose a meteorite type from the sidebar to view analysis</span>', unsafe_allow_html=True)
 
 
@@ -105,6 +105,22 @@ new_achondrite_colors = ['rgb(244, 212, 52)', 'rgb(204, 100, 76)', 'rgb(217, 165
                          'rgb(157, 108, 132)', 'rgb(175, 141, 100)', 'rgb(212, 92, 60)', 'rgb(155, 152, 104)', 'rgb(132, 180, 188)', 
                          'rgb(158, 148, 172)', 'rgb(157, 104, 80)', 'rgb(218, 190, 124)', 'rgb(186, 134, 118)', 'rgb(208, 158, 122)']
 
+additional_colors = ['rgb(145, 52, 19)', 'rgb(186, 87, 29)', 'rgb(182, 68, 116)', 'rgb(217, 134, 78)', 'rgb(108, 156, 156)',
+                         'rgb(178, 163, 155)', 'rgb(173, 149, 131)', 'rgb(164, 173, 188)', 'rgb(221, 164, 98)', 'rgb(132, 124, 164)',
+                         'rgb(205, 182, 135)', 'rgb(229, 147, 148)', 'rgb(184, 158, 133)', 'rgb(204, 100, 76)', 'rgb(218, 190, 124)',
+                         'rgb(132, 184, 212)', 'rgb(114, 135, 152)', 'rgb(128, 163, 164)', 'rgb(157, 108, 132)', 'rgb(199, 162, 96)',
+                         'rgb(132, 156, 180)', 'rgb(148, 133, 121)', 'rgb(193, 146, 111)', 'rgb(153, 154, 44)', 'rgb(143, 144, 148)',
+                         'rgb(204, 182, 98)', 'rgb(100, 125, 109)', 'rgb(192, 168, 149)', 'rgb(169, 159, 31)', 'rgb(113, 127, 138)',
+                         'rgb(234, 149, 83)', 'rgb(149, 157, 162)', 'rgb(129, 84, 76)', 'rgb(132, 180, 188)', 'rgb(199, 110, 44)',
+                         'rgb(155, 124, 107)', 'rgb(196, 140, 174)', 'rgb(199, 155, 34)', 'rgb(214, 133, 98)', 'rgb(212, 92, 60)',
+                         'rgb(155, 152, 104)', 'rgb(121, 164, 194)', 'rgb(189, 127, 15)', 'rgb(217, 165, 152)', 'rgb(215, 112, 47)',
+                         'rgb(122, 112, 108)', 'rgb(174, 66, 17)', 'rgb(224, 169, 144)', 'rgb(182, 95, 86)', 'rgb(175, 141, 100)',
+                         'rgb(189, 91, 64)', 'rgb(166, 108, 27)', 'rgb(196, 125, 94)', 'rgb(200, 165, 140)', 'rgb(205, 115, 98)',
+                         'rgb(173, 80, 53)', 'rgb(229, 111, 96)', 'rgb(98, 108, 148)', 'rgb(98, 107, 125)', 'rgb(131, 123, 115)',
+                         'rgb(244, 212, 52)', 'rgb(239, 163, 122)', 'rgb(84, 140, 178)', 'rgb(177, 175, 182)', 'rgb(157, 104, 80)',
+                         'rgb(204, 140, 122)', 'rgb(208, 158, 122)', 'rgb(187, 112, 126)', 'rgb(230, 176, 13)', 'rgb(172, 121, 93)',
+                         'rgb(201, 136, 4)', 'rgb(186, 134, 118)', 'rgb(142, 104, 40)', 'rgb(216, 139, 118)']
+
 
 #import data
 grouped_by_type = pd.read_csv('../Data/type_percentage.csv')
@@ -131,7 +147,7 @@ if choice == 'Chondrites':
 
         with cc[0]:
             #define custom colors
-            color_discrete_sequence = new_chondrite_colors
+            color_discrete_sequence = additional_colors
 
             fig = px.bar(chondrites_by_month, x="Month", y=["C", "CI", "CK", "CM", "CO", "CR", "CV", "EH", "EL", "H", "H/L", "K", "L", "L/LL", "LL", "R", "UNGR"],
                          color_discrete_sequence = color_discrete_sequence,
@@ -179,7 +195,7 @@ if choice == 'Chondrites':
                         &nbsp;&nbsp;&nbsp;&nbsp; **Note:** The monthly analysis illustrated here does not take into account periodicity. The fact that over the years more sightings accumulate \
                         over certain months does not imply that every single year there will be a higher frequency of observed impacts during the same months. The actual influx rate has its own variation and there are years \
                         when no falls are being observed from the ground level during the same high-accumulation months. Indeed, the most common count for each type of meteorite is one per month. Ground observations are only \
-                        one piece of the puzzle for determining the influx rate of space material on Earth :green[<sup>[2](https://www.lpi.usra.edu/books/MESSII/9021.pdf)</sup>]. For more information follow the link to the \
+                        one piece of the puzzle for determining the influx rate of space material on Earth :green[<sup>[2](https://www.researchgate.net/publication/241238899_Flux_of_Extraterrestrial_Materials)</sup>]. For more information follow the link to the \
                         flux analysis page from the sidebar.
                          """, unsafe_allow_html=True)         
                 st.write("")
@@ -241,12 +257,12 @@ if choice == 'Chondrites':
 
                 st.markdown("* Chondrites are the most common type of meteorite observed falling.:green[] ")                                           
                 st.markdown("* Chondrites originate from undifferentiated asteroids and comets. \
-                            :green[<sup>[1](https://www.lpi.usra.edu/books/MESSII/9014.pdf)&nbsp;[2](https://www.nature.com/articles/s41598-021-82320-2)</sup>]. ", unsafe_allow_html=True)
+                            :green[<sup>[1](https://www.nature.com/articles/s41598-021-82320-2)</sup>]. ", unsafe_allow_html=True)
                 st.markdown('* The classification method used throughout the pages of this app are based on \
                             :green[["Systematics and Evaluation of Meteorite Classification"](https://www.lpi.usra.edu/books/MESSII/9014.pdf)] \
                             by Michael K. Weisberg, Timothy J. McCoy and Alexander N. Krot ')
                 st.markdown("* Some studies might quote different percentage values based on \
-                            the sample data and classification methods used.:green[<sup>[3](https://en.wikipedia.org/wiki/Meteorite_fall_statistics)</sup>]. ", unsafe_allow_html=True)
+                            the sample data and classification methods used.:green[<sup>[2](https://en.wikipedia.org/wiki/Meteorite_fall_statistics)</sup>]. ", unsafe_allow_html=True)
                 st.markdown("")
                            
 #Horizontal line separator            
@@ -256,13 +272,14 @@ if choice == 'Chondrites':
     with st.container():        
                 
         # Create a dictionary that maps the values in the column to colors.
-        color_map = {value: color for value, color in zip(chondrite_groups_sorted['group'].values, chondrite_colors)}
+        color_map = {value: color for value, color in zip(chondrite_groups_sorted['group'].values, achondrite_colors)}
 
         # Create the treemap figure
         fig = px.treemap(chondrite_groups_sorted, 
                          path=[px.Constant('Chondrites'), 'group'], 
                          values='count', 
-                         color='group', 
+                         color='group',
+                         color_discrete_sequence=['rgb(185, 148, 174)'],
                          color_discrete_map = color_map,
                          custom_data = [chondrite_groups_sorted['count'], chondrite_groups_sorted['percentage[%]'], chondrite_groups_sorted['max_mass_grams']],
                          hover_data=["count"]
@@ -685,7 +702,7 @@ elif choice == 'Primitive achondrites':
 
 elif choice == 'Unclassified':
 
-    #Row A
+#Row A
     with st.container():
         cc = st.columns([70, 30], gap = "large")
 
@@ -795,7 +812,7 @@ elif choice == 'Unclassified':
 #Horizontal line separator            
     st.markdown("""<hr style="height:5px;border:none;color:#EEDD6B;background-color:#EEDD6B;" /> """, unsafe_allow_html=True)
     
-    # Row B
+# Row B
     with st.container():        
                 
         # Create a dictionary that maps the values in the column to colors.
@@ -808,7 +825,7 @@ elif choice == 'Unclassified':
                          path=[px.Constant('Unclassified'), 'group'], 
                          values='count', 
                          color='group',
-                         color_discrete_sequence=['rgb(241, 132, 76)'],
+                         color_discrete_sequence=['rgb(196, 76, 92)'],
                          color_discrete_map = color_map,
                          custom_data = [unclassified_groups_sorted['count'], unclassified_groups_sorted['percentage[%]'], unclassified_groups_sorted['max_mass_grams']],
                          hover_data=["count"]

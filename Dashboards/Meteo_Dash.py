@@ -42,18 +42,8 @@ st.write("")
 st.markdown("# Welcome to Meteo Dash!")
 
 st.write(f'<span style="color:rgb{text_color};font-size:18px">Meteorite Impact: A Comprehensive Review of Observed and Recovered Falls between 1830 and 2013</span>', unsafe_allow_html=True)
-st.markdown(
-        '''
-
-
-        Use the links on the left to navigate between dashboards.
-
-
-        '''
-        )
-
-
-
+st.markdown(" ")
+st.markdown(" ")
 # Create columns
 col1, col2, col3, col4 = st.columns([20, 20, 20, 40], gap="small")
 col5, col6, col7, col8 = st.columns([20, 20, 20, 40], gap="small")
@@ -69,7 +59,7 @@ image_paths = {
 }
 
 # Function to create clickable image links with centered captions
-def create_image_link(column, page_name, image_path):
+def create_image_link(column, page_name, image_path, page_caption):
     # Set max_height as a percentage of column height
     max_height_percent = 80
     max_height = f"{max_height_percent}%"
@@ -81,18 +71,18 @@ def create_image_link(column, page_name, image_path):
     )
     
     # Caption as a centered text link with reduced space
-    caption = f'<div style="text-align: center; margin-top: -10px; margin-bottom: 20px;"><a href="{page_name}" target="_self">{page_name}</a></div>'
+    caption = f'<div style="text-align: center; margin-top: -10px; margin-bottom: 20px;"><a href="{page_name}" target="_self">{page_caption}</a></div>'
     column.markdown(caption, unsafe_allow_html=True)
 
 # Main content layout
 with st.container():
-    create_image_link(col1, "Type Statistics", image_paths["Type_Statistics"])
-    create_image_link(col2, "Mass Statistics", image_paths["Mass_Statistics"])
-    create_image_link(col3, "Time Series", image_paths["Time_Series"])
+    create_image_link(col1, "Type_Statistics", image_paths["Type_Statistics"], "Type Statistics")
+    create_image_link(col2, "Mass_Statistics", image_paths["Mass_Statistics"], "Mass Statistics")
+    create_image_link(col3, "Time_Series", image_paths["Time_Series"], "Time Series")
     col4.empty()
 
 with st.container():
-    create_image_link(col5, "Flux Analysis", image_paths["Flux_Analysis"])
-    create_image_link(col6, "World Data", image_paths["World_Data"])
-    create_image_link(col7, "Maps", image_paths["Maps"])
+    create_image_link(col5, "Flux_Analysis", image_paths["Flux_Analysis"], "Flux Analysis")
+    create_image_link(col6, "World_Data", image_paths["World_Data"], "World Data")
+    create_image_link(col7, "Maps", image_paths["Maps"], "Maps")
     col8.empty()

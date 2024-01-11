@@ -36,10 +36,10 @@ st.markdown(
 
 
 # define an RGB color
-title_color = (89, 89, 89)
+title_color = (126,126,126)
 
 # write text with the specified color
-st.write(f'<span style="color:rgb{title_color};font-size:36px">Meteorite Flux Tracker: Analyzing Influx by Month and Year</span>', unsafe_allow_html=True)
+st.write(f'<span style="color:rgb{(255, 255, 255)};font-size:36px">Meteorite Flux Tracker: Analyzing Influx by Month and Year</span>', unsafe_allow_html=True)
 st.write(f'<span style="color:rgb{title_color};font-size:16px">Choose a meteorite type from the sidebar to view analysis</span>', unsafe_allow_html=True)
 
 
@@ -165,8 +165,7 @@ if choice == 'Chondrites':
             x='Year',
             y='month_no',
             z='count',
-            color='Group_x',
-            #symbol='symbol',  # Use the 'symbol' column for symbols
+            color='Group_x',            
             color_discrete_map=color_map,
             size='count',
             size_max=24,
@@ -189,8 +188,8 @@ if choice == 'Chondrites':
          # layout
         fig.update_layout(
                           margin=dict(l=0, r=0, b=0, t=20),
-                          title=dict(text='<b>Chondrite influx by year, month, and group</b>'),
-                          title_font_color = 'rgb(89, 89, 89)',
+                          title=dict(text='Chondrite influx by year, month, and group'),
+                          title_font_color = 'rgb(126, 126, 126)',
                           title_font_size = 16,  
                           scene=dict(
                             xaxis_title='Year',
@@ -256,17 +255,7 @@ if choice == 'Chondrites':
         with st.expander("See explanation"):
 
             st.markdown("* ")                                           
-            st.markdown("* The L chondrites show a higher than average frequency in the months of May, June, and September, and a lower frequency in the months of March and October.")            
-            st.markdown("* The CM chondrites have been related to a possible cometary origin, in particular after the analysis of samples returned by Nasa's Stardust \
-                            mission :green[<sup>[1](https://doi.org/10.1038/s41598-021-82320-2)</sup>].", unsafe_allow_html=True)
-            st.write("")
-            st.write("""
-                    &nbsp;&nbsp;&nbsp;&nbsp; **Note:** The monthly analysis illustrated here does not take into account periodicity. The fact that over the years more sightings accumulate \
-                    over certain months does not imply that every single year there will be a higher frequency of observed impacts during the same months. The actual influx rate has its own variation and there are years \
-                    when no falls are being observed from the ground level during the same high-accumulation months. Indeed, the most common count for each type of meteorite is one per month. Ground observations are only \
-                    one piece of the puzzle for determining the influx rate of space material on Earth :green[<sup>[2](https://www.lpi.usra.edu/books/MESSII/9021.pdf)</sup>]. For more information follow the link to the \
-                    flux analysis page from the sidebar.
-                     """, unsafe_allow_html=True)             
+            
                                                  
 #Horizontal line separator            
     #st.markdown("""<hr style="height:5px;border:none;color:#EEDD6B;background-color:#EEDD6B;" /> """, unsafe_allow_html=True)                
@@ -310,8 +299,7 @@ elif choice == 'Achondrites':
             x='Year',
             y='month_no',
             z='count',
-            color='Group_x',
-            #symbol='symbol',  # Use the 'symbol' column for symbols
+            color='Group_x',            
             color_discrete_map=color_map,
             size='count',
             size_max=24,
@@ -333,8 +321,8 @@ elif choice == 'Achondrites':
          # layout
         fig.update_layout(
                           margin=dict(l=0, r=0, b=0, t=20),
-                          title=dict(text='<b>Achondrite influx by year, month, and group</b>'),
-                          title_font_color = 'rgb(89, 89, 89)',
+                          title=dict(text='Achondrite influx by year, month, and group'),
+                          title_font_color = 'rgb(126, 126, 126)',
                           title_font_size = 16,  
                           scene=dict(
                             xaxis_title='Year',
@@ -400,17 +388,7 @@ elif choice == 'Achondrites':
         with st.expander("See explanation"):
 
             st.markdown("* ")                                           
-            st.markdown("* The L chondrites show a higher than average frequency in the months of May, June, and September, and a lower frequency in the months of March and October.")            
-            st.markdown("* The CM chondrites have been related to a possible cometary origin, in particular after the analysis of samples returned by Nasa's Stardust \
-                            mission :green[<sup>[1](https://doi.org/10.1038/s41598-021-82320-2)</sup>].", unsafe_allow_html=True)
-            st.write("")
-            st.write("""
-                    &nbsp;&nbsp;&nbsp;&nbsp; **Note:** The monthly analysis illustrated here does not take into account periodicity. The fact that over the years more sightings accumulate \
-                    over certain months does not imply that every single year there will be a higher frequency of observed impacts during the same months. The actual influx rate has its own variation and there are years \
-                    when no falls are being observed from the ground level during the same high-accumulation months. Indeed, the most common count for each type of meteorite is one per month. Ground observations are only \
-                    one piece of the puzzle for determining the influx rate of space material on Earth :green[<sup>[2](https://www.lpi.usra.edu/books/MESSII/9021.pdf)</sup>]. For more information follow the link to the \
-                    flux analysis page from the sidebar.
-                     """, unsafe_allow_html=True)      
+            
         
    
 elif choice == 'Primitive achondrites':
@@ -452,8 +430,7 @@ elif choice == 'Primitive achondrites':
             x='Year',
             y='month_no',
             z='count',
-            color='Group_x',
-            #symbol='symbol',  # Use the 'symbol' column for symbols
+            color='Group_x',            
             color_discrete_map=color_map,
             size='count',
             size_max=24,            
@@ -474,8 +451,8 @@ elif choice == 'Primitive achondrites':
         # layout
         fig.update_layout(
                           margin=dict(l=0, r=0, b=0, t=20),
-                          title=dict(text='<b>Primitive achondrite influx by year, month, and group</b>'),
-                          title_font_color = 'rgb(89, 89, 89)',
+                          title=dict(text='Primitive achondrite influx by year, month, and group'),
+                          title_font_color = 'rgb(126,126,126)',
                           title_font_size = 16,  
                           scene=dict(
                             xaxis_title='Year',
@@ -541,17 +518,7 @@ elif choice == 'Primitive achondrites':
         with st.expander("See explanation"):
 
             st.markdown("* ")                                           
-            st.markdown("* The L chondrites show a higher than average frequency in the months of May, June, and September, and a lower frequency in the months of March and October.")            
-            st.markdown("* The CM chondrites have been related to a possible cometary origin, in particular after the analysis of samples returned by Nasa's Stardust \
-                            mission :green[<sup>[1](https://doi.org/10.1038/s41598-021-82320-2)</sup>].", unsafe_allow_html=True)
-            st.write("")
-            st.write("""
-                    &nbsp;&nbsp;&nbsp;&nbsp; **Note:** The monthly analysis illustrated here does not take into account periodicity. The fact that over the years more sightings accumulate \
-                    over certain months does not imply that every single year there will be a higher frequency of observed impacts during the same months. The actual influx rate has its own variation and there are years \
-                    when no falls are being observed from the ground level during the same high-accumulation months. Indeed, the most common count for each type of meteorite is one per month. Ground observations are only \
-                    one piece of the puzzle for determining the influx rate of space material on Earth :green[<sup>[2](https://www.lpi.usra.edu/books/MESSII/9021.pdf)</sup>]. For more information follow the link to the \
-                    flux analysis page from the sidebar.
-                     """, unsafe_allow_html=True)      
+            
     
 elif choice == 'Unclassified':
 
@@ -592,8 +559,7 @@ elif choice == 'Unclassified':
             x='Year',
             y='month_no',
             z='count',
-            color='Group_y',
-            #symbol='symbol',  # Use the 'symbol' column for symbols
+            color='Group_y',            
             color_discrete_map=color_map,
             size='count',
             size_max=24,
@@ -614,8 +580,8 @@ elif choice == 'Unclassified':
         # layout
         fig.update_layout(
                           margin=dict(l=0, r=0, b=0, t=20),
-                          title=dict(text='<b>Influx of unclassified meteorites by year, month, and group</b>'),
-                          title_font_color = 'rgb(89, 89, 89)',
+                          title=dict(text='Influx of unclassified meteorites by year, month, and group'),
+                          title_font_color = 'rgb(126, 126, 126)',
                           title_font_size = 16,  
                           scene=dict(
                             xaxis_title='Year',
@@ -682,14 +648,4 @@ elif choice == 'Unclassified':
         with st.expander("See explanation"):
 
             st.markdown("* ")                                           
-            st.markdown("* The L chondrites show a higher than average frequency in the months of May, June, and September, and a lower frequency in the months of March and October.")            
-            st.markdown("* The CM chondrites have been related to a possible cometary origin, in particular after the analysis of samples returned by Nasa's Stardust \
-                            mission :green[<sup>[1](https://doi.org/10.1038/s41598-021-82320-2)</sup>].", unsafe_allow_html=True)
-            st.write("")
-            st.write("""
-                    &nbsp;&nbsp;&nbsp;&nbsp; **Note:** The monthly analysis illustrated here does not take into account periodicity. The fact that over the years more sightings accumulate \
-                    over certain months does not imply that every single year there will be a higher frequency of observed impacts during the same months. The actual influx rate has its own variation and there are years \
-                    when no falls are being observed from the ground level during the same high-accumulation months. Indeed, the most common count for each type of meteorite is one per month. Ground observations are only \
-                    one piece of the puzzle for determining the influx rate of space material on Earth :green[<sup>[2](https://www.lpi.usra.edu/books/MESSII/9021.pdf)</sup>]. For more information follow the link to the \
-                    flux analysis page from the sidebar.
-                     """, unsafe_allow_html=True)      
+            

@@ -34,7 +34,7 @@ st.markdown(
     )
   
 # define an RGB color
-title_color = (89, 89, 89)
+title_color = (255, 255, 255)
 
 # write text with the specified color
 st.write(f'<span style="color:rgb{title_color};font-size:36px">Observed Meteorite Landings between 1830 and 2013</span>', unsafe_allow_html=True)
@@ -141,8 +141,8 @@ with st.container():
         # set the layout
         fig.update_layout(
             plot_bgcolor="rgba(0, 0, 0, 0)",
-            title=dict(text="<b>Variation in the frequency of observations by decade</b>"),
-            title_font_color="rgb(89, 89, 89)",
+            title=dict(text="Variation in the frequency of observations by decade"),
+            title_font_color="rgb(126, 126, 126)",
             title_font_size=20,
             xaxis_title='Decade',
             yaxis_title='Count',
@@ -166,8 +166,8 @@ with st.container():
                                 ))
 
         # set the title
-        fig.update_layout(title=dict(text='<b style="text-align:center">Variation in the annual frequency of observed events</b>'),
-                          title_font_color = 'rgb(89, 89, 89)',
+        fig.update_layout(title=dict(text='Variation in the annual frequency of observed events'),
+                          title_font_color = 'rgb(126, 126, 126)',
                           title_font_size = 20,
                           font=dict(size=16),
                           xaxis_title='Year',

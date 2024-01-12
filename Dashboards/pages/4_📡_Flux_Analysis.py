@@ -176,8 +176,7 @@ if choice == 'Chondrites':
 
         fig.update_traces(hoverinfo = "text",
                           opacity = 0.8,
-                          hovertemplate = "<br>".join([
-                                     "Group: %{customdata[0]}",
+                          hovertemplate = "<br>".join([                                     
                                      "Year: %{customdata[1]}",
                                      "Month: %{customdata[2]}",
                                      "Count: %{customdata[3]}"]),
@@ -254,7 +253,10 @@ if choice == 'Chondrites':
 
         with st.expander("See explanation"):
 
-            st.markdown("* ")                                           
+            st.markdown("* The main insight from the 3D visualization of the recorded landings between 1830 and 2000 is that it\
+                            is considerably more likely to have single events rather than multiple events each month. ")
+            st.markdown("* The maximum number of recorded landings per month is the rare case of 3 observed events, which case \
+                            occured only 4 times within the given period.")
             
                                                  
 #Horizontal line separator            

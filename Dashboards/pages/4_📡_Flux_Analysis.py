@@ -427,7 +427,7 @@ elif choice == 'Achondrites':
             st.markdown("* The dominance of the HED (howardite, eucrite, diogenite) groups is clearly visible with instances\
                             spread almost through every month of the year but with frequent gaps between years.")
             st.markdown("* There are three martian achondrites easily identified by color and labeld as SNC (shergolite, nakhlite, chassignite).")
-            st.markdown("* The iron achondrite Sikhote-Alin, the largest meteoric mass recovered so far, can be identified by month (February, 1947)\
+            st.markdown("* The iron achondrite Sikhote-Alin, the largest meteoric mass recovered from a fall, can be identified by month (February, 1947)\
                             and group label (IIAB), as well as the frequency of other IIAB meteorites by marker color.")
             
             
@@ -563,9 +563,13 @@ elif choice == 'Primitive achondrites':
         #display the plot
         st.plotly_chart(fig, theme=None, use_container_width = True)
 
-        with st.expander("See explanation"):
+        with st.expander("See explanation", expanded = True):
 
-            st.markdown("* ")                                           
+            st.markdown("* The primitive achondrites are relatively sporadic with frequency of 1 per month per year\
+                            and gaps between observations that can span two decades at a time.")
+            st.markdown("* The earliest fall for the given period was observed in 1868 and the latest in 1990.")
+            st.markdown("* The distribution of primitive achondrites is dominated by urelites followed by irons IAB.")
+            st.markdown("* There are one of each acapulcoite, lodranite, winonaite, iron IIICD and two ungrouped meteorites.")
 
 
 
@@ -700,7 +704,10 @@ elif choice == 'Unclassified':
         #display the plot
         st.plotly_chart(fig, theme='streamlit', use_container_width = True)
 
-        with st.expander("See explanation"):
+        with st.expander("See explanation", expanded = True):
 
-            st.markdown("* ")                                           
+            st.markdown("* The unclassified meteorites are categorize as stones and irons with only one completely unclassified fall.")
+            st.markdown("* The dominant frequency is 1 per month per year with some large gaps between the years of observation and \
+                            one instance of two observations that occured in the same month (June, 1944).")
+            st.markdown("* The first observed fall of an unclassified meteorite occured in September, 1843, with the last recorded in June, 1993.")
             

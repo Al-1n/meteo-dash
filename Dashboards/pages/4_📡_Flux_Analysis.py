@@ -417,9 +417,19 @@ elif choice == 'Achondrites':
         #display the plot
         st.plotly_chart(fig, theme='streamlit', use_container_width = True)
 
-        with st.expander("See explanation"):
+        with st.expander("See explanation", expanded = True):
 
-            st.markdown("* ")                                           
+            st.markdown("* Similar to the chondrites, the majority of the achondrites have arrived at the rate of 1 per\
+                            month per year with only one instance of two howardites arriving during the same month (April, 1942).")            
+            st.markdown("* The group markers are differentiated by color. To study a particular group it can be isolated\
+                            on the 3d plot by clicking on the marker coresponding to the group in the legend. To restore\
+                            all the events click again on any marker in the legend.")
+            st.markdown("* The dominance of the HED (howardite, eucrite, diogenite) groups is clearly visible with instances\
+                            spread almost through every month of the year but with frequent gaps between years.")
+            st.markdown("* There are three martian achondrites easily identified by color and labeld as SNC (shergolite, nakhlite, chassignite).")
+            st.markdown("* The iron achondrite Sikhote-Alin, the largest meteoric mass recovered so far, can be identified by month (February, 1947)\
+                            and group label (IIAB), as well as the frequency of other IIAB meteorites by marker color.")
+            
             
 
 

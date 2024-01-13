@@ -1,3 +1,14 @@
+#################################
+
+      # Meteo Dash
+
+     ## Time Series
+
+    ### (c) Alin Airinei, 2024
+
+#################################
+
+#Import required libraries
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
@@ -7,7 +18,7 @@ import hydralit_components as hc
 #Page setup
 st.set_page_config(layout='wide',
                    page_title = "Historical Summaries",
-                   page_icon = "📈📈"
+                   page_icon = "📈"
                    )
 #Remove blank space
 st.markdown(
@@ -33,13 +44,13 @@ st.markdown(
         unsafe_allow_html=True,
     )
   
-# define an RGB color
+# Define an RGB color 
 title_color = (255, 255, 255)
 
-# write text with the specified color
+# Write text with the specified style and color
 st.write(f'<span style="color:rgb{title_color};font-size:36px">Observed Meteorite Landings between 1830 and 2013</span>', unsafe_allow_html=True)
 
-#create a function that generates custom KPI style info cards 
+#Create a function that generates custom KPI style info cards 
 def info_card(title, value, icon):
     wch_colour_box = (239, 248, 247)
     wch_colour_font = (0,0,0)
@@ -138,7 +149,7 @@ with st.container():
             )
         )
 
-        # set the layout
+        # Set the layout
         fig.update_layout(
             plot_bgcolor="rgba(0, 0, 0, 0)",
             title=dict(text="Variation in the frequency of observations by decade"),

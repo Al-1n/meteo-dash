@@ -1,3 +1,14 @@
+#################################
+
+      # Meteo Dash
+
+     ## World Data
+
+    ### (c) Alin Airinei, 2024
+
+#################################
+
+#Import the required libraries
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -6,7 +17,9 @@ import plotly.graph_objects as go
 import scipy.stats
 
 #Page setup
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide",
+                   page_title = "World Data",
+                   page_icon = "🗺️")
 
 #Remove blank space
 st.markdown(
@@ -167,10 +180,10 @@ colorscale0 = px.colors.sequential.Tealgrn
 colorscale1 = generate_colorscale((176, 242, 188), (37, 125, 152), 50, alpha=1)
 colorscale2 = generate_colorscale((226, 114, 91), (217, 206, 193), 50, alpha=1)
 
-# define an RGB color
+# Define an RGB color (for subtitles)
 title_color = (126, 126, 126)
 
-# write text with the specified color
+# Write text with the specified style and color
 st.write(f'<span style="color:rgb{(255, 255, 255)};font-size:36px">Global Insights: Number of Observations across Countries and Regions</span>', unsafe_allow_html=True)
 st.write(f'<span style="color:rgb{title_color};font-size:16px">Choose a continent from the sidebar to view analysis</span>', unsafe_allow_html=True)
 

@@ -1,11 +1,23 @@
+#################################
+
+      # Meteo Dash
+
+     ## Type Statistics
+
+    ### (c) Alin Airinei, 2024
+
+#################################
+
+#Import the required libraries
 import pandas as pd
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objs as go
 
+#Page setup
 st.set_page_config(layout='wide',
                    page_title = "Type Statistics",
-                   page_icon = "📈📈"
+                   page_icon = "📊"
                    )
 #Remove blank space
 st.markdown(
@@ -31,7 +43,7 @@ st.markdown(
         unsafe_allow_html=True,
     )
 
-# define an RGB color
+# Define an RGB color (for subtitles)
 title_color = (126, 126, 126)
 
 # write text with the specified color

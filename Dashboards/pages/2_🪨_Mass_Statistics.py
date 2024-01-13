@@ -1,3 +1,14 @@
+#################################
+
+      # Meteo Dash
+
+     ## Mass Statistics
+
+    ### (c) Alin Airinei, 2024
+
+#################################
+
+#Import required libraries
 import pandas as pd
 import numpy as np
 import streamlit as st
@@ -8,8 +19,8 @@ from scipy.stats import lognorm
 
 #Page setup
 st.set_page_config(layout='wide',
-                   page_title = "Type Statistics",
-                   page_icon = "📈📈"
+                   page_title = "Mass Statistics",
+                   page_icon = "🪨"
                    )
 
 #Remove blank space
@@ -37,18 +48,18 @@ st.markdown(
     )
 
 
-# define an RGB color
+# Define an RGB color (for subtitles)
 title_color = (126, 126, 126)
 
-# write text with the specified color
+# Write text with the specified style and color
 st.write(f'<span style="color:rgb{(255, 255, 255)};font-size:36px">Understanding the Distribution of Observed and Recovered Meteorite Masses</span>', unsafe_allow_html=True)
 st.write(f'<span style="color:rgb{title_color};font-size:16px">Choose a page from the sidebar to view analysis</span>', unsafe_allow_html=True)
 
 
-#import data
+#Import data
 df = pd.read_csv('../Data/fell_df_known_mass_after_1830.csv', index_col = [0])
 
-#split into quantiles based on percentiles
+#Split the data into quantiles based on percentiles
 bin_labels = ['1st_quantile', '2nd_quantile', '3rd_quantile', '4th_quantile', '5th_quantile', '6th_quantile']
 
 df['range label'] = pd.qcut(df['mass (g)'],
@@ -57,7 +68,7 @@ df['range label'] = pd.qcut(df['mass (g)'],
 df['mass range'] = pd.qcut(df['mass (g)'],
                               q=[0, .025, .25, .50, .75, 0.975, 1])
 
-#create subsets for each mass category
+#Create subsets for each mass category
 mass_cat1 = df[df["range label"] == "1st_quantile"]
 mass_cat2 = df[df["range label"] == "2nd_quantile"]
 mass_cat3 = df[df["range label"] == "3rd_quantile"]
@@ -182,7 +193,7 @@ cat6_grouped_by_type_and_group['percentage[%]'] = np.around(100 * cat6_grouped_b
 cat6_grouped_by_type_and_group = cat6_grouped_by_type_and_group.sort_values(by = "percentage[%]", ascending = False).reset_index(drop = True)
 
 
-#plot the ecdf for the mass column
+#Plot the ECDF for the mass field
 
 #Function to generate the sorted data for ECDF
 def ecdf(data):
@@ -210,7 +221,7 @@ percentiles = np.array([2.5, 25, 50, 75, 97.5])
 #Compute percentiles
 mass_perc = np.percentile(mass_array, percentiles)
             
-#sidebar
+#Sidebar
 st.sidebar.subheader('Meteorite falls by mass')
 choice = st.sidebar.selectbox('Choose Dashboard', ('Overall Distribution', 'Mass Ranges'), index = 0)
         

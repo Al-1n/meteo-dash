@@ -1,3 +1,14 @@
+#################################
+
+      # Meteo Dash
+
+     ## Maps
+
+    ### (c) Alin Airinei, 2024
+
+#################################
+
+#Import the required libraries
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -6,7 +17,9 @@ import numpy as np
 
 ##Page setup
 #Set layout
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide",
+                   page_title = "Maps",
+                   page_icon = "🌎")
 
 #Remove blank space
 st.markdown(
@@ -33,7 +46,7 @@ st.markdown(
     )
 
 
-#create a function that generates custom KPI style info cards 
+#Create a function that generates custom KPI style info cards 
 def info_card(title, value, icon):
     wch_colour_box = (239, 248, 247)
     wch_colour_font = (0,0,0)
@@ -75,9 +88,14 @@ def get_data():
 df_183, fireball_df = get_data()
 
 
-#sidebar map selector
+#Define the sidebar map selector
 st.sidebar.subheader('Meteorite and Fireball Maps')
 choice = st.sidebar.selectbox('Choose map', ('Observed Landings', 'Fireball Events'), index = 0)
+
+
+                                        ### SECTION I ###
+
+#------------------------------------------------------------------------------------------------------------
 
 ###########################
    # Observed Landings #
@@ -221,7 +239,9 @@ if choice == 'Observed Landings':
                     st.markdown("* Country names are included in the hover info displayed on the map.")
                     
 
+                                        ### SECTION II ###
 
+#---------------------------------------------------------------------------------------------------------------------------
 
 ###########################
     # Fireball Maps #
@@ -425,8 +445,10 @@ elif choice == 'Fireball Events':
                     st.markdown("* Country names are included in the hover info displayed on the map.")
                     st.markdown("* Unclaimed regions such as terra nullis and international waters are jointly labeled as\
                                 *International*.")
+
+                                        ### ADDITIONAL COMPONENTS ###
                 
-#____________________________________________________________________________________________________________
+#---------------------------------------------------------------------------------------------------------------------------
 
 #DEFINE A SIDEBAR MASS UNIT CONVERTER
 

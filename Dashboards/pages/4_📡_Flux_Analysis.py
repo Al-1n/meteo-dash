@@ -1,3 +1,15 @@
+#################################
+
+      # Meteo Dash
+
+     ## Flux Analysis
+
+    ### (c) Alin Airinei, 2024
+
+#################################
+
+
+#Import the required libraries
 import pandas as pd
 import streamlit as st
 import plotly.express as px
@@ -7,8 +19,8 @@ from plotly.validators.scatter.marker import SymbolValidator
 
 #Page setup
 st.set_page_config(layout='wide',
-                   page_title = "Type Statistics",
-                   page_icon = "📈📈"
+                   page_title = "Flux Analysis",
+                   page_icon = "📡"
                    )
 #Remove blank space
 st.markdown(
@@ -35,14 +47,16 @@ st.markdown(
     )
 
 
-# define an RGB color
+# Define an RGB color (for sutitles)
 title_color = (126,126,126)
 
-# write text with the specified color
+# Write text with the specified styles and colors
 st.write(f'<span style="color:rgb{(255, 255, 255)};font-size:36px">Meteorite Flux Tracker: Analyzing Influx by Month and Year</span>', unsafe_allow_html=True)
 st.write(f'<span style="color:rgb{title_color};font-size:16px">Choose a meteorite type from the sidebar to view analysis</span>', unsafe_allow_html=True)
 
 
+
+#Define the color palettes
 chondrite_colors = ['rgb(122, 112, 108)', 'rgb(189, 91, 64)', 'rgb(199, 155, 34)', 'rgb(184, 158, 133)', 'rgb(157, 108, 132)', 
                     'rgb(166, 108, 27)', 'rgb(172, 121, 93)', 'rgb(129, 84, 76)', 'rgb(234, 149, 83)', 'rgb(173, 149, 131)', 
                     'rgb(214, 133, 98)', 'rgb(157, 104, 80)', 'rgb(155, 124, 107)', 'rgb(98, 108, 148)', 'rgb(100, 125, 109)', 
@@ -110,7 +124,7 @@ new_achondrite_colors = ['rgb(244, 212, 52)', 'rgb(204, 100, 76)', 'rgb(217, 165
                          'rgb(158, 148, 172)', 'rgb(157, 104, 80)', 'rgb(218, 190, 124)', 'rgb(186, 134, 118)', 'rgb(208, 158, 122)']
 
 
-#import data
+#Import data
 grouped_by_type = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/type_percentage.csv')
 chondrite_groups_sorted = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/chondrite_groups_sorted.csv')
 achondrite_groups_sorted = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/achondrite_groups_sorted.csv')
@@ -122,9 +136,13 @@ primitives_by_mgy = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/p
 unclassified_by_mgy = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/unclassified_by_mgy.csv')
 
 
-#sidebar
+#Define the sidebar selector
 st.sidebar.subheader('Meteorite flux by type')
 choice = st.sidebar.selectbox('Choose meteorite type', ('Chondrites', 'Achondrites', 'Primitive achondrites', 'Unclassified'), index = 0)
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------                                                
+
+##SECTION 1: CHONDRITES 
         
 if choice == 'Chondrites':
 
@@ -165,17 +183,17 @@ if choice == 'Chondrites':
             x='Year',
             y='month_no',
             z='count',
-            color='Group_x',            
+            color='Group_x',
+            labels = {"Group_x": "Group"},
             color_discrete_map=color_map,
             size='count',
-            size_max=24,
-            opacity=1,
+            size_max=24,            
             custom_data=['Group_x', 'Year', 'Month', 'count'],
         )
 
 
         fig.update_traces(hoverinfo = "text",
-                          opacity = 0.8,
+                          opacity = 1,
                           hovertemplate = "<br>".join([                                     
                                      "Year: %{customdata[1]}",
                                      "Month: %{customdata[2]}",
@@ -186,7 +204,7 @@ if choice == 'Chondrites':
 
          # layout
         fig.update_layout(
-                          margin=dict(l=0, r=0, b=0, t=20),
+                          margin=dict(l=0, r=0, b=0, t=50),
                           title=dict(text='Chondrite influx by year, month, and group'),
                           title_font_color = 'rgb(126, 126, 126)',
                           title_font_size = 16,  
@@ -231,8 +249,8 @@ if choice == 'Chondrites':
                                 dtick=1,  # Set the tick interval to 1 (show only whole numbers)
                                 range=[0, chondrites_by_mgy['count'].max()],  # Set the minimum value to 0
                                 ),),
-                          height = 900,
-                          width = 1300,
+                          height = 750,
+                          width = 750,
                           legend=dict(
                               itemsizing='constant',  # Use a constant item size for the legend markers
                               itemclick='toggleothers',  # Enable toggle behavior on clicking the legend items
@@ -242,8 +260,10 @@ if choice == 'Chondrites':
                 
                             ),
                           scene_camera=dict(
-                              eye=dict(x=2, y=2, z=0.4),
-                              center=dict(x=0, y=0, z=-0.2)),
+                              eye=dict(x=2, y=2, z=0.7),
+                              center=dict(x=-0.9, y=-0.7, z=-0.6)),
+                          
+                          scene_aspectratio=dict(x = 1.3, y = 1.3, z = 1.3),
                           
                         )         
         
@@ -251,16 +271,24 @@ if choice == 'Chondrites':
         #display the plot
         st.plotly_chart(fig, theme='streamlit', use_container_width = True)
 
-        with st.expander("See explanation"):
+        with st.expander("See explanation", expanded = True):
 
-            st.markdown("* The main insight from the 3D visualization of the recorded landings between 1830 and 2000 is that it\
-                            is considerably more likely to have single events rather than multiple events each month. ")
-            st.markdown("* The maximum number of recorded landings per month is the rare case of 3 observed events, which case \
-                            occured only 4 times within the given period.")
+            st.markdown("* The main insight from the 3D visualization of the recorded landings between 1830 and 2000 is\
+                            that it is considerably more likely to have single events rather than multiple events each month.")
+            st.markdown("* The maximum number of recorded landings per month is represented by the rare case of 3 observed\
+                            events per month. Instances of 3 events per month occured only 4 times within the given period.")
+            st.markdown("* The group markers are differentiated by color. To study a particular group it can be isolated\
+                            on the 3d plot by clicking on the marker coresponding to the group in the legend. To restore\
+                            all the events click again on any marker in the legend.")
+            st.markdown("* Meteorites in the H, L, and LL groups dominate all frequency levels, and are the only groups to\
+                            populate the leves of 2 and 3 landings per month. This could either hint at a common origin or\
+                            simply be a characteristic of the general distribution of all groups")
+
+
             
-                                                 
-#Horizontal line separator            
-    #st.markdown("""<hr style="height:5px;border:none;color:#EEDD6B;background-color:#EEDD6B;" /> """, unsafe_allow_html=True)                
+#----------------------------------------------------------------------------------------------------------------------                                                
+
+##SECTION 2: ACHONDRITES                
       
 elif choice == 'Achondrites':
 
@@ -301,7 +329,8 @@ elif choice == 'Achondrites':
             x='Year',
             y='month_no',
             z='count',
-            color='Group_x',            
+            color='Group_x',
+            labels = {"Group_x" : "Group"},
             color_discrete_map=color_map,
             size='count',
             size_max=24,
@@ -312,8 +341,7 @@ elif choice == 'Achondrites':
 
         fig.update_traces(hoverinfo = "text",
                           opacity = 0.8,
-                          hovertemplate = "<br>".join([
-                                     "Group: %{customdata[0]}",
+                          hovertemplate = "<br>".join([                                     
                                      "Year: %{customdata[1]}",
                                      "Month: %{customdata[2]}",
                                      "Count: %{customdata[3]}"]),
@@ -367,8 +395,8 @@ elif choice == 'Achondrites':
                                 dtick=1,  # Set the tick interval to 1 (show only whole numbers)
                                 range=[0, achondrites_by_mgy['count'].max()],  # Set the minimum value to 0
                                 ),),
-                          height = 900,
-                          width = 1300,
+                          height = 750,
+                          width = 750,
                           legend=dict(
                               itemsizing='constant',  # Use a constant item size for the legend markers
                               itemclick='toggleothers',  # Enable toggle behavior on clicking the legend items
@@ -378,8 +406,10 @@ elif choice == 'Achondrites':
                 
                             ),
                           scene_camera=dict(
-                              eye=dict(x=2, y=2, z=0.4),
-                              center=dict(x=0, y=0, z=-0.2)),
+                              eye=dict(x=2, y=2, z=0.7),
+                              center=dict(x=-0.9, y=-0.7, z=-0.6)),
+                          
+                          scene_aspectratio=dict(x = 1.3, y = 1.3, z = 1.3),
                           
                         )        
         
@@ -391,7 +421,11 @@ elif choice == 'Achondrites':
 
             st.markdown("* ")                                           
             
-        
+
+
+#---------------------------------------------------------------------------------------------------------------------                                                
+
+##SECTION 3: PRIMITIVE ACHONDRITES         
    
 elif choice == 'Primitive achondrites':
 
@@ -432,7 +466,8 @@ elif choice == 'Primitive achondrites':
             x='Year',
             y='month_no',
             z='count',
-            color='Group_x',            
+            color='Group_x',
+            labels = {"Group_x": "Group"},
             color_discrete_map=color_map,
             size='count',
             size_max=24,            
@@ -442,8 +477,7 @@ elif choice == 'Primitive achondrites':
 
         fig.update_traces(hoverinfo = "text",
                           opacity = 1,
-                          hovertemplate = "<br>".join([
-                                     "Group: %{customdata[0]}",
+                          hovertemplate = "<br>".join([                                     
                                      "Year: %{customdata[1]}",
                                      "Month: %{customdata[2]}",
                                      "Count: %{customdata[3]}"]),
@@ -497,8 +531,8 @@ elif choice == 'Primitive achondrites':
                                 dtick=1,  # Set the tick interval to 1 (show only whole numbers)
                                 range=[0, 2],  # Set the minimum value to 0
                                 ),),
-                          height = 900,
-                          width = 1300,
+                          height = 750,
+                          width = 750,
                           legend=dict(
                               itemsizing='constant',  # Use a constant item size for the legend markers
                               itemclick='toggleothers',  # Enable toggle behavior on clicking the legend items
@@ -508,8 +542,10 @@ elif choice == 'Primitive achondrites':
                 
                             ),
                           scene_camera=dict(
-                              eye=dict(x=2, y=2, z=0.4),
-                              center=dict(x=0, y=0, z=-0.2)),
+                              eye=dict(x=2, y=2, z=0.7),
+                              center=dict(x=-0.9, y=-0.7, z=-0.6)),
+                          
+                          scene_aspectratio=dict(x = 1.3, y = 1.3, z = 1.3),
                           
                         )                  
              
@@ -520,8 +556,13 @@ elif choice == 'Primitive achondrites':
         with st.expander("See explanation"):
 
             st.markdown("* ")                                           
-            
-    
+
+
+
+#-----------------------------------------------------------------------------------------------------------------------                                                
+
+##SECTION 4: UNCLASSIFIED METEORITES 
+           
 elif choice == 'Unclassified':
 
     #Row A
@@ -561,7 +602,8 @@ elif choice == 'Unclassified':
             x='Year',
             y='month_no',
             z='count',
-            color='Group_y',            
+            color='Group_y',
+            labels = {"Group_y" : "Group"},
             color_discrete_map=color_map,
             size='count',
             size_max=24,
@@ -572,8 +614,7 @@ elif choice == 'Unclassified':
 
         fig.update_traces(hoverinfo = "text",
                           opacity = 0.8,
-                          hovertemplate = "<br>".join([
-                                     "Group: %{customdata[0]}",
+                          hovertemplate = "<br>".join([                                     
                                      "Year: %{customdata[1]}",
                                      "Month: %{customdata[2]}",
                                      "Count: %{customdata[3]}"]),
@@ -626,8 +667,8 @@ elif choice == 'Unclassified':
                                 dtick=1,  # Set the tick interval to 1 (show only whole numbers)
                                 range=[0, unclassified_by_mgy['count'].max()],  # Set the minimum value to 0
                                 ),),
-                          height = 900,
-                          width = 1300,
+                          height = 750,
+                          width = 750,
                           legend=dict(
                               itemsizing='constant',  # Use a constant item size for the legend markers
                               itemclick='toggleothers',  # Enable toggle behavior on clicking the legend items
@@ -637,8 +678,10 @@ elif choice == 'Unclassified':
                 
                             ),
                           scene_camera=dict(
-                              eye=dict(x=2, y=2, z=0.4),
-                              center=dict(x=0, y=0, z=-0.2)),
+                              eye=dict(x=2, y=2, z=0.7),
+                              center=dict(x=-0.9, y=-0.7, z=-0.6)),
+                          
+                          scene_aspectratio=dict(x = 1.3, y = 1.3, z = 1.3),
                           
                         )         
         

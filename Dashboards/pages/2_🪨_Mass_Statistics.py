@@ -567,13 +567,15 @@ if choice == 'Mass Ranges':
         with st.expander("See explanation"):
             st.markdown("* The mass is plotted on a logarithmic scale to facilitate the visualization of small masses (1 gram or less).")                                           
             st.markdown("* 14.8% of meteorites in this range are less than 1 gram and about 52% are less than 10 grams.")
-            st.markdown("* There are big gaps ranging from 1 to 3 decades at a time for recoveries of meteorites in this range.")            
+            st.markdown("* There are big gaps, ranging from 1 to 3 decades, between recoveries of meteorites in this range.")            
             st.write('''
-                    &nbsp;&nbsp;&nbsp;&nbsp; Meteoroids do not need to have a high pre-atmospheric entry mass to produce an observable luminous meteor or fireball. A high velocity small meteoroid can produce a bright flash. \
-                    :green[<sup>[1](https://www.aanda.org/articles/aa/full_html/2021/06/aa40204-20/aa40204-20.html)</sup>] \
-                    :green[<sup>[2](https://spiral.imperial.ac.uk/bitstream/10044/1/1047/1/Survivability%20of%20meteorite%20projectiles.pdf)</sup>]. \
+                    &nbsp;&nbsp;&nbsp;&nbsp; Meteoroids do not need to have a high pre-atmospheric entry mass to produce an observable luminous meteor or fireball. A high velocity small meteoroid can produce a bright flash.\                    
                     But the probability that a small entry mass will be both observed and recovered on the ground in the form of a meteorite is small. As such, it may be safe to assume that \
-                    meteorites in the smallest range are most likely fragments of larger impactors. 
+                    meteorites in the smallest range are most likely fragments of larger impactors. Actually, when comparing the few matching events between the meteorite data and the fireball data\
+                    a tendency of the recovered mass to increase with the impact energy can be observed but even some of the events with weaker energies have\
+                    returned considerable fragments, that could produce damage if they hit populated areas. The survivability of an impactor depends on velocity,\
+                    material strength and angle of atmospheric entry :green[<sup>[1](https://www.aanda.org/articles/aa/full_html/2021/06/aa40204-20/aa40204-20.html)</sup>] \
+                    :green[<sup>[  2](https://spiral.imperial.ac.uk/bitstream/10044/1/1047/1/Survivability%20of%20meteorite%20projectiles.pdf)</sup>].  
                     ''', unsafe_allow_html=True)
             
     #ROW B
@@ -616,7 +618,7 @@ if choice == 'Mass Ranges':
             
         with st.expander("See explanation"):
             st.markdown("* The general predominance of chondrites is well preserved and prominent at this mass range, with the H5 group topping the frequency list, followed by L5 and L6 chondrites.")
-            st.markdown("* There are two achondrites and two unclassified meteorites in this group.")
+            st.markdown("* There are only two achondrites and two unclassified meteorites at this mass range.")
             st.markdown(" ")
             
             
@@ -651,10 +653,16 @@ if choice == 'Mass Ranges':
             st.plotly_chart(fig, theme='streamlit', use_container_width = True)
 
         with st.expander("See explanation"):
-            st.markdown("* There are smaller gaps between the years with observed falls in this range. ")                                           
-            st.markdown("* The smaller gaps could indicate both a higher frequency \
-                        as well as an increase of the likelihood of locating and recovering larger impactors.")
-            st.markdown(" ")
+            st.markdown("* At this mass range, there are smaller gaps between the years with observed falls. ")                                           
+            st.markdown("* The higher number of recoveries in this mass range may reflect an increase in the\
+                         likelihood of locating and recovering larger impactors.")
+            st.markdown("* There is a peak accumulation of mass in the given range for the year 1933.")
+            st.markdown("* Years with peak accumulations seem to have at least one or more masses between the 75th\
+                         percentile (about 0.5kg) and the maximum mass in the range, which might slightly suggest that on certain\
+                         years there is a higher influx of large objects. Eyewitness data is not sufficient to determine\
+                         if high mass impacts come in clusters. Analyzing fluctuations in impact energy from fireball\
+                         data(briefly explored in the maps section) might shed further light on the subject.")
+            st.markdown("* The highest mass from a single impact was recovered in 1949.")
 
 
     #ROW B
@@ -696,7 +704,9 @@ if choice == 'Mass Ranges':
             st.plotly_chart(fig, theme='streamlit', use_container_width = True)
             
         with st.expander("See explanation"):
-            st.markdown("* .")                                           
+            st.markdown("* The L6 group completely dominates the count chart followed by the H5 and H6 groups.")
+            st.markdown("* The top groups have maximum masses virtually at the upper limit of of the range and relatively similar averages\
+                           which suggests a similar distribution.")
             
 
 

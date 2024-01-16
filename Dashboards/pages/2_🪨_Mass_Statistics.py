@@ -537,16 +537,15 @@ if choice == 'Mass Ranges':
     #ROW A
     if mass_range == '0.099➝22.0 grams':        
         
-        with st.container():
-
-            colors = colors,
+        with st.container():            
 
             fig = px.bar(mass_cat1, 
-             x="year",
-             y = "mass (g)",
+                         x="year",
+                         y = "mass (g)",
                          log_y = True,
-             color_discrete_sequence = colors,                         
-             opacity = 0.9,                                                     
+                         color = "mass (g)",
+                         color_continuous_scale = "peach",                                                               
+                         opacity = 0.9,                                                     
                 )
 
             fig.update_layout(
@@ -627,15 +626,14 @@ if choice == 'Mass Ranges':
     #ROW A
     if mass_range == '22.0➝682.0 grams':          
         
-        with st.container():
-
-            colors = colors,
+        with st.container():            
 
             fig = px.bar(mass_cat2, 
-            x="year",
-            y = "mass (g)",
-            color_discrete_sequence = colors,                         
-            opacity = 0.9,                                                     
+                         x="year",
+                         y = "mass (g)",
+                         color = "mass (g)",
+                         color_continuous_scale = "peach",
+                         opacity = 0.9,                                                     
                 )
 
             fig.update_layout(
@@ -714,14 +712,13 @@ if choice == 'Mass Ranges':
     if mass_range == '682.0➝2700.0 grams':    
         
         with st.container():
-
-            colors = colors,
-
-            fig = px.bar(mass_cat3, 
-             x="year",
-             y = "mass (g)",
-             color_discrete_sequence = colors,                         
-             opacity = 0.9,                                                            
+            
+            fig = px.bar(mass_cat3,
+                         x="year",
+                         y = "mass (g)",
+                         color = "mass (g)",
+                         color_continuous_scale = "peach",                         
+                         opacity = 0.9,                                                            
                 )
 
             fig.update_layout(
@@ -732,15 +729,26 @@ if choice == 'Mass Ranges':
                 title_x = 0.01,     
                 xaxis_title='Year',
                 yaxis_title='Mass (g)',                
-                margin=dict(t=35, b=10, l=0, r=5)
-            )                    
+                margin=dict(t=35, b=10, l=0, r=5),
+                showlegend = True,
+                legend = dict(
+                        itemsizing='constant',  # Use a constant item size for the legend markers
+                        itemclick='toggleothers',  # Enable toggle behavior on clicking the legend items
+                        traceorder='normal',  # Set the trace order to normal
+                        tracegroupgap=10,  # Adjust the gap between legend items        
+                        itemdoubleclick='toggle'  # Enable double-click behavior on legend items
+                        ),
+            )
+
+            #fig.update_traces(showlegend = True)
               
             #display the plot
             st.plotly_chart(fig, theme='streamlit', use_container_width = True)
 
         with st.expander("See explanation"):
-            st.markdown("*")                                           
-            st.markdown("*")       
+            st.markdown("* The years with the most cumulative mass in this range are 1938 and 1980 with 5 events each and a total recovered mass of 8.4kg and 9.4kg respectively")                                           
+            st.markdown("* Most of the peak years have at least one or more events with recovered masses between the 75th percentile (1.9kg) and the maximum value of the range(2.7kg).")
+            st.markdown("* The mass that defines the upper limit of the range was recovered twice, in the year 1880 and 1974 respectively.")
 
 
     #ROW B
@@ -791,13 +799,12 @@ if choice == 'Mass Ranges':
             
         with st.container():
 
-            colors = colors,
-
             fig = px.bar(mass_cat4, 
-             x="year",
-             y = "mass (g)",
-             color_discrete_sequence = colors,                         
-             opacity = 0.9,                                                        
+                         x="year",
+                         y = "mass (g)",
+                         color = "mass (g)",
+                         color_continuous_scale = "peach",                          
+                         opacity = 0.9,                                                        
                 )
 
             fig.update_layout(
@@ -869,13 +876,12 @@ if choice == 'Mass Ranges':
         
         with st.container():
 
-            colors = colors,
-
             fig = px.bar(mass_cat5, 
-             x="year",
-             y = "mass (g)",
-             color_discrete_sequence = colors,                         
-             opacity = 0.9,                                                        
+                         x="year",
+                         y = "mass (g)",
+                         color = "mass (g)",
+                         color_continuous_scale = "peach",                          
+                         opacity = 0.9,                                                        
                 )
 
             fig.update_layout(
@@ -945,14 +951,13 @@ if choice == 'Mass Ranges':
         
         with st.container():
 
-            colors = colors,
-
             fig = px.bar(mass_cat6, 
-             x="year",
-             y = "mass (g)",
+                         x="year",
+                         y = "mass (g)",
                          log_y = True,
-             color_discrete_sequence = colors,                         
-             opacity = 0.9,                                                                      
+                         color = "mass (g)",
+                         color_continuous_scale = "peach",                          
+                         opacity = 0.9,                                                                      
                 )
 
             fig.update_layout(

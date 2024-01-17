@@ -703,8 +703,9 @@ if choice == 'Mass Ranges':
             
         with st.expander("See explanation"):
             st.markdown("* The L6 group completely dominates the count chart followed by the H5 and H6 groups.")
-            st.markdown("* The top groups have maximum masses virtually at the upper limit of of the range and relatively similar averages\
-                           which suggests a similar distribution.")
+            st.markdown("* The top groups have maximum masses close to the upper limit of of the range and similar averages.")
+            st.markdown("* There are 9 carbonaceous Mighei-like (CM) chondrites of petrologic type 2(hydrated) at this mass range.\
+                        This is the highest frequency of carbonaceous meteorites across all mass ranges.")
             
 
 
@@ -790,7 +791,11 @@ if choice == 'Mass Ranges':
             st.plotly_chart(fig, theme='streamlit', use_container_width = True)
             
         with st.expander("See explanation"):
-            st.markdown("* .")                                           
+            st.markdown("* The class limits are relatively arbitrary (based on quantiles) so it is not surprising that not much variation is observed among the top groups. It's just a reflection \
+                          of the general predominance of ordinary chondrites over other types of meteorites.")
+            st.markdown("* Accordingly, the primitive achondrite groups are populating the lower frequency bins.")
+            st.markdown("* Masses with values above the 75th percentile are common at all frequency levels.")
+           
             
 
 

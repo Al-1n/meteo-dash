@@ -827,8 +827,24 @@ if choice == 'Mass Ranges':
             st.plotly_chart(fig, theme='streamlit', use_container_width = True)
 
         with st.expander("See explanation"):
-            st.markdown("*")                                           
-            st.markdown("*")       
+            st.markdown("* The year with the most observations on record (1933) displays a peak of recovered meteorites at this mass range. This raises a series of questions:")
+
+            cc = st.columns([3, 65, 5])
+
+            with cc[0]:
+                st.write(" ")
+            
+            with cc[1]:
+                st.write(''' &nbsp;&nbsp;&nbsp;&nbsp; 1. Is there a correlation between recovered mass and number of
+                            observations i.e. are larger masses more likely to be observed before landing and recovered after landing?
+                                ''')
+                st.write(''' &nbsp;&nbsp;&nbsp;&nbsp; 2. Are large impactors coming in clusters? i.e. are the peak years
+                        suggesting the intersection of Earth's orbit with swarms of larger objects?
+                        ''')
+            with cc[2]:
+                st.write(" ")
+                                                                         
+            st.markdown("* Other years with noticeable peaks in this category are 1843, 1910, and 2008.")       
 
 
     #ROW B
@@ -870,8 +886,8 @@ if choice == 'Mass Ranges':
             st.plotly_chart(fig, theme='streamlit', use_container_width = True)
             
         with st.expander("See explanation"):
-            st.markdown("* The year 1933, (the year with the most falls on record) has the most recorded masses in this category.")
-            st.markdown("* Other years with peaks in this category are 1843, 1910, and 2008.")
+            st.markdown("* ")
+            st.markdown("* ")
             
 
 

@@ -530,7 +530,7 @@ type_colors = ['rgb(199, 110, 44)', 'rgb(221, 164, 98)', 'rgb(182, 95, 86)', 'rg
 if choice == 'Mass Ranges':
 
     st.sidebar.subheader('Meteorite mass segments')
-    mass_range = st.sidebar.selectbox('Choose mass group', ('0.099➝22.0 grams', '22.0➝682.0 grams', '682.0➝2700.0 grams', '2700.0➝10322.0 grams', '10322.0➝212000.0 grams', '212000.0➝23000000.0 grams'), index = 0)
+    mass_range = st.sidebar.selectbox('Choose mass group', ('0.099➝22.0 grams', '22.0➝682.0 grams', '682.0➝2700.0 grams', '2700.0➝10322.0 grams', '10322.0➝220000.0 grams', '220000.0➝23000000.0 grams'), index = 0)
 
 #1st mass range distribution
 
@@ -749,7 +749,7 @@ if choice == 'Mass Ranges':
         with st.expander("See explanation"):
             st.markdown("* The years with the most cumulative mass in this range are 1938 and 1980 with 5 events each and a total recovered mass of 8.4kg and 9.4kg respectively")                                           
             st.markdown("* Most of the peak years have at least one or more events with recovered masses between the 75th percentile (1.9kg) and the maximum value of the range(2.7kg).")
-            st.markdown("* The mass that defines the upper limit of the range was recovered twice, in the year 1880 and 1974 respectively.")
+            st.markdown("* The mass that defines the upper limit of the range was recovered on two distinct events, in the years 1880 and 1974.")
 
 
     #ROW B
@@ -792,9 +792,8 @@ if choice == 'Mass Ranges':
             
         with st.expander("See explanation"):
             st.markdown("* The class limits are relatively arbitrary (based on quantiles) so it is not surprising that not much variation is observed among the top groups. It's just a reflection \
-                          of the general predominance of ordinary chondrites over other types of meteorites.")
-            st.markdown("* Accordingly, the primitive achondrite groups are populating the lower frequency bins.")
-            st.markdown("* Masses with values above the 75th percentile are common at all frequency levels.")
+                          of the general predominance of ordinary chondrites over other types of meteorites.")            
+            st.markdown("* Masses with values above or equal to the 75th percentile (1.9kg) are common at all frequency levels.")
            
             
 
@@ -886,14 +885,17 @@ if choice == 'Mass Ranges':
             st.plotly_chart(fig, theme='streamlit', use_container_width = True)
             
         with st.expander("See explanation"):
-            st.markdown("* ")
-            st.markdown("* ")
+            st.markdown("* The distribution of the chondrite groups (L6, H5, H6, L5, H4) is preserved at the top of the frequency list.")
+            st.markdown("* There are two Martian shergottites and one martian nakhlite in this mass category with masses of 5, 7, and 10kg respectively.")
+            st.markdown("* There are 12 groups with masses above or equal to the 97.5th percentile (10kg). The mass that defines the upper\
+                        class limit (10.322kg) corresponds to an Iron, IAB primitive achondrite.")
+            
             
 
 
 
 #5th mass range distribution
-    if mass_range == '10322.0➝212000.0 grams':    
+    if mass_range == '10322.0➝220000.0 grams':    
         
         with st.container():
 
@@ -907,7 +909,7 @@ if choice == 'Mass Ranges':
 
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>Meteorite Mass Range: 10322➝212000 grams (Recovered 1830-2013) </b>'),
+                title=dict(text='<b>Meteorite Mass Range: 10322➝220000 grams (Recovered 1830-2013) </b>'),
                 title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,     
@@ -942,7 +944,7 @@ if choice == 'Mass Ranges':
 
             fig.update_layout(   
                     {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                    title=dict(text='<b>Distribution of meteorites between 10322 and 212000 grams grouped by type and sorted by frequency </b>'),
+                    title=dict(text='<b>Distribution of meteorites between 10322 and 220000 grams grouped by type and sorted by frequency </b>'),
                     title_font_color='rgb(126, 126, 126)',
                     title_font_size=16,
                     title_x = 0.01,     
@@ -968,7 +970,7 @@ if choice == 'Mass Ranges':
 
 
 #6th mass range distribution
-    if mass_range == '212000.0➝23000000.0 grams':    
+    if mass_range == '220000.0➝23000000.0 grams':    
         
         with st.container():
 
@@ -983,7 +985,7 @@ if choice == 'Mass Ranges':
 
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>Meteorite Mass Range: 212000➝23000000 grams (Recovered 1830-2013) </b>'),
+                title=dict(text='<b>Meteorite Mass Range: 220000➝23000000 grams (Recovered 1830-2013) </b>'),
                 title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,     
@@ -1017,7 +1019,7 @@ if choice == 'Mass Ranges':
 
             fig.update_layout(   
                     {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                    title=dict(text='<b>Distribution of meteorites between 212000 and 23000000 grams grouped by type and sorted by frequency </b>'),
+                    title=dict(text='<b>Distribution of meteorites between 220000 and 23000000 grams grouped by type and sorted by frequency </b>'),
                     title_font_color='rgb(126, 126, 126)',
                     title_font_size=16,
                     title_x = 0.01,     

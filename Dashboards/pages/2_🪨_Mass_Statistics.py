@@ -922,8 +922,8 @@ if choice == 'Mass Ranges':
             st.plotly_chart(fig, theme='streamlit', use_container_width = True)
 
         with st.expander("See explanation"):
-            st.markdown("*")                                           
-            st.markdown("*")       
+            st.markdown("* The largest mass at this range landed in 1912.")                                           
+            st.markdown("* ")       
 
 
     #ROW B

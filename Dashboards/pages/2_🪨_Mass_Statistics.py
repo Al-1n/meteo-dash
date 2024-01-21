@@ -568,7 +568,7 @@ if choice == 'Mass Ranges':
             st.markdown("* 14.8% of meteorites in this range are less than 1 gram and about 52% are less than 10 grams.")
             st.markdown("* There are big gaps, ranging from 1 to 3 decades, between recoveries of meteorites in this range.")            
             st.write('''
-                    &nbsp;&nbsp;&nbsp;&nbsp; Meteoroids do not need to have a high pre-atmospheric entry mass to produce an observable luminous meteor or fireball. A high velocity small meteoroid can produce a bright flash.\                    
+                    &nbsp;&nbsp;&nbsp;&nbsp; Meteoroids do not need to have a high pre-atmospheric entry mass to produce an observable luminous meteor or fireball. A high velocity small meteoroid can produce a bright flash.                    
                     But the probability that a small entry mass will be both observed and recovered on the ground in the form of a meteorite is small. As such, it may be safe to assume that \
                     meteorites in the smallest range are most likely fragments of larger impactors. Actually, when comparing the few matching events between the meteorite data and the fireball data\
                     a tendency of the recovered mass to increase with the impact energy can be observed but even some of the events with weaker energies have\

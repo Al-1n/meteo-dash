@@ -1131,7 +1131,7 @@ if choice == 'Mass Ranges':
 
         with st.expander("See explanation"):
             st.markdown("* The largest mass at this range landed in 1912.")                                           
-            st.markdown("* During the 183 years analyzed, 55 impacts in the range between 10500 and 220000g have masses above the 75th percentile (53.5kg) out of which 6 are equal to or above the 97.5th percentile (220kg).\
+            st.markdown("* During the 183 years analyzed, 55 impacts in the range between 10500 and 220000g have masses above the 75th percentile (53.5kg) out of which 6 are equal to or above the 97.5th percentile (163kg).\
                         The graph below summarizes the distribution of mass at this range.")
             st.markdown(" ")
             st.markdown(" ")
@@ -1223,7 +1223,13 @@ if choice == 'Mass Ranges':
             st.plotly_chart(fig, theme='streamlit', use_container_width = True)
             
         with st.expander("See explanation"):
-            st.markdown("* .")                                           
+            st.markdown("* The largest masses in this category belong to the L-chondrite groups with the exception of a Ornans-like (CO) carbonacceous chondrite that produced 200kg of recovered mass.")
+            st.markdown("* The largest primitive achondrite belongs to the Iron, IAB complex group with a recovered mass of 150.2kg.")
+            st.markdown("* The largest achondrite in this category landed 128.8kg of mass and belongs to the Mesosiderite group.")
+
+            dframe5 = mass_cat5[['name', 'id', 'Type', 'group', 'mass (g)', 'year', 'country', 'range label']].sort_values(by = 'mass (g)', ascending = False)
+            
+            st.dataframe(data = dframe5, height = 185, hide_index = True, use_container_width = True)
             
 
 
@@ -1348,7 +1354,11 @@ if choice == 'Mass Ranges':
             st.plotly_chart(fig, theme='streamlit', use_container_width = True)
             
         with st.expander("See explanation"):
-            st.markdown("* .")                                           
+            st.markdown("* .")
+            
+            dframe6 = mass_cat6[['name', 'id', 'Type', 'group', 'mass (g)', 'year', 'country', 'range label']].sort_values(by = 'mass (g)', ascending = False)
+            
+            st.dataframe(data = dframe6, height = 185, hide_index = True, use_container_width = True)
             
                
 

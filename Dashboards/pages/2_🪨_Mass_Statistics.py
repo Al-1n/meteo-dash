@@ -530,7 +530,7 @@ type_colors = ['rgb(199, 110, 44)', 'rgb(221, 164, 98)', 'rgb(182, 95, 86)', 'rg
 if choice == 'Mass Ranges':
 
     st.sidebar.subheader('Meteorite mass segments')
-    mass_range = st.sidebar.selectbox('Choose mass group', ('0.099➝22.0 grams', '22.0➝682.0 grams', '682.0➝2700.0 grams', '2700.0➝10322.0 grams', '10322.0➝220000.0 grams', '220000.0➝23000000.0 grams'), index = 0)
+    mass_range = st.sidebar.selectbox('Choose mass group', ('0.099➝22.0 grams', '23.0➝682.0 grams', '690.0➝2700.0 grams', '2756.0➝10322.0 grams', '10500.0➝220000.0 grams', '228000.0➝23000000.0 grams'), index = 0)
 
 #1st mass range distribution
 
@@ -566,13 +566,66 @@ if choice == 'Mass Ranges':
         with st.expander("See explanation"):
             st.markdown("* The mass is plotted on a logarithmic scale to facilitate the visualization of small masses (1 gram or less).")                                           
             st.markdown("* 14.8% of meteorites in this range are less than 1 gram and about 52% are less than 10 grams.")
-            st.markdown("* There are big gaps, ranging from 1 to 3 decades, between recoveries of meteorites in this range.")            
+            st.markdown("* There are big gaps, ranging from 1 to 3 decades, between recoveries of meteorites in this range.")
+            st.markdown("* During the 183 years analyzed, a total of 27 fragments have been recovered with masses in the range between 0.1 and 22 grams, with a median average of 8 grams.\
+                        The graph below summarizes the distribution of mass at this range.")
+            st.markdown(" ")
+            st.markdown(" ")
+
+            with st.container():
+
+                        col_graph1, col_graph2, col_graph3, col_graph4 = st.columns([2, 34, 2, 16])
+
+                        with col_graph1:
+
+                            st.markdown(" ")
+                        
+                        with col_graph2:
+
+                            st.markdown(" ")
+                            st.markdown(" ")
+                            st.markdown(" ")
+
+                            hist, bins = np.histogram(mass_cat1["mass (g)"], bins=[0.1, 2.6, 8, 17, 22])
+    
+                            fig = go.Figure(go.Bar(x=[0,1,2,3, 4, 5], y=hist, marker_color = "#fe9f99"))
+
+                            fig.update_xaxes(tickvals=[0,1,2,3, 4, 5], ticktext=['0.1g -> 2.59g','2.6g -> 7.99g','8g -> 16.99g', '17g -> 22g'])
+                            fig.update_layout(bargap=0.01)
+
+                            # set the title
+                            fig.update_layout(title=dict(text='<b style="text-align:center">Distribution of mass between 0.1 and 22 grams</b>'),
+                                              title_font_color = '#8dd3c8',
+                                              title_font_size = 16,
+                                              title_x = 0.02,
+                                              title_y = 1,
+                                              font=dict(size=16),
+                                              xaxis_title='Mass Quantiles',
+                                              yaxis_title='Count',
+                                              margin=dict(l=0, r=0, b=20, t = 30),
+                                              height = 275                  
+                                             )               
+
+
+                            st.plotly_chart(fig, use_container_width = True)
+
+                        with col_graph3:
+
+                            st.markdown(" ") 
+
+                        with col_graph4:
+
+                            summary1 = pd.DataFrame({'mass (g)': mass_cat1["mass (g)"].describe(percentiles = [.025, .25, .50, .75, 0.975])}).reset_index(names = 'Statistic')
+
+                            st.dataframe(data = summary1, height = 385, hide_index = True)
+
+            
             st.write('''
-                    &nbsp;&nbsp;&nbsp;&nbsp; Meteoroids do not need to have a high pre-atmospheric entry mass to produce an observable luminous meteor or fireball. A high velocity small meteoroid can produce a bright flash.                    
-                    But the probability that a small entry mass will be both observed and recovered on the ground in the form of a meteorite is small. As such, it may be safe to assume that \
-                    meteorites in the smallest range are most likely fragments of larger impactors. Actually, when comparing the few matching events between the meteorite data and the fireball data\
-                    a tendency of the recovered mass to increase with the impact energy can be observed but even some of the events with weaker energies have\
-                    returned considerable fragments, that could produce damage if they hit populated areas. The survivability of an impactor depends on velocity,\
+                    > &nbsp;&nbsp;&nbsp;&nbsp; Meteoroids do not need to have a high pre-atmospheric entry mass to produce an observable luminous meteor or fireball (a high velocity small meteoroid can produce a bright flash).\
+                    But the probability that a small entry mass will be both observed and recovered on the ground in the form of a meteorite should be small. As such, it may be safe to assume that \
+                    meteorites in the smallest range are most likely fragments of larger impactors. Actually, when comparing the few matching events between the meteorite data and the fireball data,\
+                    a tendency of the recovered mass to increase with the impact energy can be observed. Nonetheless, even some of the events with weaker energies have\
+                    returned considerable fragments that could potentially produce damage if they hit populated areas. The survivability of an impactor depends on velocity,\
                     material strength and angle of atmospheric entry :green[<sup>[1](https://www.aanda.org/articles/aa/full_html/2021/06/aa40204-20/aa40204-20.html)</sup>] \
                     :green[<sup>[  2](https://spiral.imperial.ac.uk/bitstream/10044/1/1047/1/Survivability%20of%20meteorite%20projectiles.pdf)</sup>].  
                     ''', unsafe_allow_html=True)
@@ -624,7 +677,7 @@ if choice == 'Mass Ranges':
 #2nd mass range distribution
 
     #ROW A
-    if mass_range == '22.0➝682.0 grams':          
+    if mass_range == '23.0➝682.0 grams':          
         
         with st.container():            
 
@@ -638,7 +691,7 @@ if choice == 'Mass Ranges':
 
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>Meteorite Mass Range: 22➝682 grams (Recovered 1830-2013) </b>'),
+                title=dict(text='<b>Meteorite Mass Range: 23➝682 grams (Recovered 1830-2013) </b>'),
                 title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,     
@@ -656,11 +709,62 @@ if choice == 'Mass Ranges':
                          likelihood of locating and recovering larger impactors.")
             st.markdown("* There is a peak accumulation of mass in the given range for the year 1933.")
             st.markdown("* Years with peak accumulations seem to have at least one or more masses between the 75th\
-                         percentile (about 0.5kg) and the maximum mass in the range, which might slightly suggest that on certain\
-                         years there is a higher influx of large objects. Eyewitness data is not sufficient to determine\
+                         percentile (about 0.5kg) and the maximum mass in the range. Eyewitness data is not sufficient to determine\
                          if high mass impacts come in clusters. Analyzing fluctuations in impact energy from fireball\
                          data(briefly explored in the maps section) might shed further light on the subject.")
             st.markdown("* The highest mass from a single impact was recovered in 1949.")
+            st.markdown("* During the 183 years analyzed, 56 impacts in the range between 23 and 682g have masses above the 75th percentile (4.5kg) out of which 6 are equal to or above the 97.5th percentile (6.7kg).\
+                        The graph below summarizes the distribution of mass at this range.")
+            st.markdown(" ")
+            st.markdown(" ")
+
+            with st.container():
+
+                        col_graph1, col_graph2, col_graph3, col_graph4 = st.columns([2, 34, 2, 16])
+
+                        with col_graph1:
+
+                            st.markdown(" ")
+                        
+                        with col_graph2:
+
+                            st.markdown(" ")
+                            st.markdown(" ")
+                            st.markdown(" ")
+
+                            hist, bins = np.histogram(mass_cat2["mass (g)"], bins=[22, 26, 128, 270, 450, 669.15, 682])
+    
+                            fig = go.Figure(go.Bar(x=[0,1,2,3, 4, 5], y=hist, marker_color = "#fe9f99"))
+
+                            fig.update_xaxes(tickvals=[0,1,2,3, 4, 5], ticktext=['22g -> 25.99g', '26g -> 127.99g','128g -> 269.99g','270g -> 449.99g','450g -> 668.99g', '669g -> 682g'])
+                            fig.update_layout(bargap=0.01)
+
+                            # set the title
+                            fig.update_layout(title=dict(text='<b style="text-align:center">Distribution of mass between 23 and 682 grams</b>'),
+                                              title_font_color = '#8dd3c8',
+                                              title_font_size = 16,
+                                              title_x = 0.02,
+                                              title_y = 1,
+                                              font=dict(size=16),
+                                              xaxis_title='Mass Quantiles',
+                                              yaxis_title='Count',
+                                              margin=dict(l=0, r=0, b=20, t = 30),
+                                              height = 275                  
+                                             )               
+
+
+                            st.plotly_chart(fig, use_container_width = True)
+
+                        with col_graph3:
+
+                            st.markdown(" ") 
+
+                        with col_graph4:
+
+                            summary2 = pd.DataFrame({'mass (g)': mass_cat2["mass (g)"].describe(percentiles = [.025, .25, .50, .75, 0.975])}).reset_index(names = 'Statistic')
+
+                            st.dataframe(data = summary2, height = 385, hide_index = True)
+            
 
 
     #ROW B
@@ -681,7 +785,7 @@ if choice == 'Mass Ranges':
 
             fig.update_layout(   
                     {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                    title=dict(text='<b>Distribution of meteorites between 22 and 682 grams grouped by type and sorted by frequency </b>'),
+                    title=dict(text='<b>Distribution of meteorites between 23 and 682 grams grouped by type and sorted by frequency </b>'),
                     title_font_color='rgb(126, 126, 126)',
                     title_font_size=16,
                     title_x = 0.01,     
@@ -710,7 +814,7 @@ if choice == 'Mass Ranges':
 
 
 #3rd mass range distribution
-    if mass_range == '682.0➝2700.0 grams':    
+    if mass_range == '690.0➝2700.0 grams':    
         
         with st.container():
             
@@ -724,7 +828,7 @@ if choice == 'Mass Ranges':
 
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>Meteorite Mass Range: 682➝2700 grams (Recovered 1830-2013) </b>'),
+                title=dict(text='<b>Meteorite Mass Range: 690➝2700 grams (Recovered 1830-2013) </b>'),
                 title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,     
@@ -750,6 +854,57 @@ if choice == 'Mass Ranges':
             st.markdown("* The years with the most cumulative mass in this range are 1938 and 1980 with 5 events each and a total recovered mass of 8.4kg and 9.4kg respectively")                                           
             st.markdown("* Most of the peak years have at least one or more events with recovered masses between the 75th percentile (1.9kg) and the maximum value of the range(2.7kg).")
             st.markdown("* The mass that defines the upper limit of the range was recovered on two distinct events, in the years 1880 and 1974.")
+            st.markdown("* During the 183 years analyzed, 62 impacts in the range between 690 and 2700g have masses above the 75th percentile (1.9kg) out of which 14 are equal to or above the 97.5th percentile (2.5kg).\
+                        The graph below summarizes the distribution of mass at this range.")
+            st.markdown(" ")
+            st.markdown(" ")
+
+            with st.container():
+
+                        col_graph1, col_graph2, col_graph3, col_graph4 = st.columns([2, 34, 2, 16])
+
+                        with col_graph1:
+
+                            st.markdown(" ")
+                        
+                        with col_graph2:
+
+                            st.markdown(" ")
+                            st.markdown(" ")
+                            st.markdown(" ")
+
+                            hist, bins = np.histogram(mass_cat3["mass (g)"], bins=[689, 699, 999, 1359, 1899, 2499, 2701])
+    
+                            fig = go.Figure(go.Bar(x=[0,1,2,3, 4, 5], y=hist, marker_color = "#fe9f99"))
+
+                            fig.update_xaxes(tickvals=[0,1,2,3, 4, 5], ticktext=['690g -> 699g', '700g -> 999g','1000g -> 1359g','1360g -> 1899g','1900g -> 2499g', '2500g -> 2700g'])
+                            fig.update_layout(bargap=0.01)
+
+                            # set the title
+                            fig.update_layout(title=dict(text='<b style="text-align:center">Distribution of mass between 690 and 2700 grams</b>'),
+                                              title_font_color = '#8dd3c8',
+                                              title_font_size = 16,
+                                              title_x = 0.02,
+                                              title_y = 1,
+                                              font=dict(size=16),
+                                              xaxis_title='Mass Quantiles',
+                                              yaxis_title='Count',
+                                              margin=dict(l=0, r=0, b=20, t = 30),
+                                              height = 275                  
+                                             )               
+
+
+                            st.plotly_chart(fig, use_container_width = True)
+
+                        with col_graph3:
+
+                            st.markdown(" ") 
+
+                        with col_graph4:
+
+                            summary3 = pd.DataFrame({'mass (g)': mass_cat3["mass (g)"].describe(percentiles = [.025, .25, .50, .75, 0.975])}).reset_index(names = 'Statistic')
+
+                            st.dataframe(data = summary3, height = 385, hide_index = True)
 
 
     #ROW B
@@ -770,7 +925,7 @@ if choice == 'Mass Ranges':
 
             fig.update_layout(   
                     {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                    title=dict(text='<b>Distribution of meteorites between 0.1 and 22 grams grouped by type and sorted by frequency </b>'),
+                    title=dict(text='<b>Distribution of meteorites between 690 and 2700 grams grouped by type and sorted by frequency </b>'),
                     title_font_color='rgb(126, 126, 126)',
                     title_font_size=16,
                     title_x = 0.01,     
@@ -793,13 +948,13 @@ if choice == 'Mass Ranges':
         with st.expander("See explanation"):
             st.markdown("* The class limits are relatively arbitrary (based on quantiles) so it is not surprising that not much variation is observed among the top groups. It's just a reflection \
                           of the general predominance of ordinary chondrites over other types of meteorites.")            
-            st.markdown("* Masses with values above or equal to the 75th percentile (1.9kg) are common at all frequency levels.")
+            st.markdown("* Masses with values above or equal to the 75th percentile (1.9kg) are common various groups at all frequency levels.")
            
             
 
 
 #4th mass range distribution
-    if mass_range == '2700.0➝10322.0 grams':
+    if mass_range == '2756.0➝10322.0 grams':
             
         with st.container():
 
@@ -813,7 +968,7 @@ if choice == 'Mass Ranges':
 
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>Meteorite Mass Range: 2700➝10322 grams (Recovered 1830-2013) </b>'),
+                title=dict(text='<b>Meteorite Mass Range: 2756➝10322 grams (Recovered 1830-2013) </b>'),
                 title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,     
@@ -843,7 +998,60 @@ if choice == 'Mass Ranges':
             with cc[2]:
                 st.write(" ")
                                                                          
-            st.markdown("* Other years with noticeable peaks in this category are 1843, 1910, and 2008.")       
+            st.markdown("* Other years with noticeable peaks in this category are 1843, 1910, and 2008.")
+
+            st.markdown("* During the 183 years analyzed, 61 impacts in the range between 2756 and 10322g have masses above the 75th percentile (6.9kg) out of which 12 are equal to or above the 97.5th percentile (10.3kg).\
+                        The graph below summarizes the distribution of mass at this range.")
+            st.markdown(" ")
+            st.markdown(" ")
+
+            with st.container():
+
+                        col_graph1, col_graph2, col_graph3, col_graph4 = st.columns([2, 34, 2, 16])
+
+                        with col_graph1:
+
+                            st.markdown(" ")
+                        
+                        with col_graph2:
+
+                            st.markdown(" ")
+                            st.markdown(" ")
+                            st.markdown(" ")
+
+                            hist, bins = np.histogram(mass_cat4["mass (g)"], bins=[2750, 2900, 3699.5, 4897.5, 6874.75, 10000, 10323])
+    
+                            fig = go.Figure(go.Bar(x=[0,1,2,3, 4, 5], y=hist, marker_color = "#fe9f99"))
+
+                            fig.update_xaxes(tickvals=[0,1,2,3, 4, 5], ticktext=['2750g -> 2900g', '2900g -> 3700g','3700g -> 4898g','4900g -> 6875g','6875g -> 10000g', '10000g -> 10322g'])
+                            fig.update_layout(bargap=0.01)
+
+                            # set the title
+                            fig.update_layout(title=dict(text='<b style="text-align:center">Distribution of mass between 2756 and 10322 grams</b>'),
+                                              title_font_color = '#8dd3c8',
+                                              title_font_size = 16,
+                                              title_x = 0.02,
+                                              title_y = 1,
+                                              font=dict(size=16),
+                                              xaxis_title='Mass Quantiles',
+                                              yaxis_title='Count',
+                                              margin=dict(l=0, r=0, b=20, t = 30),
+                                              height = 275                  
+                                             )               
+
+
+                            st.plotly_chart(fig, use_container_width = True)
+
+                        with col_graph3:
+
+                            st.markdown(" ") 
+
+                        with col_graph4:
+
+                            summary4 = pd.DataFrame({'mass (g)': mass_cat4["mass (g)"].describe(percentiles = [.025, .25, .50, .75, 0.975])}).reset_index(names = 'Statistic')
+
+                            st.dataframe(data = summary4, height = 385, hide_index = True)
+
 
 
     #ROW B
@@ -864,7 +1072,7 @@ if choice == 'Mass Ranges':
 
             fig.update_layout(   
                     {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                    title=dict(text='<b>Distribution of meteorites between 2700 and 10322 grams grouped by type and sorted by frequency </b>'),
+                    title=dict(text='<b>Distribution of meteorites between 2756 and 10322 grams grouped by type and sorted by frequency </b>'),
                     title_font_color='rgb(126, 126, 126)',
                     title_font_size=16,
                     title_x = 0.01,     
@@ -895,7 +1103,7 @@ if choice == 'Mass Ranges':
 
 
 #5th mass range distribution
-    if mass_range == '10322.0➝220000.0 grams':    
+    if mass_range == '10500.0➝220000.0 grams':    
         
         with st.container():
 
@@ -909,7 +1117,7 @@ if choice == 'Mass Ranges':
 
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>Meteorite Mass Range: 10322➝220000 grams (Recovered 1830-2013) </b>'),
+                title=dict(text='<b>Meteorite Mass Range: 10500➝220000 grams (Recovered 1830-2013) </b>'),
                 title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,     
@@ -923,7 +1131,57 @@ if choice == 'Mass Ranges':
 
         with st.expander("See explanation"):
             st.markdown("* The largest mass at this range landed in 1912.")                                           
-            st.markdown("* ")       
+            st.markdown("* During the 183 years analyzed, 55 impacts in the range between 10500 and 220000g have masses above the 75th percentile (53.5kg) out of which 6 are equal to or above the 97.5th percentile (220kg).\
+                        The graph below summarizes the distribution of mass at this range.")
+            st.markdown(" ")
+            st.markdown(" ")
+
+            with st.container():
+
+                        col_graph1, col_graph2, col_graph3, col_graph4 = st.columns([2, 34, 2, 16])
+
+                        with col_graph1:
+
+                            st.markdown(" ")
+                        
+                        with col_graph2:
+
+                            st.markdown(" ")
+                            st.markdown(" ")
+                            st.markdown(" ")
+
+                            hist, bins = np.histogram(mass_cat5["mass (g)"], bins=[10499, 10772.5, 17000, 28000, 53450, 163300, 220000])
+    
+                            fig = go.Figure(go.Bar(x=[0,1,2,3, 4, 5], y=hist, marker_color = "#fe9f99"))
+
+                            fig.update_xaxes(tickvals=[0,1,2,3, 4, 5], ticktext=['10500g -> 10772.49g', '10772.5g -> 16999.99g','17000g -> 2799.99g','2800g -> 53449.99g','53450g -> 163299.99g', '163300g -> 220000g'])
+                            fig.update_layout(bargap=0.01)
+
+                            # set the title
+                            fig.update_layout(title=dict(text='<b style="text-align:center">Distribution of mass between 10500 and 220000 grams</b>'),
+                                              title_font_color = '#8dd3c8',
+                                              title_font_size = 16,
+                                              title_x = 0.02,
+                                              title_y = 1,
+                                              font=dict(size=16),
+                                              xaxis_title='Mass Quantiles',
+                                              yaxis_title='Count',
+                                              margin=dict(l=0, r=0, b=20, t = 30),
+                                              height = 275                  
+                                             )               
+
+
+                            st.plotly_chart(fig, use_container_width = True)
+
+                        with col_graph3:
+
+                            st.markdown(" ") 
+
+                        with col_graph4:
+
+                            summary5 = pd.DataFrame({'mass (g)': mass_cat5["mass (g)"].describe(percentiles = [.025, .25, .50, .75, 0.975])}).reset_index(names = 'Statistic')
+
+                            st.dataframe(data = summary5, height = 385, hide_index = True) 
 
 
     #ROW B
@@ -944,7 +1202,7 @@ if choice == 'Mass Ranges':
 
             fig.update_layout(   
                     {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                    title=dict(text='<b>Distribution of meteorites between 10322 and 220000 grams grouped by type and sorted by frequency </b>'),
+                    title=dict(text='<b>Distribution of meteorites between 10500 and 220000 grams grouped by type and sorted by frequency </b>'),
                     title_font_color='rgb(126, 126, 126)',
                     title_font_size=16,
                     title_x = 0.01,     
@@ -970,7 +1228,7 @@ if choice == 'Mass Ranges':
 
 
 #6th mass range distribution
-    if mass_range == '220000.0➝23000000.0 grams':    
+    if mass_range == '228000.0➝23000000.0 grams':    
         
         with st.container():
 
@@ -985,7 +1243,7 @@ if choice == 'Mass Ranges':
 
             fig.update_layout(
                 {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                title=dict(text='<b>Meteorite Mass Range: 220000➝23000000 grams (Recovered 1830-2013) </b>'),
+                title=dict(text='<b>Meteorite Mass Range: 228000➝23000000 grams (Recovered 1830-2013) </b>'),
                 title_font_color='rgb(126, 126, 126)',
                 title_font_size=16,
                 title_x = 0.01,     
@@ -998,8 +1256,58 @@ if choice == 'Mass Ranges':
             st.plotly_chart(fig, theme='streamlit', use_container_width = True)
 
         with st.expander("See explanation"):
-            st.markdown("*")                                           
-            st.markdown("*")       
+            st.markdown("* ")                                           
+            st.markdown("* During the 183 years analyzed, 55 impacts in the range between 10500 and 220000g have masses above the 75th percentile (53.5kg) out of which 6 are equal to or above the 97.5th percentile (220kg).\
+                        The graph below summarizes the distribution of mass at this range.")
+            st.markdown(" ")
+            st.markdown(" ")
+
+            with st.container():
+
+                        col_graph1, col_graph2, col_graph3, col_graph4 = st.columns([2, 34, 2, 16])
+
+                        with col_graph1:
+
+                            st.markdown(" ")
+                        
+                        with col_graph2:
+
+                            st.markdown(" ")
+                            st.markdown(" ")
+                            st.markdown(" ")
+
+                            hist, bins = np.histogram(mass_cat6["mass (g)"], bins=[2.280000e+05, 2.292000e+05, 2.600000e+05, 3.250000e+05, 6.000000e+05, 1.160000e+07, 2.300000e+07])
+    
+                            fig = go.Figure(go.Bar(x=[0,1,2,3, 4, 5], y=hist, marker_color = "#fe9f99"))
+
+                            fig.update_xaxes(tickvals=[0,1,2,3, 4, 5], ticktext=['min -> 2.5%', '2.5% -> 25%','25% -> 50%','50% -> 75%','75% -> 97.5%', '97.5% -> max'])
+                            fig.update_layout(bargap=0.01)
+
+                            # set the title
+                            fig.update_layout(title=dict(text='<b style="text-align:center">Distribution of mass between 228000 and 23000000 grams</b>'),
+                                              title_font_color = '#8dd3c8',
+                                              title_font_size = 16,
+                                              title_x = 0.02,
+                                              title_y = 1,
+                                              font=dict(size=16),
+                                              xaxis_title='Mass Quantiles',
+                                              yaxis_title='Count',
+                                              margin=dict(l=0, r=0, b=20, t = 30),
+                                              height = 275                  
+                                             )               
+
+
+                            st.plotly_chart(fig, use_container_width = True)
+
+                        with col_graph3:
+
+                            st.markdown(" ") 
+
+                        with col_graph4:
+
+                            summary6 = pd.DataFrame({'mass (g)': mass_cat6["mass (g)"].describe(percentiles = [.025, .25, .50, .75, 0.975])}).reset_index(names = 'Statistic')
+
+                            st.dataframe(data = summary6, height = 385, hide_index = True)        
 
     #ROW B
         with st.container():
@@ -1019,7 +1327,7 @@ if choice == 'Mass Ranges':
 
             fig.update_layout(   
                     {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
-                    title=dict(text='<b>Distribution of meteorites between 220000 and 23000000 grams grouped by type and sorted by frequency </b>'),
+                    title=dict(text='<b>Distribution of meteorites between 228000 and 23000000 grams grouped by type and sorted by frequency </b>'),
                     title_font_color='rgb(126, 126, 126)',
                     title_font_size=16,
                     title_x = 0.01,     

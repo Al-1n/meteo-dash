@@ -669,9 +669,15 @@ if choice == 'Mass Ranges':
             st.plotly_chart(fig, theme='streamlit', use_container_width = True)
             
         with st.expander("See explanation"):
-            st.markdown("* The general predominance of chondrites is well preserved and prominent at this mass range, with the H5 group topping the frequency list, followed by L5 and L6 chondrites.")
-            st.markdown("* There are only two achondrites and two unclassified meteorites at this mass range.")
-            st.markdown(" ")
+            st.markdown("* The general predominance of chondrites becomes evident begining with the smallest fragments, with the H5 group topping the frequency list, followed by L5 and L6 chondrites.")
+            st.markdown("* There are only two achondrites and three unclassified meteorites at this mass range which account for 18% of the entire range.")
+            st.markdown("* For more details you can explore the data itself in the table below. ")
+            
+            st.markdown("### Data")
+            
+            dframe1 = mass_cat1[['name', 'id', 'Type', 'group', 'mass (g)', 'year', 'country', 'range label']].sort_values(by = 'mass (g)', ascending = False)
+            
+            st.dataframe(data = dframe1, height = 185, hide_index = True, use_container_width = True)
             
             
 #2nd mass range distribution
@@ -810,6 +816,13 @@ if choice == 'Mass Ranges':
             st.markdown("* The top groups have maximum masses close to the upper limit of of the range and similar averages.")
             st.markdown("* There are 9 carbonaceous Mighei-like (CM) chondrites of petrologic type 2(hydrated) at this mass range.\
                         This is the highest frequency of carbonaceous meteorites across all mass ranges.")
+            st.markdown("* For more details, explore the data itself by browsing through the table below.")
+            
+            st.markdown("### Data")
+            
+            dframe2 = mass_cat2[['name', 'id', 'Type', 'group', 'mass (g)', 'year', 'country', 'range label']].sort_values(by = 'mass (g)', ascending = False)
+            
+            st.dataframe(data = dframe2, height = 185, hide_index = True, use_container_width = True)
             
 
 
@@ -949,6 +962,14 @@ if choice == 'Mass Ranges':
             st.markdown("* The class limits are relatively arbitrary (based on quantiles) so it is not surprising that not much variation is observed among the top groups. It's just a reflection \
                           of the general predominance of ordinary chondrites over other types of meteorites.")            
             st.markdown("* Masses with values above or equal to the 75th percentile (1.9kg) are common various groups at all frequency levels.")
+            st.markdown("* For more details, explore the data itself by browsing through the table below.")
+            
+            st.markdown("### Data")
+            
+            dframe3 = mass_cat3[['name', 'id', 'Type', 'group', 'mass (g)', 'year', 'country', 'range label']].sort_values(by = 'mass (g)', ascending = False)
+            
+            st.dataframe(data = dframe3, height = 185, hide_index = True, use_container_width = True)
+            
            
             
 
@@ -1097,6 +1118,14 @@ if choice == 'Mass Ranges':
             st.markdown("* There are two Martian shergottites and one martian nakhlite in this mass category with masses of 5, 7, and 10kg respectively.")
             st.markdown("* There are 12 groups with masses above or equal to the 97.5th percentile (10kg). The mass that defines the upper\
                         class limit (10.322kg) corresponds to an Iron, IAB primitive achondrite.")
+            st.markdown("* For more details, explore the data itself by browsing through the table below.")
+            
+            st.markdown("### Data")
+            
+            dframe4 = mass_cat4[['name', 'id', 'Type', 'group', 'mass (g)', 'year', 'country', 'range label']].sort_values(by = 'mass (g)', ascending = False)
+            
+            st.dataframe(data = dframe4, height = 185, hide_index = True, use_container_width = True)
+            
             
             
 
@@ -1223,10 +1252,13 @@ if choice == 'Mass Ranges':
             st.plotly_chart(fig, theme='streamlit', use_container_width = True)
             
         with st.expander("See explanation"):
-            st.markdown("* The largest masses in this category belong to the L-chondrite groups with the exception of a Ornans-like (CO) carbonacceous chondrite that produced 200kg of recovered mass.")
+            st.markdown("* The largest masses in this category belong to the L-chondrite groups with the exception of a Ornans-like (CO) carbonacceous chondrite landing that yielded 200kg of recovered mass.")
             st.markdown("* The largest primitive achondrite belongs to the Iron, IAB complex group with a recovered mass of 150.2kg.")
             st.markdown("* The largest achondrite in this category landed 128.8kg of mass and belongs to the Mesosiderite group.")
-
+            st.markdown("* For more details, explore the data itself by browsing through the table below.")
+            
+            st.markdown("### Data")
+            
             dframe5 = mass_cat5[['name', 'id', 'Type', 'group', 'mass (g)', 'year', 'country', 'range label']].sort_values(by = 'mass (g)', ascending = False)
             
             st.dataframe(data = dframe5, height = 185, hide_index = True, use_container_width = True)
@@ -1262,10 +1294,13 @@ if choice == 'Mass Ranges':
             st.plotly_chart(fig, theme='streamlit', use_container_width = True)
 
         with st.expander("See explanation"):
-            st.markdown("* ")                                           
-            st.markdown("* During the 183 years analyzed, 55 impacts in the range between 10500 and 220000g have masses above the 75th percentile (53.5kg) out of which 6 are equal to or above the 97.5th percentile (220kg).\
-                        The graph below summarizes the distribution of mass at this range.")
-            st.markdown(" ")
+            st.markdown("* The largest mass in the range (and the largest observed landing so far) landed in 1947 with a yield of 23 metric tons.")
+            st.markdown("* Two impacts yielded 1.1 metric tons of recovered mass each, in 1948 and 1998 respectively.")
+            st.markdown("* During the 183 years analyzed, there have been a total of 25 impacts with meteorite landings in this mass range.")
+            st.markdown("* 75% of the landings include masses of up to half a metric ton and above.")
+            st.markdown("* Above the 75th percentile there are masses that range between 1 metric ton and 4 metric tons except for the largest value\
+                        of 23 tons.")
+            st.markdown("*  The graph below summarizes the distribution of mass at this range.")
             st.markdown(" ")
 
             with st.container():
@@ -1354,7 +1389,15 @@ if choice == 'Mass Ranges':
             st.plotly_chart(fig, theme='streamlit', use_container_width = True)
             
         with st.expander("See explanation"):
-            st.markdown("* .")
+            st.markdown("* The ordinary chondrites continue to top the frequency list with impressive masses of 1.1 metric tons and 4 tons both\
+                        delivered by H5 meteorites, as well as a 2 ton mass delivered by a Vigarano-like(CV3) carbonaceous chondrite of petrologic\
+                        type 3 (unaltered or pristine).")
+            st.markdown('* The largest mass in this category was delivered by an Iron, IIAB achondrite (the Sikhote Alin impact). Comparing this to\
+                        the "found" meteorite records hints at the fact that irons are most capable of delivering extremely large masses to the ground\
+                        without extensive fragmentation or vaporization in the atmosphere.')
+            st.markdown("* For more details, explore the data itself by browsing through the table below.")
+            
+            st.markdown("### Data")            
             
             dframe6 = mass_cat6[['name', 'id', 'Type', 'group', 'mass (g)', 'year', 'country', 'range label']].sort_values(by = 'mass (g)', ascending = False)
             

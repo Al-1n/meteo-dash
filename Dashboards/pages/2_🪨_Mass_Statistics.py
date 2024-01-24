@@ -346,29 +346,20 @@ if choice == 'Overall Distribution':
                             itemdoubleclick='toggle',  # Enable double-click behavior on legend items
                             font=dict(size=10)
                         ),
-                            margin=dict(t=50, b=20, l=20, r=20),
-                            shapes=[go.layout.Shape(
-                                                type='rect',
-                                                xref='paper',
-                                                yref='paper',
-                                                x0=-0.07,
-                                                y0=-0.1,
-                                                x1=1.01,
-                                                y1=1.02,
-                                                line={'width': 1, 'color': 'rgb(89, 89, 89)'}
-                                                )]
+                            margin=dict(t=50, b=20, l=20, r=20)                            
                             )
                                     
                         #display the plot
                         st.plotly_chart(fig, theme='streamlit', use_container_width = True)
                         
-            st.markdown("*  In the non-logarithmic ECDF it can be clearly seen that most of the values fit almost on a straight vertical line, \
-                        almost up to the 97.5 percentile.")
-            st.markdown("* This suggests that very large mass values are basically outliers and have been significantly less frequent than the smaller mass values within \
-                        the given time period.")
+            st.markdown('*  In the non-logarithmic ECDF it can be clearly seen that most of the values fit almost on a straight vertical line, \
+                        almost up to the 97.5 percentile.')
+            st.markdown('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **This suggests that very large mass values are considerably less frequent but in this case it wouldn\'t help the big picture\
+                        to treat them as outlliers.**')
+            st.markdown('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **For a closer look at different mass ranges select "Mass Ranges" from the sidebar menu.**')
 
             st.write("""
-                    **Note:** The amount of mass that survives a fall is not an indication of the initial meteoric mass or the destructive capacity of an impact. \
+                    &nbsp;&nbsp; **Note:** The amount of mass that survives a fall is not an indicator of the initial meteoric mass or the destructive capacity of an impact. \
                     The Sikhote-Alin meteorite has the largest recovered mass from an observed impact yet its estimated entry mass (about 500 tons) was less  than that of the 2013 \
                     Celyabinsk bolide which had an estimated entry mass of 11000 to 13000 tons but its recovered mass was significantly smaller (about 1000Kg). Out of the estimated 500 tons \
                     of meteoric mass that entered the atmosphere at Sikhote-Alin at least 23 tons made it to the ground as meteorites. Other factors, such as entry angle, velocity, and type \
@@ -1391,10 +1382,13 @@ if choice == 'Mass Ranges':
         with st.expander("See explanation"):
             st.markdown("* The ordinary chondrites continue to top the frequency list with impressive masses of 1.1 metric tons and 4 tons both\
                         delivered by H5 meteorites, as well as a 2 ton mass delivered by a Vigarano-like(CV3) carbonaceous chondrite of petrologic\
-                        type 3 (unaltered or pristine).")
+                        type 3 (unaltered or pristine). ")
             st.markdown('* The largest mass in this category was delivered by an Iron, IIAB achondrite (the Sikhote Alin impact). Comparing this to\
                         the "found" meteorite records hints at the fact that irons are most capable of delivering extremely large masses to the ground\
-                        without extensive fragmentation or vaporization in the atmosphere.')
+                        without extensive fragmentation or vaporization in the atmosphere :green[<sup>[1](https://en.wikipedia.org/wiki/List_of_largest_meteorites_on_Earth)</sup>].', unsafe_allow_html = True)
+            st.markdown("* The Chelyabinsk meteorite classified as an LL5 chondrite and with an estimated recovered mass of ~1 metric ton\
+                        is one of the best documented impacts and with the most extensive damage to property and associated human injuries due to air burst\
+                        in recent history :green[<sup>[2](https://www.lpi.usra.edu/meteor/metbull.php?code=57165)</sup>].", unsafe_allow_html = True)
             st.markdown("* For more details, explore the data itself by browsing through the table below.")
             
             st.markdown("### Data")            

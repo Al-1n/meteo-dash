@@ -357,18 +357,7 @@ elif choice == 'Fireball Events':
                                               xaxis_title='Year',
                                               yaxis_title='Count',
                                               margin=dict(l=0, r=0, b=20, t = 30),
-                                              height = 256,
-                                              #width = 400,
-                                              shapes=[go.layout.Shape(
-                                                    type='rect',
-                                                    xref='paper',
-                                                    yref='paper',
-                                                    x0=-0.05,
-                                                    y0=-0.3,
-                                                    x1=1.0,
-                                                    y1=1.02,
-                                                    line={'width': 1, 'color': 'rgb(89, 89, 89)'}
-                                                    )]
+                                              height = 256                                              
                                               )                           
 
                             # format the ticks to match each decade and rotate the labels

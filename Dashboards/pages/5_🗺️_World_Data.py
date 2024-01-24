@@ -15,6 +15,7 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 import scipy.stats
+from PIL import Image
 
 #Page setup
 st.set_page_config(layout="wide",
@@ -267,8 +268,7 @@ if select == 'Europe':
 
         fig.update_traces(marker={'size': 12})
 
-        fig.update_layout(
-                        {'plot_bgcolor': 'rgba(174, 202, 220, 0.8)'},
+        fig.update_layout(                        
                         title=dict(text='Correlation between country area and number of observations in Europe'),
                         title_font_color = 'rgb(126, 126, 126)',
                         title_font_size=18,
@@ -305,12 +305,13 @@ if select == 'Europe':
                 cce = st.columns([60, 15, 25])
 
                 with cce[0]:
-                        st.markdown("* In Europe, a relatively strong positive correlation exists between a country's size and\
-                                the number of observed meteorite falls, with countries having larger areas generally reporting higher frequencies of landings.")
-                        st.markdown("")
+                        st.markdown("* In Europe, the trend between surface area and count is positive, indicating a correlation between a country's size and\
+                                the number of observed meteorite falls.")
+                        st.markdown("* Countries such as Russia, France and Ukraine are among the largest and also have some of the largest numbers of reportet events.")
+                        st.markdown("### Data")
                         st.dataframe(european_countries, hide_index = True, use_container_width = False)
                         st.markdown("* Population density plays a crucial role in certain instances. For example, when comparing Russia and France, despite Russia being \
-                                approximately 30 times larger in size, both countries have an equal number of reported observations within the given time period. \
+                                approximately 30 times larger than France, both countries have an equal number of reported observations within the given time period. \
                                 This equality is likely due to the sparse population spread across Russia's extensive territory.")
                 with cce[1]:
                         st.write("")
@@ -404,8 +405,7 @@ elif select == 'Asia':
 
         fig.update_traces(marker={'size': 12})
 
-        fig.update_layout(
-                        {'plot_bgcolor': 'rgba(174, 202, 220, 0.8)'},
+        fig.update_layout(                        
                         title=dict(text='Correlation between country area and number of observations in Asia'),
                         title_font_color = 'rgb(126, 126, 126)',
                         title_font_size=18,
@@ -446,11 +446,9 @@ elif select == 'Asia':
                         st.markdown("* The frequency of observations seems to be influenced by population density as well. As an example, Japan, despite being the 14th largest country, \
                                 occupies the third position in terms of the number of observations. This trend can be partly attributed to Japan's exceptional population density, \
                                 which stands among the highest globally.")
-                        st.markdown("")
+                        st.markdown("### Data")
                         st.dataframe(asian_countries, hide_index = True)
-                        st.markdown("* Although the small sample size may raise questions about the strength of the correlation, it is essential to recognize that the analysis is specific \
-                            to a continental level. Taking into account the larger context of worldwide data can help provide a more comprehensive understanding.\
-                            For more information select *Worldwide* from the sidebar menu.")
+                        
                 with cce[1]:
                         st.write("")
                 with cce[2]:
@@ -544,8 +542,7 @@ elif select == 'North America':
 
         fig.update_traces(marker={'size': 12})
 
-        fig.update_layout(
-                        {'plot_bgcolor': 'rgba(174, 202, 220, 0.8)'},
+        fig.update_layout(                        
                         title=dict(text='Correlation between country area and number of observations in North America'),
                         title_font_color = 'rgb(126, 126, 126)',
                         title_font_size=18,
@@ -585,10 +582,10 @@ elif select == 'North America':
                 
                 cce = st.columns([60, 15, 25])
                 with cce[0]:
-                        st.markdown("* The correlation strength between country size and number of observations in North America is weak.")
+                        st.markdown("* The correlation strength between country size and number of observations in North America is positive but weak compared to Europe for example. The correlation strength is likely affected by the small number of countries with reported landings.")
                         st.markdown("* A significant amount of teritory is represented by the 4 out of 23 countries included but there are still 19 countries with no reported falls.")
                         st.markdown("* This makes the results difficult to interpret which prompts for further investigations.")
-                        st.markdown(" ")
+                        st.markdown("### Data")
                         st.dataframe(north_american_countries, hide_index = True)
                         st.markdown("* In this case, population density is clearly a factor in determining the lack of correlation, as Mexico has approximately three times the population \
                                 of Canada. Similar to the situation in Russia, the low population density in Canada leads to a lower frequency of observations, despite its vast territory.")
@@ -680,8 +677,7 @@ elif select == 'Africa':
 
             fig.update_traces(marker={'size': 12})
 
-            fig.update_layout(
-                            {'plot_bgcolor': 'rgba(174, 202, 220, 0.8)'},
+            fig.update_layout(                            
                             title=dict(text='Correlation between country area and number of observations in Africa'),
                             title_font_color = 'rgb(126, 126, 126)',
                             title_font_size=18,
@@ -723,14 +719,13 @@ elif select == 'Africa':
                         st.markdown("* There seems to be no correlation between country size and number of observations in Africa.")
                         st.markdown("* Indeed, some of the largest countries have a high number of observations, but many of the largest have very few while some \
                                         midsized countries like Morroco and Burkina Faso have an above average number of observations.")
-                        st.markdown("* Morocco is famous for its meteorite trade, which may be detrimental to scientific research as many falls and finds are not \
-                                        properly cataloged.")
+                        st.markdown("* Morocco is famous for its meteorite trade.")
                         st.markdown("* One of the reasons for the high frequency of recovered fragments in Morroco is the ease of spotting them in the desert environment.")
-                        st.markdown("")
+                        st.markdown("### Data")
                         st.dataframe(african_countries, hide_index = True)
                         st.markdown("* Based on the available data, it is not entirely clear which combination of factors contributes to the lack of correlation \
-                                between country size and the number of observations in Africa. Possible factors could include population density, geography, \
-                                economic and political considerations, underreporting, and unregulated trade.")
+                                between country size and the number of observations in Africa. Additional factors could include population density, geography, \
+                                economic and political factors, underreporting, and unregulated trade.")
                 with cce[1]:
                         st.write("")
                 with cce[2]:
@@ -778,8 +773,7 @@ elif select == 'South America':
                                    )
                             )
                     
-            fig.update_layout(
-                {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
+            fig.update_layout(                
                 title=dict(text='South American countries sorted by area'),
                 title_font_color = 'rgb(126, 126, 126)',
                 title_x=0.01,
@@ -820,8 +814,7 @@ elif select == 'South America':
 
         fig.update_traces(marker={'size': 12})
 
-        fig.update_layout(
-                        {'plot_bgcolor': 'rgba(174, 202, 220, 0.8)'},
+        fig.update_layout(                        
                         title=dict(text='Correlation between country area and number of observations in South America'),
                         title_font_color = 'rgb(126, 126, 126)',
                         title_font_size=18,
@@ -861,7 +854,8 @@ elif select == 'South America':
                         st.markdown("* There is a correlation between country size and number of observations in South America.")
                         st.markdown("* Brazil has both a larger area and higher population density than Argentina, yet the number \
                                         of observations for both countries is similar.")
-                        st.markdown("* Therefore, there may be undetermined underlying reasons for Brazil not having a higher number of reported events.")
+                        st.markdown("* Therefore, there may be some yet undetermined reasons for Brazil not having a higher number of reported events.")
+                        st.markdown("### Data")
                         st.dataframe(south_american_countries, hide_index = True)
                 with cce[1]:
                         st.write("")
@@ -910,8 +904,7 @@ elif select == 'Oceania':
                                    )
                             )
                     
-            fig.update_layout(
-                {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
+            fig.update_layout(                
                 title=dict(text='Oceanic countries sorted by area'),
                 title_font_color = 'rgb(126, 126, 126)',
                 title_x=0.01,
@@ -992,6 +985,7 @@ elif select == 'Oceania':
                 with cce[0]:
                         st.markdown("* The correlation between country size and number of observations seems to be very strong in Oceania.")
                         st.markdown("* The number of countries is also small but they comprise the majority of the land area.")
+                        st.markdown("### Data")
                         st.dataframe(oceanic_countries, hide_index = True)
                 with cce[1]:
                         st.write("")
@@ -1015,14 +1009,20 @@ elif select == 'Antarctica':
     with st.container():
             with st.expander("See explanation", expanded = True):
                     st.markdown("* Antarctica does not have any permanent human settlements and thus no observations have been documented yet.")
-    with st.container():
-            ccempty = st.columns(2)
-
-            with ccempty[0]:
-                    st.write("")
-            with ccempty[1]:
-                    st.write("")
+                    st.markdown("* Nonetheless, Antarctica is a real hotspot for finding already fallen meteorites\
+                                :green[<sup>[1](https://earthobservatory.nasa.gov/images/149554/finding-meteorite-hotspots-in-antarctica)</sup>].", unsafe_allow_html = True )
                     
+    with st.container():
+            cc_img = st.columns([5, 30, 5])
+
+            with cc_img[0]:
+                    st.write("")
+            with cc_img[1]:
+                    image = Image.open('static/antarctic_meteorites_2022.png')
+                    st.image(image)
+                    st.write("")
+            with cc_img[2]:
+                    st.write("")
 
 #Page VIII -----------------------------------------------------------------
 elif select == "Worldwide":

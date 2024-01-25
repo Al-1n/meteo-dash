@@ -1013,7 +1013,7 @@ elif select == 'Antarctica':
                                 :green[<sup>[1](https://earthobservatory.nasa.gov/images/149554/finding-meteorite-hotspots-in-antarctica)</sup>].", unsafe_allow_html = True )
                     
     with st.container():
-            cc_img = st.columns([5, 30, 5])
+            cc_img = st.columns([15, 20, 15])
 
             with cc_img[0]:
                     st.write("")

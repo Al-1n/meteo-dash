@@ -582,7 +582,7 @@ elif select == 'North America':
                 
                 cce = st.columns([60, 15, 25])
                 with cce[0]:
-                        st.markdown("* The correlation strength between country size and number of observations in North America is positive but weak compared to Europe for example. The correlation strength is likely affected by the small number of countries with reported landings.")
+                        st.markdown("* The correlation strength between country size and number of observations in North America is positive but weak compared to Europe. The correlation strength is likely affected by the small number of countries with reported landings.")
                         st.markdown("* A significant amount of teritory is represented by the 4 out of 23 countries included but there are still 19 countries with no reported falls.")
                         st.markdown("* This makes the results difficult to interpret which prompts for further investigations.")
                         st.markdown("### Data")
@@ -1009,8 +1009,13 @@ elif select == 'Antarctica':
     with st.container():
             with st.expander("See explanation", expanded = True):
                     st.markdown("* Antarctica does not have any permanent human settlements and thus no observations have been documented yet.")
-                    st.markdown("* Nonetheless, Antarctica is a real hotspot for finding already fallen meteorites\
-                                :green[<sup>[1](https://earthobservatory.nasa.gov/images/149554/finding-meteorite-hotspots-in-antarctica)</sup>].", unsafe_allow_html = True )
+                    st.markdown("* Nonetheless, Antarctica is a real hotspot for finding already fallen meteorites.")
+                    st.markdown("* The map bellow shows the locations with the highest potential for meteorite findings.")
+                    st.markdown("* The locations were ranked using machine learning with features based\
+                                on proximity to research stations, elevation, climate conditions, ice type and ice velocity, with data sourced\
+                                from satellite images <sup>[1](https://www.science.org/doi/10.1126/sciadv.abj8138)</sup>.", unsafe_allow_html = True)
+                    st.markdown("* For more information check the original description of the image by following the link:\
+                                [Finding Meteorite Hotspots in Antarctica](https://earthobservatory.nasa.gov/images/149554/finding-meteorite-hotspots-in-antarctica).")                  
                     
     with st.container():
             cc_img = st.columns([15, 20, 15])
@@ -1020,7 +1025,7 @@ elif select == 'Antarctica':
             with cc_img[1]:
                     image = Image.open('static/antarctic_meteorites_2022.png')
                     st.image(image)
-                    st.write("")
+                    st.markdown('[<div style="text-align: center;">Meteorite Hotspots in Antarctica</div>](https://earthobservatory.nasa.gov/images/149554/finding-meteorite-hotspots-in-antarctica)', unsafe_allow_html=True)
             with cc_img[2]:
                     st.write("")
 
@@ -1085,8 +1090,7 @@ elif select == "Worldwide":
                 hovertemplate='Continent: %{y}<br>Count: %{x}<extra></extra>'
             ))
 
-            fig.update_layout(
-                {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
+            fig.update_layout(                
                 title=dict(text='Number of confirmed observations by continent'),
                 title_font_color='rgb(126, 126, 126)',
                 title_font_size=18,
@@ -1109,8 +1113,7 @@ elif select == "Worldwide":
                     hovertemplate='Country: %{y}<br>Count: %{x}<extra></extra>'
                 ))
 
-            fig.update_layout(
-            {'plot_bgcolor': 'rgba(0, 0, 0, 0)'},
+            fig.update_layout(            
             title=dict(text='Top 10 countries with confirmed observations'),
             title_font_color = 'rgb(126, 126, 126)',
             title_font_size = 18, 
@@ -1125,13 +1128,8 @@ elif select == "Worldwide":
         with st.expander("See explanation"):
                         st.markdown("* At continental level Europe is leading by number of observations followed by Asia and North America.")                                           
                         st.markdown("* Even though Europe has the highest number of observations, at country level the United States has the highest number of observed falls, followed by India.")
-                        st.markdown("")   
-                        st.write("""
-                            Since reporting inconsistencies are possibly corelated to population size and fraction of populated surface area per country, \
-                            one possible workaround might be to create a subset of countries that are similar in both population and fraction of developed surface area \
-                            as well as a documented history of consistent record keeping and observations. This will still not compensate for events that occur in less \
-                            populated areas or over the ocean but it might give a better perspective over the frequency of landing events.
-                            """)                
+                        st.markdown("")  
+                               
 
     with st.container():
 
@@ -1158,8 +1156,7 @@ elif select == "Worldwide":
 
         fig.update_traces(marker={'size': 12})
 
-        fig.update_layout(
-                        {'plot_bgcolor': '#aecadc'},
+        fig.update_layout(                        
                         title=dict(text='Worldwide correlation between country area and number of observations'),
                         title_font_color = 'rgb(126, 126, 126)',
                         title_font_size=18,
@@ -1196,9 +1193,7 @@ elif select == "Worldwide":
 
                 with cce[0]:
                         st.markdown("* At world level the correlation between country size and number of observations is positive.")
-                        st.markdown("* The countries with the largest areas are clearly at the top of the list for meteorite fall reporting frequency.")
-                        st.markdown("* An interesting topic of research would be to determine if the history of economic development and the variation in population density through the years \
-                                        have influenced the variation in the frequencey of observations.")
+                        st.markdown("* The countries with the largest areas are clearly at the top of the list for meteorite fall reporting frequency.")                        
                         st.markdown("")
                         st.markdown("**Note:** Only countries with reported falls are included in this analysis.")                        
                 with cce[1]:

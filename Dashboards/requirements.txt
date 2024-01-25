@@ -1,8 +1,7 @@
 streamlit
 pandas
-plost
-plotly
 numpy
-#PIL
+plotly
+pillow
 scipy
 hydralit_components

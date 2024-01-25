@@ -270,10 +270,10 @@ if choice == 'Chondrites':
                 st.markdown("* Chondrites are the most common type of meteorite observed falling.:green[] ")                                           
                 st.markdown("* Chondrites originate from undifferentiated asteroids and comets. \
                             :green[<sup>[1](https://www.nature.com/articles/s41598-021-82320-2)</sup>]. ", unsafe_allow_html=True)
-                st.markdown('* The classification method used throughout the pages of this app are based on \
-                            :green[["Systematics and Evaluation of Meteorite Classification"](https://www.lpi.usra.edu/books/MESSII/9014.pdf)] \
+                st.markdown('* The classification method used throughout the pages of this app is based on \
+                            :green[["Systematics and Evaluation of Meteorite Classification"](https://repository.si.edu/bitstream/handle/10088/20577/min_Weisberg_et_al_2006_In_Meteorites_and_the_Early_Solar_System_II_Univ_of_Arizona_Press_19-52.pdf)] \
                             by Michael K. Weisberg, Timothy J. McCoy and Alexander N. Krot ')
-                st.markdown("* Some studies might quote different percentage values based on \
+                st.markdown("* Some sources might quote different percentage values based on \
                             the sample data and classification methods used.:green[<sup>[2](https://en.wikipedia.org/wiki/Meteorite_fall_statistics)</sup>]. ", unsafe_allow_html=True)
                 st.markdown("")
                            
@@ -336,7 +336,7 @@ if choice == 'Chondrites':
                         &nbsp;&nbsp;&nbsp;&nbsp; Petrologic types higher than 3 are ordered according to their degree of thermal alteration, with 7 being the highest, \
                         while those lower than 3 are ordered according to their degree of aqueous alteration, with type 1 having the highest degree of alteration. \
                         Meteorites of petrologic type 3 are considered pristine, or unaltered. There is also a spectrum of subtypes going from type 3.0 to 3.9 determined by \
-                        thermoluminiscence :green[<sup>[1](https://www.lpi.usra.edu/books/MESSII/9014.pdf)</sup>].                           
+                        thermoluminiscence :green[<sup>[1](https://repository.si.edu/bitstream/handle/10088/20577/min_Weisberg_et_al_2006_In_Meteorites_and_the_Early_Solar_System_II_Univ_of_Arizona_Press_19-52.pdf)</sup>].                           
                          """, unsafe_allow_html=True)            
                 
                 
@@ -444,8 +444,8 @@ elif choice == 'Achondrites':
 
                 st.markdown("* Achondrites are formed either by recrystalization or breccias of recrystalzed igneous rock \
                             (rocks differentiated from the solar-like consistency of chondrites by parent body processes such \
-                            as volcanism or impact melting) :green[<sup>[1](https://www.lpi.usra.edu/books/MESSII/9014.pdf)</sup>]. ", unsafe_allow_html=True)                                          
-                st.markdown("* Some studies might quote different percentage values based on \
+                            as volcanism or impact melting) :green[<sup>[1](https://repository.si.edu/bitstream/handle/10088/20577/min_Weisberg_et_al_2006_In_Meteorites_and_the_Early_Solar_System_II_Univ_of_Arizona_Press_19-52.pdf)</sup>]. ", unsafe_allow_html=True)                                          
+                st.markdown("* Some sources might quote different percentage values based on \
                             the sample data and classification methods used.:green[<sup>[2](https://en.wikipedia.org/wiki/Meteorite_fall_statistics)</sup>]. ", unsafe_allow_html=True)
                 st.markdown("")
                 
@@ -602,10 +602,10 @@ elif choice == 'Primitive achondrites':
 
                 st.markdown("* The primitive achondrites represent the smallest classified group of meteorites.")                                           
                 st.markdown("* Primitive achondrites present characteristics of recrystalization from a molten state but preserve some of the chemistry of  \
-                                their undifferentiated(chondritic) state :green[<sup>[1](https://www.lpi.usra.edu/books/MESSII/9014.pdf)</sup>]. ", unsafe_allow_html=True)
+                                their undifferentiated(chondritic) state :green[<sup>[1](https://repository.si.edu/bitstream/handle/10088/20577/min_Weisberg_et_al_2006_In_Meteorites_and_the_Early_Solar_System_II_Univ_of_Arizona_Press_19-52.pdf)</sup>]. ", unsafe_allow_html=True)
                 st.markdown("* As such, some classification methods identify them as achondrites even though they are considered to be closer to \
-                                their chondritic parent :green[<sup>[1](https://www.lpi.usra.edu/books/MESSII/9014.pdf)</sup>]. ", unsafe_allow_html=True)
-                st.markdown("* Some studies might quote different percentage values based on the sample data and classification methods used.:green[<sup>[2](https://en.wikipedia.org/wiki/Meteorite_fall_statistics)</sup>]. ", unsafe_allow_html=True)
+                                their chondritic parent :green[<sup>[1](https://repository.si.edu/bitstream/handle/10088/20577/min_Weisberg_et_al_2006_In_Meteorites_and_the_Early_Solar_System_II_Univ_of_Arizona_Press_19-52.pdf)</sup>]. ", unsafe_allow_html=True)
+                st.markdown("* Some sources might quote different percentage values based on the sample data and classification methods used.:green[<sup>[2](https://en.wikipedia.org/wiki/Meteorite_fall_statistics)</sup>]. ", unsafe_allow_html=True)
                 st.markdown("* The current classification is based on the meteorite landings data available from NASA and includes only falls observed after 1830.")
                      
 #Horizontal line separator            
@@ -749,7 +749,7 @@ elif choice == 'Unclassified':
                 
                 st.markdown("* In the graph above, the unclassified meteorites have been roughly grouped into stones and irons. ")                                           
                 st.markdown("* There is only one observed fall that is not described by one of the terms mentioned above. ")
-                st.markdown("* The nomenclature described is used as an initial description of the material :green[<sup>[1](https://www.lpi.usra.edu/books/MESSII/9014.pdf)</sup>]. ", unsafe_allow_html=True)
+                st.markdown("* The nomenclature described is used as an initial description of the material :green[<sup>[1](https://repository.si.edu/bitstream/handle/10088/20577/min_Weisberg_et_al_2006_In_Meteorites_and_the_Early_Solar_System_II_Univ_of_Arizona_Press_19-52.pdf)</sup>]. ", unsafe_allow_html=True)
                 st.markdown("* Further analysis of the recovered fragments might eventually place them in one of the known groups and classes.")
                 st.markdown("* Comparing the monthly frequency based and their initial description with the monthly frequency of known groups over the years\
                         might give a clue as to what their types might be.")
@@ -816,8 +816,8 @@ elif choice == 'Unclassified':
                 st.markdown("* Values such as names, location and mass could change over time.")
                 st.markdown("* Work might be under way to fit the unclassified meteorites into a \
                         known group or a new category ")
-                st.markdown("* Also, the classification methods are not definitive and changes in how the categories are defined might be required in the future. :green[<sup>[1](https://www.lpi.usra.edu/books/MESSII/9014.pdf)</sup>]. ", unsafe_allow_html=True)
-                st.markdown("* Some studies might quote different percentage values based on the sample data and classification methods used.:green[<sup>[2](https://en.wikipedia.org/wiki/Meteorite_fall_statistics)</sup>]. ", unsafe_allow_html=True)
+                st.markdown("* Also, the classification methods are not definitive and changes in how the categories are defined might be required in the future. :green[<sup>[1](https://repository.si.edu/bitstream/handle/10088/20577/min_Weisberg_et_al_2006_In_Meteorites_and_the_Early_Solar_System_II_Univ_of_Arizona_Press_19-52.pdf)</sup>]. ", unsafe_allow_html=True)
+                st.markdown("* Some sources might quote different percentage values based on the sample data and classification methods used.:green[<sup>[2](https://en.wikipedia.org/wiki/Meteorite_fall_statistics)</sup>]. ", unsafe_allow_html=True)
                 st.markdown("* The current classification is based on the meteorite landings data available from NASA and includes only falls observed after 1830.")
                 st.markdown("")
                 

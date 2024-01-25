@@ -120,7 +120,7 @@ if choice == 'Observed Landings':
         st.markdown("## Global Meteorite Landings")
 
         # get the year with a slider
-        st.session_state['year'] = st.slider('Select year', min_year, max_year, key="year_slider")
+        st.session_state['year'] = st.slider('Select year', min_year, max_year, value = 1921, key="year_slider")
 
     with colh2:
         st.markdown("")  # this will be overwritten in the app
@@ -197,7 +197,7 @@ if choice == 'Observed Landings':
                     st.markdown("* The fact that there are years with few to no observations it does not indicate \
                                 a decrease of the influx of material from space. For example, while there are no recorded\
                                 meteorite landings for the year 2005, the fireball data from the US Government Sensors\
-                                reveals peak activity for the same year. For more information choose\
+                                shows peak activity for the same year. For more information choose\
                                 **Fireball Events** from the sidebar to explore the fireball data.")
 
     countries = df_183['country'].unique()
@@ -266,7 +266,7 @@ elif choice == 'Fireball Events':
         st.markdown("## Fireball Events")
 
         # get the year with a slider
-        st.session_state['year'] = st.slider('Select year', min_year, max_year, key="year_slider")
+        st.session_state['year'] = st.slider('Select year', min_year, max_year, value = 2005, key="year_slider")
 
     with colh2:
         st.markdown("")  # this will be overwritten in the app
@@ -400,7 +400,7 @@ elif choice == 'Fireball Events':
     # The second column contains a selector for countries and a data table
     # set the header with the new year data
     landings = fireball_df[fireball_df['year']==st.session_state['year']]['Latitude (deg.)'].count()
-    #colh2.metric(label=f"__Total landings for {st.session_state['year']}__", value=landings)
+    
     with colh2:
         info_card(f"Total fireballs for {st.session_state['year']}", landings, "fa fa-globe")
 

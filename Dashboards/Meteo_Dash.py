@@ -45,16 +45,16 @@ st.write(f'<span style="color:rgb{text_color};font-size:18px">Meteorite Impact: 
 st.markdown(" ")
 st.markdown(" ")
 # Create columns
-col1, col2, col3, col4 = st.columns([20, 20, 20, 40], gap="small")
-col5, col6, col7, col8 = st.columns([20, 20, 20, 40], gap="small")
+col1, col2, col3, col4 = st.columns([17, 17, 17, 49], gap="small")
+col5, col6, col7, col8 = st.columns([17, 17, 17, 49], gap="small")
 
 # Define image paths
 image_paths = {
     "Type_Statistics": "./app/static/type.jpeg",
-    "Mass_Statistics": "./app/static/mass.jpeg",
+    "World_Data": "./app/static/world.jpeg",
     "Time_Series": "./app/static/time.jpeg",
     "Flux_Analysis": "./app/static/flux.jpeg",
-    "World_Data": "./app/static/world.jpeg",
+    "Mass_Statistics": "./app/static/mass.jpeg",    
     "Maps": "./app/static/maps.jpeg"    
 }
 
@@ -77,12 +77,12 @@ def create_image_link(column, page_name, image_path, page_caption):
 # Main content layout
 with st.container():
     create_image_link(col1, "Type_Statistics", image_paths["Type_Statistics"], "Type Statistics")
-    create_image_link(col2, "Mass_Statistics", image_paths["Mass_Statistics"], "Mass Statistics")
+    create_image_link(col2, "World_Data", image_paths["World_Data"], "World Data")    
     create_image_link(col3, "Time_Series", image_paths["Time_Series"], "Time Series")
     col4.empty()
 
 with st.container():
     create_image_link(col5, "Flux_Analysis", image_paths["Flux_Analysis"], "Flux Analysis")
-    create_image_link(col6, "World_Data", image_paths["World_Data"], "World Data")
+    create_image_link(col6, "Mass_Statistics", image_paths["Mass_Statistics"], "Mass Statistics")
     create_image_link(col7, "Maps", image_paths["Maps"], "Maps")
     col8.empty()

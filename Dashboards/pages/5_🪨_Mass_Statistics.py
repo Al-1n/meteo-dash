@@ -223,7 +223,7 @@ mass_perc = np.percentile(mass_array, percentiles)
             
 #Sidebar
 st.sidebar.subheader('Meteorite falls by mass')
-choice = st.sidebar.selectbox('Choose Dashboard', ('Overall Distribution', 'Mass Ranges'), index = 0)
+choice = st.sidebar.selectbox('Choose Dashboard', ('Mass Ranges', 'Overall Distribution'), index = 0)
         
 if choice == 'Overall Distribution':
 
@@ -521,7 +521,7 @@ type_colors = ['rgb(199, 110, 44)', 'rgb(221, 164, 98)', 'rgb(182, 95, 86)', 'rg
 if choice == 'Mass Ranges':
 
     st.sidebar.subheader('Meteorite mass segments')
-    mass_range = st.sidebar.selectbox('Choose mass group', ('0.099➝22.0 grams', '23.0➝682.0 grams', '690.0➝2700.0 grams', '2756.0➝10322.0 grams', '10500.0➝220000.0 grams', '228000.0➝23000000.0 grams'), index = 0)
+    mass_range = st.sidebar.selectbox('Choose mass group', ('0.099➝22.0 grams', '23.0➝682.0 grams', '690.0➝2700.0 grams', '2756.0➝10322.0 grams', '10500.0➝220000.0 grams', '228000.0➝23000000.0 grams'), index = 1)
 
 #1st mass range distribution
 

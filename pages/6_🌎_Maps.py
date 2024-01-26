@@ -79,9 +79,9 @@ def info_card(title, value, icon):
 #Load the data
 @st.cache_data
 def get_data():
-    df_183 = pd.read_csv('../Data/df183.csv', index_col = [0])
+    df_183 = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/df183.csv', index_col = [0])
 
-    fireball_df = pd.read_csv("../Data/fireball_data.csv", index_col = [0])  
+    fireball_df = pd.read_csv("https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/fireball_data.csv", index_col = [0])  
   
     return df_183, fireball_df
 

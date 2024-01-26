@@ -135,16 +135,16 @@ additional_colors = ['rgb(145, 52, 19)', 'rgb(186, 87, 29)', 'rgb(182, 68, 116)'
 
 
 #import data
-grouped_by_type = pd.read_csv('https://github.com/Al-1n/meteo-dash/blob/main/Data/type_percentage.csv')
-chondrite_groups_sorted = pd.read_csv('https://github.com/Al-1n/meteo-dash/blob/main/Data/chondrite_groups_sorted.csv')
-achondrite_groups_sorted = pd.read_csv('https://github.com/Al-1n/meteo-dash/blob/main/Data/achondrite_groups_sorted.csv')
+grouped_by_type = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/type_percentage.csv')
+chondrite_groups_sorted = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/chondrite_groups_sorted.csv')
+achondrite_groups_sorted = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/achondrite_groups_sorted.csv')
 primitive_achondrite_groups_sorted = pd.read_csv('https://github.com/Al-1n/meteo-dash/blob/main/Data/primitive_groups_sorted.csv')
-unclassified_groups_sorted = pd.read_csv('https://github.com/Al-1n/meteo-dash/blob/main/Data/unclassified_groups_sorted.csv')
-chondrites_by_month = pd.read_csv('https://github.com/Al-1n/meteo-dash/blob/main/Data/chondrites_by_month.csv')
-achondrites_by_month = pd.read_csv('https://github.com/Al-1n/meteo-dash/blob/main/Data/achondrites_by_month.csv')
-primitives_by_month = pd.read_csv('https://github.com/Al-1n/meteo-dash/blob/main/Data/primitives_by_month.csv')
-unclassified_by_month = pd.read_csv('https://github.com/Al-1n/meteo-dash/blob/main/Data/unclassified_by_month.csv')
-prim_dm_grouped_m_group_y = pd.read_csv('https://github.com/Al-1n/meteo-dash/blob/main/Data/primitives_by_month_nasa_grouping.csv')
+unclassified_groups_sorted = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/unclassified_groups_sorted.csv')
+chondrites_by_month = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/chondrites_by_month.csv')
+achondrites_by_month = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/achondrites_by_month.csv')
+primitives_by_month = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/primitives_by_month.csv')
+unclassified_by_month = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/unclassified_by_month.csv')
+prim_dm_grouped_m_group_y = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/primitives_by_month_nasa_grouping.csv')
 
 
 #sidebar

@@ -78,10 +78,10 @@ def info_card(title, value, icon):
 
 
 #Load data
-fell_df = pd.read_csv('../Data/df183_with_country_area.csv', index_col = [0])
+fell_df = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/df183_with_country_area.csv', index_col = [0])
 grouped_by_region = fell_df.groupby(['country', "area(sq Km)", 'continent'])['name'].count().sort_values(ascending = False).reset_index(name = 'count')
-freq_by_continent = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/freq_by_continent.csv')
-most_frequent_by_country = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/most_frequent_by_country.csv')
+freq_by_continent = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/freq_by_continent.csv')
+most_frequent_by_country = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/most_frequent_by_country.csv')
 
 #Define continental subsets grouped by the number of observations
 europe = grouped_by_region[grouped_by_region['continent'] == 'Europe'].sort_values(by='count', ascending=False)

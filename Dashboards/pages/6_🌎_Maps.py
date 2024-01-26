@@ -194,7 +194,7 @@ if choice == 'Observed Landings':
                                 the default zoom level is causing markers that are close to each other to overlap \
                                 (e.g. see the map for the year 1925). Use the zoom in function to identify the overlaping \
                                 markers.")
-                    st.markdown("* The fact that there are years with few to no observations it does not indicate \
+                    st.markdown("* The fact that there are years with few to no observations does not suggest \
                                 a decrease of the influx of material from space. For example, while there are no recorded\
                                 meteorite landings for the year 2005, the fireball data from the US Government Sensors\
                                 shows peak activity for the same year. For more information choose\

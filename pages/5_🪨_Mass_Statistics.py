@@ -57,7 +57,7 @@ st.write(f'<span style="color:rgb{title_color};font-size:16px">Choose a page fro
 
 
 #Import data
-df = pd.read_csv('../Data/fell_df_known_mass_after_1830.csv', index_col = [0])
+df = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/fell_df_known_mass_after_1830.csv', index_col = [0])
 
 #Split the data into quantiles based on percentiles
 bin_labels = ['1st_quantile', '2nd_quantile', '3rd_quantile', '4th_quantile', '5th_quantile', '6th_quantile']

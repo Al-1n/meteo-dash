@@ -125,15 +125,15 @@ new_achondrite_colors = ['rgb(244, 212, 52)', 'rgb(204, 100, 76)', 'rgb(217, 165
 
 
 #Import data
-grouped_by_type = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/type_percentage.csv')
-chondrite_groups_sorted = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/chondrite_groups_sorted.csv')
-achondrite_groups_sorted = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/achondrite_groups_sorted.csv')
-primitive_achondrite_groups_sorted = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/primitive_groups_sorted.csv')
-unclassified_groups_sorted = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/unclassified_groups_sorted.csv')
-chondrites_by_mgy = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/chondrites_by_mgy.csv')
-achondrites_by_mgy = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/achondrites_by_mgy.csv')
-primitives_by_mgy = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/primitives_by_mgy.csv')
-unclassified_by_mgy = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/unclassified_by_mgy.csv')
+##grouped_by_type = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/type_percentage.csv')
+##chondrite_groups_sorted = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/chondrite_groups_sorted.csv')
+##achondrite_groups_sorted = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/achondrite_groups_sorted.csv')
+##primitive_achondrite_groups_sorted = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/primitive_groups_sorted.csv')
+##unclassified_groups_sorted = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/unclassified_groups_sorted.csv')
+chondrites_by_mgy = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/chondrites_by_mgy.csv')
+achondrites_by_mgy = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/achondrites_by_mgy.csv')
+primitives_by_mgy = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/primitives_by_mgy.csv')
+unclassified_by_mgy = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/unclassified_by_mgy.csv')
 
 
 #Define the sidebar selector

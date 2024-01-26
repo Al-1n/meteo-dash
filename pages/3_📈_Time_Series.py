@@ -96,9 +96,9 @@ with cc[3]:
     info_card("Year w/ maximum No. of obs.", 1933, 'fa fa-calendar')                  
 
 #import data
-grouped_by_decade_200 = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/grouped_by_decade_200.csv')
-freq_by_year_200 = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/freq_by_year_200.csv')
-grouped_by_decade_year_avg = pd.read_csv('/home/a/Data Projects/Meteorite_landings/Data/grouped_by_decade_year_avg.csv')
+grouped_by_decade_200 = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/grouped_by_decade_200.csv')
+freq_by_year_200 = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/freq_by_year_200.csv')
+grouped_by_decade_year_avg = pd.read_csv('https://raw.githubusercontent.com/Al-1n/meteo-dash/main/Data/grouped_by_decade_year_avg.csv')
 
 #Tableau 20
 colors1 = ['rgb(140, 86, 75)', 'rgb(197, 176, 213)', 'rgb(196, 156, 148)', 'rgb(247, 182, 210)',

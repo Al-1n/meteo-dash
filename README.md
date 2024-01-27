@@ -77,7 +77,7 @@ Explore meteorite landing data hands-on with this interactive app, providing a c
        
 <br/>
 
-> **Note**: The data analysis was first performed on the back-end side using jupyter notebooks with the dashboard being the final front-end presentation. Accordingly, some of the requirements apply only to the back-end project and some to the fron-end. If you are interested only in the dashboard, the project includes a 'requirements.txt' file that streamlit will scan and install in the deployment stage. 
+> **Note**: The data analysis was first performed on the back-end side using jupyter notebooks with the dashboard being the final front-end presentation. Accordingly, some of the requirements apply only to the back-end project and some to the fron-end. If you are interested only in the dashboard, the project includes a 'requirements.txt' file that streamlit will scan and install in the deployment stage.  
 
 <br/>
 
@@ -96,6 +96,8 @@ For more information and alternative options for creating an environment check t
 To run the dashboard locally, open a terminal and go to the project folder. Activate the newly created environment and run the following command:
 
  `streamlit run Meteo_Dash.py`
+ 
+ If you just want to explore the notebooks than you can install the necessary packages in the base environment using pip or conda without the need to create a virtual environment. 
 
 **Proof of Concept.**  Tailorable to various subjects, this platform showcases the potential for transforming complex data into a user-friendly and adaptable format. 
 

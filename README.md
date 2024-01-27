@@ -97,7 +97,7 @@ To run the dashboard locally, open a terminal and go to the project folder. Acti
 
  `streamlit run Meteo_Dash.py`
  
- If you just want to explore the notebooks than you can install the necessary packages in the base environment using pip or conda without the need to create a virtual environment. 
+ If you just want to explore the notebooks, than you can install the necessary packages in the base environment using pip or conda without the need to create a virtual environment. 
 
 **Proof of Concept.**  Tailorable to various subjects, this platform showcases the potential for transforming complex data into a user-friendly and adaptable format. 
 

@@ -16,45 +16,68 @@ Explore meteorite landing data hands-on with this interactive app, providing a c
 
 **Requirements**
 
- <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0pky">Pandas</th>
-    <th class="tg-0pky">Streamlit</th>
-    <th class="tg-0pky">Plotly</th> 
-    <th class="tg-0pky">Numpy</th>    
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky">Scipy</td>
-    <td class="tg-0pky">Hydralit_components</td>
-    <td class="tg-0pky">Pillow</td> 
-    <th class="tg-0pky">Geopy</th>    
-  </tr>
-  <tr>
-    <th class="tg-0pky">Pycountry_convert</th> 
-    <td class="tg-0pky">Tqdm</td>
-    <td class="tg-0pky">Pprint</td>
-    <td class="tg-0pky">Jupter-lab</td>    
-  </tr>
-  <tr>
-    <th class="tg-0pky">Seaborn</th> 
-    <td class="tg-0pky">Matplotlib</td>
-    <td class="tg-0pky">Statsmodels.api</td>
-    <td class="tg-0pky">Folium</td>    
-  </tr>
-</tbody>
-</table>
-      
+<table border="0" cellpadding="0" cellspacing="0">
+            <tr height="16" hidden>
+                <td colspan="16">
+                    JupyterLab
+                </td>
+                <td colspan="16">
+                    Requests                 
+                </td>
+                <td colspan="16">
+                    Pandas
+                </td>
+            </tr>
+            <tr height="16">
+                <td colspan="16">
+                    Numpy
+                </td>
+                <td colspan="16">
+                    Streamlit
+                </td>
+                <td colspan="16">
+                    Matplotlib
+                </td>
+            </tr>
+            <tr height="16" hidden>
+                <td colspan="16">
+                    Seaborn
+                </td>
+                <td colspan="16">
+                    Plotly                
+                </td>
+                <td colspan="16">
+                    Scipy
+                </td>
+            </tr>
+            <tr height="16">
+                <td colspan="16">
+                    Folium
+                </td>
+                <td colspan="16">
+                    Hydralit_components
+                </td>
+                <td colspan="16">
+                    Pillow
+                </td>
+                <td colspan="16">
+                    Geopy
+                </td>
+                <td colspan="16">
+                    Pycountry_convert
+                </td>
+                <td colspan="16">
+                    Tqdm
+                </td>
+                <td colspan="16">
+                    Pprint
+                </td>
+                <td colspan="16">
+                    Statsmodels.api
+                </td>
+            </tr>            
+    </table>      
+       
 <br/>
 
 > **Note**: The data analysis was first performed on the back-end side using jupyter notebooks with the dashboard being the final front-end presentation. Accordingly, some of the requirements apply only to the back-end project and some to the fron-end. If you are interested only in the dashboard, the project includes a 'requirements.txt' file that streamlit will scan and install in the deployment stage. 
@@ -92,15 +115,7 @@ To run the dashboard locally, open a terminal and go to the project folder. Acti
 
 Ever wondered what secrets meteorites hold? Meteo Dash lets you explore the fascinating world of meteorite landings through an interactive data visualization portal, bridging the gap between scientific rigor and accessible discovery through a unique hands-on experience.
 
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/md1.png" alt="" title="meteo-dash1"/>
-	<img class="col one" src="{{ site.baseurl }}/img/md2.png" alt="" title="meteo-dash2"/>	
-</div>
-
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/md3.png" alt="" title="meteo-dash3"/>
-	<img class="col one" src="{{ site.baseurl }}/img/md4.png" alt="" title="meteo-dash4"/>	
-</div>
+![](/img/md1.png) ![](/img/md2.png)
 
 
 **Key Features:**
@@ -111,10 +126,7 @@ Ever wondered what secrets meteorites hold? Meteo Dash lets you explore the fasc
 
 **Go beyond the bullet points.** Meteo Dash empowers you to delve deeper than pre-digested summaries. Explore data yourself, uncover hidden patterns, and draw your own conclusions. It's like having a scientist's notebook in your pocket, ready to spark your curiosity.
 
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/md3.png" alt="" title="meteo-dash3"/>
-	<img class="col one" src="{{ site.baseurl }}/img/md4.png" alt="" title="meteo-dash4"/>	
-</div>
+![](/img/md3.png) ![](/img/md4.png)
 
 **Aggregated Data Sources.** Drawing from reputable sources such as NASA, The Meteoritical Society, The NHM Meteorite Catalogue, and the World Bank, Meteo Dash provides a comprehensive overview by combining data from multiple sources.
 
@@ -122,10 +134,7 @@ Ever wondered what secrets meteorites hold? Meteo Dash lets you explore the fasc
 
 **Dive deeper, if you dare.** For those seeking further insights, Meteo Dash recommends "Systematics and Evaluation of Meteorite Classification" by Weisberg et al. This serves as the basis for the adopted classification method, offering an excellent companion for users with varying levels of tolerance for formal scientific literature.
 
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/md5.png" alt="" title="meteo-dash5"/>
-	<img class="col one" src="{{ site.baseurl }}/img/md6.png" alt="" title="meteo-dash6"/>	
-</div>
+![](/img/md5.png) ![](/img/md6.png)
 
 **Meteo Dash** is your gateway to scientific discovery. Dive into meteorite origins, compositions, and impacts, understanding the stories they tell us about the universe.
 

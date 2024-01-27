@@ -20,37 +20,32 @@ Explore meteorite landing data hands-on with this interactive app, providing a c
             <tr height="16" hidden>
                 <td colspan="16">
                     JupyterLab
-                </td>
-                <td colspan="16">
-                    Requests                 
-                </td>
+                </td>             
                 <td colspan="16">
                     Pandas
-                </td>
-            </tr>
-            <tr height="16">
+                </td>            
                 <td colspan="16">
                     Numpy
-                </td>
+                </td>            
                 <td colspan="16">
                     Streamlit
                 </td>
+            </tr>
+            <tr height="16">    
                 <td colspan="16">
                     Matplotlib
-                </td>
-            </tr>
-            <tr height="16" hidden>
+                </td>          
                 <td colspan="16">
                     Seaborn
                 </td>
                 <td colspan="16">
                     Plotly                
-                </td>
+                </td>              
                 <td colspan="16">
                     Scipy
                 </td>
             </tr>
-            <tr height="16">
+            <tr height="16">                
                 <td colspan="16">
                     Folium
                 </td>
@@ -59,16 +54,18 @@ Explore meteorite landing data hands-on with this interactive app, providing a c
                 </td>
                 <td colspan="16">
                     Pillow
-                </td>
+                </td>	                 
                 <td colspan="16">
                     Geopy
                 </td>
+            </tr>
+            <tr height="16">    
                 <td colspan="16">
                     Pycountry_convert
                 </td>
                 <td colspan="16">
                     Tqdm
-                </td>
+                </td>            
                 <td colspan="16">
                     Pprint
                 </td>

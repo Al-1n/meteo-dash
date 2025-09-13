@@ -203,7 +203,7 @@ with st.expander("See explanation", expanded = True):
                             """)
                 with st.container():
 
-                    col1, col2 = st.columns([5, 30])
+                    col1, col2 = st.columns([30, 5])
 
                     with col1:
                         

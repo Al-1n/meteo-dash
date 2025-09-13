@@ -15,7 +15,7 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go     
 import numpy as np
-from plotly.validators.scatter.marker import SymbolValidator
+
 
 #Page setup
 st.set_page_config(layout='wide',
@@ -150,11 +150,31 @@ if choice == 'Chondrites':
         # Create a new column with integer values representing each unique group
         chondrites_by_mgy['group_id'] = pd.factorize(chondrites_by_mgy['Group_x'])[0]
 
-        # Create a SymbolValidator object to access the symbols
-        symbol_validator = SymbolValidator()
 
-        # Get the list of available symbols
-        raw_symbols = symbol_validator.values
+marker_symbols = [
+    "circle", "circle-open", "circle-dot", "circle-open-dot",
+    "square", "square-open", "square-dot", "square-open-dot",
+    "diamond", "diamond-open", "diamond-dot", "diamond-open-dot",
+    "cross", "cross-open", "cross-dot", "cross-open-dot",
+    "x", "x-open", "x-dot", "x-open-dot",
+    "triangle-up", "triangle-up-open", "triangle-up-dot", "triangle-up-open-dot",
+    "triangle-down", "triangle-down-open", "triangle-down-dot", "triangle-down-open-dot",
+    "triangle-left", "triangle-left-open", "triangle-left-dot", "triangle-left-open-dot",
+    "triangle-right", "triangle-right-open", "triangle-right-dot", "triangle-right-open-dot",
+    "pentagon", "pentagon-open", "pentagon-dot", "pentagon-open-dot",
+    "hexagon", "hexagon-open", "hexagon-dot", "hexagon-open-dot",
+    "hexagon2", "hexagon2-open", "hexagon2-dot", "hexagon2-open-dot",
+    "octagon", "octagon-open", "octagon-dot", "octagon-open-dot",
+    "star", "star-open", "star-dot", "star-open-dot",
+    "hexagram", "hexagram-open", "hexagram-dot", "hexagram-open-dot",
+    "star-triangle-up", "star-triangle-up-open", "star-triangle-up-dot", "star-triangle-up-open-dot",
+    "star-triangle-down", "star-triangle-down-open", "star-triangle-down-dot", "star-triangle-down-open-dot",
+    "star-square", "star-square-open", "star-square-dot", "star-square-open-dot",
+    "star-diamond", "star-diamond-open", "star-diamond-dot", "star-diamond-open-dot",
+    "diamond-tall", "diamond-tall-open", "diamond-tall-dot", "diamond-tall-open-dot",
+    "diamond-wide", "diamond-wide-open", "diamond-wide-dot", "diamond-wide-open-dot",
+    "hourglass", "hourglass-open", "bowtie", "bowtie-open"
+]
 
         # Create empty lists for name stems, name variants, and symbols
         namestems = []
@@ -169,8 +189,8 @@ if choice == 'Chondrites':
             namevariants.append(name[len(namestems[-1]):])
 
 
-        # Assign symbols based on the group_id
-        chondrites_by_mgy['symbol'] = chondrites_by_mgy['group_id'].apply(lambda x: symbols[x % len(symbols)])
+    # Assign symbols based on the group_id using the hardcoded marker symbols
+    chondrites_by_mgy['symbol'] = chondrites_by_mgy['group_id'].apply(lambda x: marker_symbols[x % len(marker_symbols)])
 
         # Create the scatter 3D plot using Plotly Express
         fig = px.scatter_3d(
@@ -296,11 +316,9 @@ elif choice == 'Achondrites':
         # Create a new column with integer values representing each unique group
         achondrites_by_mgy['group_id'] = pd.factorize(achondrites_by_mgy['Group_x'])[0]
 
-        # Create a SymbolValidator object to access the symbols
-        symbol_validator = SymbolValidator()
 
-        # Get the list of available symbols
-        raw_symbols = symbol_validator.values
+    # Assign symbols based on the group_id using the hardcoded marker symbols
+    achondrites_by_mgy['symbol'] = achondrites_by_mgy['group_id'].apply(lambda x: marker_symbols[x % len(marker_symbols)])
 
         # Create empty lists for name stems, name variants, and symbols
         namestems = []
@@ -443,11 +461,9 @@ elif choice == 'Primitive achondrites':
         # Create a new column with integer values representing each unique group
         primitives_by_mgy['group_id'] = pd.factorize(primitives_by_mgy['Group_x'])[0]
 
-        # Create a SymbolValidator object to access the symbols
-        symbol_validator = SymbolValidator()
 
-        # Get the list of available symbols
-        raw_symbols = symbol_validator.values
+    # Assign symbols based on the group_id using the hardcoded marker symbols
+    primitives_by_mgy['symbol'] = primitives_by_mgy['group_id'].apply(lambda x: marker_symbols[x % len(marker_symbols)])
 
         # Create empty lists for name stems, name variants, and symbols
         namestems = []
@@ -583,11 +599,9 @@ elif choice == 'Unclassified':
         # Create a new column with integer values representing each unique group
         unclassified_by_mgy['group_id'] = pd.factorize(unclassified_by_mgy['Group_y'])[0]
 
-        # Create a SymbolValidator object to access the symbols
-        symbol_validator = SymbolValidator()
 
-        # Get the list of available symbols
-        raw_symbols = symbol_validator.values
+    # Assign symbols based on the group_id using the hardcoded marker symbols
+    unclassified_by_mgy['symbol'] = unclassified_by_mgy['group_id'].apply(lambda x: marker_symbols[x % len(marker_symbols)])
 
         # Create empty lists for name stems, name variants, and symbols
         namestems = []

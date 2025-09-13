@@ -227,6 +227,7 @@ with st.expander("See explanation", expanded = True):
                                           xaxis_title='Year',
                                           yaxis_title='Count',
                                           margin=dict(l=20, r=0, b=20, t = 30),
+                                          autosize=True,
                                           height = 250,
                                           width = 400,
                                           shapes=[go.layout.Shape(

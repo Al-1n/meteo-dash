@@ -85,7 +85,7 @@ Explore meteorite landing data with an interactive app, providing a captivating 
 
 To get started with the project, first clone the repository onto your local machine.
 
-Next, create a dedicated python environnent using pipenv or conda.
+Next, create a dedicated python environment using pipenv or conda.
 
 Install streamlit and the listed requirements within the environment.
 

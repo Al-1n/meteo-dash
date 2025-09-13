@@ -13,7 +13,7 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-import plotly.graph_objs as go     
+import plotly.graph_objects as go     
 import numpy as np
 from plotly.validators.scatter.marker import SymbolValidator
 

@@ -52,7 +52,7 @@ col5, col6, col7, col8 = st.columns([17, 17, 17, 49], gap="small")
 image_paths = {
     "Type_Statistics": "./app/static/type.jpeg",
     "World_Data": "./app/static/world.jpeg",
-    "Time_Series": "./app/static/time.jpeg",
+    "Historical_Data": "./app/static/time.jpeg",
     "Flux_Analysis": "./app/static/flux.jpeg",
     "Mass_Statistics": "./app/static/mass.jpeg",    
     "Maps": "./app/static/maps.jpeg"    
@@ -78,7 +78,7 @@ def create_image_link(column, page_name, image_path, page_caption):
 with st.container():
     create_image_link(col1, "Type_Statistics", image_paths["Type_Statistics"], "Type Statistics")
     create_image_link(col2, "World_Data", image_paths["World_Data"], "World Data")    
-    create_image_link(col3, "Time_Series", image_paths["Time_Series"], "Time Series")
+    create_image_link(col3, "Historical_Data", image_paths["Historical_Data"], "Historical Data")
     col4.empty()
 
 with st.container():

@@ -247,7 +247,7 @@ with st.expander("See explanation", expanded = True):
                         fig.update_xaxes(tickmode='linear', tick0=1830, dtick=10)
                         fig.update_xaxes(tickangle=45)
 
-                        st.plotly_chart(fig, use_container_width = False)
+                        st.plotly_chart(fig, use_container_width = True)
                         
                                                      
 

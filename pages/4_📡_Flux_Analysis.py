@@ -9,7 +9,31 @@
 #################################
 
 
-#Import the required libraries
+ # Import the required libraries
+marker_symbols = [
+    "circle", "circle-open", "circle-dot", "circle-open-dot",
+    "square", "square-open", "square-dot", "square-open-dot",
+    "diamond", "diamond-open", "diamond-dot", "diamond-open-dot",
+    "cross", "cross-open", "cross-dot", "cross-open-dot",
+    "x", "x-open", "x-dot", "x-open-dot",
+    "triangle-up", "triangle-up-open", "triangle-up-dot", "triangle-up-open-dot",
+    "triangle-down", "triangle-down-open", "triangle-down-dot", "triangle-down-open-dot",
+    "triangle-left", "triangle-left-open", "triangle-left-dot", "triangle-left-open-dot",
+    "triangle-right", "triangle-right-open", "triangle-right-dot", "triangle-right-open-dot",
+    "pentagon", "pentagon-open", "pentagon-dot", "pentagon-open-dot",
+    "hexagon", "hexagon-open", "hexagon-dot", "hexagon-open-dot",
+    "hexagon2", "hexagon2-open", "hexagon2-dot", "hexagon2-open-dot",
+    "octagon", "octagon-open", "octagon-dot", "octagon-open-dot",
+    "star", "star-open", "star-dot", "star-open-dot",
+    "hexagram", "hexagram-open", "hexagram-dot", "hexagram-open-dot",
+    "star-triangle-up", "star-triangle-up-open", "star-triangle-up-dot", "star-triangle-up-open-dot",
+    "star-triangle-down", "star-triangle-down-open", "star-triangle-down-dot", "star-triangle-down-open-dot",
+    "star-square", "star-square-open", "star-square-dot", "star-square-open-dot",
+    "star-diamond", "star-diamond-open", "star-diamond-dot", "star-diamond-open-dot",
+    "diamond-tall", "diamond-tall-open", "diamond-tall-dot", "diamond-tall-open-dot",
+    "diamond-wide", "diamond-wide-open", "diamond-wide-dot", "diamond-wide-open-dot",
+    "hourglass", "hourglass-open", "bowtie", "bowtie-open"
+]
 import pandas as pd
 import streamlit as st
 import plotly.express as px
@@ -139,58 +163,17 @@ choice = st.sidebar.selectbox('Choose meteorite type', ('Chondrites', 'Achondrit
 
 ##SECTION 1: CHONDRITES 
         
-if choice == 'Chondrites':
 
-    #Row A
+if choice == 'Chondrites':
+    # Row A
     with st.container():
-                                  
         # Create a dictionary that maps the values in the column to colors.
         color_map = {value: color for value, color in zip(chondrites_by_mgy['Group_x'].values, new_chondrite_colors)}
-
         # Create a new column with integer values representing each unique group
         chondrites_by_mgy['group_id'] = pd.factorize(chondrites_by_mgy['Group_x'])[0]
+        # Assign symbols based on the group_id using the hardcoded marker symbols
+        chondrites_by_mgy['symbol'] = chondrites_by_mgy['group_id'].apply(lambda x: marker_symbols[x % len(marker_symbols)])
 
-
-marker_symbols = [
-    "circle", "circle-open", "circle-dot", "circle-open-dot",
-    "square", "square-open", "square-dot", "square-open-dot",
-    "diamond", "diamond-open", "diamond-dot", "diamond-open-dot",
-    "cross", "cross-open", "cross-dot", "cross-open-dot",
-    "x", "x-open", "x-dot", "x-open-dot",
-    "triangle-up", "triangle-up-open", "triangle-up-dot", "triangle-up-open-dot",
-    "triangle-down", "triangle-down-open", "triangle-down-dot", "triangle-down-open-dot",
-    "triangle-left", "triangle-left-open", "triangle-left-dot", "triangle-left-open-dot",
-    "triangle-right", "triangle-right-open", "triangle-right-dot", "triangle-right-open-dot",
-    "pentagon", "pentagon-open", "pentagon-dot", "pentagon-open-dot",
-    "hexagon", "hexagon-open", "hexagon-dot", "hexagon-open-dot",
-    "hexagon2", "hexagon2-open", "hexagon2-dot", "hexagon2-open-dot",
-    "octagon", "octagon-open", "octagon-dot", "octagon-open-dot",
-    "star", "star-open", "star-dot", "star-open-dot",
-    "hexagram", "hexagram-open", "hexagram-dot", "hexagram-open-dot",
-    "star-triangle-up", "star-triangle-up-open", "star-triangle-up-dot", "star-triangle-up-open-dot",
-    "star-triangle-down", "star-triangle-down-open", "star-triangle-down-dot", "star-triangle-down-open-dot",
-    "star-square", "star-square-open", "star-square-dot", "star-square-open-dot",
-    "star-diamond", "star-diamond-open", "star-diamond-dot", "star-diamond-open-dot",
-    "diamond-tall", "diamond-tall-open", "diamond-tall-dot", "diamond-tall-open-dot",
-    "diamond-wide", "diamond-wide-open", "diamond-wide-dot", "diamond-wide-open-dot",
-    "hourglass", "hourglass-open", "bowtie", "bowtie-open"
-]
-
-        # Create empty lists for name stems, name variants, and symbols
-        namestems = []
-        namevariants = []
-        symbols = []
-
-        # Iterate through the symbols and extract their name stems and variants
-        for i in range(0, len(raw_symbols), 3):
-            name = raw_symbols[i + 2]
-            symbols.append(raw_symbols[i])
-            namestems.append(name.replace("-open", "").replace("-dot", ""))
-            namevariants.append(name[len(namestems[-1]):])
-
-
-    # Assign symbols based on the group_id using the hardcoded marker symbols
-    chondrites_by_mgy['symbol'] = chondrites_by_mgy['group_id'].apply(lambda x: marker_symbols[x % len(marker_symbols)])
 
         # Create the scatter 3D plot using Plotly Express
         fig = px.scatter_3d(
@@ -199,95 +182,91 @@ marker_symbols = [
             y='month_no',
             z='count',
             color='Group_x',
-            labels = {"Group_x": "Group"},
+            labels={"Group_x": "Group"},
             color_discrete_map=color_map,
             size='count',
-            size_max=24,            
+            size_max=24,
             custom_data=['Group_x', 'Year', 'Month', 'count'],
         )
 
+        fig.update_traces(
+            hoverinfo="text",
+            opacity=1,
+            hovertemplate="<br>".join([
+                "Year: %{customdata[1]}",
+                "Month: %{customdata[2]}",
+                "Count: %{customdata[3]}"
+            ]),
+        )
 
-        fig.update_traces(hoverinfo = "text",
-                          opacity = 1,
-                          hovertemplate = "<br>".join([                                     
-                                     "Year: %{customdata[1]}",
-                                     "Month: %{customdata[2]}",
-                                     "Count: %{customdata[3]}"]),
-                        
-                         )
-
-
-         # layout
+        # layout
         fig.update_layout(
-                          margin=dict(l=0, r=0, b=0, t=50),
-                          title=dict(text='Chondrite influx by year, month, and group'),
-                          title_font_color = 'rgb(126, 126, 126)',
-                          title_font_size = 16,  
-                          scene=dict(
-                            xaxis_title='Year',
-                            yaxis_title='Month',
-                            zaxis_title='Count',
-                            xaxis = dict(
-                                 backgroundcolor='rgba(233, 181, 125, 0.8)',
-                                 showgrid = True,
-                                 zeroline = False,
-                                 showline = False,
-                                 gridcolor="rgba(153,153,153, 0.8)",
-                                 gridwidth = 3,
-                                 showbackground=True,
-                                 linecolor = '#636363',
-                                 range=[1830, chondrites_by_mgy['Year'].max()],
-                                 ),
-                            yaxis = dict(
-                                backgroundcolor='rgba(233, 181, 125, 0.8)',
-                                showgrid = True,
-                                zeroline = False,
-                                showline = False,                                
-                                gridcolor="rgba(153,153,153, 0.8)",
-                                gridwidth = 3,
-                                showbackground=True,
-                                linecolor = '#636363',                                
-                                tickmode = "linear",
-                                dtick = 1,
-                                range=[0, 12]
-                                ),
-                            zaxis = dict(
-                                backgroundcolor='rgba(233, 181, 125, 0.8)',
-                                showgrid = True,
-                                zeroline = False,
-                                showline = False,                               
-                                gridcolor="rgba(51,51,51, 0.5)",
-                                gridwidth = 3,
-                                showbackground=True,
-                                linecolor = '#636363',                                
-                                tickmode='linear',  # Set tick mode to linear
-                                dtick=1,  # Set the tick interval to 1 (show only whole numbers)
-                                range=[0, chondrites_by_mgy['count'].max()],  # Set the minimum value to 0
-                                ),),
-                          height = 750,
-                          width = 750,
-                          legend=dict(
-                              itemsizing='constant',  # Use a constant item size for the legend markers
-                              itemclick='toggleothers',  # Enable toggle behavior on clicking the legend items
-                              traceorder='normal',  # Set the trace order to normal
-                              tracegroupgap=10,  # Adjust the gap between legend items        
-                              itemdoubleclick='toggle'  # Enable double-click behavior on legend items
-                
-                            ),
-                          scene_camera=dict(
-                              eye=dict(x=2, y=2, z=0.7),
-                              center=dict(x=-0.9, y=-0.7, z=-0.6)),
-                          
-                          scene_aspectratio=dict(x = 1.3, y = 1.3, z = 1.3),
-                          
-                        )         
-        
-                    
-        #display the plot
-        st.plotly_chart(fig, theme='streamlit', use_container_width = True)
+            margin=dict(l=0, r=0, b=0, t=50),
+            title=dict(text='Chondrite influx by year, month, and group'),
+            title_font_color='rgb(126, 126, 126)',
+            title_font_size=16,
+            scene=dict(
+                xaxis_title='Year',
+                yaxis_title='Month',
+                zaxis_title='Count',
+                xaxis=dict(
+                    backgroundcolor='rgba(233, 181, 125, 0.8)',
+                    showgrid=True,
+                    zeroline=False,
+                    showline=False,
+                    gridcolor="rgba(153,153,153, 0.8)",
+                    gridwidth=3,
+                    showbackground=True,
+                    linecolor='#636363',
+                    range=[1830, chondrites_by_mgy['Year'].max()],
+                ),
+                yaxis=dict(
+                    backgroundcolor='rgba(233, 181, 125, 0.8)',
+                    showgrid=True,
+                    zeroline=False,
+                    showline=False,
+                    gridcolor="rgba(153,153,153, 0.8)",
+                    gridwidth=3,
+                    showbackground=True,
+                    linecolor='#636363',
+                    tickmode="linear",
+                    dtick=1,
+                    range=[0, 12]
+                ),
+                zaxis=dict(
+                    backgroundcolor='rgba(233, 181, 125, 0.8)',
+                    showgrid=True,
+                    zeroline=False,
+                    showline=False,
+                    gridcolor="rgba(51,51,51, 0.5)",
+                    gridwidth=3,
+                    showbackground=True,
+                    linecolor='#636363',
+                    tickmode='linear',
+                    dtick=1,
+                    range=[0, chondrites_by_mgy['count'].max()],
+                ),
+            ),
+            height=750,
+            width=750,
+            legend=dict(
+                itemsizing='constant',
+                itemclick='toggleothers',
+                traceorder='normal',
+                tracegroupgap=10,
+                itemdoubleclick='toggle'
+            ),
+            scene_camera=dict(
+                eye=dict(x=2, y=2, z=0.7),
+                center=dict(x=-0.9, y=-0.7, z=-0.6)
+            ),
+            scene_aspectratio=dict(x=1.3, y=1.3, z=1.3),
+        )
 
-        with st.expander("See explanation", expanded = True):
+        # display the plot
+        st.plotly_chart(fig, theme='streamlit', use_container_width=True)
 
+        with st.expander("See explanation", expanded=True):
             st.markdown("* The main insight from the 3D visualization of the recorded landings between 1830 and 2000 is\
                             that it is considerably more likely to have single events rather than multiple events each month.")
             st.markdown("* The maximum number of recorded landings per month is represented by the rare case of 3 observed\
@@ -305,36 +284,17 @@ marker_symbols = [
 
 ##SECTION 2: ACHONDRITES                
       
-elif choice == 'Achondrites':
 
-    #Row A
+elif choice == 'Achondrites':
+    # Row A
     with st.container():
-                                  
         # Create a dictionary that maps the values in the column to colors.
         color_map = {value: color for value, color in zip(achondrites_by_mgy['Group_x'].values, new_achondrite_colors)}
-
         # Create a new column with integer values representing each unique group
         achondrites_by_mgy['group_id'] = pd.factorize(achondrites_by_mgy['Group_x'])[0]
+        # Assign symbols based on the group_id using the hardcoded marker symbols
+        achondrites_by_mgy['symbol'] = achondrites_by_mgy['group_id'].apply(lambda x: marker_symbols[x % len(marker_symbols)])
 
-
-    # Assign symbols based on the group_id using the hardcoded marker symbols
-    achondrites_by_mgy['symbol'] = achondrites_by_mgy['group_id'].apply(lambda x: marker_symbols[x % len(marker_symbols)])
-
-        # Create empty lists for name stems, name variants, and symbols
-        namestems = []
-        namevariants = []
-        symbols = []
-
-        # Iterate through the symbols and extract their name stems and variants
-        for i in range(0, len(raw_symbols), 3):
-            name = raw_symbols[i + 2]
-            symbols.append(raw_symbols[i])
-            namestems.append(name.replace("-open", "").replace("-dot", ""))
-            namevariants.append(name[len(namestems[-1]):])
-
-
-        # Assign symbols based on the group_id
-        achondrites_by_mgy['symbol'] = achondrites_by_mgy['group_id'].apply(lambda x: symbols[x % len(symbols)])
 
         # Create the scatter 3D plot using Plotly Express
         fig = px.scatter_3d(
@@ -343,7 +303,7 @@ elif choice == 'Achondrites':
             y='month_no',
             z='count',
             color='Group_x',
-            labels = {"Group_x" : "Group"},
+            labels={"Group_x": "Group"},
             color_discrete_map=color_map,
             size='count',
             size_max=24,
@@ -351,89 +311,86 @@ elif choice == 'Achondrites':
             custom_data=['Group_x', 'Year', 'Month', 'count'],
         )
 
+        fig.update_traces(
+            hoverinfo="text",
+            opacity=0.8,
+            hovertemplate="<br>".join([
+                "Year: %{customdata[1]}",
+                "Month: %{customdata[2]}",
+                "Count: %{customdata[3]}"
+            ]),
+        )
 
-        fig.update_traces(hoverinfo = "text",
-                          opacity = 0.8,
-                          hovertemplate = "<br>".join([                                     
-                                     "Year: %{customdata[1]}",
-                                     "Month: %{customdata[2]}",
-                                     "Count: %{customdata[3]}"]),
-                        
-                         )
-
-         # layout
+        # layout
         fig.update_layout(
-                          margin=dict(l=0, r=0, b=0, t=20),
-                          title=dict(text='Achondrite influx by year, month, and group'),
-                          title_font_color = 'rgb(126, 126, 126)',
-                          title_font_size = 16,  
-                          scene=dict(
-                            xaxis_title='Year',
-                            yaxis_title='Month',
-                            zaxis_title='Count',
-                            xaxis = dict(
-                                 backgroundcolor='rgba(233, 181, 125, 0.8)',
-                                 showgrid = True,
-                                 zeroline = False,
-                                 showline = False,
-                                 gridcolor="rgba(153,153,153, 0.8)",
-                                 gridwidth = 3,
-                                 showbackground=True,
-                                 linecolor = '#636363',
-                                 range=[1830, achondrites_by_mgy['Year'].max()],
-                                 ),
-                            yaxis = dict(
-                                backgroundcolor='rgba(233, 181, 125, 0.8)',
-                                showgrid = True,
-                                zeroline = False,
-                                showline = False,                                
-                                gridcolor="rgba(153,153,153, 0.8)",
-                                gridwidth = 3,
-                                showbackground=True,
-                                linecolor = '#636363',                                
-                                tickmode = "linear",
-                                dtick = 1,
-                                range=[0, 12]
-                                ),
-                            zaxis = dict(
-                                backgroundcolor='rgba(233, 181, 125, 0.8)',
-                                showgrid = True,
-                                zeroline = False,
-                                showline = False,                               
-                                gridcolor="rgba(51,51,51, 0.5)",
-                                gridwidth = 3,
-                                showbackground=True,
-                                linecolor = '#636363',                                
-                                tickmode='linear',  # Set tick mode to linear
-                                dtick=1,  # Set the tick interval to 1 (show only whole numbers)
-                                range=[0, achondrites_by_mgy['count'].max()],  # Set the minimum value to 0
-                                ),),
-                          height = 750,
-                          width = 750,
-                          legend=dict(
-                              itemsizing='constant',  # Use a constant item size for the legend markers
-                              itemclick='toggleothers',  # Enable toggle behavior on clicking the legend items
-                              traceorder='normal',  # Set the trace order to normal
-                              tracegroupgap=10,  # Adjust the gap between legend items        
-                              itemdoubleclick='toggle'  # Enable double-click behavior on legend items
-                
-                            ),
-                          scene_camera=dict(
-                              eye=dict(x=2, y=2, z=0.7),
-                              center=dict(x=-0.9, y=-0.7, z=-0.6)),
-                          
-                          scene_aspectratio=dict(x = 1.3, y = 1.3, z = 1.3),
-                          
-                        )        
-        
-                   
-        #display the plot
-        st.plotly_chart(fig, theme='streamlit', use_container_width = True)
+            margin=dict(l=0, r=0, b=0, t=20),
+            title=dict(text='Achondrite influx by year, month, and group'),
+            title_font_color='rgb(126, 126, 126)',
+            title_font_size=16,
+            scene=dict(
+                xaxis_title='Year',
+                yaxis_title='Month',
+                zaxis_title='Count',
+                xaxis=dict(
+                    backgroundcolor='rgba(233, 181, 125, 0.8)',
+                    showgrid=True,
+                    zeroline=False,
+                    showline=False,
+                    gridcolor="rgba(153,153,153, 0.8)",
+                    gridwidth=3,
+                    showbackground=True,
+                    linecolor='#636363',
+                    range=[1830, achondrites_by_mgy['Year'].max()],
+                ),
+                yaxis=dict(
+                    backgroundcolor='rgba(233, 181, 125, 0.8)',
+                    showgrid=True,
+                    zeroline=False,
+                    showline=False,
+                    gridcolor="rgba(153,153,153, 0.8)",
+                    gridwidth=3,
+                    showbackground=True,
+                    linecolor='#636363',
+                    tickmode="linear",
+                    dtick=1,
+                    range=[0, 12]
+                ),
+                zaxis=dict(
+                    backgroundcolor='rgba(233, 181, 125, 0.8)',
+                    showgrid=True,
+                    zeroline=False,
+                    showline=False,
+                    gridcolor="rgba(51,51,51, 0.5)",
+                    gridwidth=3,
+                    showbackground=True,
+                    linecolor='#636363',
+                    tickmode='linear',
+                    dtick=1,
+                    range=[0, achondrites_by_mgy['count'].max()],
+                ),
+            ),
+            height=750,
+            width=750,
+            legend=dict(
+                itemsizing='constant',
+                itemclick='toggleothers',
+                traceorder='normal',
+                tracegroupgap=10,
+                itemdoubleclick='toggle'
+            ),
+            scene_camera=dict(
+                eye=dict(x=2, y=2, z=0.7),
+                center=dict(x=-0.9, y=-0.7, z=-0.6)
+            ),
+            scene_aspectratio=dict(x=1.3, y=1.3, z=1.3),
+        )
 
-        with st.expander("See explanation", expanded = True):
+        # display the plot
+        st.plotly_chart(fig, theme='streamlit', use_container_width=True)
 
+        with st.expander("See explanation", expanded=True):
             st.markdown("* Similar to the chondrites, the majority of the achondrites have arrived at the rate of 1 per\
-                            month per year with only one instance of two howardites arriving during the same month (April, 1942).")            
+                            month per year with only one instance of two howardites arriving during the same month (April, 1942).")
             st.markdown("* The group markers are differentiated by color. To study a particular group it can be isolated\
                             on the 3d plot by clicking on the marker coresponding to the group in the legend. To restore\
                             all the events click again on any marker in the legend.")
@@ -450,36 +407,17 @@ elif choice == 'Achondrites':
 
 ##SECTION 3: PRIMITIVE ACHONDRITES         
    
-elif choice == 'Primitive achondrites':
 
-    #Row A
+elif choice == 'Primitive achondrites':
+    # Row A
     with st.container():
-                                  
         # Create a dictionary that maps the values in the column to colors.
         color_map = {value: color for value, color in zip(primitives_by_mgy['Group_x'].values, new_chondrite_colors)}
-
         # Create a new column with integer values representing each unique group
         primitives_by_mgy['group_id'] = pd.factorize(primitives_by_mgy['Group_x'])[0]
+        # Assign symbols based on the group_id using the hardcoded marker symbols
+        primitives_by_mgy['symbol'] = primitives_by_mgy['group_id'].apply(lambda x: marker_symbols[x % len(marker_symbols)])
 
-
-    # Assign symbols based on the group_id using the hardcoded marker symbols
-    primitives_by_mgy['symbol'] = primitives_by_mgy['group_id'].apply(lambda x: marker_symbols[x % len(marker_symbols)])
-
-        # Create empty lists for name stems, name variants, and symbols
-        namestems = []
-        namevariants = []
-        symbols = []
-
-        # Iterate through the symbols and extract their name stems and variants
-        for i in range(0, len(raw_symbols), 3):
-            name = raw_symbols[i + 2]
-            symbols.append(raw_symbols[i])
-            namestems.append(name.replace("-open", "").replace("-dot", ""))
-            namevariants.append(name[len(namestems[-1]):])
-
-
-        # Assign symbols based on the group_id
-        primitives_by_mgy['symbol'] = primitives_by_mgy['group_id'].apply(lambda x: symbols[x % len(symbols)])
 
         # Create the scatter 3D plot using Plotly Express
         fig = px.scatter_3d(
@@ -488,94 +426,91 @@ elif choice == 'Primitive achondrites':
             y='month_no',
             z='count',
             color='Group_x',
-            labels = {"Group_x": "Group"},
+            labels={"Group_x": "Group"},
             color_discrete_map=color_map,
             size='count',
-            size_max=24,            
+            size_max=24,
             custom_data=['Group_x', 'Year', 'Month', 'count'],
         )
 
+        fig.update_traces(
+            hoverinfo="text",
+            opacity=1,
+            hovertemplate="<br>".join([
+                "Year: %{customdata[1]}",
+                "Month: %{customdata[2]}",
+                "Count: %{customdata[3]}"
+            ]),
+        )
 
-        fig.update_traces(hoverinfo = "text",
-                          opacity = 1,
-                          hovertemplate = "<br>".join([                                     
-                                     "Year: %{customdata[1]}",
-                                     "Month: %{customdata[2]}",
-                                     "Count: %{customdata[3]}"]),
-                        
-                         )
-        
         # layout
         fig.update_layout(
-                          margin=dict(l=0, r=0, b=0, t=20),
-                          title=dict(text='Primitive achondrite influx by year, month, and group'),
-                          title_font_color = 'rgb(126,126,126)',
-                          title_font_size = 16,  
-                          scene=dict(
-                            xaxis_title='Year',
-                            yaxis_title='Month',
-                            zaxis_title='Count',
-                            xaxis = dict(
-                                 backgroundcolor='rgba(233, 181, 125, 0.8)',
-                                 showgrid = True,
-                                 zeroline = False,
-                                 showline = False,
-                                 gridcolor="rgba(153,153,153, 0.8)",
-                                 gridwidth = 3,
-                                 showbackground=True,
-                                 linecolor = '#636363',
-                                 range=[1830, primitives_by_mgy['Year'].max()],
-                                 ),
-                            yaxis = dict(
-                                backgroundcolor='rgba(233, 181, 125, 0.8)',
-                                showgrid = True,
-                                zeroline = False,
-                                showline = False,                                
-                                gridcolor="rgba(153,153,153, 0.8)",
-                                gridwidth = 3,
-                                showbackground=True,
-                                linecolor = '#636363',                                
-                                tickmode = "linear",
-                                dtick = 1,
-                                range=[0, 12]
-                                ),
-                            zaxis = dict(
-                                backgroundcolor='rgba(233, 181, 125, 0.8)',
-                                showgrid = True,
-                                zeroline = False,
-                                showline = False,                               
-                                gridcolor="rgba(51,51,51, 0.5)",
-                                gridwidth = 3,
-                                showbackground=True,
-                                linecolor = '#636363',                                
-                                tickmode='linear',  # Set tick mode to linear
-                                dtick=1,  # Set the tick interval to 1 (show only whole numbers)
-                                range=[0, 2],  # Set the minimum value to 0
-                                ),),
-                          height = 750,
-                          width = 750,
-                          legend=dict(
-                              itemsizing='constant',  # Use a constant item size for the legend markers
-                              itemclick='toggleothers',  # Enable toggle behavior on clicking the legend items
-                              traceorder='normal',  # Set the trace order to normal
-                              tracegroupgap=10,  # Adjust the gap between legend items        
-                              itemdoubleclick='toggle'  # Enable double-click behavior on legend items
-                
-                            ),
-                          scene_camera=dict(
-                              eye=dict(x=2, y=2, z=0.7),
-                              center=dict(x=-0.9, y=-0.7, z=-0.6)),
-                          
-                          scene_aspectratio=dict(x = 1.3, y = 1.3, z = 1.3),
-                          
-                        )                  
-             
-        
-        #display the plot
-        st.plotly_chart(fig, theme=None, use_container_width = True)
+            margin=dict(l=0, r=0, b=0, t=20),
+            title=dict(text='Primitive achondrite influx by year, month, and group'),
+            title_font_color='rgb(126,126,126)',
+            title_font_size=16,
+            scene=dict(
+                xaxis_title='Year',
+                yaxis_title='Month',
+                zaxis_title='Count',
+                xaxis=dict(
+                    backgroundcolor='rgba(233, 181, 125, 0.8)',
+                    showgrid=True,
+                    zeroline=False,
+                    showline=False,
+                    gridcolor="rgba(153,153,153, 0.8)",
+                    gridwidth=3,
+                    showbackground=True,
+                    linecolor='#636363',
+                    range=[1830, primitives_by_mgy['Year'].max()],
+                ),
+                yaxis=dict(
+                    backgroundcolor='rgba(233, 181, 125, 0.8)',
+                    showgrid=True,
+                    zeroline=False,
+                    showline=False,
+                    gridcolor="rgba(153,153,153, 0.8)",
+                    gridwidth=3,
+                    showbackground=True,
+                    linecolor='#636363',
+                    tickmode="linear",
+                    dtick=1,
+                    range=[0, 12]
+                ),
+                zaxis=dict(
+                    backgroundcolor='rgba(233, 181, 125, 0.8)',
+                    showgrid=True,
+                    zeroline=False,
+                    showline=False,
+                    gridcolor="rgba(51,51,51, 0.5)",
+                    gridwidth=3,
+                    showbackground=True,
+                    linecolor='#636363',
+                    tickmode='linear',
+                    dtick=1,
+                    range=[0, 2],
+                ),
+            ),
+            height=750,
+            width=750,
+            legend=dict(
+                itemsizing='constant',
+                itemclick='toggleothers',
+                traceorder='normal',
+                tracegroupgap=10,
+                itemdoubleclick='toggle'
+            ),
+            scene_camera=dict(
+                eye=dict(x=2, y=2, z=0.7),
+                center=dict(x=-0.9, y=-0.7, z=-0.6)
+            ),
+            scene_aspectratio=dict(x=1.3, y=1.3, z=1.3),
+        )
 
-        with st.expander("See explanation", expanded = True):
+        # display the plot
+        st.plotly_chart(fig, theme=None, use_container_width=True)
 
+        with st.expander("See explanation", expanded=True):
             st.markdown("* The primitive achondrites are relatively sporadic with frequency of 1 per month per year\
                             and gaps between observations that can span two decades at a time.")
             st.markdown("* The earliest fall for the given period was observed in 1868 and the latest in 1990.")
@@ -588,36 +523,17 @@ elif choice == 'Primitive achondrites':
 
 ##SECTION 4: UNCLASSIFIED METEORITES 
            
-elif choice == 'Unclassified':
 
-    #Row A
+elif choice == 'Unclassified':
+    # Row A
     with st.container():
-                                  
         # Create a dictionary that maps the values in the column to colors.
         color_map = {value: color for value, color in zip(unclassified_by_mgy['Group_y'].values, new_chondrite_colors)}
-
         # Create a new column with integer values representing each unique group
         unclassified_by_mgy['group_id'] = pd.factorize(unclassified_by_mgy['Group_y'])[0]
+        # Assign symbols based on the group_id using the hardcoded marker symbols
+        unclassified_by_mgy['symbol'] = unclassified_by_mgy['group_id'].apply(lambda x: marker_symbols[x % len(marker_symbols)])
 
-
-    # Assign symbols based on the group_id using the hardcoded marker symbols
-    unclassified_by_mgy['symbol'] = unclassified_by_mgy['group_id'].apply(lambda x: marker_symbols[x % len(marker_symbols)])
-
-        # Create empty lists for name stems, name variants, and symbols
-        namestems = []
-        namevariants = []
-        symbols = []
-
-        # Iterate through the symbols and extract their name stems and variants
-        for i in range(0, len(raw_symbols), 3):
-            name = raw_symbols[i + 2]
-            symbols.append(raw_symbols[i])
-            namestems.append(name.replace("-open", "").replace("-dot", ""))
-            namevariants.append(name[len(namestems[-1]):])
-
-
-        # Assign symbols based on the group_id
-        unclassified_by_mgy['symbol'] = unclassified_by_mgy['group_id'].apply(lambda x: symbols[x % len(symbols)])
 
         # Create the scatter 3D plot using Plotly Express
         fig = px.scatter_3d(
@@ -626,7 +542,7 @@ elif choice == 'Unclassified':
             y='month_no',
             z='count',
             color='Group_y',
-            labels = {"Group_y" : "Group"},
+            labels={"Group_y": "Group"},
             color_discrete_map=color_map,
             size='count',
             size_max=24,
@@ -634,87 +550,84 @@ elif choice == 'Unclassified':
             custom_data=['Group_y', 'Year', 'Month', 'count'],
         )
 
+        fig.update_traces(
+            hoverinfo="text",
+            opacity=0.8,
+            hovertemplate="<br>".join([
+                "Year: %{customdata[1]}",
+                "Month: %{customdata[2]}",
+                "Count: %{customdata[3]}"
+            ]),
+        )
 
-        fig.update_traces(hoverinfo = "text",
-                          opacity = 0.8,
-                          hovertemplate = "<br>".join([                                     
-                                     "Year: %{customdata[1]}",
-                                     "Month: %{customdata[2]}",
-                                     "Count: %{customdata[3]}"]),
-                        
-                         )
         # layout
         fig.update_layout(
-                          margin=dict(l=0, r=0, b=0, t=20),
-                          title=dict(text='Influx of unclassified meteorites by year, month, and group'),
-                          title_font_color = 'rgb(126, 126, 126)',
-                          title_font_size = 16,  
-                          scene=dict(
-                            xaxis_title='Year',
-                            yaxis_title='Month',
-                            zaxis_title='Count',
-                            xaxis = dict(
-                                 backgroundcolor='rgba(233, 181, 125, 0.8)',
-                                 showgrid = True,
-                                 zeroline = False,
-                                 showline = False,
-                                 gridcolor="rgba(153,153,153, 0.8)",
-                                 gridwidth = 3,
-                                 showbackground=True,
-                                 linecolor = '#636363',
-                                 range=[1830, unclassified_by_mgy['Year'].max()],
-                                 ),
-                            yaxis = dict(
-                                backgroundcolor='rgba(233, 181, 125, 0.8)',
-                                showgrid = True,
-                                zeroline = False,
-                                showline = False,                                
-                                gridcolor="rgba(153,153,153, 0.8)",
-                                gridwidth = 3,
-                                showbackground=True,
-                                linecolor = '#636363',                                
-                                tickmode = "linear",
-                                dtick = 1,
-                                range=[0, 12]
-                                ),
-                            zaxis = dict(
-                                backgroundcolor='rgba(233, 181, 125, 0.8)',
-                                showgrid = True,
-                                zeroline = False,
-                                showline = False,                               
-                                gridcolor="rgba(51,51,51, 0.5)",
-                                gridwidth = 3,
-                                showbackground=True,
-                                linecolor = '#636363',                                
-                                tickmode='linear',  # Set tick mode to linear
-                                dtick=1,  # Set the tick interval to 1 (show only whole numbers)
-                                range=[0, unclassified_by_mgy['count'].max()],  # Set the minimum value to 0
-                                ),),
-                          height = 750,
-                          width = 750,
-                          legend=dict(
-                              itemsizing='constant',  # Use a constant item size for the legend markers
-                              itemclick='toggleothers',  # Enable toggle behavior on clicking the legend items
-                              traceorder='normal',  # Set the trace order to normal
-                              tracegroupgap=10,  # Adjust the gap between legend items        
-                              itemdoubleclick='toggle'  # Enable double-click behavior on legend items
-                
-                            ),
-                          scene_camera=dict(
-                              eye=dict(x=2, y=2, z=0.7),
-                              center=dict(x=-0.9, y=-0.7, z=-0.6)),
-                          
-                          scene_aspectratio=dict(x = 1.3, y = 1.3, z = 1.3),
-                          
-                        )         
-        
-             
-        
-        #display the plot
-        st.plotly_chart(fig, theme='streamlit', use_container_width = True)
+            margin=dict(l=0, r=0, b=0, t=20),
+            title=dict(text='Influx of unclassified meteorites by year, month, and group'),
+            title_font_color='rgb(126, 126, 126)',
+            title_font_size=16,
+            scene=dict(
+                xaxis_title='Year',
+                yaxis_title='Month',
+                zaxis_title='Count',
+                xaxis=dict(
+                    backgroundcolor='rgba(233, 181, 125, 0.8)',
+                    showgrid=True,
+                    zeroline=False,
+                    showline=False,
+                    gridcolor="rgba(153,153,153, 0.8)",
+                    gridwidth=3,
+                    showbackground=True,
+                    linecolor='#636363',
+                    range=[1830, unclassified_by_mgy['Year'].max()],
+                ),
+                yaxis=dict(
+                    backgroundcolor='rgba(233, 181, 125, 0.8)',
+                    showgrid=True,
+                    zeroline=False,
+                    showline=False,
+                    gridcolor="rgba(153,153,153, 0.8)",
+                    gridwidth=3,
+                    showbackground=True,
+                    linecolor='#636363',
+                    tickmode="linear",
+                    dtick=1,
+                    range=[0, 12]
+                ),
+                zaxis=dict(
+                    backgroundcolor='rgba(233, 181, 125, 0.8)',
+                    showgrid=True,
+                    zeroline=False,
+                    showline=False,
+                    gridcolor="rgba(51,51,51, 0.5)",
+                    gridwidth=3,
+                    showbackground=True,
+                    linecolor='#636363',
+                    tickmode='linear',
+                    dtick=1,
+                    range=[0, unclassified_by_mgy['count'].max()],
+                ),
+            ),
+            height=750,
+            width=750,
+            legend=dict(
+                itemsizing='constant',
+                itemclick='toggleothers',
+                traceorder='normal',
+                tracegroupgap=10,
+                itemdoubleclick='toggle'
+            ),
+            scene_camera=dict(
+                eye=dict(x=2, y=2, z=0.7),
+                center=dict(x=-0.9, y=-0.7, z=-0.6)
+            ),
+            scene_aspectratio=dict(x=1.3, y=1.3, z=1.3),
+        )
 
-        with st.expander("See explanation", expanded = True):
+        # display the plot
+        st.plotly_chart(fig, theme='streamlit', use_container_width=True)
 
+        with st.expander("See explanation", expanded=True):
             st.markdown("* The unclassified meteorites are categorize as stones and irons with only one completely unclassified fall.")
             st.markdown("* The dominant frequency is 1 per month per year with some large gaps between the years of observation and \
                             one instance of two observations that occured in the same month (June, 1944).")

@@ -4,4 +4,3 @@ numpy
 plotly
 pillow
 scipy
-hydralit_components
